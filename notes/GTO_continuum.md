@@ -199,3 +199,35 @@
 | 5 | STO+B-spline 对比路线 | angular_reduction.py 参考 |
 | 6 | Tiresia (B-spline) 代码架构 | 程序架构对照 |
 | 7 | Kohn 变分 + B-spline 连续态 | continuum_wave.py 参考 |
+
+---
+
+## 术语表
+
+> 按本笔记中出现的顺序整理。出处为本目录所列对应论文（"#编号"指上文小节序号）。
+
+1. **$L^2$ 基组** (square-integrable basis) — 由平方可积函数（GTO/STO）构成的离散基组，对角化后给出离散赝谱而非真实连续态。出处：Cacelli 1993 #1。
+2. **Stieltjes-Tchebychev (ST) 成像** — 从 $L^2$ 赝谱的振子强度矩重构连续截面的算法，GTO 连续态方法的核心，避免直接处理边界条件。出处：Cacelli 1993 #1。
+3. **Dunning 基组** (cc-pVnZ) — 相关一致高斯基组，束缚态标准选择；连续态则用未收缩 GTO。出处：Cacelli 1993 #1。
+4. **收缩 / 未收缩 GTO** (contracted / uncontracted GTO) — 多个原函数合成一个收缩函数（束缚态用）vs 保留独立原函数（连续态需灵活性）。出处：Cacelli 1993 #1。
+5. **长度规范 / 速度规范** (length / velocity gauge) — 偶极算符取 $\mathbf{r}$ 或 $\mathbf{p}/\omega$；两者截面一致即规范不变性，正确性检验手段。出处：Cacelli 1993 #1。
+6. **微分截面** (Differential Cross Section, DCS) — 截面对出射立体角的导数，描述角分布。出处：Cacelli 1998 #2。
+7. **不对称参数 $\beta$** (asymmetry parameter) — 角分布 $I(\theta)=\frac{\sigma}{4\pi}[1+\beta P_2(\cos\theta)]$ 中的各向异性参数。出处：Cacelli 1998 #2。
+8. **分波分解** (partial-wave decomposition) — 把偶极矩阵元按 $(l,m)$ 角动量分波展开，提取各分波截面 $\sigma_l$。出处：Cacelli 1998 #2。
+9. **形状共振** (shape resonance) — 连续态势垒临时俘获电子造成的截面峰。出处：Cacelli 1998 #2。
+10. **DFT 有效局域势** — 以密度泛函理论提供的等效局域势替代 HF 势描述连续态。出处：Cacelli 2000 #3。
+11. **LB94** — 渐近行为修正为 $-1/r$ 的交换相关泛函，对连续态长程行为至关重要。出处：Cacelli 2000 #3。
+12. **多通道** (multi-channel) — 同时处理多个价壳层电离通道的耦合。出处：Cacelli 2000 #3。
+13. **对称性约化** (symmetry reduction) — 利用分子点群简化积分计算。出处：Cacelli 2000 #3。
+14. **STOCOS** (Spherical GTO Centered on Center of Mass) — 以质心为中心、径向 $r^l e^{-\zeta r}\cos(k_n r)$ 的 $L^2$ 连续态基，改善角动量收敛。出处：Carmona-Novillo 1996 #4。
+15. **质心坐标系** (center-of-mass frame) — 异核分子连续态展开所选参考系，对应 `frame_transform.py`。出处：Carmona-Novillo 1996 #4。
+16. **STO** (Slater Type Orbital) — 径向 $r^n e^{-\zeta r}$ 的 Slater 型轨道，渐近行为优于 GTO。出处：Moccia & Montuoro 2003 #5。
+17. **配置相互作用** (Configuration Interaction, CI) — 多行列式线性组合描述电子关联。出处：Moccia & Montuoro 2003 #5。
+18. **Tiresia** — Trieste 学派的 B-spline+球谐分子连续态计算软件包。出处：Toffoli 2023 #6。
+19. **Galerkin 方法** — 加权残差取试探函数作权函数的投影法，此处用于直接求解非齐次 Schrödinger 方程。出处：Toffoli 2023 #6。
+20. **Dyson 轨道** (Dyson orbital) — $|\Phi^{Dyson}\rangle=\sqrt{N}\langle\Psi_f^{N-1}|\Psi_i^N\rangle$，连接 N 与 N−1 电子态的单电子轨道，作光电离初态。出处：Toffoli 2023 #6。
+21. **TD-DFT** (Time-Dependent DFT) — 时间相关密度泛函线性响应理论，处理光吸收/光电离。出处：Toffoli 2023 #6。
+22. **MPI** (Message Passing Interface) — 分布式内存并行标准，Tiresia 大规模实现的并行方案。出处：Toffoli 2023 #6。
+23. **Kohn 变分** — 对散射 K 矩阵的变分方法，B-spline 连续态变分求解的基础。出处：Brosolo & Decleva 1992 #7。
+24. **Kato 归一化** — 连续态在原点附近的归一化条件（Kato cusp），变分法保证其正确性。出处：Brosolo & Decleva 1992 #7。
+25. **束缚-自由 / 自由-自由跃迁** (bound-free / free-free transition) — 束缚↔连续 与 连续↔连续 的矩阵元，B-spline 方法同时处理。出处：Brosolo & Decleva 1992 #7。

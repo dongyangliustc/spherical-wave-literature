@@ -254,3 +254,43 @@
 | 球面波加法定理 | Felderhof 1987 | ⭐⭐⭐⭐ |
 | 多重散射理论 | Gonis & Butler 1999 | ⭐⭐⭐ |
 | 准周期格林函数 | Moroz 2006 | ⭐⭐⭐ |
+
+---
+
+## 术语表
+
+> 按本笔记中出现的顺序整理。出处为本目录所列对应论文（"#编号"指上文小节序号）。
+
+1. **Lobatto 形状函数** (Lobatto shape functions) — 基于 Lobatto 求积节点构造的有限元基函数，在单元边界处为非零，从而精确保证相邻单元波函数连续性。出处：Wilhelmy 1994 #1。
+2. **LDK / LDKL** (Logarithmic Derivative Kohn) — 以波函数对数导数为变分对象的 Kohn 变分版本；LDKL 指其 Lobatto 实现，兼具变分精度与数值效率。出处：Wilhelmy 1994 #1。
+3. **sGTO** (spherical GTO) — 球谐化的高斯型轨道，作为角向基组与 Lobatto 径向基配套。出处：Wilhelmy 1994 #1。
+4. **Stieltjes-Tchebychev (ST) 成像** — 从 $L^2$ 离散赝谱的矩重构连续截面的算法，此处作为 LDKL 的对照方法。出处：Wilhelmy 1994 #1。
+5. **CMS** (Continuum Multiple Scattering) — 以 Muffin-tin 势近似的连续态多重散射方法，此处作对照。出处：Wilhelmy 1994 #1。
+6. **Feshbach 投影** (P/Q projection) — 用正交投影把 Hilbert 空间分为 $P$（束缚/共振）与 $Q$（连续）子空间，导出有效哈密顿量 $H_{\text{eff}}=PHP+PHQ(E-QHQ)^{-1}QHP$。出处：Domcke 1983 #2。
+7. **共振能量与宽度** (resonance energy & width) — 共振态的复能量极点 $E_{\text{res}}-i\Gamma/2$，实部为能量、虚部给出宽度 $\Gamma$，从 $H_{\text{eff}}$ 的复极点提取。出处：Domcke 1983 #2。
+8. **$i\varepsilon$ 极限** (outgoing-wave boundary prescription) — 在 Green 函数 $G(E)=(E-H_{\text{eff}}+i\varepsilon)^{-1}$ 中以 $+i\varepsilon$ 选取出射波边界条件的数学处理。出处：Domcke 1983 #2。
+9. **截断球面波** (Truncated Spherical Wave, TSW) — 在有限半径 $R_c$ 处归零的球 Bessel 函数 $j_l(k_{ln}r/R_c)$，作 NAO 的原始函数。出处：Huang 2026 #3。
+10. **系统可改进性** (systematic improvability) — 通过单调增大 $R_c$ 即可系统逼近完备基的性质，TSW 的核心优势。出处：Huang 2026 #3。
+11. **迹极小化** (Trace Minimization) — 优化 TSW 参数使动能算符迹最小化的变分优化算法。出处：Huang 2026 #3。
+12. **NAO** (Numerical Atomic Orbital) — 数值原子轨道；TSW 作为其原始函数，经系数 $c_{ln}$ 展开为原子轨道。出处：Huang 2026 #3。
+13. **真空层镜像相互作用** (vacuum-image interaction) — 平面波周期边界下真空层引入的虚假相互作用，TSW 截断正是为消除它。出处：Huang 2026 #3。
+14. **ABACUS** — 开源第一性原理软件包，TSW-NAO 方法的实现平台。出处：Huang 2026 #3。
+15. **ASW** (Augmented Spherical Wave) — 缀加球面波方法：原子球内数值解 + 球 Hankel 包Envelope缀加。出处：Eyert #4。
+16. **MTO** (Muffin-Tin Orbital) — 缀加原子轨道，原子球内数值解与球 Hankel 包络拼接而成，ASW 的构造单元。出处：Eyert #4。
+17. **KKR** (Korringa-Kohn-Rostoker) — 基于多重散射 Green 函数的能带方法，ASW 的前身。出处：Eyert #4、Gonis 1999 #7。
+18. **全势** (Full-Potential) — 不作 Muffin-tin 球近似、保留势全部空间结构的处理，ASW 的现代化方向。出处：Eyert #4。
+19. **LMTO / LAPW** (Linear MTO / Linear APW) — 将能量依赖的缀加轨道线性化为能量无关基组的方法，构成 ASW→LMTO→LAPW→LCAO 演进链。出处：Eyert #4。
+20. **矢量球面谐波** ($M_{lm},N_{lm},L_{lm}$) — 矢量 Helmholtz 方程的三类球面波解模式，矢量加法定理的对象。出处：Felderhof 1987 #5。
+21. **加法定理** (addition theorem) — 球面波在坐标平移下的变换关系，多中心球面波展开的核心数学工具。出处：Felderhof 1987 #5。
+22. **Gaunt 系数 / Clebsch-Gordan 系数** — 三个球谐积分 / 角动量耦合系数，加法定理位移系数的展开基。出处：Felderhof 1987 #5。
+23. **T-matrix** (transition matrix) — 散射跃迁算符在球面波基下的矩阵表示，T-matrix 方法的基本对象。出处：Felderhof 1987 #5、Fruhnert 2024 #10。
+24. **螺旋度本征态** (helicity eigenstate) — 自旋沿动量方向投影的本征态，自旋球面波展开的基。出处：Weinberg 1994 #6。
+25. **自旋-轨道耦合** (spin-orbit coupling) — 自旋与轨道角动量的相对论性耦合，自旋球面波自然纳入。出处：Weinberg 1994 #6。
+26. **Bloch 动量** (Bloch momentum) — 周期体系中标志平移对称性的量子数，准周期 Green 函数求值在任意 Bloch 动量下进行。出处：Moroz 2006 #8。
+27. **Schlömilch 级数** — 球面波格子求和的指数收敛表示。出处：Moroz 2006 #8。
+28. **格子求和** (lattice sums) — 周期 Green 函数所需的球面波级数求和，其极点处理与本项目 $1/(p^2-k^2-i\varepsilon)$ 同构。出处：Moroz 2006 #8。
+29. **准周期 Green 函数** (quasi-periodic Green's function) — 部分维度具周期性的 Helmholtz Green 函数的 Schwinger 级数表示。出处：Moroz 2006 #8。
+30. **MLFMA** (Multilevel Fast Multipole Algorithm) — 多级快速多极子算法，电磁/声学散射中加速球面波展开的核心方法。出处：Egel 2024 #9。
+31. **平移算子对角化** (diagonal translation operator) — 把球面波平移算子在远场对角化以加速多极传递的技巧。出处：Egel 2024 #9。
+32. **静态模式低秩表示** (low-rank static modes) — 低频/静态球面波模式的低秩压缩，MLFMA 加速策略之一。出处：Egel 2024 #9。
+33. **Daphona** — 提议中的 T-matrix 标准化数据开放平台。出处：Fruhnert 2024 #10。

@@ -144,3 +144,37 @@ ECS 与本项目的复平面围道积分是两种不同的"复域"策略：
 | Hróðmarsson 2023 | VUV 截面数据库 | 验证数据集 |
 | Vanroose 2006 | ECS 双电离 | 方法展示与取向平均 |
 | Ruiz-Serrano 2012 | 线性标度 ONETEP | 程序架构参考 |
+
+---
+
+## 术语表
+
+> 按本笔记中出现的顺序整理。出处为本目录所列对应论文（"#编号"指上文小节序号）。
+
+1. **外复伸缩** (Exterior Complex Scaling, ECS) — 在半径 $R_0$ 外将坐标旋转到复平面 $r\to R_0+(r-R_0)e^{i\theta}$，使出射波指数衰减为 $L^2$，自动满足出射边界条件。出处：McCurdy & Martín 2004 #1。
+2. **复矩阵对角化** — ECS 后 Hamiltonian 变为非厄米复矩阵，需复数对角化求解，ECS 的主要代价。出处：McCurdy & Martín 2004 #1。
+3. **Poisson 方程双电子积分** — 通过求解 Poisson 方程计算 ECS 下的双电子积分，规避直接处理复坐标下的多中心积分。出处：McCurdy & Martín 2004 #1。
+4. **双电离** (double ionization) — 两个电子同时被击出的过程，ECS 展示其关联连续态处理能力。出处：McCurdy 2004 #1、Vanroose 2006 #4。
+5. **复平面围道积分** (complex-contour integration) — 本项目用围道 $\int_C f(p)dp$ 避开 $p=k$ 极点的策略，与 ECS 的坐标旋转在 Cauchy 定理下等价。出处：McCurdy 2004 #1（对照讨论）。
+6. **Cauchy 定理** — 复平面上围道可变形的数学基础，ECS 与围道积分等价性的依据。出处：McCurdy 2004 #1（对照讨论）。
+7. **HHG** (High Harmonic Generation, 高次谐波产生) — 强场下原子/分子产生高次谐波、阿秒脉冲的物理机制。出处：Nisoli 2017 #2。
+8. **阿秒脉冲** (attosecond pulse) — 阿秒（$10^{-18}$ s）量级的光脉冲，追踪电子动力学的时间分辨工具。出处：Nisoli 2017 #2。
+9. **泵浦-探测** (pump-probe) — 用两束延时脉冲激发并探测超快动力学的实验范式。出处：Nisoli 2017 #2。
+10. **电子波包动力学** (electron wavepacket dynamics) — 光电离后电子波包的时域演化描述。出处：Nisoli 2017 #2。
+11. **分子框架光电离** (molecular-frame photoionization) — 固定分子取向下的光电离，可观测干涉效应。出处：Nisoli 2017 #2。
+12. **VUV** (Vacuum Ultraviolet, 真空紫外) — 真空紫外波段光化学 relevant 的辐射区间。出处：Hróðmarsson 2023 #3。
+13. **光致离解 / 电离** (photodissociation / photoionization) — 光致分子断裂 vs 光致电子电离，VUV 数据库的两类过程。出处：Hróðmarsson 2023 #3。
+14. **星际辐射场** (interstellar radiation field, ISRF) — 星际空间的紫外辐射背景，驱动星际光化学。出处：Hróðmarsson 2023 #3。
+15. **屏蔽效率** (shielding efficiency) — 尘埃、H₂、CO 等对紫外辐射的衰减能力。出处：Hróðmarsson 2023 #3。
+16. **天体化学** (astrochemistry) — 星际/行星大气中化学反应的研究，截面数据的出口场景。出处：Hróðmarsson 2023 #3。
+17. **TDCS** (Triple Differential Cross Section, 三重微分截面) — 双光子双电离中对两个电子能量与角度均分辨的微分截面。出处：Vanroose 2006 #4。
+18. **双光子双电离** (two-photon double ionization) — 吸收两个光子同时击出两电子的过程。出处：Vanroose 2006 #4。
+19. **取向平均** (orientation averaging) — 对随机取向分子求平均以得实验室系截面，对应 `frame_transform.py`。出处：Vanroose 2006 #4。
+20. **线性标度 HF** (linear-scaling HF) — 交换计算成本随体系线性增长的 HF 实现。出处：Ruiz-Serrano 2012 #5。
+21. **NGWF** (Non-orthogonal Generalised Wannier Functions) — 非正交广义 Wannier 函数，ONETEP 的局域基表示。出处：Ruiz-Serrano 2012 #5。
+22. **平面波精度** (plane-wave accuracy) — 达到平面波基组精度的局域基方法目标。出处：Ruiz-Serrano 2012 #5。
+23. **杂化泛函** (hybrid functional) — 含部分 HF 交换的密度泛函，线性标度实现的技术挑战。出处：Ruiz-Serrano 2012 #5。
+24. **距离截断** (truncation by distance) — 以空间距离截断相互作用以实现线性标度的策略。出处：Ruiz-Serrano 2012 #5。
+25. **Hubbard 模型** (Hubbard model) — 描述电子在格点上跃迁与在位 Coulomb 排斥的紧束缚模型。出处：Qian 2002 #6。
+26. **紧束缚** (tight-binding) — 仅保留近邻跃迁的简化电子结构模型。出处：Qian 2002 #6。
+27. **第一性原理→模型哈密顿量降维** — 从 ab initio 计算参数化低维有效模型的方法论。出处：Qian 2002 #6。
