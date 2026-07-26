@@ -27,6 +27,8 @@
 | McCurdy & Martín (2004) | 复缩放 + B-spline 实现 |
 | Stener et al. (2005) | TD-DFT + B-spline 光电离 |
 | Brosolo & Decleva (1992) | B-spline 连续态开端 |
+| **Moitra et al. (2021) [JCTC]** | **EOM-CC Dyson + B-spline TDDFT，捕获关联效应** |
+| **Ruberti (2019) [JCTC]** | **RCS-ADC B-spline 方法，受限关联空间** |
 
 ## 4. 复积分与数值方法
 
@@ -34,3 +36,12 @@
 |------|---------|
 | McCurdy & Martín (2004) | 外复缩放 (ECS) |
 | Majety et al. (2015) | 混合耦合通道+tSURFF |
+
+## 5. 光电离物理与综述
+
+| 论文 | 方向 |
+|------|------|
+| **Gozem et al. (2015) [JPCL]** | **光电离中光电子波函数：平面波 vs Coulomb 波** |
+| **Calegari et al. (2016) [JPB]** | **阿秒脉冲诱导的电荷迁移** |
+| **Ruckenbauer et al. (2016) [SciRep]** | **时间分辨光电子光谱中的去活化通道** |
+| Nisoli et al. (2017) [ChemRev] | 阿秒电子动力学综述 |

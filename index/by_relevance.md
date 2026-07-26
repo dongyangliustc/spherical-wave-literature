@@ -14,7 +14,7 @@
 4. **Carmona-Novillo, Moccia, Spizzo (1996)** — Chem. Phys., LiH 截面
    → 混合 GTO/STOCOS 基组方法
 
-## ⭐⭐⭐⭐ 重要参考文献（5 篇）
+## ⭐⭐⭐⭐ 重要参考文献（7 篇）
 
 5. **Toffoli et al. (2023)** — CPC, Tiresia 代码
    → 最前沿的 B-spline 连续态代码，方法对照
@@ -31,10 +31,22 @@
 9. **Wilhelmy et al. (1994)** — JCP, Lobatto 技术
    → Lobatto+GTO 混合基组
 
-## ⭐⭐⭐ 扩展阅读（5 篇）
+10. **Moitra, Coriani & Decleva (2021)** — JCTC, EOM-CC Dyson+B-spline TDDFT
+    → EOM-CC Dyson 轨道与 B-spline TDDFT 耦合，捕获关联效应
 
-10. **Nisoli et al. (2017)** — Chem. Rev., 阿秒综述
-11. **Stener et al. (2005)** — JCP, TD-DFT+B-spline
-12. **Brosolo & Decleva (1992)** — Chem. Phys., H₂⁺
-13. **Moccia & Montuoro (2003)** — CPL, Li₂
-14. **Hróðmarsson & van Dishoeck (2023)** — A&A, 天体物理数据库
+11. **Ruberti (2019)** — JCTC, RCS-ADC B-spline
+    → 受限关联空间 B-spline ADC 方法，全截面计算
+
+## ⭐⭐⭐ 扩展阅读（8 篇）
+
+12. **Nisoli et al. (2017)** — Chem. Rev., 阿秒综述
+13. **Stener et al. (2005)** — JCP, TD-DFT+B-spline
+14. **Brosolo & Decleva (1992)** — Chem. Phys., H₂⁺
+15. **Moccia & Montuoro (2003)** — CPL, Li₂
+16. **Hróðmarsson & van Dishoeck (2023)** — A&A, 天体物理数据库
+17. **Gozem et al. (2015)** — JPCL, 光电子波函数（平面波 vs Coulomb 波）
+    → 连续态波函数近似的关键评估
+18. **Calegari et al. (2016)** — JPB, 阿秒电荷迁移
+    → 阿秒光电离在生物分子中的应用
+19. **Ruckenbauer et al. (2016)** — SciRep, 时间分辨光电子光谱
+    → trPES 去活化通道解析方法
