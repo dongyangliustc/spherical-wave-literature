@@ -118,6 +118,47 @@ benchmarks:
 
             self.assertTrue(any("duplicate id: shared-id" in error for error in errors))
 
+    def test_duplicate_doi_is_reported(self):
+        with TemporaryDirectory() as tmp:
+            literature = """
+items:
+  - id: "lit-one"
+    title: "Example One"
+    authors: ["A"]
+    year: 2026
+    source_type: "paper"
+    doi: "10.1234/example"
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["frontier"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+  - id: "lit-two"
+    title: "Example Two"
+    authors: ["B"]
+    year: 2026
+    source_type: "paper"
+    doi: "10.1234/example"
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["frontier"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+"""
+            registry = write_registry(
+                Path(tmp),
+                literature,
+                "items: []\n",
+                "benchmarks: []\n",
+                "risks: []\n",
+            )
+
+            errors = validate(registry)
+
+            self.assertTrue(any("duplicate doi" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()

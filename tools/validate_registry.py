@@ -219,6 +219,7 @@ def validate_records(
     records: list[dict],
     required: set[str],
     seen_ids: set[str],
+    seen_identifiers: dict[str, str],
     label: str,
 ) -> list[str]:
     errors: list[str] = []
@@ -245,11 +246,33 @@ def validate_records(
                     errors.append(
                         f"{label}[{record_id or index}] invalid {field}: {item}"
                     )
+        errors.extend(validate_unique_identifiers(record, seen_identifiers, label))
+    return errors
+
+
+def validate_unique_identifiers(
+    record: dict, seen_identifiers: dict[str, str], label: str
+) -> list[str]:
+    errors: list[str] = []
+    record_id = str(record.get("id") or "<missing-id>")
+    for field in ("doi", "arxiv", "isbn"):
+        value = record.get(field)
+        if value in {None, ""}:
+            continue
+        key = f"{field}:{str(value).strip().lower()}"
+        owner = seen_identifiers.get(key)
+        if owner is not None:
+            errors.append(
+                f"{label}[{record_id}] duplicate {field}: {value} already used by {owner}"
+            )
+        else:
+            seen_identifiers[key] = record_id
     return errors
 
 
 def validate(registry_dir: Path = REGISTRY_DIR) -> list[str]:
     seen_ids: set[str] = set()
+    seen_identifiers: dict[str, str] = {}
     errors: list[str] = []
 
     literature_files = [
@@ -262,6 +285,7 @@ def validate(registry_dir: Path = REGISTRY_DIR) -> list[str]:
                 parse_registry(path, top_key),
                 LITERATURE_REQUIRED,
                 seen_ids,
+                seen_identifiers,
                 display_path(path),
             )
         )
@@ -271,6 +295,7 @@ def validate(registry_dir: Path = REGISTRY_DIR) -> list[str]:
             parse_registry(registry_dir / "benchmarks.yaml", "benchmarks"),
             BENCHMARK_REQUIRED,
             seen_ids,
+            seen_identifiers,
             "benchmarks",
         )
     )
@@ -279,6 +304,7 @@ def validate(registry_dir: Path = REGISTRY_DIR) -> list[str]:
             parse_registry(registry_dir / "risks.yaml", "risks"),
             RISK_REQUIRED,
             seen_ids,
+            seen_identifiers,
             "risks",
         )
     )
