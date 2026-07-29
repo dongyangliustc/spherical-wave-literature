@@ -1,0 +1,25 @@
+# Candidate literature registry.
+# Automated discovery may append records here after metadata checks.
+#
+# Example:
+# - id: "lit-example-2026-topic"
+#   title: "Example title"
+#   authors: ["Example"]
+#   year: 2026
+#   source_type: "paper"
+#   identifiers:
+#     doi: null
+#     arxiv: null
+#     isbn: null
+#   paths:
+#     pdf: null
+#     note: null
+#   topic_tags: []
+#   project_modules: []
+#   state: "discovered"
+#   review_status: "unreviewed"
+#   relevance: "medium"
+#   role: ["frontier"]
+#   confidence: "metadata_only"
+#   actionability: "reading_candidate"
+items: []

@@ -1,0 +1,41 @@
+# Benchmark evidence registry.
+# Benchmark records reference literature IDs from core or candidate registries.
+benchmarks:
+  - id: "bench-cacelli-1993-h2-total-cross-section"
+    literature_id: "lit-cacelli-1993-h2-gto-continuum"
+    system: "H2"
+    observable: "total_cross_section"
+    energy_range: "as reported in source"
+    data_availability: "figure_digitizable"
+    source_location: "published H2 cross-section figures"
+    target_phase: "Phase G"
+    target_modules: ["sw_matrix_element", "tau_matrix", "schwinger_amplitude"]
+    acceptance_threshold: "relative error < 15% after comparable setup"
+    status: "candidate"
+    notes: "Requires digitization and unit reconciliation before Gate use."
+
+  - id: "bench-cacelli-1998-n2-beta"
+    literature_id: "lit-cacelli-1998-n2-differential"
+    system: "N2"
+    observable: "beta_parameter"
+    energy_range: "as reported in source"
+    data_availability: "figure_digitizable"
+    source_location: "published N2 differential cross-section and beta figures"
+    target_phase: "Phase H"
+    target_modules: ["angular_reduction", "frame_transform"]
+    acceptance_threshold: "threshold to be set after digitization"
+    status: "candidate"
+    notes: "Useful after H2 Gate because it stresses angular reduction and beta extraction."
+
+  - id: "bench-cacelli-2000-c2h2-differential"
+    literature_id: "lit-cacelli-2000-c2h2-differential"
+    system: "C2H2"
+    observable: "differential_cross_section"
+    energy_range: "as reported in source"
+    data_availability: "figure_digitizable"
+    source_location: "published C2H2 cross-section figures"
+    target_phase: "Phase H"
+    target_modules: ["frame_transform", "benchmark_c2h2"]
+    acceptance_threshold: "threshold to be set after digitization"
+    status: "candidate"
+    notes: "Representative low-symmetry molecular benchmark after N2."

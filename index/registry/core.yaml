@@ -1,0 +1,128 @@
+# Reviewed core literature registry.
+# Records here may support core indexes, decision guides, and SW code context.
+items:
+  - id: "lit-cacelli-1993-h2-gto-continuum"
+    title: "Gaussian type orbital basis sets for the calculation of continuum properties in molecules: The photoionization cross section of H2"
+    authors: ["Cacelli", "Moccia", "Rizzo"]
+    year: 1993
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.464482"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Cacelli_1993_H2_photoionization_JCP.pdf"
+      note: "notes/GTO_continuum.md"
+    topic_tags: ["GTO", "L2", "photoionization", "H2"]
+    project_modules: ["momentum_gto", "sw_matrix_element", "benchmark_h2"]
+    state: "indexed"
+    review_status: "reviewed"
+    relevance: "core"
+    role: ["method_origin", "benchmark"]
+    confidence: "fulltext_or_primary_index"
+    actionability: "direct_benchmark"
+
+  - id: "lit-cacelli-1998-n2-differential"
+    title: "Gaussian-type-orbital basis sets for the calculation of continuum properties in molecules: The differential photoionization cross section of molecular nitrogen"
+    authors: ["Cacelli", "Moccia", "Rizzo"]
+    year: 1998
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/physreva.57.1895"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Cacelli_1998_N2_differential_PRA.pdf"
+      note: "notes/GTO_continuum.md"
+    topic_tags: ["GTO", "L2", "photoionization", "N2", "beta"]
+    project_modules: ["angular_reduction", "frame_transform", "benchmark_n2"]
+    state: "indexed"
+    review_status: "reviewed"
+    relevance: "core"
+    role: ["method_origin", "benchmark"]
+    confidence: "fulltext_or_primary_index"
+    actionability: "direct_benchmark"
+
+  - id: "lit-cacelli-2000-c2h2-differential"
+    title: "Gaussian Type Orbitals basis sets for the calculation of continuum properties in molecules: the differential photoionization cross section of acetylene"
+    authors: ["Cacelli", "Moccia", "Rizzo"]
+    year: 2000
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/s0301-0104(99)00325-0"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Cacelli_2000_C2H2_differential_CP.pdf"
+      note: "notes/GTO_continuum.md"
+    topic_tags: ["GTO", "L2", "photoionization", "C2H2", "non_symmetric_molecule"]
+    project_modules: ["frame_transform", "benchmark_c2h2"]
+    state: "indexed"
+    review_status: "reviewed"
+    relevance: "core"
+    role: ["method_origin", "benchmark"]
+    confidence: "fulltext_or_primary_index"
+    actionability: "direct_benchmark"
+
+  - id: "lit-domcke-1983-projection-scattering"
+    title: "Projection-operator approach to potential scattering"
+    authors: ["Domcke"]
+    year: 1983
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/PHYSREVA.28.2777"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Domcke_1983_projection_scattering_PRA.pdf"
+      note: "notes/spherical_wave.md"
+    topic_tags: ["projection_operator", "scattering", "Schwinger", "separable_potential"]
+    project_modules: ["separable_potential", "green_function_matrix", "tau_matrix"]
+    state: "indexed"
+    review_status: "reviewed"
+    relevance: "core"
+    role: ["foundation", "code_reference"]
+    confidence: "fulltext_or_primary_index"
+    actionability: "implementation_guidance"
+
+  - id: "lit-wilhelmy-1994-lobatto-photoionization"
+    title: "Molecular photoionization cross sections by the Lobatto technique. I. Valence photoionization"
+    authors: ["Wilhelmy", "Ackermann", "Gorling", "Rosch"]
+    year: 1994
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.466475"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Wilhelmy_1994_Lobatto_photoionization_JCP.pdf"
+      note: "notes/spherical_wave.md"
+    topic_tags: ["Lobatto", "partial_wave", "photoionization"]
+    project_modules: ["angular_reduction", "continuum_wave"]
+    state: "indexed"
+    review_status: "reviewed"
+    relevance: "high"
+    role: ["method_comparison", "code_reference"]
+    confidence: "fulltext_or_primary_index"
+    actionability: "implementation_guidance"
+
+  - id: "lit-decleva-2022-tiresia-review"
+    title: "Continuum Electronic States: The Tiresia Code"
+    authors: ["Decleva", "Stener", "Toffoli"]
+    year: 2022
+    source_type: "review"
+    identifiers:
+      doi: "10.3390/molecules27062026"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Decleva_2022_Tiresia_continuum_Molecules.pdf"
+      note: "notes/B_spline_continuum.md"
+    topic_tags: ["B_spline", "Tiresia", "continuum", "TDDFT"]
+    project_modules: ["method_comparison", "benchmark_strategy"]
+    state: "indexed"
+    review_status: "reviewed"
+    relevance: "high"
+    role: ["review", "method_comparison"]
+    confidence: "fulltext_or_primary_index"
+    actionability: "implementation_guidance"
