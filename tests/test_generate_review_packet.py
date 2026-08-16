@@ -1,6 +1,4 @@
 from datetime import date
-from pathlib import Path
-from tempfile import TemporaryDirectory
 import unittest
 
 from tools.generate_review_packet import build_packet
@@ -45,6 +43,25 @@ class GenerateReviewPacketTest(unittest.TestCase):
         self.assertIn("## Benchmark Updates", packet)
         self.assertIn("bench-a", packet)
         self.assertIn("risk-a", packet)
+
+    def test_summary_counts_upgrade_decisions_as_human_review_items(self):
+        packet = build_packet(
+            date(2026, 7, 29),
+            candidates=[],
+            recommended_upgrades=[
+                {
+                    "id": "lit-upgrade",
+                    "title": "Upgrade",
+                    "actionability": "implementation_guidance",
+                }
+            ],
+            recommended_rejects=[],
+            review_needed=[],
+            benchmarks=[],
+            risks=[],
+        )
+
+        self.assertIn("- Items needing human review: 1", packet)
 
 
 if __name__ == "__main__":
