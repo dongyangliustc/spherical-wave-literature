@@ -81,7 +81,7 @@ def build_packet(
         f"- New candidates: {len(candidates)}",
         f"- Recommended upgrades: {len(recommended_upgrades)}",
         f"- Recommended rejects: {len(recommended_rejects)}",
-        f"- Items needing human review: {len(review_needed)}",
+        f"- Items needing human review: {len(review_needed) + len(recommended_upgrades)}",
         "",
         "## Recommended Upgrades",
         "",
