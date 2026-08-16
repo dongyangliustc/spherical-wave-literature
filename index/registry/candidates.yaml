@@ -22,4 +22,402 @@
 #   role: ["frontier"]
 #   confidence: "metadata_only"
 #   actionability: "reading_candidate"
-items: []
+items:
+  - id: "lit-lucchese-mckoy-1979-schwinger-electron-scattering"
+    title: "Application of the Schwinger variational principle to electron scattering"
+    authors: ["Lucchese", "McKoy"]
+    year: 1979
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0022-3700/12/14/005"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Lucchese_McKoy_1979_Schwinger_eHe_JPB.pdf"
+      note: null
+    topic_tags: ["Schwinger", "electron_scattering", "He", "static_exchange"]
+    project_modules: ["separable_potential", "tau_matrix", "schwinger_amplitude"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-lucchese-takatsuka-mckoy-1986-schwinger-review"
+    title: "Applications of the Schwinger variational principle to electron-molecule collisions and molecular photoionization"
+    authors: ["Lucchese", "Takatsuka", "McKoy"]
+    year: 1986
+    source_type: "review"
+    identifiers:
+      doi: "10.1016/0370-1573(86)90147-X"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Lucchese_Takatsuka_McKoy_1986_Schwinger_review_PhysRep.pdf"
+      note: null
+    topic_tags: ["Schwinger", "electron_molecule_collisions", "molecular_photoionization", "review"]
+    project_modules: ["separable_potential", "green_function_matrix", "tau_matrix", "schwinger_amplitude"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["review", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-lucchese-mckoy-1983-pade-co-photoionization"
+    title: "Pade-approximant corrections to general variational expressions of scattering theory: Application to photoionization of carbon monoxide"
+    authors: ["Lucchese", "McKoy"]
+    year: 1983
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/PhysRevA.28.1382"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Lucchese_McKoy_1983_Pade_CO_photoionization_PRA.pdf"
+      note: null
+    topic_tags: ["Pade", "Schwinger", "photoionization", "CO", "variational_scattering"]
+    project_modules: ["tau_matrix", "schwinger_amplitude", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-natalense-lucchese-1999-sf6-photoionization"
+    title: "Cross section and asymmetry parameter calculation for sulfur 1s photoionization of SF6"
+    authors: ["Natalense", "Lucchese"]
+    year: 1999
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.479794"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Natalense_Lucchese_1999_SF6_photoionization_JCP.pdf"
+      note: null
+    topic_tags: ["ePolyScat", "photoionization", "cross_section", "asymmetry_parameter", "SF6"]
+    project_modules: ["benchmark_strategy", "angular_reduction", "frame_transform"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["code_reference", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-gianturco-lucchese-sanna-1994-cf4-scattering"
+    title: "Calculation of low-energy elastic cross sections for electron-CF4 scattering"
+    authors: ["Gianturco", "Lucchese", "Sanna"]
+    year: 1994
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.467237"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Gianturco_Lucchese_Sanna_1994_CF4_scattering_JCP.pdf"
+      note: null
+    topic_tags: ["ePolyScat", "electron_scattering", "static_exchange", "CF4"]
+    project_modules: ["separable_potential", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-toffoli-coriani-stener-decleva-2024-tiresia-code"
+    title: "Tiresia: A code for molecular electronic continuum states and photoionization"
+    authors: ["Toffoli", "Coriani", "Stener", "Decleva"]
+    year: 2024
+    source_type: "software"
+    identifiers:
+      doi: "10.1016/j.cpc.2023.109038"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Toffoli_2023_Tiresia_CPC.pdf"
+      note: "notes/B_spline_continuum.md"
+    topic_tags: ["Tiresia", "B_spline", "continuum", "photoionization", "software"]
+    project_modules: ["method_comparison", "benchmark_strategy", "code_context_phase_h"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-ruberti-2019-rcs-adc-b-spline"
+    title: "Restricted Correlation Space B-Spline ADC Approach to Molecular Ionization: Theory and Applications to Total Photoionization Cross-Sections"
+    authors: ["Ruberti"]
+    year: 2019
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jctc.9b00288"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Ruberti_2019_RCS_ADC_Bspline_JCTC.pdf"
+      note: "notes/B_spline_continuum.md"
+    topic_tags: ["RCS_ADC", "B_spline", "molecular_ionization", "photoionization_cross_sections"]
+    project_modules: ["method_comparison", "correlation_strategy", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-masin-benda-gorfinkiel-2020-ukrmol-plus"
+    title: "UKRmol+: A suite for modelling electronic processes in molecules interacting with electrons, positrons and photons using the R-matrix method"
+    authors: ["Mašín", "Benda", "Gorfinkiel", "Harvey", "Tennyson"]
+    year: 2020
+    source_type: "software"
+    identifiers:
+      doi: "10.1016/j.cpc.2019.107092"
+      arxiv: "1908.03018"
+      isbn: null
+    paths:
+      pdf: "papers/R_matrix/Masin_2020_UKRmol_plus_CPC_arXiv.pdf"
+      note: "notes/R-matrix方法发展脉络深度调查.md"
+    topic_tags: ["UKRmol_plus", "R_matrix", "photoionization", "electron_scattering", "software"]
+    project_modules: ["method_comparison", "benchmark_strategy", "workflow_design"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-tenorio-ponzi-coriani-decleva-2022-mr-dyson-b-spline"
+    title: "Photoionization Observables from Multi-Reference Dyson Orbitals Coupled to B-Spline DFT and TD-DFT Continuum"
+    authors: ["Tenorio", "Ponzi", "Coriani", "Decleva"]
+    year: 2022
+    source_type: "paper"
+    identifiers:
+      doi: "10.3390/molecules27041203"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Tenorio_2022_Dyson_photoionization_Molecules.pdf"
+      note: "notes/Dyson轨道量子化学方法综述.md"
+    topic_tags: ["Dyson_orbitals", "MS_CASPT2", "B_spline", "TDDFT", "photoionization"]
+    project_modules: ["correlation_strategy", "method_comparison", "code_context_phase_h"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-moitra-coriani-decleva-2021-correlation-photoionization"
+    title: "Capturing Correlation Effects on Photoionization Dynamics"
+    authors: ["Moitra", "Coriani", "Decleva"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jctc.1c00303"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Moitra_2021_EOMCC_Dyson_TDDFT_JCTC.pdf"
+      note: "notes/Dyson轨道量子化学方法综述.md"
+    topic_tags: ["EOM_CC", "Dyson_orbitals", "B_spline", "TDDFT", "correlation"]
+    project_modules: ["correlation_strategy", "method_comparison", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-mahato-skomorowski-2026-free-particle-green-sgto"
+    title: "Free-particle Green's function matrix elements over spherical Gaussian and plane-wave-modulated Gaussian basis functions"
+    authors: ["Mahato", "Skomorowski"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2605.18564"
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Mahato_Skomorowski_2026_free_particle_Green_SGTO_arXiv.pdf"
+      note: null
+    topic_tags: ["spherical_Gaussian", "free_particle_Green_function", "momentum_space", "recurrence"]
+    project_modules: ["continuum_wave", "SW_integral", "momentum_gto", "sw_matrix_element"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "core"
+    role: ["frontier", "method_origin", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-gozem-2015-plane-wave-coulomb-wave-photoionization"
+    title: "Photoelectron Wave Function in Photoionization: Plane Wave or Coulomb Wave?"
+    authors: ["Gozem", "Gunina", "Ichino", "Osborn", "Stanton", "Krylov"]
+    year: 2015
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jpclett.5b01891"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Gozem_2015_photoelectron_wavefunction_JPCL.pdf"
+      note: null
+    topic_tags: ["plane_wave", "Coulomb_wave", "Dyson_orbital", "photoionization", "normalization"]
+    project_modules: ["continuum_wave", "CS_calculator", "frame_transform", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-duan-2024-multicenter-continuum-mfpad"
+    title: "Multicenter continuum-state approach to molecular-frame photoelectron angular distributions: From plane-wave to twisted photons"
+    authors: ["Duan", "Gong", "Cheng", "Zhang"]
+    year: 2024
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/PhysRevA.109.063114"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Duan_2024_multicenter_continuum_MFPAD_PRA.pdf"
+      note: null
+    topic_tags: ["multicenter_continuum", "MFPAD", "plane_wave", "twisted_photon", "partial_wave"]
+    project_modules: ["continuum_wave", "angular_reduction", "frame_transform"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-obara-saika-1986-recursive-cartesian-gaussian-integrals"
+    title: "Efficient recursive computation of molecular integrals over Cartesian Gaussian functions"
+    authors: ["Obara", "Saika"]
+    year: 1986
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.450106"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Obara_Saika_1986_recursive_Cartesian_Gaussian_integrals_JCP.pdf"
+      note: null
+    topic_tags: ["Cartesian_Gaussian", "molecular_integrals", "recurrence", "Obara_Saika"]
+    project_modules: ["GTO_integral", "momentum_gto"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation", "method_origin"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-obara-saika-1988-general-recurrence-cartesian-gaussian"
+    title: "General recurrence formulas for molecular integrals over Cartesian Gaussian functions"
+    authors: ["Obara", "Saika"]
+    year: 1988
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.455717"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Obara_Saika_1988_general_recurrence_Cartesian_Gaussian_JCP.pdf"
+      note: null
+    topic_tags: ["Cartesian_Gaussian", "Fourier_transform_kernel", "recurrence", "Obara_Saika"]
+    project_modules: ["GTO_integral", "momentum_gto", "SW_integral"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation", "method_origin"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-mcmurchie-davidson-1978-cartesian-gaussian-integrals"
+    title: "One- and two-electron integrals over cartesian gaussian functions"
+    authors: ["McMurchie", "Davidson"]
+    year: 1978
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/0021-9991(78)90092-X"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/McMurchie_Davidson_1978_cartesian_gaussian_integrals_JCP.pdf"
+      note: null
+    topic_tags: ["Cartesian_Gaussian", "molecular_integrals", "McMurchie_Davidson", "auxiliary_functions"]
+    project_modules: ["GTO_integral", "momentum_gto"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation", "method_origin"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-matsuzaki-yabushita-2017-cgto-photoionization"
+    title: "Calculation of photoionization differential cross sections using complex Gauss-type orbitals"
+    authors: ["Matsuzaki", "Yabushita"]
+    year: 2017
+    source_type: "paper"
+    identifiers:
+      doi: "10.1002/jcc.24848"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Matsuzaki_Yabushita_2017_cGTO_photoionization_JCC.pdf"
+      note: null
+    topic_tags: ["cGTO", "photoionization", "differential_cross_section", "H2", "two_potential_formula"]
+    project_modules: ["PW_integral", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-ammar-ancarani-leclerc-2021-complex-gaussian-photoionization"
+    title: "A complex Gaussian approach to molecular photoionization"
+    authors: ["Ammar", "Ancarani", "Leclerc"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1002/jcc.26760"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Ammar_2021_complex_Gaussian_photoionization_JCC.pdf"
+      note: null
+    topic_tags: ["cGTO", "Coulomb_continuum", "length_velocity_gauge", "photoionization"]
+    project_modules: ["PW_integral", "continuum_wave", "SW_integral"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-cacelli-1997-polynomial-gaussian-continuum"
+    title: "Performance of polynomial Gaussian functions in describing the molecular electronic continuum"
+    authors: ["Cacelli"]
+    year: 1997
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0953-4075/30/24/006"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Cacelli_1997_polynomial_Gaussian_continuum_JPB.pdf"
+      note: null
+    topic_tags: ["GTO", "L2", "polynomial_Gaussian", "continuum", "photoemission"]
+    project_modules: ["GTO_integral", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
