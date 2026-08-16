@@ -4,16 +4,18 @@
 
 - Week: 2026-07-29
 - Automation run IDs: manual/local generation
-- New candidates: 0
-- Recommended upgrades: 0
+- New candidates: 5
+- Recommended upgrades: 3
 - Recommended rejects: 0
-- Items needing human review: 0
+- Items needing human review: 3
 
 ## Recommended Upgrades
 
 | ID | Source | Proposed State | Reason | Human Action |
 |----|--------|----------------|--------|--------------|
-|  |  |  |  |  |
+| lit-lucchese-mckoy-1979-schwinger-electron-scattering | Application of the Schwinger variational principle to electron scattering | reviewed/indexed | implementation_guidance | Approve promotion or keep as candidate |
+| lit-lucchese-takatsuka-mckoy-1986-schwinger-review | Applications of the Schwinger variational principle to electron-molecule collisions and molecular photoionization | reviewed/indexed | implementation_guidance | Approve promotion or keep as candidate |
+| lit-lucchese-mckoy-1983-pade-co-photoionization | Pade-approximant corrections to general variational expressions of scattering theory: Application to photoionization of carbon monoxide | reviewed/indexed | implementation_guidance | Approve promotion or keep as candidate |
 
 ## Recommended Rejects
 
