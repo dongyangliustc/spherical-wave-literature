@@ -20,3 +20,17 @@
 - **提交**: `1e02744` — "Weekly auto-sync: update notes and literature"
 - **Push**: ❌ 失败 — 环境变量 `GITHUB_SYNC_TOKEN` 为空，按规则跳过 push
 - **待处理**: 需要设置 `GITHUB_SYNC_TOKEN` 环境变量后手动 push，或等待下次自动执行时环境变量可用
+
+### 2026-08-16 (第3次执行)
+- **状态**: 成功（通过 GitHub Contents API 降级推送）
+- **发现变更**: 是（33 个文件：18 个文本文件 + 14 个 PDF + 1 个 automation memory）
+- **本地提交**: `4a12878` — "Weekly auto-sync: update notes and literature"
+- **git push**: ❌ 失败 — USTC 代理 (`198.18.0.28`) 能完成 `GET info/refs` 但在 `send-pack` POST 阶段持续超时（>20 分钟无响应），所有 git push 尝试（含 `--no-thin`、`protocol v2`、`http.postBuffer=500MB`、`git gc` 后重试）均失败
+- **降级方案**: 通过 GitHub Contents API (`PUT /repos/{owner}/{repo}/contents/{path}`) 逐文件上传
+  - 文本文件：18/18 成功（含中英文路径），分两批完成（第一批 4 个，第二批 10 个，第三批 4 个），SSL 间歇性 `UNEXPECTED_EOF` 错误通过重试解决
+  - PDF 文件：14/14 成功（总计约 21 MB，最大单文件 5.0 MB），从 git 对象 `4a12878` 恢复后上传
+  - Toffoli 2023 PDF 已在远程（初始提交时已推送），实际新增 14 个 PDF
+- **远程最终状态**: `46d9189` — 含全部 47 个 PDF + 全部文本文件
+- **本地同步**: `git fetch` + `git reset --hard origin/main` 完成本地-远程对齐
+- **远程 URL**: 已恢复为无 token 版本
+- **⚠️ 网络问题**: USTC 代理对大体积 HTTPS POST 有限制，git push 不可用。建议未来同步：(1) 若变更仅含文本文件，直接用 Contents API；(2) 若含 PDF，也用 Contents API 逐文件上传；(3) 考虑配置 SSH 推送绕过代理
