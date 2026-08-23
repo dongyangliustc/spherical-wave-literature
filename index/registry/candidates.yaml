@@ -401,6 +401,27 @@ items:
     confidence: "fulltext_available"
     actionability: "reading_candidate"
 
+  - id: "lit-huang-li-luo-2026-recursive-gaussian-pdcs"
+    title: "Efficient recursive Gaussian integral calculation of anion photodetachment cross sections"
+    authors: ["Huang", "Li", "Luo", "Wu", "Duan", "Zhang"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/5.0301018"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Huang_2026_recursive_Gaussian_PDCS_JCP.pdf"
+      note: null
+    topic_tags: ["recursive_Gaussian_integral", "photodetachment_cross_section", "plane_wave", "anion", "Cartesian_Gaussian", "transition_moment"]
+    project_modules: ["PW_integral", "GTO_integral", "momentum_gto", "CS_calculator", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "core"
+    role: ["method_origin", "benchmark", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
   - id: "lit-cacelli-1997-polynomial-gaussian-continuum"
     title: "Performance of polynomial Gaussian functions in describing the molecular electronic continuum"
     authors: ["Cacelli"]
