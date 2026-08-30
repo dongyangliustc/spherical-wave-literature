@@ -1,0 +1,1344 @@
+{
+  "key": "jagau2017_electronic_resonances_review",
+  "title": "Extending Quantum Chemistry of Bound States to Electronic Resonances",
+  "topic": "电子共振 L2方法 — 原理发展",
+  "pdf": "papers/general_review/Jagau_2017_electronic_resonances_ARPC.pdf",
+  "doi": "10.1146/annurev-physchem-052516-050622",
+  "work_id": "https://openalex.org/W2523492947",
+  "meta": {
+    "openalex_title": "Extending Quantum Chemistry of Bound States to Electronic Resonances",
+    "year": 2017,
+    "cited_by_total": 196,
+    "references_total": 121,
+    "type": "article",
+    "venue": "Annual Review of Physical Chemistry",
+    "concepts": [
+      "Electronic structure",
+      "Bound state",
+      "Hamiltonian (control theory)",
+      "Eigenvalues and eigenvectors"
+    ]
+  },
+  "referenced_top25": [
+    {
+      "title": "A unified theory of nuclear reactions. II",
+      "year": 1962,
+      "authors": [
+        "Herman Feshbach"
+      ],
+      "venue": "Annals of Physics",
+      "cited_by": 2856,
+      "type": "article",
+      "doi": "10.1016/0003-4916(62)90221-x",
+      "concepts": [
+        "Physics",
+        "Pauli exclusion principle",
+        "Hamiltonian (control theory)"
+      ]
+    },
+    {
+      "title": "The equation of motion coupled-cluster method. A systematic biorthogonal approach to molecular excitation energies, transition probabilities, and excited state properties",
+      "year": 1993,
+      "authors": [
+        "John F. Stanton",
+        "Rodney J. Bartlett"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 2670,
+      "type": "article",
+      "doi": "10.1063/1.464746",
+      "concepts": [
+        "Excited state",
+        "Biorthogonal system",
+        "Coupled cluster"
+      ]
+    },
+    {
+      "title": "The iterative calculation of a few of the lowest eigenvalues and corresponding eigenvectors of large real-symmetric matrices",
+      "year": 1975,
+      "authors": [
+        "Ernest R. Davidson"
+      ],
+      "venue": "Journal of Computational Physics",
+      "cited_by": 2555,
+      "type": "article",
+      "doi": "10.1016/0021-9991(75)90065-0",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Laves phase",
+        "Density functional theory"
+      ]
+    },
+    {
+      "title": "Resonant Formation of DNA Strand Breaks by Low-Energy (3 to 20 eV) Electrons",
+      "year": 2000,
+      "authors": [
+        "Badia Boudaı̈ffa",
+        "Pierre Cloutier",
+        "Darel J. Hunting",
+        "Michael A. Huels"
+      ],
+      "venue": "Science",
+      "cited_by": 2258,
+      "type": "article",
+      "doi": "10.1126/science.287.5458.1658",
+      "concepts": [
+        "Electron",
+        "Ionization",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Attosecond science",
+      "year": 2007,
+      "authors": [
+        "P. B. Corkum",
+        "Ferenc Krausz"
+      ],
+      "venue": "Nature Physics",
+      "cited_by": 2136,
+      "type": "article",
+      "doi": "10.1038/nphys620",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "Atomic units"
+      ]
+    },
+    {
+      "title": "Hot Electrons Do the Impossible: Plasmon-Induced Dissociation of H 2 on Au",
+      "year": 2012,
+      "authors": [
+        "Shaunak Mukherjee",
+        "Florian Libisch",
+        "Nicolas Large",
+        "Oara Neumann"
+      ],
+      "venue": "Nano Letters",
+      "cited_by": 1570,
+      "type": "article",
+      "doi": "10.1021/nl303940z",
+      "concepts": [
+        "Dissociation (chemistry)",
+        "Plasmon",
+        "Nanoparticle"
+      ]
+    },
+    {
+      "title": "Non-Hermitian Quantum Mechanics",
+      "year": 2011,
+      "authors": [
+        "Nimrod Moiseyev"
+      ],
+      "venue": "Cambridge University Press eBooks",
+      "cited_by": 1526,
+      "type": "book",
+      "doi": "10.1017/cbo9780511976186",
+      "concepts": [
+        "Hermitian matrix",
+        "Hamiltonian (control theory)",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Spectral properties of many-body Schrödinger operators with dilatation-analytic interactions",
+      "year": 1971,
+      "authors": [
+        "Erik Balslev",
+        "J. M. Combes"
+      ],
+      "venue": "Communications in Mathematical Physics",
+      "cited_by": 1446,
+      "type": "article",
+      "doi": "10.1007/bf01877511",
+      "concepts": [
+        "Mathematics",
+        "Continuous spectrum",
+        "Complex system"
+      ]
+    },
+    {
+      "title": "A class of analytic perturbations for one-body Schrödinger Hamiltonians",
+      "year": 1971,
+      "authors": [
+        "José Edgar Madriz Aguilar",
+        "J. M. Combes"
+      ],
+      "venue": "Communications in Mathematical Physics",
+      "cited_by": 1210,
+      "type": "article",
+      "doi": "10.1007/bf01877510",
+      "concepts": [
+        "Bounded function",
+        "Mathematics",
+        "Absolute continuity"
+      ]
+    },
+    {
+      "title": "Equation-of-Motion Coupled-Cluster Methods for Open-Shell and Electronically Excited Species: The Hitchhiker's Guide to Fock Space",
+      "year": 2008,
+      "authors": [
+        "Anna I. Krylov"
+      ],
+      "venue": "Annual Review of Physical Chemistry",
+      "cited_by": 1109,
+      "type": "article",
+      "doi": "10.1146/annurev.physchem.59.032607.093602",
+      "concepts": [
+        "Open shell",
+        "Excited state",
+        "Coupled cluster"
+      ]
+    },
+    {
+      "title": "Quantum theory of resonances: calculating energies, widths and cross-sections by complex scaling",
+      "year": 1998,
+      "authors": [
+        "Nimrod Moiseyev"
+      ],
+      "venue": "Physics Reports",
+      "cited_by": 1060,
+      "type": "article",
+      "doi": "10.1016/s0370-1573(98)00002-7",
+      "concepts": [
+        "Physics",
+        "Eigenfunction",
+        "Hamiltonian (control theory)"
+      ]
+    },
+    {
+      "title": "Complex Coordinates in the Theory of Atomic and Molecular Structure and Dynamics",
+      "year": 1982,
+      "authors": [
+        "William P. Reinhardt"
+      ],
+      "venue": "Annual Review of Physical Chemistry",
+      "cited_by": 916,
+      "type": "article",
+      "doi": "10.1146/annurev.pc.33.100182.001255",
+      "concepts": [
+        "Molecular dynamics",
+        "Dynamics (music)",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Singular characteristics and unique chemical bond activation mechanisms of photocatalytic reactions on plasmonic nanostructures",
+      "year": 2012,
+      "authors": [
+        "Phillip Christopher",
+        "Hongliang Xin",
+        "Marimuthu Andiappan",
+        "Suljo Linic"
+      ],
+      "venue": "Nature Materials",
+      "cited_by": 884,
+      "type": "article",
+      "doi": "10.1038/nmat3454",
+      "concepts": [
+        "Photocatalysis",
+        "Plasmon",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "On the Derivation of the Dispersion Formula for Nuclear Reactions",
+      "year": 1939,
+      "authors": [
+        "A. J. F. Siegert"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 856,
+      "type": "article",
+      "doi": "10.1103/physrev.56.750",
+      "concepts": [
+        "Dispersion (optics)",
+        "Space (punctuation)",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Stabilization Method of Calculating Resonance Energies: Model Problem",
+      "year": 1970,
+      "authors": [
+        "A. Hazi",
+        "Howard S. Taylor"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 783,
+      "type": "article",
+      "doi": "10.1103/physreva.1.1109",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Resonance (particle physics)",
+        "Hamiltonian (control theory)"
+      ]
+    },
+    {
+      "title": "Recent Advances in Wave Function-Based Methods of Molecular-Property Calculations",
+      "year": 2012,
+      "authors": [
+        "Trygve Helgaker",
+        "Sonia Coriani",
+        "Poul Jørgensen",
+        "Kasper Kristensen"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 734,
+      "type": "article",
+      "doi": "10.1021/cr2002239",
+      "concepts": [
+        "Library science",
+        "Citation",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Calculation of resonance energies and widths using the complex absorbing potential method",
+      "year": 1993,
+      "authors": [
+        "Uwe V. Riss",
+        "H -D Meyer"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 591,
+      "type": "article",
+      "doi": "10.1088/0953-4075/26/23/021",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Hamiltonian (control theory)",
+        "Resonance (particle physics)"
+      ]
+    },
+    {
+      "title": "Propagators in Quantum Chemistry",
+      "year": 2004,
+      "authors": [
+        "Jan Linderberg",
+        "Yngve Öhrn"
+      ],
+      "venue": null,
+      "cited_by": 567,
+      "type": "book",
+      "doi": "10.1002/0471721549",
+      "concepts": [
+        "Propagator",
+        "Second quantization",
+        "Physics"
+      ]
+    },
+    {
+      "title": "New tools for the systematic analysis and visualization of electronic excitations. I. Formalism",
+      "year": 2014,
+      "authors": [
+        "Felix Plasser",
+        "Michael Wormit",
+        "Andreas Dreuw"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 541,
+      "type": "article",
+      "doi": "10.1063/1.4885819",
+      "concepts": [
+        "Atomic orbital",
+        "Density matrix",
+        "Theoretical physics"
+      ]
+    },
+    {
+      "title": "Propagators in Quantum Chemistry",
+      "year": 1974,
+      "authors": [
+        "C. A. Coulson"
+      ],
+      "venue": "Physics Bulletin",
+      "cited_by": 530,
+      "type": "article",
+      "doi": "10.1088/0031-9112/25/5/035",
+      "concepts": [
+        "Propagator",
+        "Annihilation",
+        "Creation and annihilation operators"
+      ]
+    },
+    {
+      "title": "Theory of nuclear reactions",
+      "year": 1961,
+      "authors": [
+        "J. Humblet",
+        "L. Rosenfeld"
+      ],
+      "venue": "Nuclear Physics",
+      "cited_by": 521,
+      "type": "article",
+      "doi": "10.1016/0029-5582(61)90207-3",
+      "concepts": [
+        "Physics",
+        "Basis (linear algebra)",
+        "Eigenvalues and eigenvectors"
+      ]
+    },
+    {
+      "title": "Complex absorbing potentials",
+      "year": 2004,
+      "authors": [
+        "J. G. Muga",
+        "José P. Palao",
+        "B. Navarro",
+        "I. L. Egusquiza"
+      ],
+      "venue": "Physics Reports",
+      "cited_by": 514,
+      "type": "article",
+      "doi": "10.1016/j.physrep.2004.03.002",
+      "concepts": [
+        "Physics",
+        "Statistical physics",
+        "Simplicity"
+      ]
+    },
+    {
+      "title": "Ultrafast X-ray Absorption Spectroscopy",
+      "year": 2004,
+      "authors": [
+        "Christian Bressler",
+        "Majed Chergui"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 493,
+      "type": "article",
+      "doi": "10.1021/cr0206667",
+      "concepts": [
+        "Citation",
+        "Absorption (acoustics)",
+        "Altmetrics"
+      ]
+    },
+    {
+      "title": "The definition of molecular resonance curves by the method of exterior complex scaling",
+      "year": 1979,
+      "authors": [
+        "Barry Simon"
+      ],
+      "venue": "Physics Letters A",
+      "cited_by": 481,
+      "type": "article",
+      "doi": "10.1016/0375-9601(79)90165-8",
+      "concepts": [
+        "Physics",
+        "Scaling",
+        "Resonance (particle physics)"
+      ]
+    },
+    {
+      "title": "Photoelectron Angular Distributions",
+      "year": 2003,
+      "authors": [
+        "Katharine L. Reid"
+      ],
+      "venue": "Annual Review of Physical Chemistry",
+      "cited_by": 475,
+      "type": "article",
+      "doi": "10.1146/annurev.physchem.54.011002.103814",
+      "concepts": [
+        "Photoionization",
+        "X-ray photoelectron spectroscopy",
+        "Ultrashort pulse"
+      ]
+    }
+  ],
+  "citing_top25": [
+    {
+      "title": "Software for the frontiers of quantum chemistry: An overview of developments in the Q-Chem 5 package",
+      "year": 2021,
+      "authors": [
+        "Evgeny Epifanovsky",
+        "Andrew T. B. Gilbert",
+        "Xintian Feng",
+        "Joonho Lee"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 1400,
+      "type": "article",
+      "doi": "10.1063/5.0055522",
+      "concepts": [
+        "Software",
+        "Quantum chemistry",
+        "Software package"
+      ]
+    },
+    {
+      "title": "Simulating X-ray Spectroscopies and Calculating Core-Excited States of Molecules",
+      "year": 2018,
+      "authors": [
+        "Patrick Norman",
+        "Andreas Dreuw"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 342,
+      "type": "article",
+      "doi": "10.1021/acs.chemrev.8b00156",
+      "concepts": [
+        "X-ray absorption spectroscopy",
+        "Chemistry",
+        "Spectroscopy"
+      ]
+    },
+    {
+      "title": "New and Efficient Equation-of-Motion Coupled-Cluster Framework for Core-Excited and Core-Ionized States",
+      "year": 2019,
+      "authors": [
+        "Marta L. Vidal",
+        "Xintian Feng",
+        "Evgeny Epifanovsky",
+        "Anna I. Krylov"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 218,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.9b00039",
+      "concepts": [
+        "Core (optical fiber)",
+        "Excited state",
+        "Cluster (spacecraft)"
+      ]
+    },
+    {
+      "title": "Interatomic and Intermolecular Coulombic Decay",
+      "year": 2020,
+      "authors": [
+        "T. Jahnke",
+        "U. Hergenhahn",
+        "Bernd Winter",
+        "R. Dörner"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 189,
+      "type": "article",
+      "doi": "10.1021/acs.chemrev.0c00106",
+      "concepts": [
+        "Chemistry",
+        "Intermolecular force",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "From orbitals to observables and back",
+      "year": 2020,
+      "authors": [
+        "Anna I. Krylov"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 183,
+      "type": "article",
+      "doi": "10.1063/5.0018597",
+      "concepts": [
+        "Observable",
+        "Atomic orbital",
+        "Molecular orbital theory"
+      ]
+    },
+    {
+      "title": "Dyson-orbital concepts for description of electrons in molecules",
+      "year": 2020,
+      "authors": [
+        "J. V. Ortiz"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 154,
+      "type": "article",
+      "doi": "10.1063/5.0016472",
+      "concepts": [
+        "Atomic orbital",
+        "Wave function",
+        "Molecular orbital"
+      ]
+    },
+    {
+      "title": "The ezSpectra suite: An easy‐to‐use toolkit for spectroscopy modeling",
+      "year": 2021,
+      "authors": [
+        "Samer Gozem",
+        "Anna I. Krylov"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 143,
+      "type": "article",
+      "doi": "10.1002/wcms.1546",
+      "concepts": [
+        "Photoionization",
+        "Electronic structure",
+        "Quantum chemistry"
+      ]
+    },
+    {
+      "title": "Single‐reference coupled cluster methods for computing excitation energies in large molecules: The efficiency and accuracy of approximations",
+      "year": 2019,
+      "authors": [
+        "Róbert Izsák"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 101,
+      "type": "article",
+      "doi": "10.1002/wcms.1445",
+      "concepts": [
+        "Excited state",
+        "Coupled cluster",
+        "Excitation"
+      ]
+    },
+    {
+      "title": "Performance of Delta-Coupled-Cluster Methods for Calculations of Core-Ionization Energies of First-Row Elements",
+      "year": 2019,
+      "authors": [
+        "Xuechen Zheng",
+        "Lan Cheng"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 88,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.9b00568",
+      "concepts": [
+        "Cluster (spacecraft)",
+        "Coupled cluster",
+        "Core (optical fiber)"
+      ]
+    },
+    {
+      "title": "A domain-based local pair natural orbital implementation of the equation of motion coupled cluster method for electron attached states",
+      "year": 2019,
+      "authors": [
+        "Achintya Kumar Dutta",
+        "Masaaki Saitow",
+        "Baptiste Démoulin",
+        "Frank Neese"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 85,
+      "type": "article",
+      "doi": "10.1063/1.5089637",
+      "concepts": [
+        "Coupled cluster",
+        "Physics",
+        "Scaling"
+      ]
+    },
+    {
+      "title": "Efficient calculations of a large number of highly excited states for multiconfigurational wavefunctions",
+      "year": 2019,
+      "authors": [
+        "Mickaël G. Delcey",
+        "Lasse Kragh Sørensen",
+        "Morgane Vacher",
+        "Rafael C. Couto"
+      ],
+      "venue": "Journal of Computational Chemistry",
+      "cited_by": 82,
+      "type": "article",
+      "doi": "10.1002/jcc.25832",
+      "concepts": [
+        "Excited state",
+        "Wave function",
+        "Operator (biology)"
+      ]
+    },
+    {
+      "title": "Highly Efficient and Scalable Compound Decomposition of Two-Electron Integral Tensor and Its Application in Coupled Cluster Calculations",
+      "year": 2017,
+      "authors": [
+        "Bo Peng",
+        "Karol Kowalski"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 69,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.7b00605",
+      "concepts": [
+        "Coupled cluster",
+        "Decomposition",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Double Precision Is Not Needed for Many-Body Calculations: Emergent Conventional Wisdom",
+      "year": 2018,
+      "authors": [
+        "Pavel Pokhilko",
+        "Evgeny Epifanovsky",
+        "Anna I. Krylov"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 67,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.8b00321",
+      "concepts": [
+        "Double-precision floating-point format",
+        "Computer science",
+        "Coupled cluster"
+      ]
+    },
+    {
+      "title": "Real-Time Autodetachment Dynamics of Vibrational Feshbach Resonances in a Dipole-Bound State",
+      "year": 2020,
+      "authors": [
+        "Do Hyung Kang",
+        "Sejun An",
+        "Sang Kyu Kim"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 63,
+      "type": "article",
+      "doi": "10.1103/physrevlett.125.093001",
+      "concepts": [
+        "Atomic physics",
+        "Physics",
+        "Dipole"
+      ]
+    },
+    {
+      "title": "Theory of electronic resonances: fundamental aspects and recent advances",
+      "year": 2022,
+      "authors": [
+        "Thomas‐C. Jagau"
+      ],
+      "venue": "Chemical Communications",
+      "cited_by": 61,
+      "type": "article",
+      "doi": "10.1039/d1cc07090h",
+      "concepts": [
+        "Theoretical physics",
+        "Nanotechnology",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Feshbach–Fano approach for calculation of Auger decay rates using equation-of-motion coupled-cluster wave functions. I. Theory and implementation",
+      "year": 2021,
+      "authors": [
+        "Wojciech Skomorowski",
+        "Anna I. Krylov"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 56,
+      "type": "article",
+      "doi": "10.1063/5.0036976",
+      "concepts": [
+        "Autoionization",
+        "Wave function",
+        "Physics"
+      ]
+    },
+    {
+      "title": "High-resolution photoelectron imaging and resonant photoelectron spectroscopy via noncovalently bound excited states of cryogenically cooled anions",
+      "year": 2019,
+      "authors": [
+        "Guo‐Zhu Zhu",
+        "Lai‐Sheng Wang"
+      ],
+      "venue": "Chemical Science",
+      "cited_by": 55,
+      "type": "article",
+      "doi": "10.1039/c9sc03861b",
+      "concepts": [
+        "X-ray photoelectron spectroscopy",
+        "Excited state",
+        "Resolution (logic)"
+      ]
+    },
+    {
+      "title": "libwfa: Wavefunction analysis tools for excited and open‐shell electronic states",
+      "year": 2022,
+      "authors": [
+        "Felix Plasser",
+        "Anna I. Krylov",
+        "Andreas Dreuw"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 52,
+      "type": "article",
+      "doi": "10.1002/wcms.1595",
+      "concepts": [
+        "Wave function",
+        "Excited state",
+        "Toolbox"
+      ]
+    },
+    {
+      "title": "Modeling L2,3-edge X-ray absorption spectroscopy with linear response exact two-component relativistic time-dependent density functional theory",
+      "year": 2019,
+      "authors": [
+        "Torin F. Stetina",
+        "Joseph M. Kasper",
+        "Xiaosong Li"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 48,
+      "type": "article",
+      "doi": "10.1063/1.5091807",
+      "concepts": [
+        "Time-dependent density functional theory",
+        "Density functional theory",
+        "X-ray absorption spectroscopy"
+      ]
+    },
+    {
+      "title": "A Perspective on Sustainable Computational Chemistry Software Development and Integration",
+      "year": 2023,
+      "authors": [
+        "Rosa Di Felice",
+        "Maricris L. Mayes",
+        "Ryan M. Richard",
+        "David B. Williams‐Young"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 47,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.3c00419",
+      "concepts": [
+        "Computer science",
+        "Interoperability",
+        "Context (archaeology)"
+      ]
+    },
+    {
+      "title": "Secondary Electron Attachment-Induced Radiation Damage to Genetic Materials",
+      "year": 2023,
+      "authors": [
+        "Jishnu Narayanan S J",
+        "Divya Tripathi",
+        "Pooja Verma",
+        "Amitava Adhikary"
+      ],
+      "venue": "ACS Omega",
+      "cited_by": 46,
+      "type": "article",
+      "doi": "10.1021/acsomega.2c06776",
+      "concepts": [
+        "Electron",
+        "Bound state",
+        "Valence (chemistry)"
+      ]
+    },
+    {
+      "title": "Bound and continuum-embedded states of cyanopolyyne anions",
+      "year": 2018,
+      "authors": [
+        "Wojciech Skomorowski",
+        "Sahil Gulania",
+        "Anna I. Krylov"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 42,
+      "type": "article",
+      "doi": "10.1039/c7cp08227d",
+      "concepts": [
+        "Bound state",
+        "Excited state",
+        "Coupled cluster"
+      ]
+    },
+    {
+      "title": "Anion photoelectron spectroscopy of protein chromophores",
+      "year": 2019,
+      "authors": [
+        "Alice Henley",
+        "Helen H. Fielding"
+      ],
+      "venue": "International Reviews in Physical Chemistry",
+      "cited_by": 41,
+      "type": "article",
+      "doi": "10.1080/0144235x.2018.1548807",
+      "concepts": [
+        "Chromophore",
+        "Deprotonation",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Comparative study of methodologies for calculating metastable states of small to medium-sized molecules",
+      "year": 2019,
+      "authors": [
+        "Mushir Thodika",
+        "Mark A. Fennimore",
+        "Tolga N. V. Karsili",
+        "Spiridoula Matsika"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 41,
+      "type": "article",
+      "doi": "10.1063/1.5134700",
+      "concepts": [
+        "Metastability",
+        "Basis (linear algebra)",
+        "Coupled cluster"
+      ]
+    },
+    {
+      "title": "Communication: Analytic gradients for the complex absorbing potential equation-of-motion coupled-cluster method",
+      "year": 2017,
+      "authors": [
+        "Zsuzsanna Koczor-Benda",
+        "Thomas‐C. Jagau"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 39,
+      "type": "article",
+      "doi": "10.1063/1.4974094",
+      "concepts": [
+        "Coupled cluster",
+        "Adiabatic process",
+        "Maxima and minima"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "Software for the frontiers of quantum chemistry: An overview of developments in the Q-Chem 5 package",
+      "year": 2021,
+      "authors": [
+        "Evgeny Epifanovsky",
+        "Andrew T. B. Gilbert",
+        "Xintian Feng",
+        "Joonho Lee"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 1400,
+      "type": "article",
+      "doi": "10.1063/5.0055522",
+      "concepts": [
+        "Software",
+        "Quantum chemistry",
+        "Software package"
+      ]
+    },
+    {
+      "title": "The ezSpectra suite: An easy‐to‐use toolkit for spectroscopy modeling",
+      "year": 2021,
+      "authors": [
+        "Samer Gozem",
+        "Anna I. Krylov"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 143,
+      "type": "article",
+      "doi": "10.1002/wcms.1546",
+      "concepts": [
+        "Photoionization",
+        "Electronic structure",
+        "Quantum chemistry"
+      ]
+    },
+    {
+      "title": "Theory of electronic resonances: fundamental aspects and recent advances",
+      "year": 2022,
+      "authors": [
+        "Thomas‐C. Jagau"
+      ],
+      "venue": "Chemical Communications",
+      "cited_by": 61,
+      "type": "article",
+      "doi": "10.1039/d1cc07090h",
+      "concepts": [
+        "Theoretical physics",
+        "Nanotechnology",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Feshbach–Fano approach for calculation of Auger decay rates using equation-of-motion coupled-cluster wave functions. I. Theory and implementation",
+      "year": 2021,
+      "authors": [
+        "Wojciech Skomorowski",
+        "Anna I. Krylov"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 56,
+      "type": "article",
+      "doi": "10.1063/5.0036976",
+      "concepts": [
+        "Autoionization",
+        "Wave function",
+        "Physics"
+      ]
+    },
+    {
+      "title": "libwfa: Wavefunction analysis tools for excited and open‐shell electronic states",
+      "year": 2022,
+      "authors": [
+        "Felix Plasser",
+        "Anna I. Krylov",
+        "Andreas Dreuw"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 52,
+      "type": "article",
+      "doi": "10.1002/wcms.1595",
+      "concepts": [
+        "Wave function",
+        "Excited state",
+        "Toolbox"
+      ]
+    },
+    {
+      "title": "A Perspective on Sustainable Computational Chemistry Software Development and Integration",
+      "year": 2023,
+      "authors": [
+        "Rosa Di Felice",
+        "Maricris L. Mayes",
+        "Ryan M. Richard",
+        "David B. Williams‐Young"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 47,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.3c00419",
+      "concepts": [
+        "Computer science",
+        "Interoperability",
+        "Context (archaeology)"
+      ]
+    },
+    {
+      "title": "Secondary Electron Attachment-Induced Radiation Damage to Genetic Materials",
+      "year": 2023,
+      "authors": [
+        "Jishnu Narayanan S J",
+        "Divya Tripathi",
+        "Pooja Verma",
+        "Amitava Adhikary"
+      ],
+      "venue": "ACS Omega",
+      "cited_by": 46,
+      "type": "article",
+      "doi": "10.1021/acsomega.2c06776",
+      "concepts": [
+        "Electron",
+        "Bound state",
+        "Valence (chemistry)"
+      ]
+    },
+    {
+      "title": "Embedded equation-of-motion coupled-cluster theory for electronic excitation, ionisation, electron attachment, and electronic resonances",
+      "year": 2021,
+      "authors": [
+        "Valentina Parravicini",
+        "Thomas‐C. Jagau"
+      ],
+      "venue": "Molecular Physics",
+      "cited_by": 38,
+      "type": "article",
+      "doi": "10.1080/00268976.2021.1943029",
+      "concepts": [
+        "Excitation",
+        "Atomic physics",
+        "Coupled cluster"
+      ]
+    },
+    {
+      "title": "Molecular Anions Perspective",
+      "year": 2023,
+      "authors": [
+        "Jack Simons"
+      ],
+      "venue": "The Journal of Physical Chemistry A",
+      "cited_by": 35,
+      "type": "article",
+      "doi": "10.1021/acs.jpca.3c01564",
+      "concepts": [
+        "Metastability",
+        "Chemical physics",
+        "Protonation"
+      ]
+    },
+    {
+      "title": "Molecular Auger decay rates from complex-variable coupled-cluster theory",
+      "year": 2022,
+      "authors": [
+        "Florian Matz",
+        "Thomas‐C. Jagau"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 35,
+      "type": "article",
+      "doi": "10.1063/5.0075646",
+      "concepts": [
+        "Auger",
+        "Atomic physics",
+        "Coupled cluster"
+      ]
+    },
+    {
+      "title": "Recapture of the Nonvalence Excess Electron into the Excited Valence Orbital Leads to the Chemical Bond Cleavage in the Anion",
+      "year": 2021,
+      "authors": [
+        "Do Hyung Kang",
+        "Jinwoo Kim",
+        "Sang Kyu Kim"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 27,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.1c01789",
+      "concepts": [
+        "Excited state",
+        "Chemistry",
+        "Ion"
+      ]
+    },
+    {
+      "title": "Projected CAP-EOM-CCSD method for electronic resonances",
+      "year": 2022,
+      "authors": [
+        "James R. Gayvert",
+        "Ksenia B. Bravaya"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 26,
+      "type": "article",
+      "doi": "10.1063/5.0082739",
+      "concepts": [
+        "Coupled cluster",
+        "Resonance (particle physics)",
+        "Eigenvalues and eigenvectors"
+      ]
+    },
+    {
+      "title": "The Auger spectrum of benzene",
+      "year": 2023,
+      "authors": [
+        "Nayanthara K. Jayadev",
+        "Anthuan Ferino-Pérez",
+        "Florian Matz",
+        "Anna I. Krylov"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 26,
+      "type": "article",
+      "doi": "10.1063/5.0138674",
+      "concepts": [
+        "Auger",
+        "Auger electron spectroscopy",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "First-Principles Simulations of Biological Molecules Subjected to Ionizing Radiation",
+      "year": 2021,
+      "authors": [
+        "Karwan Ali Omar",
+        "Karim Hasnaoui",
+        "Aurélien de la Lande"
+      ],
+      "venue": "Annual Review of Physical Chemistry",
+      "cited_by": 25,
+      "type": "article",
+      "doi": "10.1146/annurev-physchem-101419-013639",
+      "concepts": [
+        "Context (archaeology)",
+        "Radiolysis",
+        "Ionizing radiation"
+      ]
+    },
+    {
+      "title": "Distant Symmetry Control in Electron-Induced Bond Cleavage",
+      "year": 2022,
+      "authors": [
+        "Ragesh Kumar T. P.",
+        "Pamir Nag",
+        "Miloš Ranković",
+        "Thomas F. M. Luxford"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 23,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.2c03096",
+      "concepts": [
+        "Cleavage (geology)",
+        "Electron",
+        "Symmetry (geometry)"
+      ]
+    },
+    {
+      "title": "Variational Dirac–Coulomb explicitly correlated computations for atoms and molecules",
+      "year": 2022,
+      "authors": [
+        "Péter Jeszenszki",
+        "Dávid Ferenc",
+        "Edit Mátyus"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 22,
+      "type": "article",
+      "doi": "10.1063/5.0075096",
+      "concepts": [
+        "Coulomb",
+        "Dirac (video compression format)",
+        "Gaussian"
+      ]
+    },
+    {
+      "title": "High harmonic spectra computed using time-dependent Kohn–Sham theory with Gaussian orbitals and a complex absorbing potential",
+      "year": 2022,
+      "authors": [
+        "Ying Zhu",
+        "John M. Herbert"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 22,
+      "type": "article",
+      "doi": "10.1063/5.0079910",
+      "concepts": [
+        "Spurious relationship",
+        "Gaussian",
+        "Wave packet"
+      ]
+    },
+    {
+      "title": "CAP/EA-ADC method for metastable anions: Computational aspects and application to π * resonances of norbornadiene and 1,4-cyclohexadiene",
+      "year": 2021,
+      "authors": [
+        "Adrian L. Dempwolff",
+        "Alexandra M. Belogolova",
+        "Thomas Sommerfeld",
+        "А. Б. Трофимов"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 21,
+      "type": "article",
+      "doi": "10.1063/5.0057737",
+      "concepts": [
+        "Norbornadiene",
+        "Propagator",
+        "Diagrammatic reasoning"
+      ]
+    },
+    {
+      "title": "Dynamics of Anions: From Bound to Unbound States and Everything In Between",
+      "year": 2024,
+      "authors": [
+        "Connor J. Clarke",
+        "Jan R. R. Verlet"
+      ],
+      "venue": "Annual Review of Physical Chemistry",
+      "cited_by": 21,
+      "type": "article",
+      "doi": "10.1146/annurev-physchem-090722-125031",
+      "concepts": [
+        "Excited state",
+        "Solvation",
+        "Reaction dynamics"
+      ]
+    },
+    {
+      "title": "Mode-Specific Autodetachment Dynamics of an Excited Non-valence Quadrupole-Bound State",
+      "year": 2021,
+      "authors": [
+        "Do Hyung Kang",
+        "Jinwoo Kim",
+        "Min Cheng",
+        "Sang Kyu Kim"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 21,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.1c00169",
+      "concepts": [
+        "Quadrupole",
+        "Excited state",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Temporary Anion Resonances of Pyrene: A 2D Photoelectron Imaging and Computational Study",
+      "year": 2021,
+      "authors": [
+        "Aude Lietard",
+        "Jan R. R. Verlet",
+        "Stephen R. Slimak",
+        "Kenneth D. Jordan"
+      ],
+      "venue": "The Journal of Physical Chemistry A",
+      "cited_by": 20,
+      "type": "article",
+      "doi": "10.1021/acs.jpca.1c05586",
+      "concepts": [
+        "Ion",
+        "Pyrene",
+        "X-ray photoelectron spectroscopy"
+      ]
+    },
+    {
+      "title": "Ab Initio Molecular Dynamics of Temporary Anions Using Complex Absorbing Potentials",
+      "year": 2022,
+      "authors": [
+        "Jerryman A. Gyamfi",
+        "Thomas‐C. Jagau"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 20,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.2c01969",
+      "concepts": [
+        "Dissociation (chemistry)",
+        "Chemistry",
+        "Ab initio"
+      ]
+    },
+    {
+      "title": "Target State Optimized Density Functional Theory for Electronic Excited and Diabatic States",
+      "year": 2023,
+      "authors": [
+        "Jun Zhang",
+        "Zhen Tang",
+        "Xiaoyong Zhang",
+        "Hong Zhu"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 19,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.2c01317",
+      "concepts": [
+        "Diabatic",
+        "Density functional theory",
+        "Excited state"
+      ]
+    },
+    {
+      "title": "Electron scattering processes: fundamentals, challenges, advances, and opportunities",
+      "year": 2022,
+      "authors": [
+        "Sylwia Ptasińska",
+        "Márcio T. do N. Varella",
+        "M. A. Khakoo",
+        "Daniel Slaughter"
+      ],
+      "venue": "The European Physical Journal D",
+      "cited_by": 17,
+      "type": "article",
+      "doi": "10.1140/epjd/s10053-022-00482-8",
+      "concepts": [
+        "Snapshot (computer storage)",
+        "Scattering",
+        "Field (mathematics)"
+      ]
+    },
+    {
+      "title": "Probing Dipole-Bound States Using Photodetachment Spectroscopy and Resonant Photoelectron Imaging of Cryogenically Cooled Anions",
+      "year": 2023,
+      "authors": [
+        "Yue-Rou Zhang",
+        "Dao-Fu Yuan",
+        "Lai‐Sheng Wang"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 17,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.3c01994",
+      "concepts": [
+        "Dipole",
+        "Excited state",
+        "Atomic physics"
+      ]
+    }
+  ]
+}
