@@ -1,0 +1,1339 @@
+{
+  "key": "lucchese1986_schwinger_review",
+  "title": "Schwinger variational principle review (electron-molecule & photoionization)",
+  "topic": "Schwinger变分/L2方法 — 方法开发与原理",
+  "pdf": "papers/Schwinger_L2/Lucchese_Takatsuka_McKoy_1986_Schwinger_review_PhysRep.pdf",
+  "doi": "10.1016/0370-1573(86)90147-X",
+  "work_id": "https://openalex.org/W1996797061",
+  "meta": {
+    "openalex_title": "Applications of the Schwinger variational principle to electron-molecule collisions and molecular photoionization",
+    "year": 1986,
+    "cited_by_total": 254,
+    "references_total": 136,
+    "type": "article",
+    "venue": "Physics Reports",
+    "concepts": [
+      "Physics",
+      "Photoionization",
+      "Electron",
+      "Variational principle"
+    ]
+  },
+  "referenced_top25": [
+    {
+      "title": "Handbook of Mathematical Functions",
+      "year": 1966,
+      "authors": [
+        "Donald A. McQuarrie"
+      ],
+      "venue": "American Journal of Physics",
+      "cited_by": 40904,
+      "type": "article",
+      "doi": "10.1119/1.1972842",
+      "concepts": [
+        "Physics",
+        "Theoretical physics",
+        "Applied mathematics"
+      ]
+    },
+    {
+      "title": "Methods of Theoretical Physics",
+      "year": 1954,
+      "authors": [
+        "Philip Μ. Morse",
+        "Herman Feshbach",
+        "E. L. Hill"
+      ],
+      "venue": "American Journal of Physics",
+      "cited_by": 13260,
+      "type": "article",
+      "doi": "10.1119/1.1933765",
+      "concepts": [
+        "Physics",
+        "Theoretical physics",
+        "Classical mechanics"
+      ]
+    },
+    {
+      "title": "Methods of theoretical physics",
+      "year": 1954,
+      "authors": [
+        "Caterina Domenicali"
+      ],
+      "venue": "Journal of the Franklin Institute",
+      "cited_by": 4853,
+      "type": "article",
+      "doi": "10.1016/0016-0032(54)90634-1",
+      "concepts": [
+        "Gyrotron",
+        "Cathode",
+        "Cathode ray"
+      ]
+    },
+    {
+      "title": "Scattering Theory of Waves and Particles",
+      "year": 1982,
+      "authors": [
+        "Roger G. Newton"
+      ],
+      "venue": null,
+      "cited_by": 4245,
+      "type": "book",
+      "doi": "10.1007/978-3-642-88128-2",
+      "concepts": [
+        "Scattering",
+        "Physics",
+        "Scattering theory"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Mathematics and its Applications.",
+      "year": 1982,
+      "authors": [
+        "Y. L. L.",
+        "William B. Jones",
+        "W. J. Thron"
+      ],
+      "venue": "Mathematics of Computation",
+      "cited_by": 4152,
+      "type": "article",
+      "doi": "10.2307/2007638",
+      "concepts": [
+        "Encyclopedia",
+        "Mathematics",
+        "Mathematics education"
+      ]
+    },
+    {
+      "title": "A unified theory of nuclear reactions. II",
+      "year": 1962,
+      "authors": [
+        "Herman Feshbach"
+      ],
+      "venue": "Annals of Physics",
+      "cited_by": 2856,
+      "type": "article",
+      "doi": "10.1016/0003-4916(62)90221-x",
+      "concepts": [
+        "Physics",
+        "Pauli exclusion principle",
+        "Hamiltonian (control theory)"
+      ]
+    },
+    {
+      "title": "Scattering theory of waves and particles",
+      "year": 1967,
+      "authors": [
+        "G. Breit"
+      ],
+      "venue": "Journal of the Franklin Institute",
+      "cited_by": 2066,
+      "type": "article",
+      "doi": "10.1016/0016-0032(67)90450-4",
+      "concepts": [
+        "Deconvolution",
+        "Artifact (error)",
+        "Acoustics"
+      ]
+    },
+    {
+      "title": "Higher Angular Momenta and Long Range Interaction in Resonance Reactions",
+      "year": 1947,
+      "authors": [
+        "E. P. Wigner",
+        "Leonard Eisenbud"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 1165,
+      "type": "article",
+      "doi": "10.1103/physrev.72.29",
+      "concepts": [
+        "Physics",
+        "Resonance (particle physics)",
+        "Range (aeronautics)"
+      ]
+    },
+    {
+      "title": "Variational Methods in Mathematical Physics",
+      "year": 1965,
+      "authors": [
+        "Solomon G. Mikhlin",
+        "J. Gillis"
+      ],
+      "venue": "Physics Today",
+      "cited_by": 1100,
+      "type": "article",
+      "doi": "10.1063/1.3046995",
+      "concepts": [
+        "Physics",
+        "Statistical physics",
+        "Theoretical physics"
+      ]
+    },
+    {
+      "title": "Photoionization from Outer Atomic Subshells. A Model Study",
+      "year": 1962,
+      "authors": [
+        "J. Cooper"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 872,
+      "type": "article",
+      "doi": "10.1103/physrev.128.681",
+      "concepts": [
+        "Photoionization",
+        "Atomic physics",
+        "Oscillator strength"
+      ]
+    },
+    {
+      "title": "The theory of electron-molecule collisions",
+      "year": 1980,
+      "authors": [
+        "N. F. Lane"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 718,
+      "type": "article",
+      "doi": "10.1103/revmodphys.52.29",
+      "concepts": [
+        "Physics",
+        "Electron",
+        "Molecule"
+      ]
+    },
+    {
+      "title": "Resonances in Electron Impact on Atoms",
+      "year": 1973,
+      "authors": [
+        "G. J. Schulz"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 718,
+      "type": "article",
+      "doi": "10.1103/revmodphys.45.378",
+      "concepts": [
+        "Physics",
+        "Atomic physics",
+        "Electron"
+      ]
+    },
+    {
+      "title": "Variational methods in mathematical physics",
+      "year": 1963,
+      "authors": [
+        "Sobolev, S"
+      ],
+      "venue": "Translations of mathematical monographs",
+      "cited_by": 653,
+      "type": "book-chapter",
+      "doi": "10.1090/mmono/007/02",
+      "concepts": [
+        "Statistical physics",
+        "Physics",
+        "Applied mathematics"
+      ]
+    },
+    {
+      "title": "Variational Methods in Nuclear Collision Problems",
+      "year": 1948,
+      "authors": [
+        "W. Kohn"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 582,
+      "type": "article",
+      "doi": "10.1103/physrev.74.1763",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Scattering amplitude"
+      ]
+    },
+    {
+      "title": "Electron Scattering from Hydrogen",
+      "year": 1961,
+      "authors": [
+        "Charles Schwartz"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 513,
+      "type": "article",
+      "doi": "10.1103/physrev.124.1468",
+      "concepts": [
+        "Scattering",
+        "Electron",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "The Theory of Electron-Molecule Collisions",
+      "year": 1980,
+      "authors": [
+        "B D Buckley"
+      ],
+      "venue": "Europhysics news",
+      "cited_by": 498,
+      "type": "article",
+      "doi": "10.1051/epn/19801109004",
+      "concepts": [
+        "Electron",
+        "Molecule",
+        "Physics"
+      ]
+    },
+    {
+      "title": "On the Interpretation of Neutron-Proton Scattering Data by the Schwinger Variational Method",
+      "year": 1949,
+      "authors": [
+        "John M. Blatt",
+        "Jonathan Jackson"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 478,
+      "type": "article",
+      "doi": "10.1103/physrev.76.18",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Scattering length"
+      ]
+    },
+    {
+      "title": "Ultraviolet Photoionization Cross Sections for N2 and CO",
+      "year": 1976,
+      "authors": [
+        "J. W. Davenport"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 446,
+      "type": "article",
+      "doi": "10.1103/physrevlett.36.945",
+      "concepts": [
+        "Photoionization",
+        "Physics",
+        "Ultraviolet"
+      ]
+    },
+    {
+      "title": "Studies of differential and total photoionization cross sections of molecular nitrogen",
+      "year": 1982,
+      "authors": [
+        "Robert R. Lucchese",
+        "G. Raşeev",
+        "Vincent McKoy"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 444,
+      "type": "article",
+      "doi": "10.1103/physreva.25.2572",
+      "concepts": [
+        "Photoionization",
+        "Wave function",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Electron scattering by molecules II. Experimental methods and data",
+      "year": 1983,
+      "authors": [
+        "S. Trajmar",
+        "D. F. Register",
+        "A. Chutjian"
+      ],
+      "venue": "Physics Reports",
+      "cited_by": 403,
+      "type": "article",
+      "doi": "10.1016/0370-1573(83)90071-6",
+      "concepts": [
+        "Physics",
+        "Electron scattering",
+        "Scattering"
+      ]
+    },
+    {
+      "title": "Electron-Molecule and Photon-Molecule Collisions",
+      "year": 1979,
+      "authors": [
+        "T. N. Rescigno",
+        "Vincent McKoy",
+        "Barry I. Schneider"
+      ],
+      "venue": null,
+      "cited_by": 386,
+      "type": "book",
+      "doi": "10.1007/978-1-4684-6988-2",
+      "concepts": [
+        "Molecule",
+        "Photon",
+        "Electron"
+      ]
+    },
+    {
+      "title": "Extension of the Schwinger variational principle beyond the static-exchange approximation",
+      "year": 1981,
+      "authors": [
+        "Kazuo Takatsuka",
+        "Vincent McKoy"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 372,
+      "type": "article",
+      "doi": "10.1103/physreva.24.2473",
+      "concepts": [
+        "Physics",
+        "Atomic orbital",
+        "Convergence (economics)"
+      ]
+    },
+    {
+      "title": "Elastic Scattering of Low-Energy Electrons by Atomic Hydrogen",
+      "year": 1962,
+      "authors": [
+        "P G Burke",
+        "Harry M. Schey"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 351,
+      "type": "article",
+      "doi": "10.1103/physrev.126.147",
+      "concepts": [
+        "Physics",
+        "Wave function",
+        "Eigenvalues and eigenvectors"
+      ]
+    },
+    {
+      "title": "Absolute elastic differential electron scattering cross sections in the intermediate energy region. I. H2",
+      "year": 1975,
+      "authors": [
+        "Santosh Kumar Srivastava",
+        "A. Chutjian",
+        "S. Trajmar"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 348,
+      "type": "article",
+      "doi": "10.1063/1.431659",
+      "concepts": [
+        "Absolute scale",
+        "Elastic scattering",
+        "Scattering"
+      ]
+    },
+    {
+      "title": "Theory of electronically inelastic scattering of electrons by molecules",
+      "year": 1984,
+      "authors": [
+        "Kazuo Takatsuka",
+        "Vincent McKoy"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 342,
+      "type": "article",
+      "doi": "10.1103/physreva.30.1734",
+      "concepts": [
+        "Inelastic scattering",
+        "Physics",
+        "Electron"
+      ]
+    }
+  ],
+  "citing_top25": [
+    {
+      "title": "Calculation of resonance energies and widths using the complex absorbing potential method",
+      "year": 1993,
+      "authors": [
+        "Uwe V. Riss",
+        "H -D Meyer"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 591,
+      "type": "article",
+      "doi": "10.1088/0953-4075/26/23/021",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Hamiltonian (control theory)",
+        "Resonance (particle physics)"
+      ]
+    },
+    {
+      "title": "Attosecond Electron Dynamics in Molecules",
+      "year": 2017,
+      "authors": [
+        "M. Nisoli",
+        "Piero Decleva",
+        "Francesca Calegari",
+        "Alicia Palacios"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 562,
+      "type": "article",
+      "doi": "10.1021/acs.chemrev.6b00453",
+      "concepts": [
+        "Attosecond",
+        "Ultrashort pulse",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Advances in attosecond science",
+      "year": 2016,
+      "authors": [
+        "Francesca Calegari",
+        "G. Sansone",
+        "S. Stagira",
+        "C. Vozzi"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 492,
+      "type": "article",
+      "doi": "10.1088/0953-4075/49/6/062001",
+      "concepts": [
+        "Attosecond",
+        "Femtosecond",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Theory of resonance and threshold effects in electron-molecule collisions: The projection-operator approach",
+      "year": 1991,
+      "authors": [
+        "Wolfgang Domcke"
+      ],
+      "venue": "Physics Reports",
+      "cited_by": 426,
+      "type": "article",
+      "doi": "10.1016/0370-1573(91)90125-6",
+      "concepts": [
+        "Physics",
+        "Electron",
+        "Scattering"
+      ]
+    },
+    {
+      "title": "Angular dependence of X-ray absorption spectra",
+      "year": 1990,
+      "authors": [
+        "Christian Brouder"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "cited_by": 353,
+      "type": "article",
+      "doi": "10.1088/0953-8984/2/3/018",
+      "concepts": [
+        "Quadrupole",
+        "X-ray absorption spectroscopy",
+        "Dipole"
+      ]
+    },
+    {
+      "title": "FEMTOSECOND TIME-RESOLVED PHOTOELECTRON IMAGING",
+      "year": 2006,
+      "authors": [
+        "Toshinori Suzuki"
+      ],
+      "venue": "Annual Review of Physical Chemistry",
+      "cited_by": 288,
+      "type": "article",
+      "doi": "10.1146/annurev.physchem.57.032905.104601",
+      "concepts": [
+        "Photoionization",
+        "Femtosecond",
+        "Dephasing"
+      ]
+    },
+    {
+      "title": "Negative Ions in Space",
+      "year": 2017,
+      "authors": [
+        "T. J. Millar",
+        "Catherine Walsh",
+        "T. A. Field"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 261,
+      "type": "article",
+      "doi": "10.1021/acs.chemrev.6b00480",
+      "concepts": [
+        "Physics",
+        "Astrobiology",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "Fundamental Approaches to Nonadiabaticity: Toward a Chemical Theory beyond the Born–Oppenheimer Paradigm",
+      "year": 2011,
+      "authors": [
+        "Takehiro Yonehara",
+        "Kota Hanasaki",
+        "Kazuo Takatsuka"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 211,
+      "type": "article",
+      "doi": "10.1021/cr200096s",
+      "concepts": [
+        "Citation",
+        "Altmetrics",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Use of general potentials in multiple-scattering theory",
+      "year": 1986,
+      "authors": [
+        "C. R. Natoli",
+        "M. Benfatto",
+        "Sebastian Doniach"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 141,
+      "type": "article",
+      "doi": "10.1103/physreva.34.4682",
+      "concepts": [
+        "Generalization",
+        "Scattering",
+        "Scattering theory"
+      ]
+    },
+    {
+      "title": "Time-resolved photoelectron spectroscopy of wavepackets through a conical intersection in NO2",
+      "year": 2010,
+      "authors": [
+        "Yasuki Arasaki",
+        "Kazuo Takatsuka",
+        "Kwanghsi Wang",
+        "Vincent McKoy"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 110,
+      "type": "article",
+      "doi": "10.1063/1.3369647",
+      "concepts": [
+        "Conical intersection",
+        "Photoionization",
+        "Wave packet"
+      ]
+    },
+    {
+      "title": "One-electron resonances in electron scattering from polyatomic molecules",
+      "year": 1996,
+      "authors": [
+        "Robert R. Lucchese",
+        "F. A. Gianturco"
+      ],
+      "venue": "International Reviews in Physical Chemistry",
+      "cited_by": 104,
+      "type": "article",
+      "doi": "10.1080/01442359609353190",
+      "concepts": [
+        "Adiabatic process",
+        "Atomic physics",
+        "Scattering"
+      ]
+    },
+    {
+      "title": "Theory of attosecond delays in molecular photoionization",
+      "year": 2017,
+      "authors": [
+        "Denitsa Baykusheva",
+        "Hans Jakob Wörner"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 91,
+      "type": "article",
+      "doi": "10.1063/1.4977933",
+      "concepts": [
+        "Photoionization",
+        "Attosecond",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Time-resolved photoelectron spectroscopy of non-adiabatic electronic dynamics in gas and liquid phases",
+      "year": 2012,
+      "authors": [
+        "Toshinori Suzuki"
+      ],
+      "venue": "International Reviews in Physical Chemistry",
+      "cited_by": 85,
+      "type": "article",
+      "doi": "10.1080/0144235x.2012.699346",
+      "concepts": [
+        "X-ray photoelectron spectroscopy",
+        "Photoemission spectroscopy",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "The quantum chemistry of attosecond molecular science",
+      "year": 2019,
+      "authors": [
+        "Alicia Palacios",
+        "Fernando Martı́n"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 83,
+      "type": "article",
+      "doi": "10.1002/wcms.1430",
+      "concepts": [
+        "Attosecond",
+        "Ionization",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Femtosecond time-resolved photoelectron imaging",
+      "year": 1999,
+      "authors": [
+        "Li Wang",
+        "Hiroshi Kohguchi",
+        "Toshinori Suzuki"
+      ],
+      "venue": "Faraday Discussions",
+      "cited_by": 82,
+      "type": "article",
+      "doi": "10.1039/a902866h",
+      "concepts": [
+        "Femtosecond",
+        "Photoionization",
+        "Dephasing"
+      ]
+    },
+    {
+      "title": "Time delay in molecular photoionization",
+      "year": 2016,
+      "authors": [
+        "P Hockett",
+        "E Frumker",
+        "D M Villeneuve",
+        "P B Corkum"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 78,
+      "type": "article",
+      "doi": "10.1088/0953-4075/49/9/095602",
+      "concepts": [
+        "Photoionization",
+        "Homonuclear molecule",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Variational principles for the time-independent wave-packet-Schrödinger and wave-packet-Lippmann–Schwinger equations",
+      "year": 1994,
+      "authors": [
+        "Donald J. Kouri",
+        "Youhong Huang",
+        "Wei Zhu",
+        "David K. Hoffman"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 77,
+      "type": "article",
+      "doi": "10.1063/1.466354",
+      "concepts": [
+        "Wave packet",
+        "Schrödinger equation",
+        "Scattering"
+      ]
+    },
+    {
+      "title": "Optical potentials for electron-molecule scattering: A comparative study on the N2 Πg2 resonance",
+      "year": 1989,
+      "authors": [
+        "Hans‐Dieter Meyer"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 73,
+      "type": "article",
+      "doi": "10.1103/physreva.40.5605",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Ground state"
+      ]
+    },
+    {
+      "title": "Time Delay in Molecular Photoionization",
+      "year": 2017,
+      "authors": [
+        "Paul Hockett"
+      ],
+      "venue": "Figshare",
+      "cited_by": 72,
+      "type": "dataset",
+      "doi": "10.6084/m9.figshare.2007486.v12",
+      "concepts": [
+        "Photoionization",
+        "Homonuclear molecule",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Time-resolved photoelectron imaging spectra from non-adiabatic molecular dynamics simulations",
+      "year": 2013,
+      "authors": [
+        "Alexander Humeniuk",
+        "Matthias Wohlgemuth",
+        "Toshinori Suzuki",
+        "Roland Mitrić"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 68,
+      "type": "article",
+      "doi": "10.1063/1.4820238",
+      "concepts": [
+        "Photoionization",
+        "Adiabatic process",
+        "Density functional theory"
+      ]
+    },
+    {
+      "title": "Femtosecond energy- and angle-resolved photoelectron spectroscopy",
+      "year": 2000,
+      "authors": [
+        "Yasuki Arasaki",
+        "Kazuo Takatsuka",
+        "Kwanghsi Wang",
+        "Vincent McKoy"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 68,
+      "type": "article",
+      "doi": "10.1063/1.481534",
+      "concepts": [
+        "Photoionization",
+        "Wave packet",
+        "Femtosecond"
+      ]
+    },
+    {
+      "title": "Vibrationally resolved cross sections and asymmetry parameters for the photoionization of N2 with coupling between the (3 σg )−1 and the (2 σu )−1 channels",
+      "year": 1988,
+      "authors": [
+        "Bryan Basden",
+        "Robert R. Lucchese"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 68,
+      "type": "article",
+      "doi": "10.1103/physreva.37.89",
+      "concepts": [
+        "Photoionization",
+        "Physics",
+        "Asymmetry"
+      ]
+    },
+    {
+      "title": "MolecularK-shell photoionization cross sections in the relaxed-core Hartree-Fock approximation",
+      "year": 1990,
+      "authors": [
+        "J. Schirmer",
+        "M. Braunstein",
+        "Vincent McKoy"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 67,
+      "type": "article",
+      "doi": "10.1103/physreva.41.283",
+      "concepts": [
+        "Physics",
+        "Atomic physics",
+        "Photoionization"
+      ]
+    },
+    {
+      "title": "Studies of electron transfer in NaI with pump–probe femtosecond photoelectron spectroscopy",
+      "year": 2003,
+      "authors": [
+        "Yasuki Arasaki",
+        "Kazuo Takatsuka",
+        "Kwanghsi Wang",
+        "Vincent McKoy"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 60,
+      "type": "article",
+      "doi": "10.1063/1.1609397",
+      "concepts": [
+        "Femtosecond",
+        "Ionic bonding",
+        "X-ray photoelectron spectroscopy"
+      ]
+    },
+    {
+      "title": "Vector correlations in dissociative photoionization of O2 in the 20–28 eV range. II. Polar and azimuthal dependence of the molecular frame photoelectron angular distribution",
+      "year": 2002,
+      "authors": [
+        "A. Lafosse",
+        "J. C. Brenot",
+        "P. M. Guyon",
+        "J. C. Houver"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 57,
+      "type": "article",
+      "doi": "10.1063/1.1512650",
+      "concepts": [
+        "Photoionization",
+        "Atomic physics",
+        "Rydberg formula"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "Time-resolved photoelectron spectroscopy: the continuing evolution of a mature technique",
+      "year": 2022,
+      "authors": [
+        "Michael S. Schuurman",
+        "Valérie Blanchet"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 50,
+      "type": "article",
+      "doi": "10.1039/d1cp05885a",
+      "concepts": [
+        "Femtosecond",
+        "Prospectus",
+        "X-ray photoelectron spectroscopy"
+      ]
+    },
+    {
+      "title": "Electron Dynamics in Molecular Elementary Processes and Chemical Reactions",
+      "year": 2021,
+      "authors": [
+        "Kazuo Takatsuka"
+      ],
+      "venue": "Bulletin of the Chemical Society of Japan",
+      "cited_by": 22,
+      "type": "article",
+      "doi": "10.1246/bcsj.20200388",
+      "concepts": [
+        "Chemistry",
+        "Born–Oppenheimer approximation",
+        "Chemical Dynamics"
+      ]
+    },
+    {
+      "title": "Capturing Correlation Effects on Photoionization Dynamics",
+      "year": 2021,
+      "authors": [
+        "Torsha Moitra",
+        "Sonia Coriani",
+        "Piero Decleva"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 20,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.1c00303",
+      "concepts": [
+        "Photoionization",
+        "Time-dependent density functional theory",
+        "Asymmetry"
+      ]
+    },
+    {
+      "title": "Towards molecular frame photoelectron angular distributions in polyatomic molecules from lab frame coherent rotational wavepacket evolution",
+      "year": 2021,
+      "authors": [
+        "Margaret Gregory",
+        "Paul Hockett",
+        "Albert Stolow",
+        "Varun Makhija"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 18,
+      "type": "article",
+      "doi": "10.1088/1361-6455/ac135f",
+      "concepts": [
+        "Photoionization",
+        "Polyatomic ion",
+        "Wave packet"
+      ]
+    },
+    {
+      "title": "Trends in angle-resolved molecular photoelectron spectroscopy",
+      "year": 2022,
+      "authors": [
+        "D. Dowek",
+        "Piero Decleva"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.1039/d2cp02725a",
+      "concepts": [
+        "Observable",
+        "Atomic physics",
+        "Photoionization"
+      ]
+    },
+    {
+      "title": "Multi-electron excitation contributions towards primary and satellite states in the photoelectron spectrum",
+      "year": 2022,
+      "authors": [
+        "Torsha Moitra",
+        "Alexander C. Paul",
+        "Piero Decleva",
+        "Henrik Koch"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 14,
+      "type": "article",
+      "doi": "10.1039/d1cp04695k",
+      "concepts": [
+        "Photoionization",
+        "Atomic physics",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Correlated variational treatment of ionization coupled to nuclear motion: Ultrafast pump and ionizing probe of electronic and nuclear dynamics in LiH",
+      "year": 2021,
+      "authors": [
+        "Roger Y. Bello",
+        "Robert R. Lucchese",
+        "T. N. Rescigno",
+        "C. William McCurdy"
+      ],
+      "venue": "Physical Review Research",
+      "cited_by": 14,
+      "type": "article",
+      "doi": "10.1103/physrevresearch.3.013228",
+      "concepts": [
+        "Ionization",
+        "Atomic physics",
+        "Wave packet"
+      ]
+    },
+    {
+      "title": "Molecular-Frame Photoelectron Angular Distributions of CO in the Vicinity of Feshbach Resonances: An XCHEM Approach",
+      "year": 2021,
+      "authors": [
+        "Vicent J. Borràs",
+        "Jesús González‐Vázquez",
+        "Luca Argenti",
+        "Fernando Martı́n"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 14,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.1c00480",
+      "concepts": [
+        "Photoionization",
+        "Ionization",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Computation of Time‐Resolved Nonlinear Electronic Spectra From Classical Trajectories",
+      "year": 2025,
+      "authors": [
+        "Maxim F. Gelin",
+        "Zhenggang Lan",
+        "Nađa Došlić",
+        "Wolfgang Domcke"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 13,
+      "type": "article",
+      "doi": "10.1002/wcms.70012",
+      "concepts": [
+        "Computation",
+        "Nonlinear system",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Ultrafast Molecular Frame Quantum Tomography",
+      "year": 2023,
+      "authors": [
+        "Luna Morrigan",
+        "Simon P. Neville",
+        "Margaret E. Gregory",
+        "Andrey E. Boguslavskiy"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.1103/physrevlett.131.193001",
+      "concepts": [
+        "Physics",
+        "Electronic structure",
+        "Quantum entanglement"
+      ]
+    },
+    {
+      "title": "Photoionization cross sections and photoelectron angular distributions of molecules with XCHEM-2.0",
+      "year": 2023,
+      "authors": [
+        "Vicent J. Borràs",
+        "Pedro Fernández-Milán",
+        "Luca Argenti",
+        "Jesús González‐Vázquez"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2023.109033",
+      "concepts": [
+        "Photoionization",
+        "Ionization",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Photoabsorption and Photoionization Cross-Sections and Asymmetry Parameters of Pyrrole in the Vacuum-Ultraviolet Energy Range",
+      "year": 2025,
+      "authors": [
+        "Maria Olívia Sobral Fraga de Medeiros",
+        "Josenilton N. Sousa",
+        "Manuela S. Arruda",
+        "M. M. Fujimoto"
+      ],
+      "venue": "ACS Physical Chemistry Au",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.1021/acsphyschemau.4c00101",
+      "concepts": [
+        "Photoionization",
+        "Asymmetry",
+        "Range (aeronautics)"
+      ]
+    },
+    {
+      "title": "Topical Review: Extracting molecular frame photoionization dynamics from experimental data",
+      "year": 2023,
+      "authors": [
+        "Paul Hockett",
+        "Varun Makhija"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.1088/1361-6455/acd03e",
+      "concepts": [
+        "Photoionization",
+        "Photoelectric effect",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Relativistic effects in molecular photoemission delays",
+      "year": 2024,
+      "authors": [
+        "Brock Grafstrom",
+        "Anna Wang-Holtzen",
+        "Jun Wang",
+        "P. H. Bucksbaum"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1103/physreva.110.l061101",
+      "concepts": [
+        "Physics"
+      ]
+    },
+    {
+      "title": "Time-dependent variational dynamics for nonadiabatically coupled nuclear and electronic quantum wavepackets in molecules",
+      "year": 2021,
+      "authors": [
+        "Kazuo Takatsuka"
+      ],
+      "venue": "The European Physical Journal D",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1140/epjd/s10053-021-00263-9",
+      "concepts": [
+        "Wave packet",
+        "Wave function",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Pump and ionizing-probe dynamics in a simultaneous treatment of electronic and nuclear motion in LiH",
+      "year": 2023,
+      "authors": [
+        "Roger Y. Bello",
+        "Robert R. Lucchese",
+        "C. William McCurdy"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1103/physreva.108.033104",
+      "concepts": [
+        "Photoionization",
+        "Atomic physics",
+        "Rydberg formula"
+      ]
+    },
+    {
+      "title": "Multicenter continuum-state approach to molecular-frame photoelectron angular distributions: From plane-wave to twisted photons",
+      "year": 2024,
+      "authors": [
+        "Jiahao Duan",
+        "Maomao Gong",
+        "Yongjun Cheng",
+        "Song Bin Zhang"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1103/physreva.109.063114",
+      "concepts": [
+        "Photoionization",
+        "Physics",
+        "Photon"
+      ]
+    },
+    {
+      "title": "Competing ionization and dissociation: Extension of the energy-dependent frame transformation to the gerade symmetry of H 2",
+      "year": 2025,
+      "authors": [
+        "Dávid Hvizdoš",
+        "Roman Čurı́k",
+        "Chris H. Greene"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1103/physreva.111.012805",
+      "concepts": [
+        "Icon",
+        "Scattering",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Nonadiabatic electron wavepacket states in excited small carbon clusters",
+      "year": 2025,
+      "authors": [
+        "Kazuo Takatsuka",
+        "Yasuki Arasaki"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 1,
+      "type": "article",
+      "doi": "10.1039/d5cp03918e",
+      "concepts": [
+        "Excited state",
+        "Atomic physics",
+        "Adiabatic process"
+      ]
+    },
+    {
+      "title": "Schrödinger dynamics in length-scale hierarchy: from spatial rescaling to Huygens-like proliferation of Gaussian wavepackets",
+      "year": 2023,
+      "authors": [
+        "Kazuo Takatsuka"
+      ],
+      "venue": "Journal of Physics A Mathematical and Theoretical",
+      "cited_by": 1,
+      "type": "article",
+      "doi": "10.1088/1751-8121/acfe63",
+      "concepts": [
+        "Wave packet",
+        "Wave function",
+        "Wave function collapse"
+      ]
+    },
+    {
+      "title": "Photoelectron angular distribution of benzene: Can the asymmetry parameter be considered a benchmark?",
+      "year": 2024,
+      "authors": [
+        "Mylena H Ribas",
+        "Jhenifer M H Fófano",
+        "M. G. P. Homem",
+        "M. M. Fujimoto"
+      ],
+      "venue": "Journal of Electron Spectroscopy and Related Phenomena",
+      "cited_by": 1,
+      "type": "article",
+      "doi": "10.1016/j.elspec.2024.147441",
+      "concepts": [
+        "Asymmetry",
+        "Benchmark (surveying)",
+        "Benzene"
+      ]
+    },
+    {
+      "title": "Ultrafast Molecular Frame Quantum Tomography",
+      "year": 2023,
+      "authors": [
+        "Luna Morrigan",
+        "Simon P. Neville",
+        "Margaret Gregory",
+        "Andrey E. Boguslavskiy"
+      ],
+      "venue": "PubMed",
+      "cited_by": 0,
+      "type": "article",
+      "doi": "10.48550/arxiv.2303.03558",
+      "concepts": [
+        "Ultrashort pulse",
+        "Quantum",
+        "Frame (networking)"
+      ]
+    },
+    {
+      "title": "DINAMIKA RAZLETA MOLEKULY VODY V INTENSIVNOM POLE VYSOKOChASTOTNOGO IZLUChENIYa",
+      "year": 2024,
+      "authors": [
+        "А. В. Бибиков",
+        "S. N. Yudin",
+        "Maria M. Popova",
+        "Maksim D. Kiselev"
+      ],
+      "venue": "Журнал Экспериментальной и Теоретической Физики",
+      "cited_by": 0,
+      "type": "article",
+      "doi": "10.31857/s0044451024120010",
+      "concepts": [
+        "Physics"
+      ]
+    },
+    {
+      "title": "Quantitative analysis of aligned-molecule photoelectron angular distributions",
+      "year": 2025,
+      "authors": [
+        "Joanne L. Woodhouse",
+        "J. Thompson",
+        "Jakub Benda",
+        "Richard T. Chapman"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 0,
+      "type": "article",
+      "doi": "10.1103/physreva.111.012815",
+      "concepts": [
+        "Molecule",
+        "Physics",
+        "Quantum mechanics"
+      ]
+    },
+    {
+      "title": "Molecule effect in inner shell sequential double ionization",
+      "year": 2025,
+      "authors": [
+        "Shutao Zhang",
+        "Ming Zhang",
+        "Ludger Inhester",
+        "Kiyoshi Ueda"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 0,
+      "type": "article",
+      "doi": "10.1063/5.0265297",
+      "concepts": [
+        "Ionization",
+        "Shell (structure)",
+        "Molecule"
+      ]
+    }
+  ]
+}
