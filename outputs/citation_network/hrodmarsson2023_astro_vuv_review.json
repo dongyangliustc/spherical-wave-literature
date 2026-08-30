@@ -1,0 +1,1398 @@
+{
+  "key": "hrodmarsson2023_astro_vuv_review",
+  "title": "Photodissociation and photoionization of molecules of astronomical interest (VUV database update)",
+  "topic": "天体化学 VUV 光致离解/电离 — 应用综述",
+  "pdf": "papers/general_review/Hrodmarsson_2023_VUV_database_AA.pdf",
+  "doi": "10.1051/0004-6361/202346645",
+  "work_id": "https://openalex.org/W4377224331",
+  "meta": {
+    "openalex_title": "Photodissociation and photoionization of molecules of astronomical interest",
+    "year": 2023,
+    "cited_by_total": 42,
+    "references_total": 504,
+    "type": "article",
+    "venue": "Astronomy and Astrophysics",
+    "concepts": [
+      "Photoionization",
+      "Photodissociation",
+      "Context (archaeology)",
+      "Photon"
+    ]
+  },
+  "referenced_top25": [
+    {
+      "title": "Optical properties of interstellar graphite and silicate grains",
+      "year": 1984,
+      "authors": [
+        "B. T. Draine",
+        "H. M. Lee"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 3314,
+      "type": "article",
+      "doi": "10.1086/162480",
+      "concepts": [
+        "Silicate",
+        "Physics",
+        "Opacity"
+      ]
+    },
+    {
+      "title": "Velocity map imaging of ions and electrons using electrostatic lenses: Application in photoelectron and photofragment ion imaging of molecular oxygen",
+      "year": 1997,
+      "authors": [
+        "André T. J. B. Eppink",
+        "David H. Parker"
+      ],
+      "venue": "Review of Scientific Instruments",
+      "cited_by": 2773,
+      "type": "article",
+      "doi": "10.1063/1.1148310",
+      "concepts": [
+        "Ion",
+        "Optics",
+        "Electrostatic lens"
+      ]
+    },
+    {
+      "title": "Dust Grain–Size Distributions and Extinction in the Milky Way, Large Magellanic Cloud, and Small Magellanic Cloud",
+      "year": 2001,
+      "authors": [
+        "Joseph C. Weingartner",
+        "B. T. Draine"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 2636,
+      "type": "article",
+      "doi": "10.1086/318651",
+      "concepts": [
+        "Milky Way",
+        "Extinction (optical mineralogy)",
+        "Physics"
+      ]
+    },
+    {
+      "title": "The HITRAN2020 molecular spectroscopic database",
+      "year": 2021,
+      "authors": [
+        "Iouli E. Gordon",
+        "Laurence S. Rothman",
+        "Robert J. Hargreaves",
+        "Robab Hashemi"
+      ],
+      "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "cited_by": 2456,
+      "type": "article",
+      "doi": "10.1016/j.jqsrt.2021.107949",
+      "concepts": [
+        "HITRAN",
+        "Isotopologue",
+        "Radiative transfer"
+      ]
+    },
+    {
+      "title": "Interstellar Dust Grains",
+      "year": 2003,
+      "authors": [
+        "B.T. Draine"
+      ],
+      "venue": "Annual Review of Astronomy and Astrophysics",
+      "cited_by": 2394,
+      "type": "article",
+      "doi": "10.1146/annurev.astro.41.011802.094840",
+      "concepts": [
+        "Physics",
+        "Cosmic dust",
+        "Interstellar medium"
+      ]
+    },
+    {
+      "title": "Photoelectric heating of interstellar gas",
+      "year": 1978,
+      "authors": [
+        "B. T. Draine"
+      ],
+      "venue": "The Astrophysical Journal Supplement Series",
+      "cited_by": 1354,
+      "type": "conference-abstract",
+      "doi": "10.1086/190513",
+      "concepts": [
+        "Interstellar medium",
+        "Photoelectric effect",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Photodissociation regions. I - Basic model. II - A model for the Orion photodissociation region",
+      "year": 1985,
+      "authors": [
+        "A. G. G. M. Tielens",
+        "D. J. Hollenbach"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 1277,
+      "type": "article",
+      "doi": "10.1086/163111",
+      "concepts": [
+        "Physics",
+        "Photodissociation",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "LEVEL: A computer program for solving the radial Schrödinger equation for bound and quasibound levels",
+      "year": 2016,
+      "authors": [
+        "Robert J. Le Roy"
+      ],
+      "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "cited_by": 889,
+      "type": "article",
+      "doi": "10.1016/j.jqsrt.2016.05.028",
+      "concepts": [
+        "Schrödinger equation",
+        "Diagonal",
+        "Range (aeronautics)"
+      ]
+    },
+    {
+      "title": "Rotational Spectroscopy of Diatomic Molecules",
+      "year": 2003,
+      "authors": [
+        "John M. Brown",
+        "Alan Carrington"
+      ],
+      "venue": "Cambridge University Press eBooks",
+      "cited_by": 818,
+      "type": "book",
+      "doi": "10.1017/cbo9780511814808",
+      "concepts": [
+        "Diatomic molecule",
+        "Spectroscopy",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "The molecular universe",
+      "year": 2013,
+      "authors": [
+        "A. G. G. M. Tielens"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 783,
+      "type": "article",
+      "doi": "10.1103/revmodphys.85.1021",
+      "concepts": [
+        "Astrochemistry",
+        "Physics",
+        "Molecular cloud"
+      ]
+    },
+    {
+      "title": "Scattering by Interstellar Dust Grains. I. Optical and Ultraviolet",
+      "year": 2003,
+      "authors": [
+        "B. T. Draine"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 658,
+      "type": "article",
+      "doi": "10.1086/379118",
+      "concepts": [
+        "Wavelength",
+        "Scattering",
+        "Phase function"
+      ]
+    },
+    {
+      "title": "[ITAL]Infrared Space Observatory's[/ITAL] Discovery of C[TINF]4[/TINF]H[TINF]2[/TINF], C[TINF]6[/TINF]H[TINF]2[/TINF], and Benzene in CRL 618",
+      "year": 2001,
+      "authors": [
+        "J. Cernicharo",
+        "A. M. Heras",
+        "A. G. G. M. Tielens",
+        "J. R. Pardo"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 587,
+      "type": "article",
+      "doi": "10.1086/318871",
+      "concepts": [
+        "Physics",
+        "Infrared",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "The photodissociation and chemistry of CO isotopologues: applications to interstellar clouds and circumstellar disks",
+      "year": 2009,
+      "authors": [
+        "R. Visser",
+        "E. F. van Dishoeck",
+        "J. H. Black"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 548,
+      "type": "article",
+      "doi": "10.1051/0004-6361/200912129",
+      "concepts": [
+        "Photodissociation",
+        "Isotopologue",
+        "Physics"
+      ]
+    },
+    {
+      "title": "The ExoMol database: Molecular line lists for exoplanet and other hot atmospheres",
+      "year": 2016,
+      "authors": [
+        "Jonathan Tennyson",
+        "S. N. Yurchenko",
+        "A. F. Al-Refaie",
+        "Emma J. Barton"
+      ],
+      "venue": "Journal of Molecular Spectroscopy",
+      "cited_by": 543,
+      "type": "article",
+      "doi": "10.1016/j.jms.2016.05.002",
+      "concepts": [
+        "Database",
+        "Computer science",
+        "Partition (number theory)"
+      ]
+    },
+    {
+      "title": "UV radiation field inside dense clouds - Its possible existence and chemical implications",
+      "year": 1983,
+      "authors": [
+        "S. S. Prasad",
+        "S. P. Tarafdar"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 540,
+      "type": "article",
+      "doi": "10.1086/160896",
+      "concepts": [
+        "Physics",
+        "Cosmic ray",
+        "Molecular cloud"
+      ]
+    },
+    {
+      "title": "The MPI-Mainz UV/VIS Spectral Atlas of Gaseous Molecules of Atmospheric Interest",
+      "year": 2013,
+      "authors": [
+        "Hannelore Keller-Rudek",
+        "G. K. Moortgat",
+        "Rolf Sander",
+        "R. Sörensen"
+      ],
+      "venue": "Earth system science data",
+      "cited_by": 540,
+      "type": "article",
+      "doi": "10.5194/essd-5-365-2013",
+      "concepts": [
+        "Atlas (anatomy)",
+        "Ultraviolet",
+        "Molecule"
+      ]
+    },
+    {
+      "title": "Photoelectric Emission from Interstellar Dust: Grain Charging and Gas Heating",
+      "year": 2001,
+      "authors": [
+        "Joseph C. Weingartner",
+        "B. T. Draine"
+      ],
+      "venue": "The Astrophysical Journal Supplement Series",
+      "cited_by": 522,
+      "type": "article",
+      "doi": "10.1086/320852",
+      "concepts": [
+        "Photoelectric effect",
+        "Ionization",
+        "Radiation"
+      ]
+    },
+    {
+      "title": "Photodissociation and photoionisation of atoms and molecules of astrophysical interest",
+      "year": 2017,
+      "authors": [
+        "A. N. Heays",
+        "Arthur D. Bosman",
+        "E. F. van Dishoeck"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 511,
+      "type": "article",
+      "doi": "10.1051/0004-6361/201628742",
+      "concepts": [
+        "Photodissociation",
+        "Physics",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Laboratory and Astronomical Identification of the Negative Molecular Ion C 6 H -",
+      "year": 2006,
+      "authors": [
+        "Michael McCarthy",
+        "C. A. Gottlieb",
+        "H. M. Sen Gupta",
+        "P. Thaddeus"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 462,
+      "type": "article",
+      "doi": "10.1086/510238",
+      "concepts": [
+        "Physics",
+        "Molecular cloud",
+        "Ion"
+      ]
+    },
+    {
+      "title": "2021 Census of Interstellar, Circumstellar, Extragalactic, Protoplanetary Disk, and Exoplanetary Molecules",
+      "year": 2022,
+      "authors": [
+        "Brett A. McGuire"
+      ],
+      "venue": "The Astrophysical Journal Supplement Series",
+      "cited_by": 458,
+      "type": "article",
+      "doi": "10.3847/1538-4365/ac2a48",
+      "concepts": [
+        "Physics",
+        "Astrophysics",
+        "Astrochemistry"
+      ]
+    },
+    {
+      "title": "Discovery of heavy negative ions in Titan's ionosphere",
+      "year": 2007,
+      "authors": [
+        "A. J. Coates",
+        "F. J. Crary",
+        "G. R. Lewis",
+        "D. T. Young"
+      ],
+      "venue": "Geophysical Research Letters",
+      "cited_by": 451,
+      "type": "article",
+      "doi": "10.1029/2007gl030978",
+      "concepts": [
+        "Titan (rocket family)",
+        "Ionosphere",
+        "Ion"
+      ]
+    },
+    {
+      "title": "A chemical survey of exoplanets with ARIEL",
+      "year": 2018,
+      "authors": [
+        "G. Tinetti",
+        "P. Drossart",
+        "Paul Eccleston",
+        "P. Hartogh"
+      ],
+      "venue": "Experimental Astronomy",
+      "cited_by": 447,
+      "type": "article",
+      "doi": "10.1007/s10686-018-9598-x",
+      "concepts": [
+        "Exoplanet",
+        "Astrobiology",
+        "Astronomy"
+      ]
+    },
+    {
+      "title": "The renormalized Numerov method applied to calculating bound states of the coupled-channel Schroedinger equation",
+      "year": 1978,
+      "authors": [
+        "Bruce R. Johnson"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 443,
+      "type": "article",
+      "doi": "10.1063/1.436421",
+      "concepts": [
+        "Eigenfunction",
+        "Bound state",
+        "Schrödinger equation"
+      ]
+    },
+    {
+      "title": "Scattering by Interstellar Dust Grains. II. X‐Rays",
+      "year": 2003,
+      "authors": [
+        "B. T. Draine"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 426,
+      "type": "article",
+      "doi": "10.1086/379123",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Halo"
+      ]
+    },
+    {
+      "title": "Cosmic-ray ionization of molecular clouds",
+      "year": 2009,
+      "authors": [
+        "M. Padovani",
+        "D. Galli",
+        "A. E. Glassgold"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 379,
+      "type": "article",
+      "doi": "10.1051/0004-6361/200911794",
+      "concepts": [
+        "Physics",
+        "Ionization",
+        "Molecular cloud"
+      ]
+    }
+  ],
+  "citing_top25": [
+    {
+      "title": "The 2024 release of the ExoMol database: Molecular line lists for exoplanet and other hot atmospheres",
+      "year": 2024,
+      "authors": [
+        "Jonathan Tennyson",
+        "S. N. Yurchenko",
+        "Jingxin Zhang",
+        "Charles A Bowesman"
+      ],
+      "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "cited_by": 98,
+      "type": "article",
+      "doi": "10.1016/j.jqsrt.2024.109083",
+      "concepts": [
+        "Exoplanet",
+        "Line (geometry)",
+        "Database"
+      ]
+    },
+    {
+      "title": "Solar System Elemental Abundances from the Solar Photosphere and CI-Chondrites",
+      "year": 2025,
+      "authors": [
+        "K. Lodders",
+        "M. Bergemann",
+        "H. Palme"
+      ],
+      "venue": "Space Science Reviews",
+      "cited_by": 52,
+      "type": "article",
+      "doi": "10.1007/s11214-025-01146-w",
+      "concepts": [
+        "Chondrite",
+        "Planetary science",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "Data availability and requirements relevant for the Ariel space mission and other exoplanet atmosphere applications",
+      "year": 2024,
+      "authors": [
+        "K. L. Chubb",
+        "Séverine Robert",
+        "Clara Sousa‐Silva",
+        "S. N. Yurchenko"
+      ],
+      "venue": "RAS Techniques and Instruments",
+      "cited_by": 26,
+      "type": "article",
+      "doi": "10.1093/rasti/rzae039",
+      "concepts": [
+        "Exoplanet",
+        "Computer science",
+        "Data system"
+      ]
+    },
+    {
+      "title": "Chemical composition of comets C/2021 A1 (Leonard) and C/2022 E3 (ZTF) from radio spectroscopy and the abundance of HCOOH and HNCO in comets",
+      "year": 2024,
+      "authors": [
+        "N. Biver",
+        "D. Bockelée–Morvan",
+        "Barbara Handzlik",
+        "Aa. Sandqvist"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 23,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202450921",
+      "concepts": [
+        "Physics",
+        "Comet",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "Ultraviolet H 2 luminescence in molecular clouds induced by cosmic rays",
+      "year": 2023,
+      "authors": [
+        "M. Padovani",
+        "Daniele Galli",
+        "Liam H. Scarlett",
+        "Tommaso Grassi"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 21,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202348168",
+      "concepts": [
+        "Physics",
+        "Molecular cloud",
+        "Photodissociation"
+      ]
+    },
+    {
+      "title": "PDRs4All",
+      "year": 2024,
+      "authors": [
+        "A. Fuente",
+        "E. Roueff",
+        "Franck Le Petit",
+        "J. Le Bourlot"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202449229",
+      "concepts": [
+        "Sulfur",
+        "Ionization",
+        "Bar (unit)"
+      ]
+    },
+    {
+      "title": "CH 3 OH and HCN in Interstellar Comet 3I/ATLAS Mapped with the ALMA Atacama Compact Array: Distinct Outgassing Behaviors and a Remarkably High CH 3 OH/HCN Production Rate Ratio",
+      "year": 2026,
+      "authors": [
+        "Nathan X. Roth",
+        "Martin Cordiner",
+        "Dominique Bockelée-Morvan",
+        "Nicolas Biver"
+      ],
+      "venue": "The Astrophysical Journal Letters",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.3847/2041-8213/ae433b",
+      "concepts": [
+        "Outgassing",
+        "Comet",
+        "Physics"
+      ]
+    },
+    {
+      "title": "NLTE modelling of water-rich exoplanet atmospheres. Cooling and heating rates",
+      "year": 2024,
+      "authors": [
+        "A. García Muñoz",
+        "A. Asensio Ramos",
+        "Alexandre Faure"
+      ],
+      "venue": "Icarus",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.1016/j.icarus.2024.116080",
+      "concepts": [
+        "Exoplanet",
+        "Physics",
+        "Gas giant"
+      ]
+    },
+    {
+      "title": "Computing photodissociation cross sections and quasi-continuum properties of the NH radical",
+      "year": 2025,
+      "authors": [
+        "Tereza Uhlíková",
+        "S. N. Yurchenko",
+        "Armando N. Perri",
+        "Jonathan Tennyson"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 10,
+      "type": "article",
+      "doi": "10.1063/5.0262447",
+      "concepts": [
+        "Photodissociation",
+        "Diatomic molecule",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "ExoMol line lists – LXI. A trihybrid line list for rovibronic transitions of the hydroxyl radical (OH)",
+      "year": 2024,
+      "authors": [
+        "Georgi Mitev",
+        "Charles A Bowesman",
+        "Jingxin Zhang",
+        "S. N. Yurchenko"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "cited_by": 8,
+      "type": "article",
+      "doi": "10.1093/mnras/stae2803",
+      "concepts": [
+        "Physics",
+        "Line (geometry)",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "A HITRAN-formatted UV line list of S2-containing transitions involving X3 Σg-, B3 Σu-, and B″ 3 Πu electronic states",
+      "year": 2024,
+      "authors": [
+        "Frances M. Gomez",
+        "Robert J. Hargreaves",
+        "Iouli E. Gordon"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "cited_by": 8,
+      "type": "article",
+      "doi": "10.1093/mnras/stae246",
+      "concepts": [
+        "Physics",
+        "HITRAN",
+        "Line (geometry)"
+      ]
+    },
+    {
+      "title": "The 2024 Release of the Exomol Database: Molecular Line Lists for Exoplanetand Other Hot Atmospheres",
+      "year": 2024,
+      "authors": [
+        "Jonathan Tennyson",
+        "S. N. Yurchenko",
+        "Jingxin Zhang",
+        "Charles A Bowesman"
+      ],
+      "venue": "SSRN Electronic Journal",
+      "cited_by": 7,
+      "type": "preprint",
+      "doi": "10.2139/ssrn.4803603",
+      "concepts": [
+        "Database",
+        "Line (geometry)",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "ExoMol photodissociation cross-sections – II. Continuum absorption and pre-dissociation spectra for the hydroxyl radical",
+      "year": 2025,
+      "authors": [
+        "Georgi Mitev",
+        "Marco Pezzella",
+        "Charles A Bowesman",
+        "Jingxin Zhang"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1093/mnras/staf729",
+      "concepts": [
+        "Photodissociation",
+        "Physics",
+        "Hydroxyl radical"
+      ]
+    },
+    {
+      "title": "The First Detection of Molecular Activity in the Largest Known Oort Cloud Comet: ALMA Imaging of C/2014 UN271 (Bernardinelli–Bernstein) at 16.6 au from the Sun",
+      "year": 2025,
+      "authors": [
+        "Nathan X. Roth",
+        "Stefanie N. Milam",
+        "Martin Cordiner",
+        "Dominique Bockelée-Morvan"
+      ],
+      "venue": "The Astrophysical Journal Letters",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.3847/2041-8213/add526",
+      "concepts": [
+        "Comet",
+        "Cloud computing",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "The mutual influence of disequilibrium composition and temperature in exoplanet atmospheres",
+      "year": 2025,
+      "authors": [
+        "M. Agúndez"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202554732",
+      "concepts": [
+        "Exoplanet",
+        "Physics",
+        "Disequilibrium"
+      ]
+    },
+    {
+      "title": "Photoionization of Nitrile-substituted Naphthalene and Benzene: Cation Spectroscopy, Photostability, and Implications for Photoelectric Gas Heating",
+      "year": 2024,
+      "authors": [
+        "Madhusree Roy Chowdhury",
+        "Gustavo A. García",
+        "Helgi Rafn Hróðmarsson",
+        "Jean‐Christophe Loison"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.3847/1538-4357/ad16d9",
+      "concepts": [
+        "Photoelectric effect",
+        "Photoionization",
+        "Naphthalene"
+      ]
+    },
+    {
+      "title": "The chemical composition of the sun",
+      "year": 2025,
+      "authors": [
+        "M. Bergemann",
+        "K. Lodders",
+        "H. Palme"
+      ],
+      "venue": "Elsevier eBooks",
+      "cited_by": 6,
+      "type": "reference-entry",
+      "doi": "10.1016/b978-0-443-21439-4.00140-1",
+      "concepts": [
+        "Composition (language)",
+        "Astrobiology",
+        "Art"
+      ]
+    },
+    {
+      "title": "Collisional ionization data for research of interstellar medium and planetary atmospheres",
+      "year": 2025,
+      "authors": [
+        "Bratislav P. Marinković",
+        "Vladimir A. Srécković",
+        "Saša Dujko",
+        "Sanja Tošić"
+      ],
+      "venue": "Physica Scripta",
+      "cited_by": 5,
+      "type": "article",
+      "doi": "10.1088/1402-4896/ade50b",
+      "concepts": [
+        "Physics",
+        "Ionization",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "Strongly Rotationally Dependent Lifetimes of C2 in the 23Σg– State: Implications for Predissociation in the Vacuum Ultraviolet Region",
+      "year": 2024,
+      "authors": [
+        "Liying Ma",
+        "Di Li",
+        "Pan Jiang",
+        "Min Cheng"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 5,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.4c01605",
+      "concepts": [
+        "Vacuum ultraviolet",
+        "Atomic physics",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Slow Radiolysis of Amino Acids in Mars-Like Permafrost Conditions: Applications to the Search for Extant Life on Mars",
+      "year": 2025,
+      "authors": [
+        "Alexander A. Pavlov",
+        "Hannah L. McLain",
+        "K. Farnsworth",
+        "D. P. Glavin"
+      ],
+      "venue": "Astrobiology",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.1177/15311074251366249",
+      "concepts": [
+        "Mars Exploration Program",
+        "Extant taxon",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "Photoabsorption and Photoionization Cross-Sections and Asymmetry Parameters of Pyrrole in the Vacuum-Ultraviolet Energy Range",
+      "year": 2025,
+      "authors": [
+        "Maria Olívia Sobral Fraga de Medeiros",
+        "Josenilton N. Sousa",
+        "Manuela S. Arruda",
+        "M. M. Fujimoto"
+      ],
+      "venue": "ACS Physical Chemistry Au",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.1021/acsphyschemau.4c00101",
+      "concepts": [
+        "Photoionization",
+        "Asymmetry",
+        "Range (aeronautics)"
+      ]
+    },
+    {
+      "title": "A Theoretical Study of Temperature-dependent Photodissociation Cross Sections and Rates for O2",
+      "year": 2023,
+      "authors": [
+        "Zhi Qin",
+        "Peigen Hu",
+        "Tianrui Bai",
+        "Linhua Liu"
+      ],
+      "venue": "The Astrophysical Journal Supplement Series",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.3847/1538-4365/ad03ed",
+      "concepts": [
+        "Algorithm",
+        "Physics",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Vacuum Ultraviolet Single Photon Ionization and Decomposition of 2-Aminopropionitrile in Astrophysical Objects",
+      "year": 2024,
+      "authors": [
+        "Helgi Rafn Hróðmarsson",
+        "Martin Schwell",
+        "N. Fray",
+        "Jean‐Claude Guillemin"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.3847/1538-4357/ad1522",
+      "concepts": [
+        "Photoionization",
+        "Ionization",
+        "Ion"
+      ]
+    },
+    {
+      "title": "ExoPhoto : a data base of temperature-dependent photodissociation cross-sections",
+      "year": 2025,
+      "authors": [
+        "Qijian Ni",
+        "C. Hill",
+        "S. N. Yurchenko",
+        "Marco Pezzella"
+      ],
+      "venue": "RAS Techniques and Instruments",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1093/rasti/rzaf020",
+      "concepts": [
+        "Photodissociation",
+        "Database",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Photoelectron spectroscopic study of 2-naphthylnitrene and its thermal rearrangement to cyanoindenes",
+      "year": 2023,
+      "authors": [
+        "Mayank Saraswat",
+        "Adrián Portela‐González",
+        "Enrique Mendez‐Vega",
+        "Ginny Karir"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1039/d3cp04064j",
+      "concepts": [
+        "X-ray photoelectron spectroscopy",
+        "Thermal",
+        "Chemistry"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "The 2024 release of the ExoMol database: Molecular line lists for exoplanet and other hot atmospheres",
+      "year": 2024,
+      "authors": [
+        "Jonathan Tennyson",
+        "S. N. Yurchenko",
+        "Jingxin Zhang",
+        "Charles A Bowesman"
+      ],
+      "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "cited_by": 98,
+      "type": "article",
+      "doi": "10.1016/j.jqsrt.2024.109083",
+      "concepts": [
+        "Exoplanet",
+        "Line (geometry)",
+        "Database"
+      ]
+    },
+    {
+      "title": "Solar System Elemental Abundances from the Solar Photosphere and CI-Chondrites",
+      "year": 2025,
+      "authors": [
+        "K. Lodders",
+        "M. Bergemann",
+        "H. Palme"
+      ],
+      "venue": "Space Science Reviews",
+      "cited_by": 52,
+      "type": "article",
+      "doi": "10.1007/s11214-025-01146-w",
+      "concepts": [
+        "Chondrite",
+        "Planetary science",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "Data availability and requirements relevant for the Ariel space mission and other exoplanet atmosphere applications",
+      "year": 2024,
+      "authors": [
+        "K. L. Chubb",
+        "Séverine Robert",
+        "Clara Sousa‐Silva",
+        "S. N. Yurchenko"
+      ],
+      "venue": "RAS Techniques and Instruments",
+      "cited_by": 26,
+      "type": "article",
+      "doi": "10.1093/rasti/rzae039",
+      "concepts": [
+        "Exoplanet",
+        "Computer science",
+        "Data system"
+      ]
+    },
+    {
+      "title": "Chemical composition of comets C/2021 A1 (Leonard) and C/2022 E3 (ZTF) from radio spectroscopy and the abundance of HCOOH and HNCO in comets",
+      "year": 2024,
+      "authors": [
+        "N. Biver",
+        "D. Bockelée–Morvan",
+        "Barbara Handzlik",
+        "Aa. Sandqvist"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 23,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202450921",
+      "concepts": [
+        "Physics",
+        "Comet",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "Ultraviolet H 2 luminescence in molecular clouds induced by cosmic rays",
+      "year": 2023,
+      "authors": [
+        "M. Padovani",
+        "Daniele Galli",
+        "Liam H. Scarlett",
+        "Tommaso Grassi"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 21,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202348168",
+      "concepts": [
+        "Physics",
+        "Molecular cloud",
+        "Photodissociation"
+      ]
+    },
+    {
+      "title": "PDRs4All",
+      "year": 2024,
+      "authors": [
+        "A. Fuente",
+        "E. Roueff",
+        "Franck Le Petit",
+        "J. Le Bourlot"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202449229",
+      "concepts": [
+        "Sulfur",
+        "Ionization",
+        "Bar (unit)"
+      ]
+    },
+    {
+      "title": "CH 3 OH and HCN in Interstellar Comet 3I/ATLAS Mapped with the ALMA Atacama Compact Array: Distinct Outgassing Behaviors and a Remarkably High CH 3 OH/HCN Production Rate Ratio",
+      "year": 2026,
+      "authors": [
+        "Nathan X. Roth",
+        "Martin Cordiner",
+        "Dominique Bockelée-Morvan",
+        "Nicolas Biver"
+      ],
+      "venue": "The Astrophysical Journal Letters",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.3847/2041-8213/ae433b",
+      "concepts": [
+        "Outgassing",
+        "Comet",
+        "Physics"
+      ]
+    },
+    {
+      "title": "NLTE modelling of water-rich exoplanet atmospheres. Cooling and heating rates",
+      "year": 2024,
+      "authors": [
+        "A. García Muñoz",
+        "A. Asensio Ramos",
+        "Alexandre Faure"
+      ],
+      "venue": "Icarus",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.1016/j.icarus.2024.116080",
+      "concepts": [
+        "Exoplanet",
+        "Physics",
+        "Gas giant"
+      ]
+    },
+    {
+      "title": "Computing photodissociation cross sections and quasi-continuum properties of the NH radical",
+      "year": 2025,
+      "authors": [
+        "Tereza Uhlíková",
+        "S. N. Yurchenko",
+        "Armando N. Perri",
+        "Jonathan Tennyson"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 10,
+      "type": "article",
+      "doi": "10.1063/5.0262447",
+      "concepts": [
+        "Photodissociation",
+        "Diatomic molecule",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "ExoMol line lists – LXI. A trihybrid line list for rovibronic transitions of the hydroxyl radical (OH)",
+      "year": 2024,
+      "authors": [
+        "Georgi Mitev",
+        "Charles A Bowesman",
+        "Jingxin Zhang",
+        "S. N. Yurchenko"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "cited_by": 8,
+      "type": "article",
+      "doi": "10.1093/mnras/stae2803",
+      "concepts": [
+        "Physics",
+        "Line (geometry)",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "A HITRAN-formatted UV line list of S2-containing transitions involving X3 Σg-, B3 Σu-, and B″ 3 Πu electronic states",
+      "year": 2024,
+      "authors": [
+        "Frances M. Gomez",
+        "Robert J. Hargreaves",
+        "Iouli E. Gordon"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "cited_by": 8,
+      "type": "article",
+      "doi": "10.1093/mnras/stae246",
+      "concepts": [
+        "Physics",
+        "HITRAN",
+        "Line (geometry)"
+      ]
+    },
+    {
+      "title": "The 2024 Release of the Exomol Database: Molecular Line Lists for Exoplanetand Other Hot Atmospheres",
+      "year": 2024,
+      "authors": [
+        "Jonathan Tennyson",
+        "S. N. Yurchenko",
+        "Jingxin Zhang",
+        "Charles A Bowesman"
+      ],
+      "venue": "SSRN Electronic Journal",
+      "cited_by": 7,
+      "type": "preprint",
+      "doi": "10.2139/ssrn.4803603",
+      "concepts": [
+        "Database",
+        "Line (geometry)",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "ExoMol photodissociation cross-sections – II. Continuum absorption and pre-dissociation spectra for the hydroxyl radical",
+      "year": 2025,
+      "authors": [
+        "Georgi Mitev",
+        "Marco Pezzella",
+        "Charles A Bowesman",
+        "Jingxin Zhang"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1093/mnras/staf729",
+      "concepts": [
+        "Photodissociation",
+        "Physics",
+        "Hydroxyl radical"
+      ]
+    },
+    {
+      "title": "The First Detection of Molecular Activity in the Largest Known Oort Cloud Comet: ALMA Imaging of C/2014 UN271 (Bernardinelli–Bernstein) at 16.6 au from the Sun",
+      "year": 2025,
+      "authors": [
+        "Nathan X. Roth",
+        "Stefanie N. Milam",
+        "Martin Cordiner",
+        "Dominique Bockelée-Morvan"
+      ],
+      "venue": "The Astrophysical Journal Letters",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.3847/2041-8213/add526",
+      "concepts": [
+        "Comet",
+        "Cloud computing",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "The mutual influence of disequilibrium composition and temperature in exoplanet atmospheres",
+      "year": 2025,
+      "authors": [
+        "M. Agúndez"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202554732",
+      "concepts": [
+        "Exoplanet",
+        "Physics",
+        "Disequilibrium"
+      ]
+    },
+    {
+      "title": "Photoionization of Nitrile-substituted Naphthalene and Benzene: Cation Spectroscopy, Photostability, and Implications for Photoelectric Gas Heating",
+      "year": 2024,
+      "authors": [
+        "Madhusree Roy Chowdhury",
+        "Gustavo A. García",
+        "Helgi Rafn Hróðmarsson",
+        "Jean‐Christophe Loison"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.3847/1538-4357/ad16d9",
+      "concepts": [
+        "Photoelectric effect",
+        "Photoionization",
+        "Naphthalene"
+      ]
+    },
+    {
+      "title": "The chemical composition of the sun",
+      "year": 2025,
+      "authors": [
+        "M. Bergemann",
+        "K. Lodders",
+        "H. Palme"
+      ],
+      "venue": "Elsevier eBooks",
+      "cited_by": 6,
+      "type": "reference-entry",
+      "doi": "10.1016/b978-0-443-21439-4.00140-1",
+      "concepts": [
+        "Composition (language)",
+        "Astrobiology",
+        "Art"
+      ]
+    },
+    {
+      "title": "Collisional ionization data for research of interstellar medium and planetary atmospheres",
+      "year": 2025,
+      "authors": [
+        "Bratislav P. Marinković",
+        "Vladimir A. Srécković",
+        "Saša Dujko",
+        "Sanja Tošić"
+      ],
+      "venue": "Physica Scripta",
+      "cited_by": 5,
+      "type": "article",
+      "doi": "10.1088/1402-4896/ade50b",
+      "concepts": [
+        "Physics",
+        "Ionization",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "Strongly Rotationally Dependent Lifetimes of C2 in the 23Σg– State: Implications for Predissociation in the Vacuum Ultraviolet Region",
+      "year": 2024,
+      "authors": [
+        "Liying Ma",
+        "Di Li",
+        "Pan Jiang",
+        "Min Cheng"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 5,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.4c01605",
+      "concepts": [
+        "Vacuum ultraviolet",
+        "Atomic physics",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Slow Radiolysis of Amino Acids in Mars-Like Permafrost Conditions: Applications to the Search for Extant Life on Mars",
+      "year": 2025,
+      "authors": [
+        "Alexander A. Pavlov",
+        "Hannah L. McLain",
+        "K. Farnsworth",
+        "D. P. Glavin"
+      ],
+      "venue": "Astrobiology",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.1177/15311074251366249",
+      "concepts": [
+        "Mars Exploration Program",
+        "Extant taxon",
+        "Astrobiology"
+      ]
+    },
+    {
+      "title": "Photoabsorption and Photoionization Cross-Sections and Asymmetry Parameters of Pyrrole in the Vacuum-Ultraviolet Energy Range",
+      "year": 2025,
+      "authors": [
+        "Maria Olívia Sobral Fraga de Medeiros",
+        "Josenilton N. Sousa",
+        "Manuela S. Arruda",
+        "M. M. Fujimoto"
+      ],
+      "venue": "ACS Physical Chemistry Au",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.1021/acsphyschemau.4c00101",
+      "concepts": [
+        "Photoionization",
+        "Asymmetry",
+        "Range (aeronautics)"
+      ]
+    },
+    {
+      "title": "A Theoretical Study of Temperature-dependent Photodissociation Cross Sections and Rates for O2",
+      "year": 2023,
+      "authors": [
+        "Zhi Qin",
+        "Peigen Hu",
+        "Tianrui Bai",
+        "Linhua Liu"
+      ],
+      "venue": "The Astrophysical Journal Supplement Series",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.3847/1538-4365/ad03ed",
+      "concepts": [
+        "Algorithm",
+        "Physics",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Vacuum Ultraviolet Single Photon Ionization and Decomposition of 2-Aminopropionitrile in Astrophysical Objects",
+      "year": 2024,
+      "authors": [
+        "Helgi Rafn Hróðmarsson",
+        "Martin Schwell",
+        "N. Fray",
+        "Jean‐Claude Guillemin"
+      ],
+      "venue": "The Astrophysical Journal",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.3847/1538-4357/ad1522",
+      "concepts": [
+        "Photoionization",
+        "Ionization",
+        "Ion"
+      ]
+    },
+    {
+      "title": "ExoPhoto : a data base of temperature-dependent photodissociation cross-sections",
+      "year": 2025,
+      "authors": [
+        "Qijian Ni",
+        "C. Hill",
+        "S. N. Yurchenko",
+        "Marco Pezzella"
+      ],
+      "venue": "RAS Techniques and Instruments",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1093/rasti/rzaf020",
+      "concepts": [
+        "Photodissociation",
+        "Database",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Photoelectron spectroscopic study of 2-naphthylnitrene and its thermal rearrangement to cyanoindenes",
+      "year": 2023,
+      "authors": [
+        "Mayank Saraswat",
+        "Adrián Portela‐González",
+        "Enrique Mendez‐Vega",
+        "Ginny Karir"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1039/d3cp04064j",
+      "concepts": [
+        "X-ray photoelectron spectroscopy",
+        "Thermal",
+        "Chemistry"
+      ]
+    }
+  ]
+}
