@@ -34,3 +34,11 @@
 - **本地同步**: `git fetch` + `git reset --hard origin/main` 完成本地-远程对齐
 - **远程 URL**: 已恢复为无 token 版本
 - **⚠️ 网络问题**: USTC 代理对大体积 HTTPS POST 有限制，git push 不可用。建议未来同步：(1) 若变更仅含文本文件，直接用 Contents API；(2) 若含 PDF，也用 Contents API 逐文件上传；(3) 考虑配置 SSH 推送绕过代理
+
+### 2026-08-23 (第4次执行)
+- **状态**: 成功
+- **发现变更**: 是（3 个文件：1 修改 `index/registry/candidates.yaml`、1 新增 `.workbuddy/memory/2026-08-21.md`、1 新增 PDF `papers/GTO_continuum/Huang_2026_recursive_Gaussian_PDCS_JCP.pdf`）
+- **提交**: `6cb7d67` — "Weekly auto-sync: update notes and literature"
+- **Push**: `d67af31..6cb7d67 main -> main` 成功（git push 直接成功，未遇到网络问题）
+- **远程验证**: `git ls-remote --heads origin main` 确认 `6cb7d67` 已落盘
+- **远程 URL**: 已恢复为无 token 版本
