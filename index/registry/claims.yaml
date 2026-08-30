@@ -1,0 +1,169 @@
+# 自产主张 Claim Registry（v0.1, 2026-08-26）
+# 门控：仅 literature_supported / benchmark_verified 可注入代码上下文。
+# 增量来源：tools/capture_claims.py（对话知识 → 主张卡 + 自动锚定）。
+claims:
+  - id: "clm-0001"
+    statement: "GTO-FT 动量空间版本与 Lucchese 可分展开 Schwinger 的融合在数学上是否正确"
+    source_context: "Phase G 桥接文档（2026-07-29）核心待验证问题"
+    claim_kind: "hypothesis"
+    provenance: "ideation"
+    epistemic_status: "unverified"
+    project_module: ["schwinger_amplitude"]
+    evidence_chain: []
+    anchor_locator: null
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0002"
+    statement: "自产知识与文献知识应该同流进入同一检索流水线，但必须区分可信度"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "workflow"
+    provenance: "ideation"
+    epistemic_status: "unverified"
+    project_module: ["workflow_design"]
+    evidence_chain: []
+    anchor_locator: null
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0003"
+    statement: "核实粒度采用「主张级为主 + chunk 继承」方案，而不是文档级或纯 chunk 级"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "workflow"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["workflow_design"]
+    evidence_chain: ["notes-systematic-learning"]
+    anchor_locator: "notes/球面波知识系统化学习-风暴知识工坊版.md | 视角四：经济学家（关注计算资源分配与路径依赖的研究战略家）"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0004"
+    statement: "chunk 的核实状态继承其内含主张的最差值，采用 fail-closed 策略"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "workflow"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["workflow_design"]
+    evidence_chain: ["notes-rmatrix-survey"]
+    anchor_locator: "notes/R-matrix方法发展脉络深度调查.md | 视角一：实践者（每天用 UKRmol+/BSR 做电子-分子碰撞计算的原子分子物理学家）"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0005"
+    statement: "hypothesis 类主张永不注入代码上下文"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "fact"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["workflow_design"]
+    evidence_chain: ["paper-stener-2005", "paper-cacelli-1998"]
+    anchor_locator: "PDF p. 7"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0006"
+    statement: "未核实的主张不得进入代码上下文注入"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "fact"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["workflow_design"]
+    evidence_chain: ["bridge-phase-g"]
+    anchor_locator: "outputs/文献到代码桥接_PhaseG技术决策指南.md (header)"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0007"
+    statement: "核实门控应该放在检索层，而不是放在入库层"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "workflow"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["workflow_design"]
+    evidence_chain: ["notes-ecs-survey"]
+    anchor_locator: "notes/复缩放方法发展脉络深度调查.md | 阶段二：方法学探索期 (1978–1990)"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0008"
+    statement: "周度审查包应当增加「主张核实周报」节，跟踪本周 gained / lost evidence"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "workflow"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["workflow_design"]
+    evidence_chain: ["paper-decleva-2022", "paper-stener-2005"]
+    anchor_locator: "PDF p. 15"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0009"
+    statement: "LB94 势的渐近行为 (-1/r) 对截面精度至关重要"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "fact"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["momentum_gto", "benchmark_strategy"]
+    evidence_chain: ["paper-decleva-2022"]
+    anchor_locator: "PDF p. 8"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0010"
+    statement: "本项目 Tier 1 暂只使用局域 KS 势 V_static，不包含交换相关项"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "fact"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["momentum_gto"]
+    evidence_chain: ["paper-hrodmarsson-2023", "paper-nisoli-2017"]
+    anchor_locator: "PDF p. 30"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0011"
+    statement: "中性 1/s² 发散需要通过 Taylor 展开消除"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "derivation"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["momentum_gto"]
+    evidence_chain: ["paper-stener-2005", "paper-bachau-2001"]
+    anchor_locator: "PDF p. 11"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0012"
+    statement: "Born 核角向积分在 lmax=3 截断即可达到足够精度"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "derivation"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["angular_reduction"]
+    evidence_chain: ["paper-bachau-2001", "paper-mahato-skomorowski-2026"]
+    anchor_locator: "PDF p. 82"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0013"
+    statement: "可分展开 Schwinger 方法参照 Lucchese 1986 与 Domcke 1983 的构想"
+    source_context: "2026-08-26 对话知识试点；经 DY 人工核实归属（Domcke 1983 为 separable_potential 核心文献）"
+    claim_kind: "derivation"
+    provenance: "ideation"
+    epistemic_status: "literature_supported"
+    project_module: ["separable_potential"]
+    evidence_chain: ["paper-domcke-1983", "paper-moitra-2021"]
+    anchor_locator: "papers/spherical_wave/Domcke_1983_projection_scattering_PRA.pdf · PDF p. 15"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0014"
+    statement: "长度规范与速度规范的结果应当一致"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "workflow"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["sw_matrix_element"]
+    evidence_chain: ["notes-systematic-learning"]
+    anchor_locator: "notes/球面波知识系统化学习-风暴知识工坊版.md | 最没把握的结论"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
+  - id: "clm-0015"
+    statement: "高角动量 non-s 型初态的角向耦合并未实现，分子测试前必须完成"
+    source_context: "2026-08-26 对话知识试点"
+    claim_kind: "workflow"
+    provenance: "ideation"
+    epistemic_status: "consistent"
+    project_module: ["angular_reduction", "frame_transform"]
+    evidence_chain: ["paper-qian-2002", "paper-calegari-2016"]
+    anchor_locator: "PDF p. 2"
+    last_verified: "2026-08-26"
+    reviewer: "DY"
