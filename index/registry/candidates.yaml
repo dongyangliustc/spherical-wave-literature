@@ -66,7 +66,7 @@ items:
     actionability: "implementation_guidance"
 
   - id: "lit-lucchese-mckoy-1983-pade-co-photoionization"
-    title: "Pade-approximant corrections to general variational expressions of scattering theory: Application to photoionization of carbon monoxide"
+    title: "Padé-approximant corrections to general variational expressions of scattering theory: Application to 5σ photoionization of carbon monoxide"
     authors: ["Lucchese", "McKoy"]
     year: 1983
     source_type: "paper"
@@ -138,7 +138,7 @@ items:
       arxiv: null
       isbn: null
     paths:
-      pdf: "papers/B_spline_continuum/Toffoli_2023_Tiresia_CPC.pdf"
+      pdf: "papers/GTO_continuum/Toffoli_2023_Tiresia_CPC.pdf"
       note: "notes/B_spline_continuum.md"
     topic_tags: ["Tiresia", "B_spline", "continuum", "photoionization", "software"]
     project_modules: ["method_comparison", "benchmark_strategy", "code_context_phase_h"]
@@ -442,3 +442,215 @@ items:
     role: ["method_comparison", "risk_evidence"]
     confidence: "fulltext_available"
     actionability: "reading_candidate"
+
+  # --- 2026-08-29 定向检索追加：多中心连续态 / MFPAD（Phase K 备选） ---
+  - id: "lit-gharibnejad-2021-multicenter-quadrature"
+    title: "A multi-center quadrature scheme for the molecular continuum"
+    authors: ["Gharibnejad", "Douguet", "Schneider"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/j.cpc.2021.107889"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Gharibnejad_2021_multicenter_quadrature_CPC.pdf"
+      note: null
+    topic_tags: ["multicenter", "quadrature", "continuum", "scattering", "L2"]
+    project_modules: ["continuum_wave", "separable_potential", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_origin", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-marante-2014-hybrid-gaussian-bspline"
+    title: "Hybrid Gaussian-B-spline basis for the electronic continuum: Photoionization of atomic hydrogen"
+    authors: ["Marante", "Argenti", "Martin"]
+    year: 2014
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/physreva.90.012506"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Marante_2014_hybrid_GTO_BSpline_PRA.pdf"
+      note: null
+    topic_tags: ["Gaussian", "B_spline", "hybrid_basis", "continuum", "photoionization"]
+    project_modules: ["continuum_wave", "GTO_integral", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-borras-2021-xchem-mfpad-feshbach"
+    title: "Molecular-Frame Photoelectron Angular Distributions of CO in the Vicinity of Feshbach Resonances: An XCHEM Approach"
+    authors: ["Borras", "Gonzalez-Vazquez", "Argenti"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jctc.1c00480"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Borras_2021_MFPAD_Feshbach_XCHEM_JCTC.pdf"
+      note: null
+    topic_tags: ["MFPAD", "Feshbach", "XCHEM", "multicenter", "photoionization"]
+    project_modules: ["angular_reduction", "frame_transform", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-borras-2023-xchem2"
+    title: "Photoionization cross sections and photoelectron angular distributions of molecules with XCHEM-2.0"
+    authors: ["Borras", "Fernandez-Milan", "Argenti"]
+    year: 2023
+    source_type: "software"
+    identifiers:
+      doi: "10.1016/j.cpc.2023.109033"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Borras_2023_XCHEM2_CPC.pdf"
+      note: null
+    topic_tags: ["XCHEM", "multicenter", "cross_section", "angular_distribution", "software"]
+    project_modules: ["continuum_wave", "frame_transform", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-ota-2020-full-potential-mfpad"
+    title: "Theory of polarization-averaged core-level molecular-frame photoelectron angular distributions: I. A full-potential method"
+    authors: ["Ota", "Yamazaki", "Sebilleau"]
+    year: 2020
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/1361-6455/abd06d"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: null
+      note: null
+    topic_tags: ["MFPAD", "full_potential", "multicenter", "angular_distribution"]
+    project_modules: ["frame_transform", "angular_reduction", "continuum_wave"]
+    state: "download_blocked"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["method_comparison"]
+    confidence: "metadata_only"
+    actionability: "webvpn_required"
+
+  - id: "lit-decleva-2022-tiresia-review"
+    title: "Continuum Electronic States: The Tiresia Code"
+    authors: ["Decleva", "Stener", "Toffoli"]
+    year: 2022
+    source_type: "review"
+    identifiers:
+      doi: "10.3390/molecules27062026"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Decleva_2022_Tiresia_continuum_Molecules.pdf"
+      note: null
+    topic_tags: ["Tiresia", "B_spline", "continuum", "photoionization", "review"]
+    project_modules: ["method_comparison", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["review", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  # --- 2026-08-29 定向检索追加：交换 K 与 Feshbach（Born 残差收敛） ---
+  - id: "lit-gil-1990-feshbach-fano-mulliken"
+    title: "New Theoretical Perspectives on Molecular Shape Resonances: Feshbach-Fano Methods for Mulliken Orbital Analysis of Photoionization Continua"
+    authors: ["Gil", "Winstead", "Sheehy", "McKoy"]
+    year: 1990
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0031-8949/1990/t31/025"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Gil_1990_FeshbachFano_Mulliken_PhysScr.pdf"
+      note: null
+    topic_tags: ["Feshbach", "Fano", "shape_resonance", "photoionization", "exchange"]
+    project_modules: ["separable_potential", "tau_matrix", "schwinger_amplitude", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-jagau-2017-electronic-resonances"
+    title: "Extending Quantum Chemistry of Bound States to Electronic Resonances"
+    authors: ["Jagau", "Bravaya", "Krylov"]
+    year: 2017
+    source_type: "review"
+    identifiers:
+      doi: "10.1146/annurev-physchem-052516-050622"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Jagau_2017_electronic_resonances_ARPC.pdf"
+      note: null
+    topic_tags: ["electronic_resonance", "Feshbach", "shape_resonance", "CAP", "review"]
+    project_modules: ["correlation_strategy", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["review", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-zatsarinny-bartschat-2013-bspline-rmatrix"
+    title: "The B-spline R-matrix method for atomic processes: application to atomic structure, electron collisions and photoionization"
+    authors: ["Zatsarinny", "Bartschat"]
+    year: 2013
+    source_type: "review"
+    identifiers:
+      doi: "10.1088/0953-4075/46/11/112001"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Zatsarinny_Bartschat_2013_Bspline_Rmatrix_JPB.pdf"
+      note: "notes/R-matrix方法发展脉络深度调查.md"
+    topic_tags: ["B_spline", "R_matrix", "electron_collisions", "photoionization", "exchange", "review"]
+    project_modules: ["method_comparison", "benchmark_strategy", "separable_potential"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["review", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-hazi-1978-l2-resonance-widths"
+    title: "A purely L2 method for calculating resonance widths"
+    authors: ["Hazi"]
+    year: 1978
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0022-3700/11/8/001"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: null
+      note: null
+    topic_tags: ["L2", "resonance_width", "linear_algebra", "continuum"]
+    project_modules: ["continuum_wave", "separable_potential", "benchmark_strategy"]
+    state: "download_blocked"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["method_origin", "risk_evidence"]
+    confidence: "metadata_only"
+    actionability: "webvpn_required"
