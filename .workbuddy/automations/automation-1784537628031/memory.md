@@ -42,3 +42,17 @@
 - **Push**: `d67af31..6cb7d67 main -> main` 成功（git push 直接成功，未遇到网络问题）
 - **远程验证**: `git ls-remote --heads origin main` 确认 `6cb7d67` 已落盘
 - **远程 URL**: 已恢复为无 token 版本
+
+### 2026-08-30 (第5次执行)
+- **状态**: 成功（通过 GitHub Contents API 降级推送）
+- **发现变更**: 是（35 个文件：5 个修改 + 30 个新增，含 7 个 PDF、2 个 Python 工具、claim-lifecycle.zip、citation_network JSON×9、中文路径文档×3、memory 日志×4 等）
+- **本地提交**: `54cc734` — "Weekly auto-sync: update notes and literature"（35 files changed, 21916 insertions）
+- **git push**: ❌ 失败 — USTC 代理在 send-pack POST 阶段超时（>20 分钟无响应），与第 3 次执行（08-16）模式一致
+- **git fetch**: ❌ 同样超时，无法完成远程 ref 获取
+- **降级方案**: 通过 GitHub Contents API 逐文件上传
+  - 第一批 31/35 成功（含 7 个 PDF 总计约 17 MB，最大单文件 5.47 MB Borras_2021）
+  - 4 个失败文件修复后全部成功：(1) 3 个中文路径文件因 `urllib.request` 非 ASCII URL 编码问题 → 添加 `urllib.parse.quote(path, safe="/")` 修复；(2) 1 个文件名拼写错误 `hrodmarson` → `hrodmarsson`（双 s）
+- **远程最终 HEAD**: `8d9f802`（由 Contents API 最后一次上传创建）
+- **本地同步**: ⚠️ 未完成 — `git fetch` 因代理超时失败，本地 HEAD 仍为 `54cc734`，远程为 `8d9f802`。文件内容一致但 commit 历史不同（本地 1 个合并 commit vs 远程 35 个独立 commit）。下次网络通畅时需 `git fetch && git reset --hard origin/main` 对齐
+- **远程 URL**: 已恢复为无 token 版本
+- **工具脚本**: `tools/github_contents_api_push.py` 已保存，含 URL 编码修复，可供下次降级使用
