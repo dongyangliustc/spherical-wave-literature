@@ -1,0 +1,1386 @@
+{
+  "key": "zatsarinny2013_bspline_rmatrix_review",
+  "title": "B-spline R-matrix method for atomic processes (topical review)",
+  "topic": "B-spline R-matrix — 方法开发与原理",
+  "pdf": "papers/B_spline_continuum/Zatsarinny_Bartschat_2013_Bspline_Rmatrix_JPB.pdf",
+  "doi": "10.1088/0953-4075/46/11/112001",
+  "work_id": "https://openalex.org/W1999429341",
+  "meta": {
+    "openalex_title": "TheB-splineR-matrix method for atomic processes: application to atomic structure, electron collisions and photoionization",
+    "year": 2013,
+    "cited_by_total": 198,
+    "references_total": 208,
+    "type": "article",
+    "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+    "concepts": [
+      "Photoionization",
+      "Physics",
+      "Atomic physics",
+      "Ionization"
+    ]
+  },
+  "referenced_top25": [
+    {
+      "title": "A Practical Guide to Splines",
+      "year": 1978,
+      "authors": [
+        "Carl de Boor"
+      ],
+      "venue": "Applied mathematical sciences",
+      "cited_by": 12071,
+      "type": "book",
+      "doi": "10.1007/978-1-4612-6333-3",
+      "concepts": [
+        "Computer science"
+      ]
+    },
+    {
+      "title": "The Theory of Atomic Structure and Spectra",
+      "year": 1981,
+      "authors": [
+        "Robert D. Cowan"
+      ],
+      "venue": null,
+      "cited_by": 5171,
+      "type": "book",
+      "doi": "10.1525/9780520906150",
+      "concepts": [
+        "Spectral line",
+        "Physics",
+        "Statistical physics"
+      ]
+    },
+    {
+      "title": "Recoil-ion and electron momentum spectroscopy: reaction-microscopes",
+      "year": 2003,
+      "authors": [
+        "J. Ullrich",
+        "R. Moshammer",
+        "Alexander Dorn",
+        "R D rner"
+      ],
+      "venue": "Reports on Progress in Physics",
+      "cited_by": 1861,
+      "type": "article",
+      "doi": "10.1088/0034-4885/66/9/203",
+      "concepts": [
+        "Recoil",
+        "Physics",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Attosecond real-time observation of electron tunnelling in atoms",
+      "year": 2007,
+      "authors": [
+        "M. Uiberacker",
+        "Thorsten Uphues",
+        "Martin Schultze",
+        "Aart Verhoef"
+      ],
+      "venue": "Nature",
+      "cited_by": 913,
+      "type": "article",
+      "doi": "10.1038/nature05648",
+      "concepts": [
+        "Attosecond",
+        "Atomic physics",
+        "Electron"
+      ]
+    },
+    {
+      "title": "Relativistic Quantum Theory of Atoms and Molecules",
+      "year": 2007,
+      "authors": [
+        "I. P. Grant"
+      ],
+      "venue": "Springer series on atomic, optical, and plasma physics",
+      "cited_by": 873,
+      "type": "book",
+      "doi": "10.1007/978-0-387-35069-1",
+      "concepts": [
+        "Atoms in molecules",
+        "Physics",
+        "Quantum"
+      ]
+    },
+    {
+      "title": "RMATRX1: Belfast atomic R-matrix codes",
+      "year": 1995,
+      "authors": [
+        "K A Berrington",
+        "W. Eissner",
+        "P. H. Norrington"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 801,
+      "type": "article",
+      "doi": "10.1016/0010-4655(95)00123-8",
+      "concepts": [
+        "Photoionization",
+        "Hamiltonian (control theory)",
+        "Pauli exclusion principle"
+      ]
+    },
+    {
+      "title": "Applications ofB-splines in atomic and molecular physics",
+      "year": 2001,
+      "authors": [
+        "H. Bachau",
+        "E. Cormier",
+        "Piero Decleva",
+        "J E Hansen"
+      ],
+      "venue": "Reports on Progress in Physics",
+      "cited_by": 697,
+      "type": "article",
+      "doi": "10.1088/0034-4885/64/12/205",
+      "concepts": [
+        "Physics",
+        "Basis (linear algebra)",
+        "Statistical physics"
+      ]
+    },
+    {
+      "title": "Convergent close-coupling calculations of electron-hydrogen scattering",
+      "year": 1992,
+      "authors": [
+        "Igor Bray",
+        "A. T. Stelbovics"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 507,
+      "type": "article",
+      "doi": "10.1103/physreva.46.6995",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Formalism (music)"
+      ]
+    },
+    {
+      "title": "Atomic and Molecular Processes: an R-Matrix Approach",
+      "year": 1993,
+      "authors": [
+        "P. G. Burke",
+        "K A Berrington"
+      ],
+      "venue": "Medical Entomology and Zoology",
+      "cited_by": 471,
+      "type": "book",
+      "doi": "",
+      "concepts": [
+        "Scattering",
+        "Bibliography",
+        "Electron scattering"
+      ]
+    },
+    {
+      "title": "Polarized Electrons",
+      "year": 1985,
+      "authors": [
+        "J. Keßler"
+      ],
+      "venue": null,
+      "cited_by": 425,
+      "type": "book",
+      "doi": "10.1007/978-3-662-02434-8",
+      "concepts": [
+        "Section (typography)",
+        "Subject (documents)",
+        "Electron"
+      ]
+    },
+    {
+      "title": "R-Matrix Theory of Atomic Collisions",
+      "year": 2011,
+      "authors": [
+        "P G Burke"
+      ],
+      "venue": "Springer series on atomic, optical, and plasma physics",
+      "cited_by": 386,
+      "type": "book",
+      "doi": "10.1007/978-3-642-15931-2",
+      "concepts": [
+        "Matrix (chemical analysis)",
+        "Physics",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Atomic negative-ion resonances",
+      "year": 1994,
+      "authors": [
+        "S J Buckman",
+        "Charles W. Clark"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 372,
+      "type": "article",
+      "doi": "10.1103/revmodphys.66.539",
+      "concepts": [
+        "Physics",
+        "Ion",
+        "Periodic table"
+      ]
+    },
+    {
+      "title": "Calculation of electron-helium scattering",
+      "year": 1995,
+      "authors": [
+        "Dmitry V. Fursa",
+        "Igor Bray"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 337,
+      "type": "article",
+      "doi": "10.1103/physreva.52.1279",
+      "concepts": [
+        "Physics",
+        "Atomic physics",
+        "Scattering"
+      ]
+    },
+    {
+      "title": "Finite perturbation calculations for the static dipole polarizabilities of the first-row atoms",
+      "year": 1976,
+      "authors": [
+        "Hans‐Joachim Werner",
+        "Wilfried Meyer"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 326,
+      "type": "article",
+      "doi": "10.1103/physreva.13.13",
+      "concepts": [
+        "Dipole",
+        "Physics",
+        "Polarizability"
+      ]
+    },
+    {
+      "title": "Dual Kinetic Balance Approach to Basis-Set Expansions for the Dirac Equation",
+      "year": 2004,
+      "authors": [
+        "В. М. Шабаев",
+        "I. I. Tupitsyn",
+        "V. A. Yerokhin",
+        "G. Plunien"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 320,
+      "type": "article",
+      "doi": "10.1103/physrevlett.93.130405",
+      "concepts": [
+        "Dirac equation",
+        "Basis (linear algebra)",
+        "Spurious relationship"
+      ]
+    },
+    {
+      "title": "Determination of the absolute partial and total cross sections for electron-impact ionization of the rare gases",
+      "year": 2002,
+      "authors": [
+        "R. Rejoub",
+        "B. G. Lindsay",
+        "R. F. Stebbings"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 314,
+      "type": "article",
+      "doi": "10.1103/physreva.65.042713",
+      "concepts": [
+        "Krypton",
+        "Ionization",
+        "Physics"
+      ]
+    },
+    {
+      "title": "BSR: B-spline atomic R-matrix codes",
+      "year": 2005,
+      "authors": [
+        "Oleg Zatsarinny"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 311,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2005.10.006",
+      "concepts": [
+        "Fortran",
+        "Computer science",
+        "Byte"
+      ]
+    },
+    {
+      "title": "Solution of Coupled Equations by R -Matrix Techniques",
+      "year": 1967,
+      "authors": [
+        "P.J.A. Buttle"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 262,
+      "type": "article",
+      "doi": "10.1103/physrev.160.719",
+      "concepts": [
+        "Matrix (chemical analysis)",
+        "Boundary (topology)",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Electron - atom scattering at low and intermediate energies using a pseudo-state/R-matrix basis",
+      "year": 1996,
+      "authors": [
+        "Klaus Bartschat",
+        "E T Hudson",
+        "M. P. Scott",
+        "P G Burke"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 249,
+      "type": "article",
+      "doi": "10.1088/0953-4075/29/1/015",
+      "concepts": [
+        "Scattering",
+        "Atomic physics",
+        "Electron scattering"
+      ]
+    },
+    {
+      "title": "Absolute optical oscillator strengths for the electronic excitation of atoms at high resolution. III. The photoabsorption of argon, krypton, and xenon",
+      "year": 1992,
+      "authors": [
+        "Wing Fat Chan",
+        "Glyn Cooper",
+        "X. Guo",
+        "Gordon R. Burton"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 239,
+      "type": "article",
+      "doi": "10.1103/physreva.46.149",
+      "concepts": [
+        "Krypton",
+        "Xenon",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Electrons and photons colliding with atoms: development and application of the convergent close-coupling method",
+      "year": 2002,
+      "authors": [
+        "Igor Bray",
+        "Dmitry V. Fursa",
+        "A. S. Kheifets",
+        "A. T. Stelbovics"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 222,
+      "type": "article",
+      "doi": "10.1088/0953-4075/35/15/201",
+      "concepts": [
+        "Collision",
+        "Physics",
+        "Electron"
+      ]
+    },
+    {
+      "title": "R-matrix-Floquet theory of multiphoton processes",
+      "year": 1991,
+      "authors": [
+        "P G Burke",
+        "P. Francken",
+        "C. J. Joachain"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 207,
+      "type": "article",
+      "doi": "10.1088/0953-4075/24/4/005",
+      "concepts": [
+        "Floquet theory",
+        "Physics",
+        "Photoionization"
+      ]
+    },
+    {
+      "title": "Electron scattering by atoms and ions using the Breit-Pauli Hamiltonian: an R-matrix approach",
+      "year": 1980,
+      "authors": [
+        "M. P. Scott",
+        "P G Burke"
+      ],
+      "venue": "Journal of Physics B Atomic and Molecular Physics",
+      "cited_by": 206,
+      "type": "article",
+      "doi": "10.1088/0022-3700/13/21/022",
+      "concepts": [
+        "Pauli exclusion principle",
+        "Physics",
+        "Hamiltonian (control theory)"
+      ]
+    },
+    {
+      "title": "Impact, a program for the solution of the coupled integro-differential equations of electron-atom collision theory",
+      "year": 1978,
+      "authors": [
+        "M.A. Crees",
+        "M. J. Seaton",
+        "P.M.H. Wilson"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 180,
+      "type": "article",
+      "doi": "10.1016/0010-4655(78)90082-6",
+      "concepts": [
+        "Radiative transfer",
+        "Physics",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Close-Coupling Approach to Coulomb Three-Body Problems",
+      "year": 2002,
+      "authors": [
+        "Igor Bray"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 179,
+      "type": "article",
+      "doi": "10.1103/physrevlett.89.273201",
+      "concepts": [
+        "Photoionization",
+        "Coulomb",
+        "Physics"
+      ]
+    }
+  ],
+  "citing_top25": [
+    {
+      "title": "The chemical make-up of the Sun: A 2020 vision",
+      "year": 2021,
+      "authors": [
+        "M. Asplund",
+        "A. M. Amarsi",
+        "N. Grevesse"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 709,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202140445",
+      "concepts": [
+        "Physics",
+        "Helioseismology",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "Photodissociation and photoionisation of atoms and molecules of astrophysical interest",
+      "year": 2017,
+      "authors": [
+        "A. N. Heays",
+        "Arthur D. Bosman",
+        "E. F. van Dishoeck"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 511,
+      "type": "article",
+      "doi": "10.1051/0004-6361/201628742",
+      "concepts": [
+        "Photodissociation",
+        "Physics",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "The chemical make-up of the Sun: A 2020 vision",
+      "year": 2021,
+      "authors": [
+        "M. Asplund",
+        "A. M. Amarsi",
+        "N. Grevesse"
+      ],
+      "venue": "Springer Link (Chiba Institute of Technology)",
+      "cited_by": 474,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202140445/pdf",
+      "concepts": [
+        "Physics",
+        "Astrophysics",
+        "Astronomy"
+      ]
+    },
+    {
+      "title": "LXCat: an Open‐Access, Web‐Based Platform for Data Needed for Modeling Low Temperature Plasmas",
+      "year": 2016,
+      "authors": [
+        "Leanne C. Pitchford",
+        "L. L. Alves",
+        "Klaus Bartschat",
+        "S. Biagi"
+      ],
+      "venue": "Plasma Processes and Polymers",
+      "cited_by": 337,
+      "type": "article",
+      "doi": "10.1002/ppap.201600098",
+      "concepts": [
+        "Plasma",
+        "Swarm behaviour",
+        "Ion"
+      ]
+    },
+    {
+      "title": "Advanced multiconfiguration methods for complex atoms: I. Energies and wave functions",
+      "year": 2016,
+      "authors": [
+        "Charlotte Froese Fischer",
+        "Michel Godefroid",
+        "Tomas Brage",
+        "Per Jönsson"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 325,
+      "type": "article",
+      "doi": "10.1088/0953-4075/49/18/182004",
+      "concepts": [
+        "Wave function",
+        "Configuration interaction",
+        "Hartree–Fock method"
+      ]
+    },
+    {
+      "title": "Solar UV and X-ray spectral diagnostics",
+      "year": 2018,
+      "authors": [
+        "Giulio Del Zanna",
+        "Helen E. Mason"
+      ],
+      "venue": "Living Reviews in Solar Physics",
+      "cited_by": 245,
+      "type": "article",
+      "doi": "10.1007/s41116-018-0015-3",
+      "concepts": [
+        "Extreme ultraviolet",
+        "Ionization",
+        "Electron"
+      ]
+    },
+    {
+      "title": "Non-LTE line formation of Fe in late-type stars – III. 3D non-LTE analysis of metal-poor stars",
+      "year": 2016,
+      "authors": [
+        "A. M. Amarsi",
+        "K. Lind",
+        "M. Asplund",
+        "P. S. Barklem"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "cited_by": 194,
+      "type": "article",
+      "doi": "10.1093/mnras/stw2077",
+      "concepts": [
+        "Physics",
+        "Stars",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "Data Needs for Modeling Low-Temperature Non-Equilibrium Plasmas: The LXCat Project, History, Perspectives and a Tutorial",
+      "year": 2021,
+      "authors": [
+        "E. Carbone",
+        "Wouter Graef",
+        "Gerjan Hagelaar",
+        "Daan Boer"
+      ],
+      "venue": "Atoms",
+      "cited_by": 172,
+      "type": "article",
+      "doi": "10.3390/atoms9010016",
+      "concepts": [
+        "Plasma",
+        "Swarm behaviour",
+        "Solver"
+      ]
+    },
+    {
+      "title": "The virtual atomic and molecular data centre (VAMDC) consortium",
+      "year": 2016,
+      "authors": [
+        "Marie-Lise Dubernet",
+        "Bobby Antony",
+        "Yaye Awa Ba",
+        "Yu L Babikov"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 153,
+      "type": "article",
+      "doi": "10.1088/0953-4075/49/7/074003",
+      "concepts": [
+        "Research data",
+        "Computer science",
+        "Data science"
+      ]
+    },
+    {
+      "title": "Scaled plane-wave Born cross sections for atoms and molecules",
+      "year": 2016,
+      "authors": [
+        "Hiroki Tanaka",
+        "M. J. Brunger",
+        "L. Campbell",
+        "H. Kato"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 149,
+      "type": "article",
+      "doi": "10.1103/revmodphys.88.025004",
+      "concepts": [
+        "Physics",
+        "Excitation",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Electron collisions with atoms, ions, molecules, and surfaces: Fundamental science empowering advances in technology",
+      "year": 2016,
+      "authors": [
+        "Klaus Bartschat",
+        "Mark J. Kushner"
+      ],
+      "venue": "Proceedings of the National Academy of Sciences",
+      "cited_by": 134,
+      "type": "article",
+      "doi": "10.1073/pnas.1606132113",
+      "concepts": [
+        "Plasma",
+        "Ion",
+        "Electron"
+      ]
+    },
+    {
+      "title": "Accurate abundance analysis of late-type stars: advances in atomic physics",
+      "year": 2016,
+      "authors": [
+        "P. S. Barklem"
+      ],
+      "venue": "The Astronomy and Astrophysics Review",
+      "cited_by": 114,
+      "type": "article",
+      "doi": "10.1007/s00159-016-0095-9",
+      "concepts": [
+        "Physics",
+        "Spectral line",
+        "Stars"
+      ]
+    },
+    {
+      "title": "Comparisons of sets of electron–neutral scattering cross sections and swarm parameters in noble gases: II. Helium and neon",
+      "year": 2013,
+      "authors": [
+        "L. L. Alves",
+        "Klaus Bartschat",
+        "S.F. Biagi",
+        "Marie‐Claude Bordage"
+      ],
+      "venue": "Journal of Physics D Applied Physics",
+      "cited_by": 95,
+      "type": "article",
+      "doi": "10.1088/0022-3727/46/33/334002",
+      "concepts": [
+        "Neon",
+        "Noble gas",
+        "Helium"
+      ]
+    },
+    {
+      "title": "Vibrational excitation and dissociation mechanisms of CO2under non-equilibrium discharge and post-discharge conditions",
+      "year": 2015,
+      "authors": [
+        "Lucia Daniela Pietanza",
+        "Gianpiero Colonna",
+        "G. D’Ammando",
+        "Annarita Laricchiuta"
+      ],
+      "venue": "Plasma Sources Science and Technology",
+      "cited_by": 94,
+      "type": "article",
+      "doi": "10.1088/0963-0252/24/4/042002",
+      "concepts": [
+        "Dissociation (chemistry)",
+        "Excited state",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "PDRs4All",
+      "year": 2024,
+      "authors": [
+        "E. Peeters",
+        "E. Habart",
+        "Olivier Berné",
+        "Ameek Sidhu"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 92,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202348244",
+      "concepts": [
+        "Physics",
+        "Orion Nebula",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "Hybrid-Basis Close-Coupling Interface to Quantum Chemistry Packages for the Treatment of Ionization Problems",
+      "year": 2016,
+      "authors": [
+        "Carlos Marante",
+        "Markus Klinker",
+        "Inés Corral",
+        "Jesús González‐Vázquez"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 72,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.6b00907",
+      "concepts": [
+        "Ionization",
+        "Observable",
+        "Quantum"
+      ]
+    },
+    {
+      "title": "Non-LTE analysis of K I in late-type stars",
+      "year": 2019,
+      "authors": [
+        "Henrique Reggiani",
+        "Anish M. Amarsi",
+        "Karin Lind",
+        "Paul S. Barklem"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 65,
+      "type": "article",
+      "doi": "10.1051/0004-6361/201935156",
+      "concepts": [
+        "Physics",
+        "Astrophysics",
+        "Stars"
+      ]
+    },
+    {
+      "title": "A xenon collisional-radiative model applicable to electric propulsion devices: II. Kinetics of the 6 s , 6 p , and 5 d states of atoms and ions in Hall thrusters",
+      "year": 2019,
+      "authors": [
+        "Xi-Ming Zhu",
+        "Yanfei Wang",
+        "Yang Wang",
+        "Daren Yu"
+      ],
+      "venue": "Plasma Sources Science and Technology",
+      "cited_by": 56,
+      "type": "article",
+      "doi": "10.1088/1361-6595/ab30b7",
+      "concepts": [
+        "Xenon",
+        "Atomic physics",
+        "Excited state"
+      ]
+    },
+    {
+      "title": "Non-LTE analysis of K I in late-type stars",
+      "year": 2019,
+      "authors": [
+        "Henrique Reggiani",
+        "A. M. Amarsi",
+        "K. Lind",
+        "P. S. Barklem"
+      ],
+      "venue": "Springer Link (Chiba Institute of Technology)",
+      "cited_by": 55,
+      "type": "article",
+      "doi": "10.1051/0004-6361/201935156/pdf",
+      "concepts": [
+        "Metallicity",
+        "Physics",
+        "Stars"
+      ]
+    },
+    {
+      "title": "DBSR_HF: A B-spline Dirac–Hartree–Fock program",
+      "year": 2016,
+      "authors": [
+        "Oleg Zatsarinny",
+        "Charlotte Froese Fischer"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 54,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2015.12.023",
+      "concepts": [
+        "Fortran",
+        "Hamiltonian (control theory)",
+        "Diagonal"
+      ]
+    },
+    {
+      "title": "Total molecular photoionization cross-sections by algebraic diagrammatic construction-Stieltjes-Lanczos method: Benchmark calculations",
+      "year": 2013,
+      "authors": [
+        "Marco Ruberti",
+        "Renjie Yun",
+        "Kirill Gokhberg",
+        "S. Kopelke"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 44,
+      "type": "article",
+      "doi": "10.1063/1.4824431",
+      "concepts": [
+        "Photoionization",
+        "Lanczos resampling",
+        "Ab initio"
+      ]
+    },
+    {
+      "title": "Convergent close-coupling method for positron scattering from noble gases",
+      "year": 2012,
+      "authors": [
+        "Dmitry V. Fursa",
+        "Igor Bray"
+      ],
+      "venue": "New Journal of Physics",
+      "cited_by": 42,
+      "type": "article",
+      "doi": "10.1088/1367-2630/14/3/035002",
+      "concepts": [
+        "Physics",
+        "Positronium",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Positron binding to alcohol molecules",
+      "year": 2012,
+      "authors": [
+        "A. C. L. Jones",
+        "J. R. Danielson",
+        "J. J. Gosselin",
+        "M. R. Natisin"
+      ],
+      "venue": "New Journal of Physics",
+      "cited_by": 42,
+      "type": "article",
+      "doi": "10.1088/1367-2630/14/1/015006",
+      "concepts": [
+        "Physics",
+        "Dipole",
+        "Polarizability"
+      ]
+    },
+    {
+      "title": "Three-Dimensional Nonlocal Thermodynamic Equilibrium Abundance Analyses of Late-Type Stars",
+      "year": 2024,
+      "authors": [
+        "K. Lind",
+        "A. M. Amarsi"
+      ],
+      "venue": "Annual Review of Astronomy and Astrophysics",
+      "cited_by": 37,
+      "type": "article",
+      "doi": "10.1146/annurev-astro-052722-103557",
+      "concepts": [
+        "Physics",
+        "Astrophysics",
+        "Abundance (ecology)"
+      ]
+    },
+    {
+      "title": "Kinematically complete study of low-energy electron-impact ionization of neon: Internormalized cross sections in three-dimensional kinematics",
+      "year": 2015,
+      "authors": [
+        "Xueguang Ren",
+        "Sadek Amami",
+        "Oleg Zatsarinny",
+        "Thomas Pflüger"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 34,
+      "type": "article",
+      "doi": "10.1103/physreva.91.032707",
+      "concepts": [
+        "Physics",
+        "Kinematics",
+        "Neon"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "The chemical make-up of the Sun: A 2020 vision",
+      "year": 2021,
+      "authors": [
+        "M. Asplund",
+        "A. M. Amarsi",
+        "N. Grevesse"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 709,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202140445",
+      "concepts": [
+        "Physics",
+        "Helioseismology",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "The chemical make-up of the Sun: A 2020 vision",
+      "year": 2021,
+      "authors": [
+        "M. Asplund",
+        "A. M. Amarsi",
+        "N. Grevesse"
+      ],
+      "venue": "Springer Link (Chiba Institute of Technology)",
+      "cited_by": 474,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202140445/pdf",
+      "concepts": [
+        "Physics",
+        "Astrophysics",
+        "Astronomy"
+      ]
+    },
+    {
+      "title": "Data Needs for Modeling Low-Temperature Non-Equilibrium Plasmas: The LXCat Project, History, Perspectives and a Tutorial",
+      "year": 2021,
+      "authors": [
+        "E. Carbone",
+        "Wouter Graef",
+        "Gerjan Hagelaar",
+        "Daan Boer"
+      ],
+      "venue": "Atoms",
+      "cited_by": 172,
+      "type": "article",
+      "doi": "10.3390/atoms9010016",
+      "concepts": [
+        "Plasma",
+        "Swarm behaviour",
+        "Solver"
+      ]
+    },
+    {
+      "title": "PDRs4All",
+      "year": 2024,
+      "authors": [
+        "E. Peeters",
+        "E. Habart",
+        "Olivier Berné",
+        "Ameek Sidhu"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "cited_by": 92,
+      "type": "article",
+      "doi": "10.1051/0004-6361/202348244",
+      "concepts": [
+        "Physics",
+        "Orion Nebula",
+        "Astrophysics"
+      ]
+    },
+    {
+      "title": "Three-Dimensional Nonlocal Thermodynamic Equilibrium Abundance Analyses of Late-Type Stars",
+      "year": 2024,
+      "authors": [
+        "K. Lind",
+        "A. M. Amarsi"
+      ],
+      "venue": "Annual Review of Astronomy and Astrophysics",
+      "cited_by": 37,
+      "type": "article",
+      "doi": "10.1146/annurev-astro-052722-103557",
+      "concepts": [
+        "Physics",
+        "Astrophysics",
+        "Abundance (ecology)"
+      ]
+    },
+    {
+      "title": "Metastable argon atom kinetics in a low-pressure capacitively coupled radio frequency discharge",
+      "year": 2023,
+      "authors": [
+        "Zoltán Donkó",
+        "Péter Hartmann",
+        "Ihor Korolov",
+        "David Schulenberg"
+      ],
+      "venue": "Plasma Sources Science and Technology",
+      "cited_by": 29,
+      "type": "article",
+      "doi": "10.1088/1361-6595/acd6b5",
+      "concepts": [
+        "Excited state",
+        "Atomic physics",
+        "Argon"
+      ]
+    },
+    {
+      "title": "The 2021 release of the Quantemol database (QDB) of plasma chemistries and reactions",
+      "year": 2022,
+      "authors": [
+        "Jonathan Tennyson",
+        "Sebastian Mohr",
+        "Martin Haničinec",
+        "Anna Dzarasova"
+      ],
+      "venue": "Plasma Sources Science and Technology",
+      "cited_by": 29,
+      "type": "article",
+      "doi": "10.1088/1361-6595/ac907e",
+      "concepts": [
+        "Bespoke",
+        "Database",
+        "Plasma"
+      ]
+    },
+    {
+      "title": "Probe Diagnostics and Optical Emission Spectroscopy of Wave Plasma Source Exhaust",
+      "year": 2022,
+      "authors": [
+        "Andrei I. Shumeiko",
+        "V D Telekh",
+        "Sergei V. Ryzhkov"
+      ],
+      "venue": "Symmetry",
+      "cited_by": 22,
+      "type": "article",
+      "doi": "10.3390/sym14101983",
+      "concepts": [
+        "Langmuir probe",
+        "Plasma",
+        "Electrically powered spacecraft propulsion"
+      ]
+    },
+    {
+      "title": "Generation and optimization of cross-sections for electron-C 4 F 7 N collisions",
+      "year": 2023,
+      "authors": [
+        "M. Flynn",
+        "John Agan",
+        "A. Neuber",
+        "J. Stephens"
+      ],
+      "venue": "Journal of Physics D Applied Physics",
+      "cited_by": 19,
+      "type": "article",
+      "doi": "10.1088/1361-6463/acf3db",
+      "concepts": [
+        "Argon",
+        "Electron",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Insights from Collisional-Radiative Models of Neutral and Singly Ionized Xenon in Hall Thrusters",
+      "year": 2022,
+      "authors": [
+        "Vernon H. Chaplin",
+        "Lee Johnson",
+        "Robert B. Lobbia",
+        "Mary F. Konopliv"
+      ],
+      "venue": "Journal of Propulsion and Power",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.2514/1.b38676",
+      "concepts": [
+        "Xenon",
+        "Radiative transfer",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Self-consistent calculation of the optical emission spectrum of an argon capacitively coupled plasma based on the coupling of particle simulation with a collisional-radiative model",
+      "year": 2024,
+      "authors": [
+        "Zoltán Donkó",
+        "Tsanko Tsankov",
+        "Péter Hartmann",
+        "Fatima Jenina Arellano"
+      ],
+      "venue": "Journal of Physics D Applied Physics",
+      "cited_by": 15,
+      "type": "article",
+      "doi": "10.1088/1361-6463/ad4e42",
+      "concepts": [
+        "Radiative transfer",
+        "Atomic physics",
+        "Plasma"
+      ]
+    },
+    {
+      "title": "First-principles simulation of optical emission spectra for low-pressure argon plasmas and its experimental validation",
+      "year": 2023,
+      "authors": [
+        "Fatima Jenina Arellano",
+        "Márton Gyulai",
+        "Zoltán Donkó",
+        "Péter Hartmann"
+      ],
+      "venue": "Plasma Sources Science and Technology",
+      "cited_by": 13,
+      "type": "article",
+      "doi": "10.1088/1361-6595/ad0ede",
+      "concepts": [
+        "Ionization",
+        "Atomic physics",
+        "Electron ionization"
+      ]
+    },
+    {
+      "title": "Plasma-based microwave power limitation in a printed transmission line: a self-consistent model compared with experimental data",
+      "year": 2022,
+      "authors": [
+        "Lucas Fuster",
+        "Gerjan Hagelaar",
+        "Romain Pascaud",
+        "Antoine Simon"
+      ],
+      "venue": "Plasma Sources Science and Technology",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1088/1361-6595/ac4848",
+      "concepts": [
+        "Microwave",
+        "Microstrip",
+        "Plasma"
+      ]
+    },
+    {
+      "title": "Hollow cathode enhanced capacitively coupled plasmas in Ar/N2/H2 mixtures and implications for plasma enhanced ALD",
+      "year": 2022,
+      "authors": [
+        "David R. Boris",
+        "Michael J. Johnson",
+        "Charles R. Eddy",
+        "Scott G. Walton"
+      ],
+      "venue": "Journal of Vacuum Science & Technology B Nanotechnology and Microelectronics Materials Processing Measurement and Phenomena",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1116/6.0001840",
+      "concepts": [
+        "Langmuir probe",
+        "Plasma",
+        "Atomic layer deposition"
+      ]
+    },
+    {
+      "title": "Photoionization and core resonances from range-separated density-functional theory: General formalism and example of the beryllium atom",
+      "year": 2022,
+      "authors": [
+        "Karno Schwinn",
+        "Felipe Zapata",
+        "Antoine Levitt",
+        "Éric Cancès"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1063/5.0091073",
+      "concepts": [
+        "Photoionization",
+        "Time-dependent density functional theory",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Ellipticity dependence of anticorrelation in the nonsequential double ionization of Ar",
+      "year": 2022,
+      "authors": [
+        "Zhangjin Chen",
+        "Shuqi Li",
+        "HuiPeng Kang",
+        "Tōru Morishita"
+      ],
+      "venue": "Optics Express",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1364/oe.475497",
+      "concepts": [
+        "Physics",
+        "Ionization",
+        "Double ionization"
+      ]
+    },
+    {
+      "title": "Degradation of toluene via DBD: Detailed kinetic reaction mechanism",
+      "year": 2024,
+      "authors": [
+        "Lixin Cui",
+        "Yifu Li",
+        "Qi Lei",
+        "Peizhuang Si"
+      ],
+      "venue": "Journal of environmental chemical engineering",
+      "cited_by": 7,
+      "type": "article",
+      "doi": "10.1016/j.jece.2024.114977",
+      "concepts": [
+        "Toluene",
+        "Degradation (telecommunications)",
+        "Kinetic energy"
+      ]
+    },
+    {
+      "title": "Plasma optical emission spectroscopy based on feedforward neural network",
+      "year": 2021,
+      "authors": [
+        "Yanfei Wang",
+        "Xi-Ming Zhu",
+        "Mingzhi Zhang",
+        "Sheng-Feng Meng"
+      ],
+      "venue": "Acta Physica Sinica",
+      "cited_by": 7,
+      "type": "article",
+      "doi": "10.7498/aps.70.20202248",
+      "concepts": [
+        "Artificial neural network",
+        "Standard deviation",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Estimation of electron kinetics in low-temperature plasmas using data assimilation",
+      "year": 2025,
+      "authors": [
+        "Anubhav Dwivedi",
+        "Kentaro Hara"
+      ],
+      "venue": "Journal of Physics D Applied Physics",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1088/1361-6463/adbfa3",
+      "concepts": [
+        "Data assimilation",
+        "Plasma",
+        "Kinetics"
+      ]
+    },
+    {
+      "title": "Photoionization cross sections and photoelectron angular distributions of molecules with XCHEM-2.0",
+      "year": 2023,
+      "authors": [
+        "Vicent J. Borràs",
+        "Pedro Fernández-Milán",
+        "Luca Argenti",
+        "Jesús González‐Vázquez"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2023.109033",
+      "concepts": [
+        "Photoionization",
+        "Ionization",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Reactor optimization strategies for remote plasma sources: Numerical insights into argon inductively coupled plasma at Torr pressures",
+      "year": 2025,
+      "authors": [
+        "Sanghyun Jo",
+        "Ho Jun Kim"
+      ],
+      "venue": "Physics of Fluids",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1063/5.0244613",
+      "concepts": [
+        "Physics",
+        "Plasma",
+        "Inductively coupled plasma"
+      ]
+    },
+    {
+      "title": "Single-cycle versus multicycle nonsequential double ionization of argon",
+      "year": 2021,
+      "authors": [
+        "Fang Liu",
+        "Zhangjin Chen",
+        "Tōru Morishita",
+        "Klaus Bartschat"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1103/physreva.104.013105",
+      "concepts": [
+        "Atomic physics",
+        "Physics",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Insights from Collisional-Radiative Models of Neutral and Singly-Ionized Xenon in Hall Thrusters",
+      "year": 2021,
+      "authors": [
+        "Vernon H. Chaplin",
+        "Mary F. Konopliv",
+        "Timothy Simka",
+        "Lee Johnson"
+      ],
+      "venue": "AIAA Propulsion and Energy 2021 Forum",
+      "cited_by": 6,
+      "type": "conference-paper",
+      "doi": "10.2514/6.2021-3378",
+      "concepts": [
+        "Xenon",
+        "Atomic physics",
+        "Radiative transfer"
+      ]
+    },
+    {
+      "title": "Direct current arc quenching performance of a model electric fuse equipped with SiO2 sand and additive silicone resin as an arc quenching medium: the effect of a vaporized silicone decomposition mixture on transient arc resistance",
+      "year": 2023,
+      "authors": [
+        "Waku Takenaka",
+        "Naoto Kodama",
+        "Yasunobu Yokomizu",
+        "Kae Nakamura"
+      ],
+      "venue": "Journal of Physics D Applied Physics",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1088/1361-6463/acee92",
+      "concepts": [
+        "Fuse (electrical)",
+        "Silicone",
+        "Quenching (fluorescence)"
+      ]
+    },
+    {
+      "title": "Atomic hydrogen production in a cold plasma for application in a metal foil pump",
+      "year": 2024,
+      "authors": [
+        "Yannick Kathage",
+        "S. Hanke",
+        "T. Giegerich",
+        "C. Day"
+      ],
+      "venue": "Physics of Plasmas",
+      "cited_by": 5,
+      "type": "article",
+      "doi": "10.1063/5.0190210",
+      "concepts": [
+        "Physics",
+        "FOIL method",
+        "Plasma"
+      ]
+    }
+  ]
+}
