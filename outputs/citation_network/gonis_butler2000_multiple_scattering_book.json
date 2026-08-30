@@ -1,0 +1,566 @@
+{
+  "key": "gonis_butler2000_multiple_scattering_book",
+  "title": "Multiple Scattering in Solids (Springer book)",
+  "topic": "多重散射理论 — 方法专著",
+  "pdf": "papers/spherical_wave/Gonis_Butler_1999_multiple_scattering_Springer.pdf",
+  "doi": "10.1007/978-1-4612-1290-4",
+  "work_id": "https://openalex.org/W1480858777",
+  "meta": {
+    "openalex_title": "Multiple Scattering in Solids",
+    "year": 2000,
+    "cited_by_total": 64,
+    "references_total": 0,
+    "type": "book",
+    "venue": "Graduate texts in contemporary physics",
+    "concepts": [
+      "Scattering",
+      "Scattering amplitude",
+      "Physics",
+      "Scattering length"
+    ]
+  },
+  "referenced_top25": [],
+  "citing_top25": [
+    {
+      "title": "Calculating condensed matter properties using the KKR-Green's function method—recent developments and applications",
+      "year": 2011,
+      "authors": [
+        "H. Ebert",
+        "D. Ködderitzsch",
+        "J. Minář"
+      ],
+      "venue": "Reports on Progress in Physics",
+      "cited_by": 1080,
+      "type": "article",
+      "doi": "10.1088/0034-4885/74/9/096501",
+      "concepts": [
+        "Physics",
+        "Function (biology)",
+        "Electronic structure"
+      ]
+    },
+    {
+      "title": "Multiresolution quantum chemistry: Basic theory and initial applications",
+      "year": 2004,
+      "authors": [
+        "Robert J. Harrison",
+        "George I. Fann",
+        "Takeshi Yanai",
+        "Zhengting Gan"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 274,
+      "type": "article",
+      "doi": "10.1063/1.1791051",
+      "concepts": [
+        "Solver",
+        "Helmholtz free energy",
+        "Polyatomic ion"
+      ]
+    },
+    {
+      "title": "Conceptual improvements of the KKR method",
+      "year": 2002,
+      "authors": [
+        "N. Papanikolaou",
+        "R. Zeller",
+        "P. H. Dederichs"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "cited_by": 240,
+      "type": "article",
+      "doi": "10.1088/0953-8984/14/11/304",
+      "concepts": [
+        "Scattering",
+        "Electronic structure",
+        "Lattice (music)"
+      ]
+    },
+    {
+      "title": "Scalar Casimir effect between Dirichlet spheres or a plate and a sphere",
+      "year": 2006,
+      "authors": [
+        "Aurel Bulgac",
+        "Piotr Magierski",
+        "A. Wirzba"
+      ],
+      "venue": "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields",
+      "cited_by": 181,
+      "type": "article",
+      "doi": "10.1103/physrevd.73.025007",
+      "concepts": [
+        "Casimir effect",
+        "SPHERES",
+        "Formalism (music)"
+      ]
+    },
+    {
+      "title": "Multiple-scattering formalism for correlated systems: A KKR-DMFT approach",
+      "year": 2005,
+      "authors": [
+        "J. Minář",
+        "L. Chioncel",
+        "A. Ya. Perlov",
+        "H. Ebert"
+      ],
+      "venue": "Physical Review B",
+      "cited_by": 124,
+      "type": "article",
+      "doi": "10.1103/physrevb.72.045125",
+      "concepts": [
+        "Formalism (music)",
+        "Scattering",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Near-Field Analysis of Electromagnetic Interactions in Antenna Arrays Through Equivalent Dipole Models",
+      "year": 2011,
+      "authors": [
+        "Said Mikki",
+        "Yahia M. M. Antar"
+      ],
+      "venue": "IEEE Transactions on Antennas and Propagation",
+      "cited_by": 63,
+      "type": "article",
+      "doi": "10.1109/tap.2011.2180318",
+      "concepts": [
+        "Dipole antenna",
+        "Near and far field",
+        "Antenna (radio)"
+      ]
+    },
+    {
+      "title": "A bridge for accelerating materials by design",
+      "year": 2015,
+      "authors": [
+        "Bobby G. Sumpter",
+        "Rama K. Vasudevan",
+        "Thomas E. Potok",
+        "Sergei V. Kalinin"
+      ],
+      "venue": "npj Computational Materials",
+      "cited_by": 60,
+      "type": "article",
+      "doi": "10.1038/npjcompumats.2015.8",
+      "concepts": [
+        "Computer science",
+        "Data science",
+        "Perspective (graphical)"
+      ]
+    },
+    {
+      "title": "T-matrix approach to seismic forward modelling in the acoustic approximation",
+      "year": 2012,
+      "authors": [
+        "Morten Jakobsen"
+      ],
+      "venue": "Studia Geophysica et Geodaetica",
+      "cited_by": 51,
+      "type": "article",
+      "doi": "10.1007/s11200-010-9081-2",
+      "concepts": [
+        "Matrix (chemical analysis)",
+        "Mathematical analysis",
+        "Born approximation"
+      ]
+    },
+    {
+      "title": "Full-potential multiple scattering theory with space-filling cells for bound and continuum states",
+      "year": 2010,
+      "authors": [
+        "Keisuke Hatada",
+        "Kuniko Hayakawa",
+        "M. Benfatto",
+        "C. R. Natoli"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "cited_by": 48,
+      "type": "article",
+      "doi": "10.1088/0953-8984/22/18/185501",
+      "concepts": [
+        "Spherical harmonics",
+        "Scattering",
+        "Wave function"
+      ]
+    },
+    {
+      "title": "Full-potential multiple scattering for x-ray spectroscopies",
+      "year": 2007,
+      "authors": [
+        "Keisuke Hatada",
+        "Kuniko Hayakawa",
+        "M. Benfatto",
+        "C. R. Natoli"
+      ],
+      "venue": "Physical Review B",
+      "cited_by": 43,
+      "type": "article",
+      "doi": "10.1103/physrevb.76.060102",
+      "concepts": [
+        "Scattering",
+        "Truncation (statistics)",
+        "Generalization"
+      ]
+    },
+    {
+      "title": "Multiple-scattering approach with complex potential in the interpretation of electron and photon spectroscopies",
+      "year": 2006,
+      "authors": [
+        "D. Sébilleau",
+        "R. Gunnella",
+        "Z-Y Wu",
+        "S. Di Matteo"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "cited_by": 42,
+      "type": "article",
+      "doi": "10.1088/0953-8984/18/9/r01",
+      "concepts": [
+        "Interpretation (philosophy)",
+        "Electron",
+        "Photon"
+      ]
+    },
+    {
+      "title": "Effective Transmission of Light for Media Culture, Plates and Tubes",
+      "year": 2012,
+      "authors": [
+        "Daniela de Fátima Teixeira da Silva",
+        "Raquel Agnelli Mesquita‐Ferrari",
+        "Kristianne Porta Santos Fernandes",
+        "Marcus Paulo Raele"
+      ],
+      "venue": "Photochemistry and Photobiology",
+      "cited_by": 42,
+      "type": "article",
+      "doi": "10.1111/j.1751-1097.2012.01166.x",
+      "concepts": [
+        "Materials science",
+        "Optics",
+        "Attenuation coefficient"
+      ]
+    },
+    {
+      "title": "Casimir Interaction among Objects Immersed in a Fermionic Environment",
+      "year": 2001,
+      "authors": [
+        "Aurel Bulgac",
+        "A. Wirzba"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 42,
+      "type": "article",
+      "doi": "10.1103/physrevlett.87.120404",
+      "concepts": [
+        "Casimir effect",
+        "Semiclassical physics",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Local optical density of states in finite crystals of plane scatterers",
+      "year": 2002,
+      "authors": [
+        "Martijn Wubs",
+        "Ad Lagendijk"
+      ],
+      "venue": "Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",
+      "cited_by": 40,
+      "type": "article",
+      "doi": "10.1103/physreve.65.046612",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Dielectric"
+      ]
+    },
+    {
+      "title": "Target-Oriented Inversion of Time-Lapse Seismic Waveform Data",
+      "year": 2020,
+      "authors": [
+        "Xingguo Huang",
+        "Morten Jakobsen",
+        "Kjersti Solberg Eikrem",
+        "Geir Nævdal"
+      ],
+      "venue": "Communications in Computational Physics",
+      "cited_by": 31,
+      "type": "article",
+      "doi": "10.4208/cicp.oa-2018-0143",
+      "concepts": [
+        "Geology",
+        "Seismology",
+        "Inversion (geology)"
+      ]
+    },
+    {
+      "title": "A Green's function quantum average atom model",
+      "year": 2015,
+      "authors": [
+        "C. E. Starrett"
+      ],
+      "venue": "High Energy Density Physics",
+      "cited_by": 23,
+      "type": "article",
+      "doi": "10.1016/j.hedp.2015.05.001",
+      "concepts": [
+        "Physics",
+        "Atom (system on chip)",
+        "Quantum"
+      ]
+    },
+    {
+      "title": "Multiple scattering theory for dense plasmas",
+      "year": 2020,
+      "authors": [
+        "C. E. Starrett",
+        "Nathaniel R. Shaffer"
+      ],
+      "venue": "Physical review. E",
+      "cited_by": 23,
+      "type": "article",
+      "doi": "10.1103/physreve.102.043211",
+      "concepts": [
+        "Plasma",
+        "Equation of state",
+        "Scattering"
+      ]
+    },
+    {
+      "title": "Full-potential multiple scattering for core electron spectroscopies",
+      "year": 2009,
+      "authors": [
+        "Keisuke Hatada",
+        "Kuniko Hayakawa",
+        "M. Benfatto",
+        "C. R. Natoli"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "cited_by": 23,
+      "type": "article",
+      "doi": "10.1088/0953-8984/21/10/104206",
+      "concepts": [
+        "Scattering",
+        "Spherical harmonics",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Multi-center electronic structure calculations for plasma equation of state",
+      "year": 2011,
+      "authors": [
+        "B. G. Wilson",
+        "D. D. Johnson",
+        "Aftab Alam"
+      ],
+      "venue": "High Energy Density Physics",
+      "cited_by": 17,
+      "type": "article",
+      "doi": "10.1016/j.hedp.2011.01.002",
+      "concepts": [
+        "Plasma",
+        "Charge exchange",
+        "Center (category theory)"
+      ]
+    },
+    {
+      "title": "Angular distributions of electrons photoemitted from core levels of oriented diatomic molecules: multiple scattering theory in non-spherical potentials",
+      "year": 2002,
+      "authors": [
+        "R. Dı́ez Muiño",
+        "Daniel Rolles",
+        "F. Javier Garcı́a de Abajo",
+        "C. S. Fadley"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.1088/0953-4075/35/15/104",
+      "concepts": [
+        "Diatomic molecule",
+        "Scattering",
+        "Core (optical fiber)"
+      ]
+    },
+    {
+      "title": "Spontaneous-emission rates in finite photonic crystals of plane scatterers",
+      "year": 2004,
+      "authors": [
+        "Martijn Wubs",
+        "L.G. Suttorp",
+        "Ad Lagendijk"
+      ],
+      "venue": "Physical Review E",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.1103/physreve.69.016616",
+      "concepts": [
+        "Physics",
+        "Plane wave",
+        "Polarization (electrochemistry)"
+      ]
+    },
+    {
+      "title": "Distorted Born iterative T-matrix method for inversion of CSEM data in anisotropic media",
+      "year": 2018,
+      "authors": [
+        "Morten Jakobsen",
+        "Svenn Tveit"
+      ],
+      "venue": "Geophysical Journal International",
+      "cited_by": 15,
+      "type": "article",
+      "doi": "10.1093/gji/ggy197",
+      "concepts": [
+        "Inversion (geology)",
+        "Inverse scattering problem",
+        "Algorithm"
+      ]
+    },
+    {
+      "title": "Ewald summation technique for one-dimensional charge distributions",
+      "year": 2001,
+      "authors": [
+        "D.J. Langridge",
+        "Jason Hart",
+        "S. Crampin"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 15,
+      "type": "article",
+      "doi": "10.1016/s0010-4655(00)00192-2",
+      "concepts": [
+        "Ewald summation",
+        "Summation by parts",
+        "Charge (physics)"
+      ]
+    },
+    {
+      "title": "Local potentials in independent-electron models",
+      "year": 2001,
+      "authors": [
+        "R. K. Nesbet"
+      ],
+      "venue": "International Journal of Quantum Chemistry",
+      "cited_by": 13,
+      "type": "article",
+      "doi": "10.1002/1097-461x(2001)81:6<384::aid-qua1008>3.0.co;2-x",
+      "concepts": [
+        "Locality",
+        "Density functional theory",
+        "Orbital-free density functional theory"
+      ]
+    },
+    {
+      "title": "Photoelectron diffraction from random surface alloys: critique of calculational methods",
+      "year": 2002,
+      "authors": [
+        "E.A. Soares",
+        "Abner de Siervo",
+        "Richard Landers",
+        "G. G. Kleiman"
+      ],
+      "venue": "Surface Science",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1016/s0039-6028(01)01561-8",
+      "concepts": [
+        "X-ray photoelectron spectroscopy",
+        "Materials science",
+        "Diffraction"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "Multiple scattering model of the quantum random Lorentz gas",
+      "year": 2022,
+      "authors": [
+        "David Gaspard",
+        "Jean-Marc Sparenberg"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 7,
+      "type": "article",
+      "doi": "10.1103/physreva.105.042204",
+      "concepts": [
+        "Scattering",
+        "Physics",
+        "Scattering amplitude"
+      ]
+    },
+    {
+      "title": "Application of the locally self-consistent embedding approach to the Anderson model with non-uniform random distributions",
+      "year": 2021,
+      "authors": [
+        "Ka-Ming Tam",
+        "Yi Zhang",
+        "Hanna Terletska",
+        "Yang Wang"
+      ],
+      "venue": "Annals of Physics",
+      "cited_by": 3,
+      "type": "article",
+      "doi": "10.1016/j.aop.2021.168480",
+      "concepts": [
+        "Physics",
+        "Statistical physics",
+        "Gaussian"
+      ]
+    },
+    {
+      "title": "Numerical analysis of multiple scattering theory for electronic structure calculations",
+      "year": 2022,
+      "authors": [
+        "Xiaoxu Li",
+        "Huajie Chen",
+        "Xingyu Gao"
+      ],
+      "venue": "IMA Journal of Numerical Analysis",
+      "cited_by": 2,
+      "type": "article",
+      "doi": "10.1093/imanum/drac040",
+      "concepts": [
+        "Mathematics",
+        "Angular momentum",
+        "Convergence (economics)"
+      ]
+    },
+    {
+      "title": "Low-energy electron diffraction with signal electron carrier-wave wavenumber modulated by signal exchange-correlation interaction",
+      "year": 2021,
+      "authors": [
+        "J. Rundgren",
+        "Bo E. Sernelius",
+        "W. Moritz"
+      ],
+      "venue": "Journal of Physics Communications",
+      "cited_by": 1,
+      "type": "article",
+      "doi": "10.1088/2399-6528/ac2c31",
+      "concepts": [
+        "Electron",
+        "Low-energy electron diffraction",
+        "Electron diffraction"
+      ]
+    },
+    {
+      "title": "Resonance distribution in the quantum random Lorentz gas",
+      "year": 2022,
+      "authors": [
+        "David Gaspard",
+        "Jean-Marc Sparenberg"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 0,
+      "type": "article",
+      "doi": "10.1103/physreva.105.042205",
+      "concepts": [
+        "Lorentz transformation",
+        "Physics",
+        "Scattering"
+      ]
+    }
+  ]
+}
