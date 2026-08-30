@@ -1,0 +1,1323 @@
+{
+  "key": "eyert_asw_review",
+  "title": "Basic notions and applications of the augmented spherical wave method",
+  "topic": "球面波展开/APW — 方法开发与原理",
+  "pdf": "papers/spherical_wave/Eyert_ASW_review.pdf",
+  "doi": "10.1002/(sici)1097-461x(2000)77:6<1007::aid-qua8>3.0.co;2-u",
+  "work_id": "https://openalex.org/W2040578172",
+  "meta": {
+    "openalex_title": "Basic notions and applications of the augmented spherical wave method",
+    "year": 2000,
+    "cited_by_total": 199,
+    "references_total": 92,
+    "type": "article",
+    "venue": "International Journal of Quantum Chemistry",
+    "concepts": [
+      "Spherical wave",
+      "Class (philosophy)",
+      "Computer science",
+      "State (computer science)"
+    ]
+  },
+  "referenced_top25": [
+    {
+      "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+      "year": 1965,
+      "authors": [
+        "W. Kohn",
+        "L. J. Sham"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 63945,
+      "type": "article",
+      "doi": "10.1103/physrev.140.a1133",
+      "concepts": [
+        "Physics",
+        "Hartree–Fock method",
+        "Electron"
+      ]
+    },
+    {
+      "title": "Handbook of Mathematical Functions",
+      "year": 1966,
+      "authors": [
+        "Donald A. McQuarrie"
+      ],
+      "venue": "American Journal of Physics",
+      "cited_by": 40904,
+      "type": "article",
+      "doi": "10.1119/1.1972842",
+      "concepts": [
+        "Physics",
+        "Theoretical physics",
+        "Applied mathematics"
+      ]
+    },
+    {
+      "title": "Soft self-consistent pseudopotentials in a generalized eigenvalue formalism",
+      "year": 1990,
+      "authors": [
+        "David Vanderbilt"
+      ],
+      "venue": "Physical review. B, Condensed matter",
+      "cited_by": 23107,
+      "type": "article",
+      "doi": "10.1103/physrevb.41.7892",
+      "concepts": [
+        "Pseudopotential",
+        "Cutoff",
+        "Eigenvalues and eigenvectors"
+      ]
+    },
+    {
+      "title": "Handbook of Mathematical Functions",
+      "year": 1972,
+      "authors": [
+        "Milton Abramowitz",
+        "I. A. Stegun"
+      ],
+      "venue": null,
+      "cited_by": 15406,
+      "type": "article",
+      "doi": "",
+      "concepts": [
+        "Computer science",
+        "Mathematics"
+      ]
+    },
+    {
+      "title": "Unified Approach for Molecular Dynamics and Density-Functional Theory",
+      "year": 1985,
+      "authors": [
+        "Roberto Car",
+        "Michele Parrinello"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 10761,
+      "type": "article",
+      "doi": "10.1103/physrevlett.55.2471",
+      "concepts": [
+        "Pseudopotential",
+        "Density functional theory",
+        "Molecular dynamics"
+      ]
+    },
+    {
+      "title": "Iterative minimization techniques for ab initio total-energy calculations: molecular dynamics and conjugate gradients",
+      "year": 1992,
+      "authors": [
+        "M. C. Payne",
+        "M. P. Teter",
+        "D. C. Allan",
+        "T. A. Arias"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 9699,
+      "type": "article",
+      "doi": "10.1103/revmodphys.64.1045",
+      "concepts": [
+        "Pseudopotential",
+        "Physics",
+        "Ab initio"
+      ]
+    },
+    {
+      "title": "Linear methods in band theory",
+      "year": 1975,
+      "authors": [
+        "OK Andersen"
+      ],
+      "venue": "Physical review. B, Solid state",
+      "cited_by": 6548,
+      "type": "article",
+      "doi": "10.1103/physrevb.12.3060",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Pseudopotential",
+        "Physics"
+      ]
+    },
+    {
+      "title": "A local exchange-correlation potential for the spin polarized case. i",
+      "year": 1972,
+      "authors": [
+        "Ulf von Barth",
+        "Lars Hedin"
+      ],
+      "venue": "Journal of Physics C Solid State Physics",
+      "cited_by": 5426,
+      "type": "article",
+      "doi": "10.1088/0022-3719/5/13/012",
+      "concepts": [
+        "Spin (aerodynamics)",
+        "Random phase approximation",
+        "Condensed matter physics"
+      ]
+    },
+    {
+      "title": "Zur Quantentheorie der Molekeln",
+      "year": 1927,
+      "authors": [
+        "Marise Ph. Born",
+        "R. Oppenheimer"
+      ],
+      "venue": "Annalen der Physik",
+      "cited_by": 4737,
+      "type": "article",
+      "doi": "10.1002/andp.19273892002",
+      "concepts": [
+        "Citation",
+        "Computer science",
+        "Information retrieval"
+      ]
+    },
+    {
+      "title": "The transition metal dichalcogenides discussion and interpretation of the observed optical, electrical and structural properties",
+      "year": 1969,
+      "authors": [
+        "J. A. Wilson",
+        "A. D. Yoffe"
+      ],
+      "venue": "Advances In Physics",
+      "cited_by": 4089,
+      "type": "article",
+      "doi": "10.1080/00018736900101307",
+      "concepts": [
+        "Condensed matter physics",
+        "Superconductivity",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Pseudopotentials that work: From H to Pu",
+      "year": 1982,
+      "authors": [
+        "Giovanni B. Bachelet",
+        "D. R. Hamann",
+        "M. Schlüter"
+      ],
+      "venue": "Physical review. B, Condensed matter",
+      "cited_by": 3375,
+      "type": "article",
+      "doi": "10.1103/physrevb.26.4199",
+      "concepts": [
+        "Pseudopotential",
+        "Context (archaeology)",
+        "Set (abstract data type)"
+      ]
+    },
+    {
+      "title": "�ber die Quantenmechanik der Elektronen in Kristallgittern",
+      "year": 1929,
+      "authors": [
+        "Félix Bloch"
+      ],
+      "venue": "The European Physical Journal A",
+      "cited_by": 3352,
+      "type": "article",
+      "doi": "10.1007/bf01339455",
+      "concepts": [
+        "Philosophy",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Explicit local exchange-correlation potentials",
+      "year": 1971,
+      "authors": [
+        "Lars Hedin",
+        "Bengt I. Lundqvist"
+      ],
+      "venue": "Journal of Physics C Solid State Physics",
+      "cited_by": 3335,
+      "type": "article",
+      "doi": "10.1088/0022-3719/4/14/022",
+      "concepts": [
+        "Valence (chemistry)",
+        "Physics",
+        "Local-density approximation"
+      ]
+    },
+    {
+      "title": "Calculated Electronic Properties of Metals",
+      "year": 1978,
+      "authors": [],
+      "venue": "Elsevier eBooks",
+      "cited_by": 2768,
+      "type": "book",
+      "doi": "10.1016/c2013-0-03017-4",
+      "concepts": [
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Density Functional Theory",
+      "year": 1990,
+      "authors": [
+        "Reiner M. Dreizler",
+        "E. K. U. Gross"
+      ],
+      "venue": null,
+      "cited_by": 2572,
+      "type": "book",
+      "doi": "10.1007/978-3-642-86105-5",
+      "concepts": [
+        "Density functional theory",
+        "Physics",
+        "Quantum mechanics"
+      ]
+    },
+    {
+      "title": "Methods in Computational Physics",
+      "year": 1964,
+      "authors": [
+        "Berni J. Alder",
+        "Sidney Fernbach",
+        "Manuel Rotenberg",
+        "J. Gillis"
+      ],
+      "venue": "Physics Today",
+      "cited_by": 2210,
+      "type": "article",
+      "doi": "10.1063/1.3051748",
+      "concepts": [
+        "Physics",
+        "Statistical physics",
+        "Theoretical physics"
+      ]
+    },
+    {
+      "title": "Quantum Theory of Molecules and Solids",
+      "year": 1951,
+      "authors": [
+        "John C. Slater"
+      ],
+      "venue": null,
+      "cited_by": 1879,
+      "type": "article",
+      "doi": "",
+      "concepts": [
+        "Quantum",
+        "Molecule",
+        "Physics"
+      ]
+    },
+    {
+      "title": "The LMTO Method",
+      "year": 1984,
+      "authors": [
+        "H. L. Skriver"
+      ],
+      "venue": "Springer series in solid-state sciences",
+      "cited_by": 1817,
+      "type": "book",
+      "doi": "10.1007/978-3-642-81844-8",
+      "concepts": [
+        "Physics",
+        "Statistical physics"
+      ]
+    },
+    {
+      "title": "Solution of the Schrödinger Equation in Periodic Lattices with an Application to Metallic Lithium",
+      "year": 1954,
+      "authors": [
+        "W. Kohn",
+        "N. Rostoker"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 1801,
+      "type": "article",
+      "doi": "10.1103/physrev.94.1111",
+      "concepts": [
+        "Lattice constant",
+        "Inscribed figure",
+        "Lattice (music)"
+      ]
+    },
+    {
+      "title": "On the calculation of the energy of a Bloch wave in a metal",
+      "year": 1947,
+      "authors": [
+        "J. Korringa"
+      ],
+      "venue": "Physica",
+      "cited_by": 1538,
+      "type": "article",
+      "doi": "10.1016/0031-8914(47)90013-x",
+      "concepts": [
+        "Bloch wave",
+        "Multipole expansion",
+        "Wave function"
+      ]
+    },
+    {
+      "title": "Planewaves, Pseudopotentials and the LAPW Method",
+      "year": 1994,
+      "authors": [
+        "David J. Singh"
+      ],
+      "venue": null,
+      "cited_by": 1527,
+      "type": "book",
+      "doi": "10.1007/978-1-4757-2312-0",
+      "concepts": [
+        "Psychology",
+        "Condensed matter physics",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Methods in Computational Physics",
+      "year": 1971,
+      "authors": [
+        "R S Peckover"
+      ],
+      "venue": "Physics Bulletin",
+      "cited_by": 1433,
+      "type": "article",
+      "doi": "10.1088/0031-9112/22/3/023",
+      "concepts": [
+        "Theoretical physics",
+        "Physics",
+        "Engineering physics"
+      ]
+    },
+    {
+      "title": "Theory of the Inhomogeneous Electron Gas",
+      "year": 1983,
+      "authors": [
+        "Stig Lundqvist",
+        "N. H. March"
+      ],
+      "venue": null,
+      "cited_by": 1402,
+      "type": "book",
+      "doi": "10.1007/978-1-4899-0415-7",
+      "concepts": [
+        "Electron",
+        "Physics",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "The Mathematical Theory Of Symmetry In Solids",
+      "year": 2009,
+      "authors": [
+        "Christopher Bradley",
+        "Arthur P. Cracknell"
+      ],
+      "venue": null,
+      "cited_by": 1237,
+      "type": "book",
+      "doi": "10.1093/oso/9780199582587.001.0001",
+      "concepts": [
+        "Irreducible representation",
+        "Point group",
+        "Brillouin zone"
+      ]
+    },
+    {
+      "title": "New Method for Calculating Wave Functions in Crystals and Molecules",
+      "year": 1959,
+      "authors": [
+        "J. C. Phillips",
+        "Leonard Kleinman"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 1224,
+      "type": "article",
+      "doi": "10.1103/physrev.116.287",
+      "concepts": [
+        "Wave function",
+        "Orthogonalization",
+        "Plane wave"
+      ]
+    }
+  ],
+  "citing_top25": [
+    {
+      "title": "Ab-initio calculation of the elastic constants and thermal expansion coefficients of Laves phases",
+      "year": 2003,
+      "authors": [
+        "B. Mayer",
+        "Herbert Anton",
+        "Eric D. Bott",
+        "M. Methfessel"
+      ],
+      "venue": "Intermetallics",
+      "cited_by": 513,
+      "type": "article",
+      "doi": "10.1016/s0966-9795(02)00127-9",
+      "concepts": [
+        "Materials science",
+        "Thermal expansion",
+        "Debye model"
+      ]
+    },
+    {
+      "title": "Full orbital calculation scheme for materials with strongly correlated electrons",
+      "year": 2005,
+      "authors": [
+        "В. И. Анисимов",
+        "D. E. Kondakov",
+        "Anton Kozhevnikov",
+        "I. A. Nekrasov"
+      ],
+      "venue": "Physical Review B",
+      "cited_by": 308,
+      "type": "article",
+      "doi": "10.1103/physrevb.71.125119",
+      "concepts": [
+        "Wannier function",
+        "Hamiltonian (control theory)",
+        "Atomic orbital"
+      ]
+    },
+    {
+      "title": "Electronic band structure of single-crystal and single-layer WS2: Influence of interlayer van der Waals interactions",
+      "year": 2001,
+      "authors": [
+        "Andreas Klein",
+        "S. Tiefenbacher",
+        "Volker Eyert",
+        "C. Pettenkofer"
+      ],
+      "venue": "Physical review. B, Condensed matter",
+      "cited_by": 188,
+      "type": "article",
+      "doi": "10.1103/physrevb.64.205416",
+      "concepts": [
+        "Brillouin zone",
+        "Materials science",
+        "Electronic band structure"
+      ]
+    },
+    {
+      "title": "The metal‐insulator transitions of VO 2 : A band theoretical approach",
+      "year": 2002,
+      "authors": [
+        "Volker Eyert"
+      ],
+      "venue": "Annalen der Physik",
+      "cited_by": 164,
+      "type": "article",
+      "doi": "10.1002/andp.20025140902",
+      "concepts": [
+        "Condensed matter physics",
+        "Materials science",
+        "Antiferromagnetism"
+      ]
+    },
+    {
+      "title": "Electronic structure of paramagnetic V2O3 : Strongly correlated metallic and Mott insulating phase",
+      "year": 2004,
+      "authors": [
+        "G. Keller",
+        "Karsten Held",
+        "Volker Eyert",
+        "D. Vollhardt"
+      ],
+      "venue": "Physical Review B",
+      "cited_by": 127,
+      "type": "article",
+      "doi": "10.1103/physrevb.70.205116",
+      "concepts": [
+        "Physics",
+        "Paramagnetism",
+        "Quasiparticle"
+      ]
+    },
+    {
+      "title": "Electronic band structure of the layered compound Td − WTe 2",
+      "year": 2000,
+      "authors": [
+        "J-E. Augustin",
+        "Volker Eyert",
+        "Th. Böker",
+        "W. Frentrup"
+      ],
+      "venue": "Physical review. B, Condensed matter",
+      "cited_by": 117,
+      "type": "article",
+      "doi": "10.1103/physrevb.62.10812",
+      "concepts": [
+        "Character (mathematics)",
+        "Physics",
+        "Electronic structure"
+      ]
+    },
+    {
+      "title": "Embedded Peierls instability and the electronic structure of MoO2",
+      "year": 2000,
+      "authors": [
+        "Volker Eyert",
+        "Robert Horny",
+        "K.‐H. Höck",
+        "S. Horn"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "cited_by": 116,
+      "type": "article",
+      "doi": "10.1088/0953-8984/12/23/303",
+      "concepts": [
+        "Antibonding molecular orbital",
+        "Monoclinic crystal system",
+        "Electronic structure"
+      ]
+    },
+    {
+      "title": "The metal-insulator transition of NbO 2 : An embedded Peierls instability",
+      "year": 2002,
+      "authors": [
+        "V Eyert"
+      ],
+      "venue": "Europhysics Letters (EPL)",
+      "cited_by": 107,
+      "type": "article",
+      "doi": "10.1209/epl/i2002-00452-6",
+      "concepts": [
+        "Condensed matter physics",
+        "Instability",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "On the Metallic Conductivity of the Delafossites PdCoO2 and PtCoO2",
+      "year": 2008,
+      "authors": [
+        "Volker Eyert",
+        "Raymond Frésard",
+        "Antoine Maignan"
+      ],
+      "venue": "Chemistry of Materials",
+      "cited_by": 88,
+      "type": "article",
+      "doi": "10.1021/cm703404e",
+      "concepts": [
+        "Condensed matter physics",
+        "Materials science",
+        "Electrical resistivity and conductivity"
+      ]
+    },
+    {
+      "title": "On the strong impact of doping in the triangular antiferromagnet CuCrO2",
+      "year": 2009,
+      "authors": [
+        "A. Maignan",
+        "C. Martin",
+        "Raymond Frésard",
+        "Volker Eyert"
+      ],
+      "venue": "Solid State Communications",
+      "cited_by": 81,
+      "type": "article",
+      "doi": "10.1016/j.ssc.2009.02.026",
+      "concepts": [
+        "Antiferromagnetism",
+        "Doping",
+        "Condensed matter physics"
+      ]
+    },
+    {
+      "title": "Unconventional aspects of electronic transport in delafossite oxides",
+      "year": 2017,
+      "authors": [
+        "Ramzy Daou",
+        "Raymond Frésard",
+        "Volker Eyert",
+        "S. Hébert"
+      ],
+      "venue": "Science and Technology of Advanced Materials",
+      "cited_by": 68,
+      "type": "article",
+      "doi": "10.1080/14686996.2017.1393633",
+      "concepts": [
+        "Delafossite",
+        "Electronic structure",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Ab initio investigations in magnetic oxides",
+      "year": 2003,
+      "authors": [
+        "Samir F. Matar"
+      ],
+      "venue": "Progress in Solid State Chemistry",
+      "cited_by": 64,
+      "type": "article",
+      "doi": "10.1016/j.progsolidstchem.2004.01.001",
+      "concepts": [
+        "Density functional theory",
+        "Electronic structure",
+        "Ab initio"
+      ]
+    },
+    {
+      "title": "The Augmented Spherical Wave Method",
+      "year": 2012,
+      "authors": [
+        "Volker Eyert"
+      ],
+      "venue": "Lecture notes in physics",
+      "cited_by": 63,
+      "type": "book",
+      "doi": "10.1007/978-3-642-25864-0",
+      "concepts": [
+        "Physics",
+        "Spherical wave",
+        "Basis (linear algebra)"
+      ]
+    },
+    {
+      "title": "Effect of H insertion on the magnetic, electronic, and structural properties of CeCoSi",
+      "year": 2004,
+      "authors": [
+        "B. Chevalier",
+        "Samir F. Matar"
+      ],
+      "venue": "Physical Review B",
+      "cited_by": 61,
+      "type": "article",
+      "doi": "10.1103/physrevb.70.174408",
+      "concepts": [
+        "Antiferromagnetism",
+        "Condensed matter physics",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Experimental Electron Density of the Complex Carbides Sc3[Fe(C2)2] and Sc3[Co(C2)2]",
+      "year": 2007,
+      "authors": [
+        "B. Rohrmoser",
+        "Georg Eickerling",
+        "Manuel Presnitz",
+        "Wolfgang Scherer"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "cited_by": 58,
+      "type": "article",
+      "doi": "10.1021/ja068137y",
+      "concepts": [
+        "Chemistry",
+        "Carbide",
+        "Electronic structure"
+      ]
+    },
+    {
+      "title": "Electronic structure and thermoelectric properties of CuRh1−xMgxO2",
+      "year": 2009,
+      "authors": [
+        "A. Maignan",
+        "Volker Eyert",
+        "C. Martin",
+        "Stefan Kremer"
+      ],
+      "venue": "Physical Review B",
+      "cited_by": 52,
+      "type": "article",
+      "doi": "10.1103/physrevb.80.115103",
+      "concepts": [
+        "Seebeck coefficient",
+        "Valence (chemistry)",
+        "Electronic structure"
+      ]
+    },
+    {
+      "title": "Electronic structure and crystal phase stability of palladium hydrides",
+      "year": 2014,
+      "authors": [
+        "Abdesalem Houari",
+        "Samir F. Matar",
+        "Volker Eyert"
+      ],
+      "venue": "Journal of Applied Physics",
+      "cited_by": 52,
+      "type": "article",
+      "doi": "10.1063/1.4901004",
+      "concepts": [
+        "Palladium",
+        "Crystal structure",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Structure, ordering, and bonding of half antiperovskites: PbNi3/2S and BiPd3/2S",
+      "year": 2007,
+      "authors": [
+        "Richard Weihrich",
+        "Samir F. Matar",
+        "Volker Eyert",
+        "Franz Rau"
+      ],
+      "venue": "Progress in Solid State Chemistry",
+      "cited_by": 51,
+      "type": "article",
+      "doi": "10.1016/j.progsolidstchem.2007.01.011",
+      "concepts": [
+        "Antiperovskite",
+        "Crystal structure",
+        "Ab initio"
+      ]
+    },
+    {
+      "title": "Surface effects on oxide heterostructures",
+      "year": 2007,
+      "authors": [
+        "Udo Schwingenschlögl",
+        "C. Schuster"
+      ],
+      "venue": "Europhysics Letters (EPL)",
+      "cited_by": 51,
+      "type": "article",
+      "doi": "10.1209/0295-5075/81/17007",
+      "concepts": [
+        "Heterojunction",
+        "Materials science",
+        "Oxide"
+      ]
+    },
+    {
+      "title": "Structural stability and magnetism of FeN from first principles",
+      "year": 2007,
+      "authors": [
+        "Abdesalem Houari",
+        "Samir F. Matar",
+        "M.A. Belkhir",
+        "M. Nakhl"
+      ],
+      "venue": "Physical Review B",
+      "cited_by": 48,
+      "type": "article",
+      "doi": "10.1103/physrevb.75.064420",
+      "concepts": [
+        "Magnetism",
+        "Wurtzite crystal structure",
+        "Condensed matter physics"
+      ]
+    },
+    {
+      "title": "Structure and electronic properties of new model dinitride systems: a density-functional study of CN2, SiN2, and GeN2",
+      "year": 2003,
+      "authors": [
+        "R. Weihrich",
+        "V. Eyert",
+        "S.F. Matar"
+      ],
+      "venue": "Chemical Physics Letters",
+      "cited_by": 47,
+      "type": "article",
+      "doi": "10.1016/s0009-2614(03)00674-2",
+      "concepts": [
+        "Density functional theory",
+        "Band gap",
+        "Electronic structure"
+      ]
+    },
+    {
+      "title": "Structural and thermoelectric properties of n-type isocubanite CuFe 2 S 3",
+      "year": 2016,
+      "authors": [
+        "Tristan Barbier",
+        "David Berthebaud",
+        "Raymond Frésard",
+        "Oleg I. Lebedev"
+      ],
+      "venue": "Inorganic Chemistry Frontiers",
+      "cited_by": 46,
+      "type": "article",
+      "doi": "10.1039/c6qi00510a",
+      "concepts": [
+        "Thermoelectric effect",
+        "Materials science",
+        "Condensed matter physics"
+      ]
+    },
+    {
+      "title": "Charge order, orbital order, and electron localization in the Magnéli phase Ti4O7",
+      "year": 2004,
+      "authors": [
+        "Volker Eyert",
+        "Udo Schwingenschlögl",
+        "Ulrich Eckern"
+      ],
+      "venue": "Chemical Physics Letters",
+      "cited_by": 46,
+      "type": "article",
+      "doi": "10.1016/j.cplett.2004.04.015",
+      "concepts": [
+        "Charge ordering",
+        "Metal–insulator transition",
+        "Singlet state"
+      ]
+    },
+    {
+      "title": "Covalent bonding and hybridization effects in the corundum-type transition-metal oxides V 2 O 3 and Ti 2 O 3",
+      "year": 2005,
+      "authors": [
+        "Volker Eyert",
+        "Udo Schwingenschlögl",
+        "Ulrich Eckern"
+      ],
+      "venue": "Europhysics Letters (EPL)",
+      "cited_by": 44,
+      "type": "article",
+      "doi": "10.1209/epl/i2005-10050-2",
+      "concepts": [
+        "Antibonding molecular orbital",
+        "Corundum",
+        "Density functional theory"
+      ]
+    },
+    {
+      "title": "Extended moment formation and magnetic ordering in the trigonal chain compound Ca3Co2O6",
+      "year": 2004,
+      "authors": [
+        "Volker Eyert",
+        "C. Laschinger",
+        "Thilo Kopp",
+        "Raymond Frésard"
+      ],
+      "venue": "Chemical Physics Letters",
+      "cited_by": 44,
+      "type": "article",
+      "doi": "10.1016/j.cplett.2003.12.105",
+      "concepts": [
+        "Magnetic moment",
+        "Condensed matter physics",
+        "Ferromagnetism"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "Prediction of Novel Ultrahard Phases in the B–C–N System from First Principles: Progress and Problems",
+      "year": 2023,
+      "authors": [
+        "Vladimir L. Solozhenko",
+        "Samir F. Matar"
+      ],
+      "venue": "Materials",
+      "cited_by": 41,
+      "type": "article",
+      "doi": "10.3390/ma16020886",
+      "concepts": [
+        "Ternary operation",
+        "Materials science",
+        "Density functional theory"
+      ]
+    },
+    {
+      "title": "Crystal chemistry and ab initio prediction of ultrahard rhombohedral B2N2 and BC2N",
+      "year": 2021,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Solid State Sciences",
+      "cited_by": 27,
+      "type": "article",
+      "doi": "10.1016/j.solidstatesciences.2021.106667",
+      "concepts": [
+        "Orthorhombic crystal system",
+        "Density functional theory",
+        "Crystallography"
+      ]
+    },
+    {
+      "title": "First Principles Search for Novel Ultrahard High-Density Carbon Allotropes: Hexagonal C6, C9, and C12",
+      "year": 2023,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Journal of Superhard Materials",
+      "cited_by": 19,
+      "type": "article",
+      "doi": "10.3103/s1063457623040056",
+      "concepts": [
+        "Materials science",
+        "Hexagonal crystal system",
+        "Carbon fibers"
+      ]
+    },
+    {
+      "title": "The simplest dense carbon allotrope: Ultra-hard body-centered tetragonal C4",
+      "year": 2022,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Journal of Solid State Chemistry",
+      "cited_by": 17,
+      "type": "article",
+      "doi": "10.1016/j.jssc.2022.123424",
+      "concepts": [
+        "Tetragonal crystal system",
+        "Diamond",
+        "Tetrahedron"
+      ]
+    },
+    {
+      "title": "Novel ultrahard sp2/sp3 hybrid carbon allotrope from crystal chemistry and first principles: Body-centered tetragonal C6 (‘neoglitter’)",
+      "year": 2023,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Diamond and Related Materials",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.1016/j.diamond.2023.109747",
+      "concepts": [
+        "Tetragonal crystal system",
+        "Crystal chemistry",
+        "Carbon fibers"
+      ]
+    },
+    {
+      "title": "Novel ultra-hard hexacarbon allotropes from first principles",
+      "year": 2022,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Solid State Sciences",
+      "cited_by": 14,
+      "type": "article",
+      "doi": "10.1016/j.solidstatesciences.2022.106884",
+      "concepts": [
+        "Diamond",
+        "Materials science",
+        "Tetragonal crystal system"
+      ]
+    },
+    {
+      "title": "Ferromagnetic alloy for high-efficiency photovoltaic conversion in solar cells: first-principles insights when doping SnO 2 rutile with coupled Eu–Gd",
+      "year": 2021,
+      "authors": [
+        "A. Fakhim Lamrani"
+      ],
+      "venue": "RSC Advances",
+      "cited_by": 13,
+      "type": "article",
+      "doi": "10.1039/d1ra00088h",
+      "concepts": [
+        "Ferromagnetism",
+        "Materials science",
+        "Condensed matter physics"
+      ]
+    },
+    {
+      "title": "First-principles investigations of tricarbon: From the isolated C3 molecule to a novel ultra-hard anisotropic solid",
+      "year": 2021,
+      "authors": [
+        "Samir F. Matar",
+        "J. Étourneau",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Carbon Trends",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.1016/j.cartre.2021.100132",
+      "concepts": [
+        "Anisotropy",
+        "Density functional theory",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Polymorphism of boron phosphide: theoretical investigation and experimental assessment",
+      "year": 2022,
+      "authors": [
+        "Vladimir L. Solozhenko",
+        "Samir F. Matar"
+      ],
+      "venue": "Journal of Materials Chemistry C",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.1039/d2tc00363e",
+      "concepts": [
+        "Phosphide",
+        "Boron",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "New superhard tetragonal BCN from crystal chemistry and first principles",
+      "year": 2022,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Materialia",
+      "cited_by": 10,
+      "type": "article",
+      "doi": "10.1016/j.mtla.2022.101581",
+      "concepts": [
+        "Tetragonal crystal system",
+        "Materials science",
+        "Ternary operation"
+      ]
+    },
+    {
+      "title": "From layered 2D carbon to 3D tetrahedral allotropes C12 and C18 with physical properties related to diamond: Crystal chemistry and DFT investigations",
+      "year": 2024,
+      "authors": [
+        "Samir F. Matar"
+      ],
+      "venue": "Progress in Solid State Chemistry",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1016/j.progsolidstchem.2024.100492",
+      "concepts": [
+        "Tetrahedron",
+        "Diamond",
+        "Crystal chemistry"
+      ]
+    },
+    {
+      "title": "Novel (Super)Hard SiCN from Crystal Chemistry and First Principles",
+      "year": 2022,
+      "authors": [
+        "Samir F. Matar",
+        "J. Étourneau",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Silicon",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1007/s12633-022-02033-7",
+      "concepts": [
+        "Materials science",
+        "Tetragonal crystal system",
+        "Ternary operation"
+      ]
+    },
+    {
+      "title": "Ultra-hard rhombohedral carbon by crystal chemistry and ab initio investigations",
+      "year": 2021,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Journal of Solid State Chemistry",
+      "cited_by": 8,
+      "type": "article",
+      "doi": "10.1016/j.jssc.2021.122354",
+      "concepts": [
+        "Diamond",
+        "Ab initio",
+        "Hexagonal crystal system"
+      ]
+    },
+    {
+      "title": "Structural study and evaluation of thermoelectric properties of single-phase isocubanite (CuFe 2 S 3 ) synthesized via an ultra-fast efficient microwave radiation technique",
+      "year": 2021,
+      "authors": [
+        "Tristan Barbier",
+        "Bhuvanesh Srinivasan",
+        "David Berthebaud",
+        "Volker Eyert"
+      ],
+      "venue": "Sustainable Energy & Fuels",
+      "cited_by": 8,
+      "type": "article",
+      "doi": "10.1039/d1se01007g",
+      "concepts": [
+        "Thermoelectric effect",
+        "Microwave",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "C7 (sp3-sp2) and -C8 (sp3-sp1): Novel ultra-hard trigonal hybrid diamonds from crystal engineering and first principles",
+      "year": 2023,
+      "authors": [
+        "Samir F. Matar"
+      ],
+      "venue": "Chinese Journal of Physics",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1016/j.cjph.2023.07.009",
+      "concepts": [
+        "Materials science",
+        "Diamond",
+        "Trigonal crystal system"
+      ]
+    },
+    {
+      "title": "Crystal chemistry and ab initio investigations of new hard tetragonal C9 and C12 allotropes with edge- and corner-sharing C4 tetrahedra and diamond-related properties",
+      "year": 2023,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Progress in Solid State Chemistry",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1016/j.progsolidstchem.2023.100415",
+      "concepts": [
+        "Tetragonal crystal system",
+        "Diamond",
+        "Tetrahedron"
+      ]
+    },
+    {
+      "title": "Intermetallic compounds RE 2Ga2Mg (RE = Tb–Tm, Lu) with Mo2B2Fe-type structure",
+      "year": 2022,
+      "authors": [
+        "Maximilian Kai Reimann",
+        "Samir F. Matar",
+        "Rainer Pöttgen"
+      ],
+      "venue": "Zeitschrift für Naturforschung B",
+      "cited_by": 6,
+      "type": "article",
+      "doi": "10.1515/znb-2022-0101",
+      "concepts": [
+        "Intermetallic",
+        "Tetragonal crystal system",
+        "Crystallography"
+      ]
+    },
+    {
+      "title": "Novel ultra-hard hexacarbon allotropes from first principles",
+      "year": 2022,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "ChemRxiv",
+      "cited_by": 6,
+      "type": "preprint",
+      "doi": "10.26434/chemrxiv-2022-x4p38",
+      "concepts": [
+        "Diamond",
+        "Tetragonal crystal system",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Tailoring body center tetragonal allotropes Cx (x = 8, 12, 16, 20) with C(sp3) and hybrid C(sp3)/C(sp2): Crystal chemistry and ab initio investigations of the physical properties",
+      "year": 2024,
+      "authors": [
+        "Samir F. Matar"
+      ],
+      "venue": "Diamond and Related Materials",
+      "cited_by": 5,
+      "type": "article",
+      "doi": "10.1016/j.diamond.2024.111442",
+      "concepts": [
+        "Tetragonal crystal system",
+        "Center (category theory)",
+        "Ab initio"
+      ]
+    },
+    {
+      "title": "Novel Ultrahard Carbon Allotropes from Crystal Chemistry and First Principles: Rhombohedral ene-C21 and yne-C24",
+      "year": 2023,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "Journal of Superhard Materials",
+      "cited_by": 5,
+      "type": "article",
+      "doi": "10.3103/s1063457623060072",
+      "concepts": [
+        "Allene",
+        "Diamond",
+        "Materials science"
+      ]
+    },
+    {
+      "title": "Ultrahigh-density superhard hexagonal BN and SiC with quartz topology from crystal chemistry and first principles",
+      "year": 2023,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "ChemRxiv",
+      "cited_by": 5,
+      "type": "preprint",
+      "doi": "10.26434/chemrxiv-2023-vh02l",
+      "concepts": [
+        "Materials science",
+        "Diamond",
+        "Cubic crystal system"
+      ]
+    },
+    {
+      "title": "Electron Lone-Pairs Stereochemistry and Drastic van der Waals and Pressure Effects in AsF3 from First Principles",
+      "year": 2021,
+      "authors": [
+        "Jean Galy",
+        "Samir F. Matar"
+      ],
+      "venue": "Condensed Matter",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.3390/condmat6030031",
+      "concepts": [
+        "Lone pair",
+        "van der Waals force",
+        "Crystallography"
+      ]
+    },
+    {
+      "title": "Ternary magnesium gallides – synthesis, crystal chemistry and properties of CaMgGa, SrMgGa, BaMgGa and YbMgGa",
+      "year": 2022,
+      "authors": [
+        "Maximilian Kai Reimann",
+        "Holger Kohlmann",
+        "Samir F. Matar",
+        "Rainer Pöttgen"
+      ],
+      "venue": "Zeitschrift für anorganische und allgemeine Chemie",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.1002/zaac.202200361",
+      "concepts": [
+        "Strontium",
+        "Chemistry",
+        "Crystallography"
+      ]
+    },
+    {
+      "title": "High-Pressure Phases of Boron Pnictides BX (X = As, Sb, Bi) with Quartz Topology from First Principles",
+      "year": 2024,
+      "authors": [
+        "Vladimir L. Solozhenko",
+        "Samir F. Matar"
+      ],
+      "venue": "Crystals",
+      "cited_by": 4,
+      "type": "article",
+      "doi": "10.3390/cryst14030221",
+      "concepts": [
+        "Quartz",
+        "Topology (electrical circuits)",
+        "Boron"
+      ]
+    },
+    {
+      "title": "Novel ultrahard sp2/sp3 hybrid carbon allotrope from crystal chemistry and first principles: body-centered tetragonal C6 ('neoglitter')",
+      "year": 2022,
+      "authors": [
+        "Samir F. Matar",
+        "Vladimir L. Solozhenko"
+      ],
+      "venue": "ChemRxiv",
+      "cited_by": 4,
+      "type": "preprint",
+      "doi": "10.26434/chemrxiv-2022-3d8pk",
+      "concepts": [
+        "Tetragonal crystal system",
+        "Tetrahedron",
+        "Carbon fibers"
+      ]
+    }
+  ]
+}
