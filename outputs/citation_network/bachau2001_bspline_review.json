@@ -1,0 +1,1361 @@
+{
+  "key": "bachau2001_bspline_review",
+  "title": "Applications of B-splines in atomic and molecular physics",
+  "topic": "B-spline 连续态 — 方法开发与原理",
+  "pdf": "papers/B_spline_continuum/Bachau-2001-Applications of B-splines in atomi.pdf",
+  "doi": "10.1088/0034-4885/64/12/205",
+  "work_id": "https://openalex.org/W2075950706",
+  "meta": {
+    "openalex_title": "Applications ofB-splines in atomic and molecular physics",
+    "year": 2001,
+    "cited_by_total": 697,
+    "references_total": 515,
+    "type": "article",
+    "venue": "Reports on Progress in Physics",
+    "concepts": [
+      "Physics",
+      "Basis (linear algebra)",
+      "Statistical physics",
+      "Theoretical physics"
+    ]
+  },
+  "referenced_top25": [
+    {
+      "title": "Handbook of Mathematical Functions",
+      "year": 1966,
+      "authors": [
+        "Donald A. McQuarrie"
+      ],
+      "venue": "American Journal of Physics",
+      "cited_by": 40904,
+      "type": "article",
+      "doi": "10.1119/1.1972842",
+      "concepts": [
+        "Physics",
+        "Theoretical physics",
+        "Applied mathematics"
+      ]
+    },
+    {
+      "title": "Accurate spin-dependent electron liquid correlation energies for local spin density calculations: a critical analysis",
+      "year": 1980,
+      "authors": [
+        "S. H. Vosko",
+        "L. Wilk",
+        "Marwan Nusair"
+      ],
+      "venue": "Canadian Journal of Physics",
+      "cited_by": 20756,
+      "type": "article",
+      "doi": "10.1139/p80-159",
+      "concepts": [
+        "Physics",
+        "Spin (aerodynamics)",
+        "Fermi gas"
+      ]
+    },
+    {
+      "title": "A Practical Guide to Splines",
+      "year": 1978,
+      "authors": [
+        "Carl de Boor"
+      ],
+      "venue": "Applied mathematical sciences",
+      "cited_by": 12071,
+      "type": "book",
+      "doi": "10.1007/978-1-4612-6333-3",
+      "concepts": [
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Savitzky-Golay Smoothing Filters",
+      "year": 1990,
+      "authors": [
+        "William H. Press",
+        "Saul A. Teukolsky"
+      ],
+      "venue": "Computers in Physics",
+      "cited_by": 11778,
+      "type": "article",
+      "doi": "10.1063/1.4822961",
+      "concepts": [
+        "Binary Golay code",
+        "Smoothing",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Iterative minimization techniques for ab initio total-energy calculations: molecular dynamics and conjugate gradients",
+      "year": 1992,
+      "authors": [
+        "M. C. Payne",
+        "M. P. Teter",
+        "D. C. Allan",
+        "T. A. Arias"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 9699,
+      "type": "article",
+      "doi": "10.1103/revmodphys.64.1045",
+      "concepts": [
+        "Pseudopotential",
+        "Physics",
+        "Ab initio"
+      ]
+    },
+    {
+      "title": "Density-Functional Theory for Time-Dependent Systems",
+      "year": 1984,
+      "authors": [
+        "Erich Runge",
+        "E. K. U. Gross"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 8869,
+      "type": "article",
+      "doi": "10.1103/physrevlett.52.997",
+      "concepts": [
+        "Invertible matrix",
+        "Formalism (music)",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Introduction to Numerical Analysis.",
+      "year": 1981,
+      "authors": [
+        "Carl-Erik Fröberg",
+        "Josef Stoer",
+        "Roland Bulirsch"
+      ],
+      "venue": "Mathematics of Computation",
+      "cited_by": 5525,
+      "type": "article",
+      "doi": "10.2307/2007454",
+      "concepts": [
+        "Mathematics",
+        "Applied mathematics",
+        "Numerical analysis"
+      ]
+    },
+    {
+      "title": "The density functional formalism, its applications and prospects",
+      "year": 1989,
+      "authors": [
+        "R. Jones",
+        "O. Gunnarsson"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 4007,
+      "type": "article",
+      "doi": "10.1103/revmodphys.61.689",
+      "concepts": [
+        "Formalism (music)",
+        "Physics",
+        "Statistical physics"
+      ]
+    },
+    {
+      "title": "Self-consistent molecular Hartree—Fock—Slater calculations I. The computational procedure",
+      "year": 1973,
+      "authors": [
+        "Evert Jan Baerends",
+        "D. E. Ellis",
+        "P. Ros"
+      ],
+      "venue": "Chemical Physics",
+      "cited_by": 3177,
+      "type": "article",
+      "doi": "10.1016/0301-0104(73)80059-x",
+      "concepts": [
+        "Chemistry",
+        "Computation",
+        "Hartree–Fock method"
+      ]
+    },
+    {
+      "title": "A unified theory of nuclear reactions. II",
+      "year": 1962,
+      "authors": [
+        "Herman Feshbach"
+      ],
+      "venue": "Annals of Physics",
+      "cited_by": 2856,
+      "type": "article",
+      "doi": "10.1016/0003-4916(62)90221-x",
+      "concepts": [
+        "Physics",
+        "Pauli exclusion principle",
+        "Hamiltonian (control theory)"
+      ]
+    },
+    {
+      "title": "Towards an order- N DFT method",
+      "year": 1998,
+      "authors": [
+        "Célia Fonseca Guerra",
+        "J. G. Snijders",
+        "G. te Velde",
+        "Evert Jan Baerends"
+      ],
+      "venue": "Theoretical Chemistry Accounts",
+      "cited_by": 2761,
+      "type": "article",
+      "doi": "10.1007/s002140050353",
+      "concepts": [
+        "Linear scale",
+        "Fock matrix",
+        "Fock space"
+      ]
+    },
+    {
+      "title": "Modern quantum chemistry",
+      "year": 1982,
+      "authors": [
+        "Attila Szabó"
+      ],
+      "venue": null,
+      "cited_by": 2635,
+      "type": "book",
+      "doi": "",
+      "concepts": [
+        "Quantum chemistry",
+        "Chemistry",
+        "Organic chemistry"
+      ]
+    },
+    {
+      "title": "Convergence acceleration of iterative sequences. the case of scf iteration",
+      "year": 1980,
+      "authors": [
+        "Péter Pulay"
+      ],
+      "venue": "Chemical Physics Letters",
+      "cited_by": 2624,
+      "type": "article",
+      "doi": "10.1016/0009-2614(80)80396-4",
+      "concepts": [
+        "Hessian matrix",
+        "Convergence (economics)",
+        "Acceleration"
+      ]
+    },
+    {
+      "title": "The iterative calculation of a few of the lowest eigenvalues and corresponding eigenvectors of large real-symmetric matrices",
+      "year": 1975,
+      "authors": [
+        "Ernest R. Davidson"
+      ],
+      "venue": "Journal of Computational Physics",
+      "cited_by": 2555,
+      "type": "article",
+      "doi": "10.1016/0021-9991(75)90065-0",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Laves phase",
+        "Density functional theory"
+      ]
+    },
+    {
+      "title": "Methods of Molecular Quantum Mechanics",
+      "year": 1971,
+      "authors": [
+        "R. McWeeny",
+        "Brian T. Sutcliffe",
+        "G. O. Brink"
+      ],
+      "venue": "Physics Today",
+      "cited_by": 1626,
+      "type": "article",
+      "doi": "10.1063/1.3022743",
+      "concepts": [
+        "Physics",
+        "Quantum mechanics",
+        "Wave function"
+      ]
+    },
+    {
+      "title": "Towards an order-",
+      "year": 1998,
+      "authors": [
+        "Célia Fonseca Guerra",
+        "J. G. Snijders",
+        "G. te Velde",
+        "E. J. Baerends"
+      ],
+      "venue": "Theoretical Chemistry Accounts",
+      "cited_by": 1501,
+      "type": "article",
+      "doi": "10.1007/s002140050021",
+      "concepts": [
+        "Order (exchange)",
+        "Chemistry",
+        "Computational chemistry"
+      ]
+    },
+    {
+      "title": "Spectral properties of many-body Schrödinger operators with dilatation-analytic interactions",
+      "year": 1971,
+      "authors": [
+        "Erik Balslev",
+        "J. M. Combes"
+      ],
+      "venue": "Communications in Mathematical Physics",
+      "cited_by": 1446,
+      "type": "article",
+      "doi": "10.1007/bf01877511",
+      "concepts": [
+        "Mathematics",
+        "Continuous spectrum",
+        "Complex system"
+      ]
+    },
+    {
+      "title": "Linear scaling electronic structure methods",
+      "year": 1999,
+      "authors": [
+        "Stefan Goedecker"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 1412,
+      "type": "article",
+      "doi": "10.1103/revmodphys.71.1085",
+      "concepts": [
+        "Physics",
+        "Scaling",
+        "Linear scale"
+      ]
+    },
+    {
+      "title": "Tunnel ionization of complex atoms and of atomic ions in an altemating electromagnetic field",
+      "year": 1986,
+      "authors": [
+        "M. V. Ammosov"
+      ],
+      "venue": "Medical Entomology and Zoology",
+      "cited_by": 1342,
+      "type": "article",
+      "doi": "",
+      "concepts": [
+        "Ionization",
+        "Atomic physics",
+        "Ion"
+      ]
+    },
+    {
+      "title": "Splines and Variational Methods.",
+      "year": 1991,
+      "authors": [
+        "L. B. W.",
+        "P. M. Prenter"
+      ],
+      "venue": "Mathematics of Computation",
+      "cited_by": 1141,
+      "type": "article",
+      "doi": "10.2307/2008555",
+      "concepts": [
+        "Mathematics",
+        "Applied mathematics",
+        "Box spline"
+      ]
+    },
+    {
+      "title": "The Hartree-Fock Method for Atoms",
+      "year": 1979,
+      "authors": [
+        "Jack Simons"
+      ],
+      "venue": "Nuclear Technology",
+      "cited_by": 1095,
+      "type": "book-review",
+      "doi": "10.13182/nt79-a19228",
+      "concepts": [
+        "Hartree–Fock method",
+        "Atomic physics",
+        "Physics"
+      ]
+    },
+    {
+      "title": "GRASP92: A package for large-scale relativistic atomic structure calculations",
+      "year": 1996,
+      "authors": [
+        "F. A. Parpia",
+        "Charlotte Froese Fischer",
+        "I. P. Grant"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 1025,
+      "type": "article",
+      "doi": "10.1016/0010-4655(95)00136-0",
+      "concepts": [
+        "Physics",
+        "Configuration interaction",
+        "Hamiltonian (control theory)"
+      ]
+    },
+    {
+      "title": "Contributions to the problem of approximation of equidistant data by analytic functions. Part A. On the problem of smoothing or graduation. A first class of analytic approximation formulae",
+      "year": 1946,
+      "authors": [
+        "I. J. Schoenberg"
+      ],
+      "venue": "Quarterly of Applied Mathematics",
+      "cited_by": 943,
+      "type": "article",
+      "doi": "10.1090/qam/15914",
+      "concepts": [
+        "Equidistant",
+        "Graduation (instrument)",
+        "Class (philosophy)"
+      ]
+    },
+    {
+      "title": "Photoionization from Outer Atomic Subshells. A Model Study",
+      "year": 1962,
+      "authors": [
+        "J. Cooper"
+      ],
+      "venue": "Physical Review",
+      "cited_by": 872,
+      "type": "article",
+      "doi": "10.1103/physrev.128.681",
+      "concepts": [
+        "Photoionization",
+        "Atomic physics",
+        "Oscillator strength"
+      ]
+    },
+    {
+      "title": "Foundations of the relativistic theory of many-electron atoms",
+      "year": 1980,
+      "authors": [
+        "J. Sucher"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 823,
+      "type": "article",
+      "doi": "10.1103/physreva.22.348",
+      "concepts": [
+        "Physics",
+        "Hamiltonian (control theory)",
+        "Eigenfunction"
+      ]
+    }
+  ],
+  "citing_top25": [
+    {
+      "title": "Attosecond Electron Dynamics in Molecules",
+      "year": 2017,
+      "authors": [
+        "M. Nisoli",
+        "Piero Decleva",
+        "Francesca Calegari",
+        "Alicia Palacios"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 562,
+      "type": "article",
+      "doi": "10.1021/acs.chemrev.6b00453",
+      "concepts": [
+        "Attosecond",
+        "Ultrashort pulse",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Electron–molecule collision calculations using the R-matrix method",
+      "year": 2010,
+      "authors": [
+        "Jonathan Tennyson"
+      ],
+      "venue": "Physics Reports",
+      "cited_by": 529,
+      "type": "article",
+      "doi": "10.1016/j.physrep.2010.02.001",
+      "concepts": [
+        "Physics",
+        "Matrix (chemical analysis)",
+        "Quantum mechanics"
+      ]
+    },
+    {
+      "title": "Bernstein Polynomials",
+      "year": 2021,
+      "authors": [
+        "Anandaram Mandyam N"
+      ],
+      "venue": "Mapana Journal of Sciences",
+      "cited_by": 371,
+      "type": "article",
+      "doi": "10.12723/mjs.56.5",
+      "concepts": [
+        "Bernstein polynomial",
+        "Bézier curve",
+        "Mathematics"
+      ]
+    },
+    {
+      "title": "Dual Kinetic Balance Approach to Basis-Set Expansions for the Dirac Equation",
+      "year": 2004,
+      "authors": [
+        "В. М. Шабаев",
+        "I. I. Tupitsyn",
+        "V. A. Yerokhin",
+        "G. Plunien"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 320,
+      "type": "article",
+      "doi": "10.1103/physrevlett.93.130405",
+      "concepts": [
+        "Dirac equation",
+        "Basis (linear algebra)",
+        "Spurious relationship"
+      ]
+    },
+    {
+      "title": "BSR: B-spline atomic R-matrix codes",
+      "year": 2005,
+      "authors": [
+        "Oleg Zatsarinny"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 311,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2005.10.006",
+      "concepts": [
+        "Fortran",
+        "Computer science",
+        "Byte"
+      ]
+    },
+    {
+      "title": "Solving the three-body Coulomb breakup problem using exterior complex scaling",
+      "year": 2004,
+      "authors": [
+        "C. W. McCurdy",
+        "Mark Baertschy",
+        "T. N. Rescigno"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 288,
+      "type": "article",
+      "doi": "10.1088/0953-4075/37/17/r01",
+      "concepts": [
+        "Physics",
+        "Scaling",
+        "Wave function"
+      ]
+    },
+    {
+      "title": "Accuracy and Interpretability: The Devil and the Holy Grail. New Routes across Old Boundaries in Computational Spectroscopy",
+      "year": 2019,
+      "authors": [
+        "Cristina Puzzarini",
+        "Julien Bloino",
+        "Nicola Tasinato",
+        "Vincenzo Barone"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 246,
+      "type": "article",
+      "doi": "10.1021/acs.chemrev.9b00007",
+      "concepts": [
+        "Interpretability",
+        "Interpretation (philosophy)",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Synthetic chiral light for efficient control of chiral light–matter interaction",
+      "year": 2019,
+      "authors": [
+        "David Ayuso",
+        "Ofer Neufeld",
+        "Andrés F. Ordóñez",
+        "Piero Decleva"
+      ],
+      "venue": "Nature Photonics",
+      "cited_by": 225,
+      "type": "article",
+      "doi": "10.1038/s41566-019-0531-2",
+      "concepts": [
+        "Physics",
+        "Helicity",
+        "Polarization (electrochemistry)"
+      ]
+    },
+    {
+      "title": "Qprop: A Schrödinger-solver for intense laser–atom interaction",
+      "year": 2005,
+      "authors": [
+        "D. Bauer",
+        "Peter Koval"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 220,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2005.11.001",
+      "concepts": [
+        "Wave function",
+        "Schrödinger equation",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Single Photon-Induced Symmetry Breaking of H 2 Dissociation",
+      "year": 2007,
+      "authors": [
+        "Fernando Martı́n",
+        "J. Fernández",
+        "T. Havermeier",
+        "L. Foucar"
+      ],
+      "venue": "Science",
+      "cited_by": 198,
+      "type": "article",
+      "doi": "10.1126/science.1136598",
+      "concepts": [
+        "Physics",
+        "Point reflection",
+        "Symmetry breaking"
+      ]
+    },
+    {
+      "title": "TheB-splineR-matrix method for atomic processes: application to atomic structure, electron collisions and photoionization",
+      "year": 2013,
+      "authors": [
+        "Oleg Zatsarinny",
+        "Klaus Bartschat"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 198,
+      "type": "article",
+      "doi": "10.1088/0953-4075/46/11/112001",
+      "concepts": [
+        "Photoionization",
+        "Physics",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "The evolution of piecewise polynomial wave functions",
+      "year": 2017,
+      "authors": [
+        "Mark Andrews"
+      ],
+      "venue": "The European Physical Journal Plus",
+      "cited_by": 197,
+      "type": "article",
+      "doi": "10.1140/epjp/i2017-11280-8",
+      "concepts": [
+        "Propagator",
+        "Piecewise",
+        "Spline (mechanical)"
+      ]
+    },
+    {
+      "title": "Theory of multiphoton single and double ionization of two-electron atomic systems driven by short-wavelength electric fields: Anab initiotreatment",
+      "year": 2006,
+      "authors": [
+        "Emmanuel Foumouo",
+        "G. Lagmago Kamta",
+        "Gaston Edah",
+        "Bernard Piraux"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 167,
+      "type": "article",
+      "doi": "10.1103/physreva.74.063409",
+      "concepts": [
+        "Physics",
+        "Double ionization",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "UKRmol+: A suite for modelling electronic processes in molecules interacting with electrons, positrons and photons using the R-matrix method",
+      "year": 2019,
+      "authors": [
+        "Zdeněk Mašín",
+        "Jakub Benda",
+        "Jimena D. Gorfinkiel",
+        "Alex G. Harvey"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 166,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2019.107092",
+      "concepts": [
+        "Atomic orbital",
+        "Physics",
+        "Photon"
+      ]
+    },
+    {
+      "title": "Subcycle interference dynamics of time-resolved photoelectron holography with midinfrared laser pulses",
+      "year": 2011,
+      "authors": [
+        "Xue-Bin Bian",
+        "Ymkje Huismans",
+        "Olga Smirnova",
+        "Kai‐Jun Yuan"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 165,
+      "type": "article",
+      "doi": "10.1103/physreva.84.043420",
+      "concepts": [
+        "Holography",
+        "Physics",
+        "Laser"
+      ]
+    },
+    {
+      "title": "Angular dependence of photoemission time delay in helium",
+      "year": 2016,
+      "authors": [
+        "Sebastian Heuser",
+        "Álvaro Jiménez-Galán",
+        "Claudio Cirelli",
+        "Carlos Marante"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 155,
+      "type": "article",
+      "doi": "10.1103/physreva.94.063409",
+      "concepts": [
+        "Physics",
+        "Photoionization",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Correlation effects in two-photon single and double ionization of helium",
+      "year": 2003,
+      "authors": [
+        "Stéphane Laulan",
+        "H. Bachau"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 154,
+      "type": "article",
+      "doi": "10.1103/physreva.68.013409",
+      "concepts": [
+        "Physics",
+        "Double ionization",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Determination of structure parameters in strong-field tunneling ionization theory of molecules",
+      "year": 2010,
+      "authors": [
+        "Song-Feng Zhao",
+        "Cheng Jin",
+        "Anh-Thu Le",
+        "Tsin-Fu Jiang"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 147,
+      "type": "article",
+      "doi": "10.1103/physreva.81.033423",
+      "concepts": [
+        "Wave function",
+        "Quantum tunnelling",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Direct observation of Young’s double-slit interferences in vibrationally resolved photoionization of diatomic molecules",
+      "year": 2011,
+      "authors": [
+        "Sophie E. Canton",
+        "Étienne Plésiat",
+        "John D. Bozek",
+        "B. Rude"
+      ],
+      "venue": "Proceedings of the National Academy of Sciences",
+      "cited_by": 120,
+      "type": "article",
+      "doi": "10.1073/pnas.1018534108",
+      "concepts": [
+        "Photoionization",
+        "Diatomic molecule",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Two-photon double ionization of He",
+      "year": 2002,
+      "authors": [
+        "Liang Feng",
+        "H. W. van der Hart"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 117,
+      "type": "article",
+      "doi": "10.1088/0953-4075/36/1/101",
+      "concepts": [
+        "Ionization",
+        "Double ionization",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "ORBKIT: A modular python toolbox for cross‐platform postprocessing of quantum chemical wavefunction data",
+      "year": 2016,
+      "authors": [
+        "Gunter Hermann",
+        "Vincent Pohl",
+        "Jean Christophe Tremblay",
+        "Beate Paulus"
+      ],
+      "venue": "Journal of Computational Chemistry",
+      "cited_by": 113,
+      "type": "article",
+      "doi": "10.1002/jcc.24358",
+      "concepts": [
+        "Computer science",
+        "Modular design",
+        "Toolbox"
+      ]
+    },
+    {
+      "title": "High-order-harmonic generation from periodic potentials driven by few-cycle laser pulses",
+      "year": 2016,
+      "authors": [
+        "Zhong Guan",
+        "Xiaoxin Zhou",
+        "Xue-Bin Bian"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 113,
+      "type": "article",
+      "doi": "10.1103/physreva.93.033852",
+      "concepts": [
+        "High harmonic generation",
+        "Physics",
+        "Eigenfunction"
+      ]
+    },
+    {
+      "title": "B-spline Breit–Pauli R-matrix calculations for electron collisions with argon atoms",
+      "year": 2004,
+      "authors": [
+        "Oleg Zatsarinny",
+        "Klaus Bartschat"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 113,
+      "type": "article",
+      "doi": "10.1088/0953-4075/37/23/010",
+      "concepts": [
+        "Argon",
+        "Electron",
+        "Pauli exclusion principle"
+      ]
+    },
+    {
+      "title": "Interferences from Fast Electron Emission in Molecular Photoionization",
+      "year": 2007,
+      "authors": [
+        "J. Fernández",
+        "O A Fojón",
+        "Alicia Palacios",
+        "Fernando Martı́n"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 110,
+      "type": "article",
+      "doi": "10.1103/physrevlett.98.043005",
+      "concepts": [
+        "Photoionization",
+        "Electron",
+        "Atomic physics"
+      ]
+    },
+    {
+      "title": "Charge migration induced by attosecond pulses in bio-relevant molecules",
+      "year": 2016,
+      "authors": [
+        "Francesca Calegari",
+        "Andrea Trabattoni",
+        "Alicia Palacios",
+        "David Ayuso"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 108,
+      "type": "article",
+      "doi": "10.1088/0953-4075/49/14/142001",
+      "concepts": [
+        "Attosecond",
+        "Femtosecond",
+        "Ionization"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "Bernstein Polynomials",
+      "year": 2021,
+      "authors": [
+        "Anandaram Mandyam N"
+      ],
+      "venue": "Mapana Journal of Sciences",
+      "cited_by": 371,
+      "type": "article",
+      "doi": "10.12723/mjs.56.5",
+      "concepts": [
+        "Bernstein polynomial",
+        "Bézier curve",
+        "Mathematics"
+      ]
+    },
+    {
+      "title": "Time‐dependent coupled‐cluster theory",
+      "year": 2023,
+      "authors": [
+        "Benedicte Sverdrup Ofstad",
+        "Einar Aurbakken",
+        "Øyvind Sigmundson Schøyen",
+        "Håkon Emil Kristiansen"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 48,
+      "type": "article",
+      "doi": "10.1002/wcms.1666",
+      "concepts": [
+        "Coupled cluster",
+        "Electronic structure",
+        "Atomic orbital"
+      ]
+    },
+    {
+      "title": "Atomic, molecular and optical physics applications of longitudinally coherent and narrow bandwidth Free-Electron Lasers",
+      "year": 2021,
+      "authors": [
+        "Carlo Callegari",
+        "Alexei N. Grum-Grzhimailo",
+        "Kenichi L. Ishikawa",
+        "Kevin C. Prince"
+      ],
+      "venue": "Physics Reports",
+      "cited_by": 46,
+      "type": "article",
+      "doi": "10.1016/j.physrep.2020.12.002",
+      "concepts": [
+        "Physics",
+        "Coherence (philosophical gambling strategy)",
+        "Laser"
+      ]
+    },
+    {
+      "title": "Time-dependent ab initio approaches for high-harmonic generation spectroscopy",
+      "year": 2021,
+      "authors": [
+        "Emanuele Coccia",
+        "Eleonora Luppi"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "cited_by": 42,
+      "type": "article",
+      "doi": "10.1088/1361-648x/ac3608",
+      "concepts": [
+        "High harmonic generation",
+        "Physics",
+        "Rydberg formula"
+      ]
+    },
+    {
+      "title": "Multireference Approach to Normal and Resonant Auger Spectra Based on the One-Center Approximation",
+      "year": 2022,
+      "authors": [
+        "Bruno Nunes Cabral Tenorio",
+        "Torben Arne Voß",
+        "Sergey I. Bokarev",
+        "Piero Decleva"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 27,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.2c00252",
+      "concepts": [
+        "Center (category theory)",
+        "Auger",
+        "Spectral line"
+      ]
+    },
+    {
+      "title": "A systematic construction of Gaussian basis sets for the description of laser field ionization and high-harmonic generation",
+      "year": 2021,
+      "authors": [
+        "Aleksander P. Woźniak",
+        "Michał Lesiuk",
+        "Michał Przybytek",
+        "Dmitry K. Efimov"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 24,
+      "type": "article",
+      "doi": "10.1063/5.0040879",
+      "concepts": [
+        "Wave function",
+        "Basis (linear algebra)",
+        "Basis function"
+      ]
+    },
+    {
+      "title": "Photoionization Observables from Multi-Reference Dyson Orbitals Coupled to B-Spline DFT and TD-DFT Continuum",
+      "year": 2022,
+      "authors": [
+        "Bruno Nunes Cabral Tenorio",
+        "Aurora Ponzi",
+        "Sonia Coriani",
+        "Piero Decleva"
+      ],
+      "venue": "Molecules",
+      "cited_by": 24,
+      "type": "article",
+      "doi": "10.3390/molecules27041203",
+      "concepts": [
+        "Photoionization",
+        "Observable",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Oscillator strengths, transition probabilities and state lifetimes of on- and off-center donor impurities in quantum dots: off-center displacement, quantum size and potential-shape effects",
+      "year": 2021,
+      "authors": [
+        "P Doba",
+        "R L Melingui Melono",
+        "Anne Justine Etindele",
+        "Ousmanou Motapon"
+      ],
+      "venue": "The European Physical Journal D",
+      "cited_by": 21,
+      "type": "article",
+      "doi": "10.1140/epjd/s10053-021-00130-7",
+      "concepts": [
+        "Center (category theory)",
+        "Displacement (psychology)",
+        "Quantum dot"
+      ]
+    },
+    {
+      "title": "Vibronic interactions in trilobite and butterfly Rydberg molecules",
+      "year": 2023,
+      "authors": [
+        "Frederic Hummel",
+        "Peter Schmelcher",
+        "Matthew T. Eiles"
+      ],
+      "venue": "Physical Review Research",
+      "cited_by": 21,
+      "type": "article",
+      "doi": "10.1103/physrevresearch.5.013114",
+      "concepts": [
+        "Rydberg formula",
+        "Born–Oppenheimer approximation",
+        "Adiabatic process"
+      ]
+    },
+    {
+      "title": "Capturing Correlation Effects on Photoionization Dynamics",
+      "year": 2021,
+      "authors": [
+        "Torsha Moitra",
+        "Sonia Coriani",
+        "Piero Decleva"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 20,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.1c00303",
+      "concepts": [
+        "Photoionization",
+        "Time-dependent density functional theory",
+        "Asymmetry"
+      ]
+    },
+    {
+      "title": "Continuum Electronic States: The Tiresia Code",
+      "year": 2022,
+      "authors": [
+        "Piero Decleva",
+        "Mauro Stener",
+        "Daniele Toffoli"
+      ],
+      "venue": "Molecules",
+      "cited_by": 20,
+      "type": "article",
+      "doi": "10.3390/molecules27062026",
+      "concepts": [
+        "Time-dependent density functional theory",
+        "Photoionization",
+        "Formalism (music)"
+      ]
+    },
+    {
+      "title": "QPC-TDSE: A parallel TDSE solver for atoms and small molecules in strong lasers",
+      "year": 2023,
+      "authors": [
+        "Zhaohan Zhang",
+        "Yang Li",
+        "Yi-Jia Mao",
+        "Feng He"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 19,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2023.108787",
+      "concepts": [
+        "Wave function",
+        "Physics",
+        "High harmonic generation"
+      ]
+    },
+    {
+      "title": "Precision theoretical determination of electric-dipole matrix elements in atomic cesium",
+      "year": 2023,
+      "authors": [
+        "H. B. Tran Tan",
+        "Andrei Derevianko"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 16,
+      "type": "article",
+      "doi": "10.1103/physreva.107.042809",
+      "concepts": [
+        "Physics",
+        "Coupled cluster",
+        "Valence (chemistry)"
+      ]
+    },
+    {
+      "title": "ASTRA: Transition-density-matrix approach to molecular ionization",
+      "year": 2023,
+      "authors": [
+        "J M Randazzo",
+        "Carlos Marante",
+        "S. Chattopadhyay",
+        "Barry I. Schneider"
+      ],
+      "venue": "Physical Review Research",
+      "cited_by": 15,
+      "type": "article",
+      "doi": "10.1103/physrevresearch.5.043115",
+      "concepts": [
+        "ASTRA",
+        "Ionization",
+        "Matrix (chemical analysis)"
+      ]
+    },
+    {
+      "title": "Computation of Time‐Resolved Nonlinear Electronic Spectra From Classical Trajectories",
+      "year": 2025,
+      "authors": [
+        "Maxim F. Gelin",
+        "Zhenggang Lan",
+        "Nađa Došlić",
+        "Wolfgang Domcke"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 13,
+      "type": "article",
+      "doi": "10.1002/wcms.70012",
+      "concepts": [
+        "Computation",
+        "Nonlinear system",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Reconstruction of the initial curve from a two-dimensional shape for the B-spline curve fitting",
+      "year": 2022,
+      "authors": [
+        "Almas Jahanshahloo",
+        "A. Ebrahimi"
+      ],
+      "venue": "The European Physical Journal Plus",
+      "cited_by": 13,
+      "type": "article",
+      "doi": "10.1140/epjp/s13360-022-02604-y",
+      "concepts": [
+        "Curve fitting",
+        "Diagonal",
+        "Parametric equation"
+      ]
+    },
+    {
+      "title": "Valence-shell photoelectron circular dichroism of ruthenium( iii )-tris-(acetylacetonato) gas-phase enantiomers",
+      "year": 2021,
+      "authors": [
+        "Benoît Darquié",
+        "Nidal Saleh",
+        "S. K. Tokunaga",
+        "Monika Srebro‐Hooper"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1039/d1cp02921e",
+      "concepts": [
+        "Chemistry",
+        "Time-dependent density functional theory",
+        "Circular dichroism"
+      ]
+    },
+    {
+      "title": "Shape and quantum size effects on the electronic structure, oscillator strengths and state lifetimes of helium-like quantum dots",
+      "year": 2023,
+      "authors": [
+        "P Doba",
+        "R L Melingui Melono",
+        "Ousmanou Motapon"
+      ],
+      "venue": "Physica Scripta",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1088/1402-4896/ad0f7e",
+      "concepts": [
+        "Oscillator strength",
+        "Excited state",
+        "Quantum dot"
+      ]
+    },
+    {
+      "title": "Relativistic time-dependent configuration-interaction singles method",
+      "year": 2022,
+      "authors": [
+        "Felipe Zapata",
+        "Jimmy Vinbladh",
+        "Anton Ljungdahl",
+        "Eva Lindroth"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1103/physreva.105.012802",
+      "concepts": [
+        "Physics",
+        "Rydberg formula",
+        "Relativistic quantum chemistry"
+      ]
+    },
+    {
+      "title": "Effect of the shot-to-shot variation on charge migration induced by sub-fs x-ray free-electron laser pulses",
+      "year": 2023,
+      "authors": [
+        "Gilbert Grell",
+        "Zhaoheng Guo",
+        "Taran Driver",
+        "Piero Decleva"
+      ],
+      "venue": "Physical Review Research",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1103/physrevresearch.5.023092",
+      "concepts": [
+        "Attosecond",
+        "Shot (pellet)",
+        "Laser"
+      ]
+    },
+    {
+      "title": "Quantitative performance analysis and comparison of optimal-continuum Gaussian basis sets for high-harmonic generation spectra",
+      "year": 2023,
+      "authors": [
+        "Chiara Morassut",
+        "Emanuele Coccia",
+        "Eleonora Luppi"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1063/5.0153825",
+      "concepts": [
+        "Gaussian",
+        "Basis (linear algebra)",
+        "Spectral line"
+      ]
+    },
+    {
+      "title": "Atomic Rydberg-state excitation in strong spatially inhomogeneous fields",
+      "year": 2023,
+      "authors": [
+        "Shilin Hu",
+        "xiaopeng Yi",
+        "Li Guo",
+        "Chengrui Bi"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.1103/physreva.107.033104",
+      "concepts": [
+        "Rydberg formula",
+        "Principal quantum number",
+        "Rydberg atom"
+      ]
+    },
+    {
+      "title": "Parity-mixed coupled-cluster formalism for computing parity-violating amplitudes",
+      "year": 2022,
+      "authors": [
+        "H. B. Tran Tan",
+        "Di Xiao",
+        "Andrei Derevianko"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 11,
+      "type": "article",
+      "doi": "10.1103/physreva.105.022803",
+      "concepts": [
+        "Parity (physics)",
+        "Physics",
+        "Atomic orbital"
+      ]
+    },
+    {
+      "title": "Multiphoton Ionization Reduction of Atoms in Two-Color Femtosecond Laser Fields",
+      "year": 2023,
+      "authors": [
+        "Hongbin Yao",
+        "Qi-Wen Qu",
+        "Zhaohan Zhang",
+        "Jiawei Wang"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 10,
+      "type": "article",
+      "doi": "10.1103/physrevlett.130.113201",
+      "concepts": [
+        "Ionization",
+        "Atomic physics",
+        "Laser"
+      ]
+    },
+    {
+      "title": "Energy states of Rydberg excitons in finite crystals: From weak to strong confinement",
+      "year": 2024,
+      "authors": [
+        "P. Belov",
+        "Florian Morawetz",
+        "S. Krüger",
+        "Niklas Scheuler"
+      ],
+      "venue": "Physical review. B./Physical review. B",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1103/physrevb.109.235404",
+      "concepts": [
+        "Rydberg formula",
+        "Exciton",
+        "Physics"
+      ]
+    }
+  ]
+}
