@@ -1,0 +1,1410 @@
+{
+  "key": "calegari2016_charge_migration_review",
+  "title": "Charge migration induced by attosecond pulses in bio-relevant molecules",
+  "topic": "电荷迁移动力学 — 原理发展（前沿）",
+  "pdf": "papers/general_review/Calegari_2016_charge_migration_attosecond_JPB.pdf",
+  "doi": "10.1088/0953-4075/49/14/142001",
+  "work_id": "https://openalex.org/W2472891457",
+  "meta": {
+    "openalex_title": "Charge migration induced by attosecond pulses in bio-relevant molecules",
+    "year": 2016,
+    "cited_by_total": 108,
+    "references_total": 191,
+    "type": "article",
+    "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+    "concepts": [
+      "Attosecond",
+      "Femtosecond",
+      "Ionization",
+      "Charge (physics)"
+    ]
+  },
+  "referenced_top25": [
+    {
+      "title": "Density-functional thermochemistry. III. The role of exact exchange",
+      "year": 1993,
+      "authors": [
+        "Axel D. Becke"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 103694,
+      "type": "article",
+      "doi": "10.1063/1.464913",
+      "concepts": [
+        "Thermochemistry",
+        "Density functional theory",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density",
+      "year": 1988,
+      "authors": [
+        "Chengteh Lee",
+        "Weitao Yang",
+        "Robert G. Parr"
+      ],
+      "venue": "Physical review. B, Condensed matter",
+      "cited_by": 100905,
+      "type": "article",
+      "doi": "10.1103/physrevb.37.785",
+      "concepts": [
+        "Kinetic energy",
+        "Density matrix",
+        "Electronic correlation"
+      ]
+    },
+    {
+      "title": "Chemistry with ADF",
+      "year": 2001,
+      "authors": [
+        "G. te Velde",
+        "F. Matthias Bickelhaupt",
+        "Evert Jan Baerends",
+        "Célia Fonseca Guerra"
+      ],
+      "venue": "Journal of Computational Chemistry",
+      "cited_by": 10127,
+      "type": "article",
+      "doi": "10.1002/jcc.1056",
+      "concepts": [
+        "Chemistry",
+        "Density functional theory",
+        "Time-dependent density functional theory"
+      ]
+    },
+    {
+      "title": "Plasma perspective on strong field multiphoton ionization",
+      "year": 1993,
+      "authors": [
+        "P. B. Corkum"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 7172,
+      "type": "article",
+      "doi": "10.1103/physrevlett.71.1994",
+      "concepts": [
+        "Atomic physics",
+        "Ionization",
+        "Laser"
+      ]
+    },
+    {
+      "title": "Attosecond physics",
+      "year": 2009,
+      "authors": [
+        "Ferenc Krausz",
+        "Misha Ivanov"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 5398,
+      "type": "article",
+      "doi": "10.1103/revmodphys.81.163",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "Extreme ultraviolet"
+      ]
+    },
+    {
+      "title": "Molpro: a general‐purpose quantum chemistry program package",
+      "year": 2011,
+      "authors": [
+        "Hans‐Joachim Werner",
+        "Peter J. Knowles",
+        "Gerald Knizia",
+        "Frederick R. Manby"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 3886,
+      "type": "article",
+      "doi": "10.1002/wcms.82",
+      "concepts": [
+        "Quantum chemistry",
+        "Chemistry",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Protein and polymer analyses up to m/z 100 000 by laser ionization time‐of‐flight mass spectrometry",
+      "year": 1988,
+      "authors": [
+        "Koichi Tanaka",
+        "Hiroaki Waki",
+        "Yutaka Ido",
+        "Satoshi Akita"
+      ],
+      "venue": "Rapid Communications in Mass Spectrometry",
+      "cited_by": 3130,
+      "type": "article",
+      "doi": "10.1002/rcm.1290020802",
+      "concepts": [
+        "Corporation",
+        "Political science",
+        "Business"
+      ]
+    },
+    {
+      "title": "Attosecond metrology",
+      "year": 2001,
+      "authors": [
+        "Michael Hentschel",
+        "Reinhard Kienberger",
+        "Christian Spielmann",
+        "Georg A. Reider"
+      ],
+      "venue": "Nature",
+      "cited_by": 2803,
+      "type": "article",
+      "doi": "10.1038/35107000",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "Femtosecond"
+      ]
+    },
+    {
+      "title": "Observation of a Train of Attosecond Pulses from High Harmonic Generation",
+      "year": 2001,
+      "authors": [
+        "P. Paul",
+        "E. S. Toma",
+        "P. Breger",
+        "G. Mullot"
+      ],
+      "venue": "Science",
+      "cited_by": 2760,
+      "type": "article",
+      "doi": "10.1126/science.1059413",
+      "concepts": [
+        "Attosecond",
+        "Harmonics",
+        "Photoionization"
+      ]
+    },
+    {
+      "title": "Tomographic imaging of molecular orbitals",
+      "year": 2004,
+      "authors": [
+        "Jiro Itatani",
+        "Julie Lévesque",
+        "D. Zeidler",
+        "Hiromichi Niikura"
+      ],
+      "venue": "Nature",
+      "cited_by": 2292,
+      "type": "article",
+      "doi": "10.1038/nature03183",
+      "concepts": [
+        "Atomic orbital",
+        "Molecular orbital",
+        "Molecular orbital theory"
+      ]
+    },
+    {
+      "title": "Studies of multiphoton production of vacuum-ultraviolet radiation in the rare gases",
+      "year": 1987,
+      "authors": [
+        "A. McPherson",
+        "George N. Gibson",
+        "Hernán Jara",
+        "Ulrich Johann"
+      ],
+      "venue": "Journal of the Optical Society of America B",
+      "cited_by": 1743,
+      "type": "article",
+      "doi": "10.1364/josab.4.000595",
+      "concepts": [
+        "Excited state",
+        "Atomic physics",
+        "Ion"
+      ]
+    },
+    {
+      "title": "Isolated Single-Cycle Attosecond Pulses",
+      "year": 2006,
+      "authors": [
+        "G. Sansone",
+        "E. Benedetti",
+        "Francesca Calegari",
+        "C. Vozzi"
+      ],
+      "venue": "Science",
+      "cited_by": 1705,
+      "type": "article",
+      "doi": "10.1126/science.1132838",
+      "concepts": [
+        "Attosecond",
+        "Carrier-envelope phase",
+        "Ultrashort pulse"
+      ]
+    },
+    {
+      "title": "Attosecond control of electronic processes by intense light fields",
+      "year": 2003,
+      "authors": [
+        "Andrius Baltuška",
+        "Th. Udem",
+        "M. Uiberacker",
+        "Michael Hentschel"
+      ],
+      "venue": "Nature",
+      "cited_by": 1652,
+      "type": "article",
+      "doi": "10.1038/nature01414",
+      "concepts": [
+        "Carrier-envelope phase",
+        "Attosecond",
+        "Physics"
+      ]
+    },
+    {
+      "title": "MOLCAS 7: The Next Generation",
+      "year": 2009,
+      "authors": [
+        "Francesco Aquilante",
+        "Luca De Vico",
+        "Nicolas Ferré",
+        "Giovanni Ghigo"
+      ],
+      "venue": "Journal of Computational Chemistry",
+      "cited_by": 1549,
+      "type": "article",
+      "doi": "10.1002/jcc.21318",
+      "concepts": [
+        "Cholesky decomposition",
+        "Perturbation theory (quantum mechanics)",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "The D alton quantum chemistry program system",
+      "year": 2013,
+      "authors": [
+        "Kęstutis Aidas",
+        "Celestino Angeli",
+        "Keld L. Bak",
+        "Vebjørn Bakken"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 1511,
+      "type": "article",
+      "doi": "10.1002/wcms.1172",
+      "concepts": [
+        "Chemistry",
+        "Quantum chemistry",
+        "Quantum chemical"
+      ]
+    },
+    {
+      "title": "Exchange-correlation potential with correct asymptotic behavior",
+      "year": 1994,
+      "authors": [
+        "Robert van Leeuwen",
+        "Evert Jan Baerends"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 1479,
+      "type": "article",
+      "doi": "10.1103/physreva.49.2421",
+      "concepts": [
+        "Physics",
+        "Work (physics)",
+        "Simple (philosophy)"
+      ]
+    },
+    {
+      "title": "Time-resolved atomic inner-shell spectroscopy",
+      "year": 2002,
+      "authors": [
+        "Markus Drescher",
+        "Michael Hentschel",
+        "Reinhard Kienberger",
+        "M. Uiberacker"
+      ],
+      "venue": "Nature",
+      "cited_by": 1452,
+      "type": "article",
+      "doi": "10.1038/nature01143",
+      "concepts": [
+        "Femtosecond",
+        "Attosecond",
+        "Spectroscopy"
+      ]
+    },
+    {
+      "title": "Real-time observation of valence electron motion",
+      "year": 2010,
+      "authors": [
+        "Eleftherios Goulielmakis",
+        "Zhi-Heng Loh",
+        "A. Wirth",
+        "Robin Santra"
+      ],
+      "venue": "Nature",
+      "cited_by": 1305,
+      "type": "article",
+      "doi": "10.1038/nature09212",
+      "concepts": [
+        "Attosecond",
+        "Atomic physics",
+        "Electron"
+      ]
+    },
+    {
+      "title": "Attosecond spectroscopy in condensed matter",
+      "year": 2007,
+      "authors": [
+        "A. L. Cavalieri",
+        "Norbert Müller",
+        "Thorsten Uphues",
+        "Vladislav S. Yakovlev"
+      ],
+      "venue": "Nature",
+      "cited_by": 1119,
+      "type": "article",
+      "doi": "10.1038/nature06229",
+      "concepts": [
+        "Attosecond",
+        "Femtosecond",
+        "Physics"
+      ]
+    },
+    {
+      "title": "High harmonic interferometry of multi-electron dynamics in molecules",
+      "year": 2009,
+      "authors": [
+        "Olga Smirnova",
+        "Y. Mairesse",
+        "Serguei Patchkovskii",
+        "Nirit Dudovich"
+      ],
+      "venue": "Nature",
+      "cited_by": 1115,
+      "type": "article",
+      "doi": "10.1038/nature08253",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "High harmonic generation"
+      ]
+    },
+    {
+      "title": "Desorption–ionization mass spectrometry on porous silicon",
+      "year": 1999,
+      "authors": [
+        "Jing Wei",
+        "Jillian M. Buriak",
+        "Gary Siuzdak"
+      ],
+      "venue": "Nature",
+      "cited_by": 1067,
+      "type": "article",
+      "doi": "10.1038/20400",
+      "concepts": [
+        "Mass spectrometry",
+        "Analyte",
+        "Porous silicon"
+      ]
+    },
+    {
+      "title": "Generation of high energy 10 fs pulses by a new pulse compression technique",
+      "year": 1996,
+      "authors": [
+        "M. Nisoli",
+        "S. De Silvestri",
+        "O. Svelto"
+      ],
+      "venue": "Applied Physics Letters",
+      "cited_by": 1033,
+      "type": "article",
+      "doi": "10.1063/1.116609",
+      "concepts": [
+        "Materials science",
+        "Pulse compression",
+        "Pulse duration"
+      ]
+    },
+    {
+      "title": "Attosecond Streak Camera",
+      "year": 2002,
+      "authors": [
+        "Jiro Itatani",
+        "F. Quéré",
+        "G. L. Yudin",
+        "Misha Ivanov"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 987,
+      "type": "article",
+      "doi": "10.1103/physrevlett.88.173903",
+      "concepts": [
+        "Attosecond",
+        "Photoionization",
+        "Streak camera"
+      ]
+    },
+    {
+      "title": "Turbomole",
+      "year": 2013,
+      "authors": [
+        "Filipp Furche",
+        "Reinhart Ahlrichs",
+        "Christof Hättig",
+        "Wim Klopper"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 934,
+      "type": "article",
+      "doi": "10.1002/wcms.1162",
+      "concepts": [
+        "Coupled cluster",
+        "Time-dependent density functional theory",
+        "Multipole expansion"
+      ]
+    },
+    {
+      "title": "Probing Proton Dynamics in Molecules on an Attosecond Time Scale",
+      "year": 2006,
+      "authors": [
+        "Sarah Baker",
+        "Joseph S. Robinson",
+        "C. A. Haworth",
+        "H. Teng"
+      ],
+      "venue": "Science",
+      "cited_by": 930,
+      "type": "article",
+      "doi": "10.1126/science.1123904",
+      "concepts": [
+        "Attosecond",
+        "Ionization",
+        "Femtosecond"
+      ]
+    }
+  ],
+  "citing_top25": [
+    {
+      "title": "Using coherence to enhance function in chemical and biophysical systems",
+      "year": 2017,
+      "authors": [
+        "Gregory D. Scholes",
+        "Graham R. Fleming",
+        "Lin X. Chen",
+        "Alán Aspuru‐Guzik"
+      ],
+      "venue": "Nature",
+      "cited_by": 687,
+      "type": "article",
+      "doi": "10.1038/nature21425",
+      "concepts": [
+        "Coherence (philosophical gambling strategy)",
+        "Superposition principle",
+        "Computer science"
+      ]
+    },
+    {
+      "title": "Attosecond Electron Dynamics in Molecules",
+      "year": 2017,
+      "authors": [
+        "M. Nisoli",
+        "Piero Decleva",
+        "Francesca Calegari",
+        "Alicia Palacios"
+      ],
+      "venue": "Chemical Reviews",
+      "cited_by": 562,
+      "type": "article",
+      "doi": "10.1021/acs.chemrev.6b00453",
+      "concepts": [
+        "Attosecond",
+        "Ultrashort pulse",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Generation of extreme-ultraviolet beams with time-varying orbital angular momentum",
+      "year": 2019,
+      "authors": [
+        "Laura Rego",
+        "Kevin M. Dorney",
+        "Nathan J. Brooks",
+        "Quynh L. Nguyen"
+      ],
+      "venue": "Science",
+      "cited_by": 360,
+      "type": "article",
+      "doi": "10.1126/science.aaw9486",
+      "concepts": [
+        "Angular momentum",
+        "Physics",
+        "Optical vortex"
+      ]
+    },
+    {
+      "title": "Attosecond physics at the nanoscale",
+      "year": 2016,
+      "authors": [
+        "Marcelo F. Ciappina",
+        "J. A. Pérez-Hernández",
+        "Alexandra S. Landsman",
+        "W. A. Okell"
+      ],
+      "venue": "Spiral (Imperial College London)",
+      "cited_by": 320,
+      "type": "report",
+      "doi": "",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "Mesoscopic physics"
+      ]
+    },
+    {
+      "title": "Strong-field nano-optics",
+      "year": 2020,
+      "authors": [
+        "Péter Dombi",
+        "Zsuzsanna Pápa",
+        "Jan Vogelsang",
+        "Sergey V. Yalunin"
+      ],
+      "venue": "Reviews of Modern Physics",
+      "cited_by": 247,
+      "type": "article",
+      "doi": "10.1103/revmodphys.92.025003",
+      "concepts": [
+        "Physics",
+        "Field (mathematics)",
+        "Ultrashort pulse"
+      ]
+    },
+    {
+      "title": "Charge migration and charge transfer in molecular systems",
+      "year": 2017,
+      "authors": [
+        "Hans Jakob Wörner",
+        "Christopher Arrell",
+        "Natalie Banerji",
+        "Andrea Cannizzo"
+      ],
+      "venue": "Structural Dynamics",
+      "cited_by": 245,
+      "type": "article",
+      "doi": "10.1063/1.4996505",
+      "concepts": [
+        "Attosecond",
+        "Charge (physics)",
+        "Chemical physics"
+      ]
+    },
+    {
+      "title": "Using administrative data to screen hospitals for high complication rates.",
+      "year": 1994,
+      "authors": [
+        "Lisa I. Iezzoni",
+        "Jennifer Daley",
+        "Timothy Heeren",
+        "Susan M. Foley"
+      ],
+      "venue": "PubMed",
+      "cited_by": 171,
+      "type": "article",
+      "doi": "",
+      "concepts": [
+        "Medicine",
+        "Medical diagnosis",
+        "Health care"
+      ]
+    },
+    {
+      "title": "Attosecond imaging of molecules using high harmonic spectroscopy",
+      "year": 2019,
+      "authors": [
+        "Peng Peng",
+        "Claude Marceau",
+        "D. M. Villeneuve"
+      ],
+      "venue": "Nature Reviews Physics",
+      "cited_by": 153,
+      "type": "article",
+      "doi": "10.1038/s42254-018-0015-1",
+      "concepts": [
+        "Attosecond",
+        "Femtosecond",
+        "High harmonic generation"
+      ]
+    },
+    {
+      "title": "Direct Visualization of Valence Electron Motion Using Strong-Field Photoelectron Holography",
+      "year": 2018,
+      "authors": [
+        "Mingrui He",
+        "Yang Li",
+        "Yueming Zhou",
+        "Min Li"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 114,
+      "type": "article",
+      "doi": "10.1103/physrevlett.120.133204",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Electron scattering from molecules and molecular aggregates of biological relevance",
+      "year": 2017,
+      "authors": [
+        "Jimena D. Gorfinkiel",
+        "Sylwia Ptasińska"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 108,
+      "type": "article",
+      "doi": "10.1088/1361-6455/aa8572",
+      "concepts": [
+        "Biomolecule",
+        "Physics",
+        "Molecule"
+      ]
+    },
+    {
+      "title": "It is all about phases: ultrafast holographic photoelectron imaging",
+      "year": 2020,
+      "authors": [
+        "C. Figueira de Morisson Faria",
+        "Andrew Maxwell"
+      ],
+      "venue": "UCL Discovery (University College London)",
+      "cited_by": 99,
+      "type": "article",
+      "doi": "",
+      "concepts": [
+        "Attosecond",
+        "Holography",
+        "Physics"
+      ]
+    },
+    {
+      "title": "The quantum chemistry of attosecond molecular science",
+      "year": 2019,
+      "authors": [
+        "Alicia Palacios",
+        "Fernando Martı́n"
+      ],
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "cited_by": 83,
+      "type": "article",
+      "doi": "10.1002/wcms.1430",
+      "concepts": [
+        "Attosecond",
+        "Ionization",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Control of Nuclear Dynamics through Conical Intersections and Electronic Coherences",
+      "year": 2018,
+      "authors": [
+        "Caroline Arnold",
+        "Oriol Vendrell",
+        "Ralph Welsch",
+        "Robin Santra"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 73,
+      "type": "article",
+      "doi": "10.1103/physrevlett.120.123001",
+      "concepts": [
+        "Conical intersection",
+        "Physics",
+        "Wave packet"
+      ]
+    },
+    {
+      "title": "Molecular Modes of Attosecond Charge Migration",
+      "year": 2021,
+      "authors": [
+        "Aderonke S. Folorunso",
+        "Adam Bruner",
+        "François Mauger",
+        "Kyle Hamer"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 63,
+      "type": "article",
+      "doi": "10.1103/physrevlett.126.133002",
+      "concepts": [
+        "Attosecond",
+        "Molecule",
+        "Halogen"
+      ]
+    },
+    {
+      "title": "Perspectives of Attosecond Spectroscopy for the Understanding of Fundamental Electron Correlations",
+      "year": 2018,
+      "authors": [
+        "Peter M. Kraus",
+        "Hans Jakob Wörner"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "cited_by": 62,
+      "type": "article",
+      "doi": "10.1002/anie.201702759",
+      "concepts": [
+        "Attosecond",
+        "Electron",
+        "Spectroscopy"
+      ]
+    },
+    {
+      "title": "Photoionization of triatomic molecular ions H 3 2 + by intense bichromatic circularly polarized attosecond UV laser pulses",
+      "year": 2017,
+      "authors": [
+        "Kai‐Jun Yuan",
+        "Huizhong Lu",
+        "André D. Bandrauk"
+      ],
+      "venue": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "cited_by": 56,
+      "type": "article",
+      "doi": "10.1088/1361-6455/aa72fa",
+      "concepts": [
+        "Attosecond",
+        "Photoionization",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Attosecond Dynamics of Molecular Electronic Ring Currents",
+      "year": 2017,
+      "authors": [
+        "Kai‐Jun Yuan",
+        "Chuan‐Cun Shu",
+        "Daoyi Dong",
+        "André D. Bandrauk"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 52,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.7b00877",
+      "concepts": [
+        "Attosecond",
+        "Ultrashort pulse",
+        "Coherence (philosophical gambling strategy)"
+      ]
+    },
+    {
+      "title": "Attosecond transient absorption spectrum of argon at the L2,3 edge",
+      "year": 2018,
+      "authors": [
+        "Andrew Chew",
+        "Nicolas Douguet",
+        "Coleman Cariker",
+        "Jie Li"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 49,
+      "type": "article",
+      "doi": "10.1103/physreva.97.031407",
+      "concepts": [
+        "Attosecond",
+        "Atomic physics",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Role of electron-nuclear coupled dynamics on charge migration induced by attosecond pulses in glycine",
+      "year": 2017,
+      "authors": [
+        "Manuel Lara‐Astiaso",
+        "Alicia Palacios",
+        "Piero Decleva",
+        "Ivano Tavernelli"
+      ],
+      "venue": "Chemical Physics Letters",
+      "cited_by": 44,
+      "type": "article",
+      "doi": "10.1016/j.cplett.2017.05.008",
+      "concepts": [
+        "Attosecond",
+        "Atomic physics",
+        "Electron"
+      ]
+    },
+    {
+      "title": "On-the-Fly ab initio Semiclassical Evaluation of Electronic Coherences in Polyatomic Molecules Reveals a Simple Mechanism of Decoherence",
+      "year": 2020,
+      "authors": [
+        "Nikolay V. Golubev",
+        "Tomislav Begušić",
+        "Jiří Vaníček"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 41,
+      "type": "article",
+      "doi": "10.1103/physrevlett.125.083001",
+      "concepts": [
+        "Semiclassical physics",
+        "Quantum decoherence",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Ultrafast charge dynamics in glycine induced by attosecond pulses",
+      "year": 2017,
+      "authors": [
+        "David Ayuso",
+        "Alicia Palacios",
+        "Piero Decleva",
+        "Fernando Martı́n"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 40,
+      "type": "article",
+      "doi": "10.1039/c7cp01856h",
+      "concepts": [
+        "Attosecond",
+        "Ultrashort pulse",
+        "Charge (physics)"
+      ]
+    },
+    {
+      "title": "Onset of ionic coherence and ultrafast charge dynamics in attosecond molecular ionisation",
+      "year": 2019,
+      "authors": [
+        "Marco Ruberti"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 40,
+      "type": "article",
+      "doi": "10.1039/c9cp03074c",
+      "concepts": [
+        "Attosecond",
+        "Ionization",
+        "Excited state"
+      ]
+    },
+    {
+      "title": "Attosecond probing and control of charge migration in carbon-chain molecule",
+      "year": 2023,
+      "authors": [
+        "Lixin He",
+        "Yanqing He",
+        "Siqi Sun",
+        "Esteban Goetz"
+      ],
+      "venue": "Advanced Photonics",
+      "cited_by": 32,
+      "type": "article",
+      "doi": "10.1117/1.ap.5.5.056001",
+      "concepts": [
+        "Attosecond",
+        "Wave packet",
+        "Molecule"
+      ]
+    },
+    {
+      "title": "Pulse engineering for population control under dephasing and dissipation",
+      "year": 2019,
+      "authors": [
+        "Ivan Medina",
+        "F. L. Semião"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 31,
+      "type": "article",
+      "doi": "10.1103/physreva.100.012103",
+      "concepts": [
+        "Dephasing",
+        "Coherence (philosophical gambling strategy)",
+        "Quantum"
+      ]
+    },
+    {
+      "title": "Ultraviolet relaxation dynamics in uracil: Time-resolved photoion yield studies using a laser-based thermal desorption source",
+      "year": 2018,
+      "authors": [
+        "O. Ghafur",
+        "Stuart W. Crane",
+        "M. Ryszka",
+        "Jana Bocková"
+      ],
+      "venue": "The Journal of Chemical Physics",
+      "cited_by": 30,
+      "type": "article",
+      "doi": "10.1063/1.5034419",
+      "concepts": [
+        "Uracil",
+        "Desorption",
+        "Relaxation (psychology)"
+      ]
+    }
+  ],
+  "citing_recent_top25": [
+    {
+      "title": "Molecular Modes of Attosecond Charge Migration",
+      "year": 2021,
+      "authors": [
+        "Aderonke S. Folorunso",
+        "Adam Bruner",
+        "François Mauger",
+        "Kyle Hamer"
+      ],
+      "venue": "Physical Review Letters",
+      "cited_by": 63,
+      "type": "article",
+      "doi": "10.1103/physrevlett.126.133002",
+      "concepts": [
+        "Attosecond",
+        "Molecule",
+        "Halogen"
+      ]
+    },
+    {
+      "title": "Attosecond probing and control of charge migration in carbon-chain molecule",
+      "year": 2023,
+      "authors": [
+        "Lixin He",
+        "Yanqing He",
+        "Siqi Sun",
+        "Esteban Goetz"
+      ],
+      "venue": "Advanced Photonics",
+      "cited_by": 32,
+      "type": "article",
+      "doi": "10.1117/1.ap.5.5.056001",
+      "concepts": [
+        "Attosecond",
+        "Wave packet",
+        "Molecule"
+      ]
+    },
+    {
+      "title": "Charge migration and attosecond solitons in conjugated organic molecules",
+      "year": 2022,
+      "authors": [
+        "François Mauger",
+        "Aderonke S. Folorunso",
+        "Kyle Hamer",
+        "C. Chandré"
+      ],
+      "venue": "Physical Review Research",
+      "cited_by": 29,
+      "type": "article",
+      "doi": "10.1103/physrevresearch.4.013073",
+      "concepts": [
+        "Attosecond",
+        "Femtosecond",
+        "Chemical physics"
+      ]
+    },
+    {
+      "title": "Extreme Ultraviolet Reflection–Absorption Spectroscopy: Probing Dynamics at Surfaces from a Molecular Perspective",
+      "year": 2022,
+      "authors": [
+        "Somnath Biswas",
+        "L. Robert Baker"
+      ],
+      "venue": "Accounts of Chemical Research",
+      "cited_by": 27,
+      "type": "article",
+      "doi": "10.1021/acs.accounts.1c00765",
+      "concepts": [
+        "Extreme ultraviolet",
+        "Spectroscopy",
+        "Femtosecond"
+      ]
+    },
+    {
+      "title": "Two decades of imaging photoelectron circular dichroism: from first principles to future perspectives",
+      "year": 2025,
+      "authors": [
+        "Chris Sparling",
+        "Dave Townsend"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 26,
+      "type": "article",
+      "doi": "10.1039/d4cp03770g",
+      "concepts": [
+        "Circular dichroism",
+        "Gas phase",
+        "Nanotechnology"
+      ]
+    },
+    {
+      "title": "Time-Resolved Excited-State Analysis of Molecular Electron Dynamics by TDDFT and Bethe–Salpeter Equation Formalisms",
+      "year": 2021,
+      "authors": [
+        "Pablo Grobas Illobre",
+        "Margherita Marsili",
+        "Stefano Corni",
+        "Mauro Stener"
+      ],
+      "venue": "Journal of Chemical Theory and Computation",
+      "cited_by": 20,
+      "type": "article",
+      "doi": "10.1021/acs.jctc.1c00211",
+      "concepts": [
+        "Time-dependent density functional theory",
+        "Excited state",
+        "HOMO/LUMO"
+      ]
+    },
+    {
+      "title": "Attosecond delay lines: design, characterization and applications",
+      "year": 2021,
+      "authors": [
+        "Ankur Mandal",
+        "Mehra S. Sidhu",
+        "Jan M. Rost",
+        "Thomas Pfeifer"
+      ],
+      "venue": "The European Physical Journal Special Topics",
+      "cited_by": 20,
+      "type": "article",
+      "doi": "10.1140/epjs/s11734-021-00261-3",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "Optics"
+      ]
+    },
+    {
+      "title": "Ultrafast Valence-Electron Dynamics in Oxazole Monitored by X-ray Diffraction Following a Stimulated X-ray Raman Excitation",
+      "year": 2021,
+      "authors": [
+        "Haiwang Yong",
+        "Stefano M. Cavaletto",
+        "Shaul Mukamel"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 19,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.1c02740",
+      "concepts": [
+        "Attosecond",
+        "Excitation",
+        "Excited state"
+      ]
+    },
+    {
+      "title": "Time-Varying Optical Spin-Orbit Interactions in Tight Focusing of Self-Torqued Beams",
+      "year": 2022,
+      "authors": [
+        "Yijing Wu",
+        "Panpan Yu",
+        "Yifan Liu",
+        "Ziqiang Wang"
+      ],
+      "venue": "Journal of Lightwave Technology",
+      "cited_by": 17,
+      "type": "article",
+      "doi": "10.1109/jlt.2022.3210953",
+      "concepts": [
+        "Physics",
+        "Angular momentum",
+        "Spin (aerodynamics)"
+      ]
+    },
+    {
+      "title": "Characterizing particle-like charge-migration dynamics with high-order harmonic sideband spectroscopy",
+      "year": 2022,
+      "authors": [
+        "Kyle Hamer",
+        "François Mauger",
+        "Aderonke S. Folorunso",
+        "Kenneth A. Lopata"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 15,
+      "type": "article",
+      "doi": "10.1103/physreva.106.013103",
+      "concepts": [
+        "Sideband",
+        "Attosecond",
+        "High harmonic generation"
+      ]
+    },
+    {
+      "title": "Simulating macroscopic high-order harmonic generation driven by structured laser beams using artificial intelligence",
+      "year": 2023,
+      "authors": [
+        "José Miguel Pablos-Marín",
+        "Javier Serrano",
+        "Carlos Hernández-García"
+      ],
+      "venue": "Computer Physics Communications",
+      "cited_by": 15,
+      "type": "article",
+      "doi": "10.1016/j.cpc.2023.108823",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "Wave packet"
+      ]
+    },
+    {
+      "title": "Velocity-map imaging of photoelectron circular dichroism in non-volatile molecules using a laser-based desorption source",
+      "year": 2023,
+      "authors": [
+        "Chris Sparling",
+        "Stuart W. Crane",
+        "Lewis Ireland",
+        "Ross Anderson"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 14,
+      "type": "article",
+      "doi": "10.1039/d2cp05880d",
+      "concepts": [
+        "Desorption",
+        "Circular dichroism",
+        "Laser"
+      ]
+    },
+    {
+      "title": "Time‐resolved x‐ray spectroscopy of nucleobases and their thionated analogs",
+      "year": 2024,
+      "authors": [
+        "Dennis Mayer",
+        "Fabiano Lever",
+        "Markus Gühr"
+      ],
+      "venue": "Photochemistry and Photobiology",
+      "cited_by": 14,
+      "type": "article",
+      "doi": "10.1111/php.13903",
+      "concepts": [
+        "Spectroscopy",
+        "Thymine",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Attosecond charge migration following oxygen K-shell ionization in DNA bases and base pairs",
+      "year": 2021,
+      "authors": [
+        "Fatemeh Khalili",
+        "Mohsen Vafaee",
+        "Babak Shokri"
+      ],
+      "venue": "Physical Chemistry Chemical Physics",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1039/d1cp02920g",
+      "concepts": [
+        "Ionization",
+        "Oxygen",
+        "Base (topology)"
+      ]
+    },
+    {
+      "title": "Time-varying orbital angular momentum in tight focusing of ultrafast pulses",
+      "year": 2022,
+      "authors": [
+        "Zhangyu Zhou",
+        "Changjun Min",
+        "Haixiang Ma",
+        "Yuquan Zhang"
+      ],
+      "venue": "Optics Express",
+      "cited_by": 12,
+      "type": "article",
+      "doi": "10.1364/oe.449351",
+      "concepts": [
+        "Ultrashort pulse",
+        "Angular momentum",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Thomas–Reiche–Kuhn correction for truncated configuration-interaction spaces: Case of laser-assisted dynamical interference",
+      "year": 2022,
+      "authors": [
+        "Mattias Bertolino",
+        "Stefanos Carlström",
+        "Jasper Peschel",
+        "Felipe Zapata"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 10,
+      "type": "article",
+      "doi": "10.1103/physreva.106.043108",
+      "concepts": [
+        "Physics",
+        "Gauge (firearms)",
+        "Photoionization"
+      ]
+    },
+    {
+      "title": "Fourier-Limited Attosecond Pulse from High Harmonic Generation Assisted by Ultrafast Magnetic Fields",
+      "year": 2023,
+      "authors": [
+        "Rodrigo Martín-Hernández",
+        "Hongtao Hu",
+        "Andrius Baltuška",
+        "Luis Plaja"
+      ],
+      "venue": "Ultrafast Science",
+      "cited_by": 10,
+      "type": "article",
+      "doi": "10.34133/ultrafastscience.0036",
+      "concepts": [
+        "Attosecond",
+        "Physics",
+        "High harmonic generation"
+      ]
+    },
+    {
+      "title": "Ultrafast Laser-Induced Spin Dynamics in All-Semiconductor Ferromagnetic CrSBr–Phosphorene Heterostructures",
+      "year": 2025,
+      "authors": [
+        "Yiqi Huo",
+        "Shuo Li",
+        "Yan Luo",
+        "Ningbo Li"
+      ],
+      "venue": "The Journal of Physical Chemistry Letters",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1021/acs.jpclett.4c03279",
+      "concepts": [
+        "Phosphorene",
+        "Ultrashort pulse",
+        "Heterojunction"
+      ]
+    },
+    {
+      "title": "Disentangling interferences in the photoelectron momentum distribution from strong-field ionization",
+      "year": 2022,
+      "authors": [
+        "T. Wang",
+        "Z. Dube",
+        "Yonghao Mi",
+        "Giulio Vampa"
+      ],
+      "venue": "Physical Review A",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1103/physreva.106.013106",
+      "concepts": [
+        "Physics",
+        "Momentum (technical analysis)",
+        "Ionization"
+      ]
+    },
+    {
+      "title": "Comparing pulsed and continuous laser-induced acoustic desorption (LIAD) as sources for intact biomolecules",
+      "year": 2022,
+      "authors": [
+        "Siwen Wang",
+        "Grite L. Abma",
+        "Peter Krüger",
+        "André van Roij"
+      ],
+      "venue": "The European Physical Journal D",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1140/epjd/s10053-022-00459-7",
+      "concepts": [
+        "Desorption",
+        "Femtosecond",
+        "Nanosecond"
+      ]
+    },
+    {
+      "title": "Attoscience in phase space",
+      "year": 2021,
+      "authors": [
+        "H. Chomet",
+        "C. Figueira de Morisson Faria"
+      ],
+      "venue": "The European Physical Journal D",
+      "cited_by": 9,
+      "type": "article",
+      "doi": "10.1140/epjd/s10053-021-00199-0",
+      "concepts": [
+        "Attosecond",
+        "Phase space",
+        "Physics"
+      ]
+    },
+    {
+      "title": "Tracking Charge Migration with Frequency-Matched Strobo-Spectroscopy",
+      "year": 2024,
+      "authors": [
+        "Kyle Hamer",
+        "Aderonke S. Folorunso",
+        "Kenneth A. Lopata",
+        "Kenneth J. Schäfer"
+      ],
+      "venue": "The Journal of Physical Chemistry A",
+      "cited_by": 8,
+      "type": "article",
+      "doi": "10.1021/acs.jpca.3c04234",
+      "concepts": [
+        "Attosecond",
+        "High harmonic generation",
+        "Harmonics"
+      ]
+    },
+    {
+      "title": "Subcycle modulation of light’s orbital angular momentum via a Fourier space-time transformation",
+      "year": 2025,
+      "authors": [
+        "Michael De Oliveira",
+        "Antonio Ambrosio"
+      ],
+      "venue": "Science Advances",
+      "cited_by": 7,
+      "type": "article",
+      "doi": "10.1126/sciadv.adr6678",
+      "concepts": [
+        "Ultrashort pulse",
+        "Physics",
+        "Wave packet"
+      ]
+    },
+    {
+      "title": "Charge-induced chemical dynamics in glycine probed with time-resolved Auger electron spectroscopy",
+      "year": 2022,
+      "authors": [
+        "David Schwickert",
+        "Marco Ruberti",
+        "Přemysl Kolorenč",
+        "Andreas Przystawik"
+      ],
+      "venue": "Structural Dynamics",
+      "cited_by": 7,
+      "type": "article",
+      "doi": "10.1063/4.0000165",
+      "concepts": [
+        "Wave packet",
+        "Atomic physics",
+        "Chemistry"
+      ]
+    },
+    {
+      "title": "Attoscience in phase space",
+      "year": 2021,
+      "authors": [
+        "Chomet, H",
+        "Figueira de Morisson Faria, C"
+      ],
+      "venue": "UCL Discovery (University College London)",
+      "cited_by": 7,
+      "type": "article",
+      "doi": "",
+      "concepts": [
+        "Attosecond",
+        "High harmonic generation",
+        "Phase space"
+      ]
+    }
+  ]
+}
