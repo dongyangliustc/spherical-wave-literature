@@ -102,6 +102,54 @@ actionability: "direct_benchmark"
 - `risk_update`
 - `code_context_candidate`
 
+---
+
+## Source-of-Truth Metadata（v0.1, 2026-08-26）
+
+> 「同流不同信」双轴打标。`provenance`（谁说的）与 `epistemic_status`（验证过没有）
+> 是两个正交维度。文献条目级可携带 `default_epistemic_status`；自产知识下沉到**主张级**，
+> chunk 检索时按最小核实状态过滤。
+
+### `provenance`（来源属性）
+
+| Value | Tier | 先验可信度 | 说明 |
+|-------|------|-----------|------|
+| `literature` | T0 | 高 | 外部同行评审，可溯源 |
+| `own_publication` | T0* | 高（提示自偏差） | 已发表但为自产（含自有论文） |
+| `synth_summary` | T1 | 中高 | 基于文献的派生/综述，锚点=文献链 |
+| `ideation` | T2 | 低 | 自产共识/猜想，暂无外部锚点 |
+
+### `epistemic_status`（核实状态，主张/chunk 级）
+
+| Value | Rank | 可注入代码上下文 |
+|-------|------|------------------|
+| `benchmark_verified` | 3 | ✅ |
+| `literature_supported` | 2 | ✅ |
+| `consistent` | 1 | ❌（单源一致，待加固） |
+| `unverified` / `unsupported` | 0 | ❌ |
+| `conflicting` | -1 | ❌（人工裁决） |
+| `refuted` / `superseded` / `stale` | -2 | ❌ |
+
+> 门控规则：只有 `benchmark_verified` / `literature_supported` 可进入
+> `injected_to_code_context`。chunk 取其中所含主张的最差值（fail-closed）。
+
+### `claim_kind`（主张分轨，决定"支撑义务"）
+
+| Value | 是否强制文献锚定 | 可否注入代码上下文 |
+|-------|------------------|--------------------|
+| `fact` | 强制 | 可（须 literature_supported） |
+| `derivation` | 推演可复现即可 | 可（须 benchmark_verified） |
+| `hypothesis` | 否 | 永不 |
+| `workflow` / `notation` | 否 | 否 |
+
+### 新增字段（registry 条目可选携带）
+
+- `provenance_tier`：T0/T0*/T1/T2（冗余便于排序）
+- `evidence_chain`：支撑该主张的文献/基准 ID 列表
+- `verify_granularity`：`document` / `chunk` / `claim`（默认 claim）
+- `last_verified`：最近核实日期（ISO）
+- `default_epistemic_status` / `default_claim_kind`：来源级默认值（`sources.yaml` 自动推断）
+
 ## Promotion Rule
 
 An item cannot move to `indexed` unless:
