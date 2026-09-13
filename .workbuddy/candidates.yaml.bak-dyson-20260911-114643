@@ -1,0 +1,1378 @@
+# Candidate literature registry.
+# Automated discovery may append records here after metadata checks.
+#
+# Example:
+# - id: "lit-example-2026-topic"
+#   title: "Example title"
+#   authors: ["Example"]
+#   year: 2026
+#   source_type: "paper"
+#   identifiers:
+#     doi: null
+#     arxiv: null
+#     isbn: null
+#   paths:
+#     pdf: null
+#     note: null
+#   topic_tags: []
+#   project_modules: []
+#   state: "discovered"
+#   review_status: "unreviewed"
+#   relevance: "medium"
+#   role: ["frontier"]
+#   confidence: "metadata_only"
+#   actionability: "reading_candidate"
+items:
+  - id: "lit-lucchese-mckoy-1979-schwinger-electron-scattering"
+    title: "Application of the Schwinger variational principle to electron scattering"
+    authors: ["Lucchese", "McKoy"]
+    year: 1979
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0022-3700/12/14/005"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Lucchese_McKoy_1979_Schwinger_eHe_JPB.pdf"
+      note: null
+    topic_tags: ["Schwinger", "electron_scattering", "He", "static_exchange"]
+    project_modules: ["separable_potential", "tau_matrix", "schwinger_amplitude"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-lucchese-takatsuka-mckoy-1986-schwinger-review"
+    title: "Applications of the Schwinger variational principle to electron-molecule collisions and molecular photoionization"
+    authors: ["Lucchese", "Takatsuka", "McKoy"]
+    year: 1986
+    source_type: "review"
+    identifiers:
+      doi: "10.1016/0370-1573(86)90147-X"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Lucchese_Takatsuka_McKoy_1986_Schwinger_review_PhysRep.pdf"
+      note: null
+    topic_tags: ["Schwinger", "electron_molecule_collisions", "molecular_photoionization", "review"]
+    project_modules: ["separable_potential", "green_function_matrix", "tau_matrix", "schwinger_amplitude"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["review", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-lucchese-mckoy-1983-pade-co-photoionization"
+    title: "Padé-approximant corrections to general variational expressions of scattering theory: Application to 5σ photoionization of carbon monoxide"
+    authors: ["Lucchese", "McKoy"]
+    year: 1983
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/PhysRevA.28.1382"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Lucchese_McKoy_1983_Pade_CO_photoionization_PRA.pdf"
+      note: null
+    topic_tags: ["Pade", "Schwinger", "photoionization", "CO", "variational_scattering"]
+    project_modules: ["tau_matrix", "schwinger_amplitude", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-natalense-lucchese-1999-sf6-photoionization"
+    title: "Cross section and asymmetry parameter calculation for sulfur 1s photoionization of SF6"
+    authors: ["Natalense", "Lucchese"]
+    year: 1999
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.479794"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Natalense_Lucchese_1999_SF6_photoionization_JCP.pdf"
+      note: null
+    topic_tags: ["ePolyScat", "photoionization", "cross_section", "asymmetry_parameter", "SF6"]
+    project_modules: ["benchmark_strategy", "angular_reduction", "frame_transform"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["code_reference", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-gianturco-lucchese-sanna-1994-cf4-scattering"
+    title: "Calculation of low-energy elastic cross sections for electron-CF4 scattering"
+    authors: ["Gianturco", "Lucchese", "Sanna"]
+    year: 1994
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.467237"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Gianturco_Lucchese_Sanna_1994_CF4_scattering_JCP.pdf"
+      note: null
+    topic_tags: ["ePolyScat", "electron_scattering", "static_exchange", "CF4"]
+    project_modules: ["separable_potential", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-toffoli-coriani-stener-decleva-2024-tiresia-code"
+    title: "Tiresia: A code for molecular electronic continuum states and photoionization"
+    authors: ["Toffoli", "Coriani", "Stener", "Decleva"]
+    year: 2024
+    source_type: "software"
+    identifiers:
+      doi: "10.1016/j.cpc.2023.109038"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Toffoli_2024_Tiresia_CPC.pdf"
+      note: "notes/B_spline_continuum.md"
+    topic_tags: ["Tiresia", "B_spline", "continuum", "photoionization", "software"]
+    project_modules: ["method_comparison", "benchmark_strategy", "code_context_phase_h"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+    metadata_note: "CPC 297, 109038, published-print 2024-04（Crossref 核实）；DOI 后缀 2023 仅为注册年，出版年为 2024。[RESOLVED 2026-09-11: 迁移至 B_spline_continuum/ 且按核实年改名为 Toffoli_2024_...]"
+
+  - id: "lit-ruberti-2019-rcs-adc-b-spline"
+    title: "Restricted Correlation Space B-Spline ADC Approach to Molecular Ionization: Theory and Applications to Total Photoionization Cross-Sections"
+    authors: ["Ruberti"]
+    year: 2019
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jctc.9b00288"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Ruberti_2019_RCS_ADC_Bspline_JCTC.pdf"
+      note: "notes/B_spline_continuum.md"
+    topic_tags: ["RCS_ADC", "B_spline", "molecular_ionization", "photoionization_cross_sections"]
+    project_modules: ["method_comparison", "correlation_strategy", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-masin-benda-gorfinkiel-2020-ukrmol-plus"
+    title: "UKRmol+: A suite for modelling electronic processes in molecules interacting with electrons, positrons and photons using the R-matrix method"
+    authors: ["Mašín", "Benda", "Gorfinkiel", "Harvey", "Tennyson"]
+    year: 2020
+    source_type: "software"
+    identifiers:
+      doi: "10.1016/j.cpc.2019.107092"
+      arxiv: "1908.03018"
+      isbn: null
+    paths:
+      pdf: "papers/R_matrix/Masin_2020_UKRmol_plus_CPC_arXiv.pdf"
+      note: "notes/R-matrix方法发展脉络深度调查.md"
+    topic_tags: ["UKRmol_plus", "R_matrix", "photoionization", "electron_scattering", "software"]
+    project_modules: ["method_comparison", "benchmark_strategy", "workflow_design"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-tenorio-ponzi-coriani-decleva-2022-mr-dyson-b-spline"
+    title: "Photoionization Observables from Multi-Reference Dyson Orbitals Coupled to B-Spline DFT and TD-DFT Continuum"
+    authors: ["Tenorio", "Ponzi", "Coriani", "Decleva"]
+    year: 2022
+    source_type: "paper"
+    identifiers:
+      doi: "10.3390/molecules27041203"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Tenorio_2022_Dyson_photoionization_Molecules.pdf"
+      note: "notes/Dyson轨道量子化学方法综述.md"
+    topic_tags: ["Dyson_orbitals", "MS_CASPT2", "B_spline", "TDDFT", "photoionization"]
+    project_modules: ["correlation_strategy", "method_comparison", "code_context_phase_h"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-moitra-coriani-decleva-2021-correlation-photoionization"
+    title: "Capturing Correlation Effects on Photoionization Dynamics"
+    authors: ["Moitra", "Coriani", "Decleva"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jctc.1c00303"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Moitra_2021_EOMCC_Dyson_TDDFT_JCTC.pdf"
+      note: "notes/Dyson轨道量子化学方法综述.md"
+    topic_tags: ["EOM_CC", "Dyson_orbitals", "B_spline", "TDDFT", "correlation"]
+    project_modules: ["correlation_strategy", "method_comparison", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-mahato-skomorowski-2026-free-particle-green-sgto"
+    title: "Free-particle Green's function matrix elements over spherical Gaussian and plane-wave-modulated Gaussian basis functions"
+    authors: ["Mahato", "Skomorowski"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2605.18564"
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Mahato_Skomorowski_2026_free_particle_Green_SGTO_arXiv.pdf"
+      note: null
+    topic_tags: ["spherical_Gaussian", "free_particle_Green_function", "momentum_space", "recurrence"]
+    project_modules: ["continuum_wave", "SW_integral", "momentum_gto", "sw_matrix_element"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "core"
+    role: ["frontier", "method_origin", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-gozem-2015-plane-wave-coulomb-wave-photoionization"
+    title: "Photoelectron Wave Function in Photoionization: Plane Wave or Coulomb Wave?"
+    authors: ["Gozem", "Gunina", "Ichino", "Osborn", "Stanton", "Krylov"]
+    year: 2015
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jpclett.5b01891"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Gozem_2015_photoelectron_wavefunction_JPCL.pdf"
+      note: null
+    topic_tags: ["plane_wave", "Coulomb_wave", "Dyson_orbital", "photoionization", "normalization"]
+    project_modules: ["continuum_wave", "CS_calculator", "frame_transform", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-duan-2024-multicenter-continuum-mfpad"
+    title: "Multicenter continuum-state approach to molecular-frame photoelectron angular distributions: From plane-wave to twisted photons"
+    authors: ["Duan", "Gong", "Cheng", "Zhang"]
+    year: 2024
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/PhysRevA.109.063114"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Duan_2024_multicenter_continuum_MFPAD_PRA.pdf"
+      note: null
+    topic_tags: ["multicenter_continuum", "MFPAD", "plane_wave", "twisted_photon", "partial_wave"]
+    project_modules: ["continuum_wave", "angular_reduction", "frame_transform"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-obara-saika-1986-recursive-cartesian-gaussian-integrals"
+    title: "Efficient recursive computation of molecular integrals over Cartesian Gaussian functions"
+    authors: ["Obara", "Saika"]
+    year: 1986
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.450106"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Obara_Saika_1986_recursive_Cartesian_Gaussian_integrals_JCP.pdf"
+      note: null
+    topic_tags: ["Cartesian_Gaussian", "molecular_integrals", "recurrence", "Obara_Saika"]
+    project_modules: ["GTO_integral", "momentum_gto"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation", "method_origin"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-obara-saika-1988-general-recurrence-cartesian-gaussian"
+    title: "General recurrence formulas for molecular integrals over Cartesian Gaussian functions"
+    authors: ["Obara", "Saika"]
+    year: 1988
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.455717"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Obara_Saika_1988_general_recurrence_Cartesian_Gaussian_JCP.pdf"
+      note: null
+    topic_tags: ["Cartesian_Gaussian", "Fourier_transform_kernel", "recurrence", "Obara_Saika"]
+    project_modules: ["GTO_integral", "momentum_gto", "SW_integral"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation", "method_origin"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-mcmurchie-davidson-1978-cartesian-gaussian-integrals"
+    title: "One- and two-electron integrals over cartesian gaussian functions"
+    authors: ["McMurchie", "Davidson"]
+    year: 1978
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/0021-9991(78)90092-X"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/McMurchie_Davidson_1978_cartesian_gaussian_integrals_JCP.pdf"
+      note: null
+    topic_tags: ["Cartesian_Gaussian", "molecular_integrals", "McMurchie_Davidson", "auxiliary_functions"]
+    project_modules: ["GTO_integral", "momentum_gto"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation", "method_origin"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-matsuzaki-yabushita-2017-cgto-photoionization"
+    title: "Calculation of photoionization differential cross sections using complex Gauss-type orbitals"
+    authors: ["Matsuzaki", "Yabushita"]
+    year: 2017
+    source_type: "paper"
+    identifiers:
+      doi: "10.1002/jcc.24848"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Matsuzaki_Yabushita_2017_cGTO_photoionization_JCC.pdf"
+      note: null
+    topic_tags: ["cGTO", "photoionization", "differential_cross_section", "H2", "two_potential_formula"]
+    project_modules: ["PW_integral", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-ammar-ancarani-leclerc-2021-complex-gaussian-photoionization"
+    title: "A complex Gaussian approach to molecular photoionization"
+    authors: ["Ammar", "Ancarani", "Leclerc"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1002/jcc.26760"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Ammar_2021_complex_Gaussian_photoionization_JCC.pdf"
+      note: null
+    topic_tags: ["cGTO", "Coulomb_continuum", "length_velocity_gauge", "photoionization"]
+    project_modules: ["PW_integral", "continuum_wave", "SW_integral"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-huang-li-luo-2026-recursive-gaussian-pdcs"
+    title: "Efficient recursive Gaussian integral calculation of anion photodetachment cross sections"
+    authors: ["Huang", "Li", "Luo", "Wu", "Duan", "Zhang"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/5.0301018"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Huang_2026_recursive_Gaussian_PDCS_JCP.pdf"
+      note: null
+    topic_tags: ["recursive_Gaussian_integral", "photodetachment_cross_section", "plane_wave", "anion", "Cartesian_Gaussian", "transition_moment"]
+    project_modules: ["PW_integral", "GTO_integral", "momentum_gto", "CS_calculator", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "core"
+    role: ["method_origin", "benchmark", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-cacelli-1997-polynomial-gaussian-continuum"
+    title: "Performance of polynomial Gaussian functions in describing the molecular electronic continuum"
+    authors: ["Cacelli"]
+    year: 1997
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0953-4075/30/24/006"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Cacelli_1997_polynomial_Gaussian_continuum_JPB.pdf"
+      note: null
+    topic_tags: ["GTO", "L2", "polynomial_Gaussian", "continuum", "photoemission"]
+    project_modules: ["GTO_integral", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  # --- 2026-08-29 定向检索追加：多中心连续态 / MFPAD（Phase K 备选） ---
+  - id: "lit-gharibnejad-2021-multicenter-quadrature"
+    title: "A multi-center quadrature scheme for the molecular continuum"
+    authors: ["Gharibnejad", "Douguet", "Schneider"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/j.cpc.2021.107889"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Gharibnejad_2021_multicenter_quadrature_CPC.pdf"
+      note: null
+    topic_tags: ["multicenter", "quadrature", "continuum", "scattering", "L2"]
+    project_modules: ["continuum_wave", "separable_potential", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_origin", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-marante-2014-hybrid-gaussian-bspline"
+    title: "Hybrid Gaussian-B-spline basis for the electronic continuum: Photoionization of atomic hydrogen"
+    authors: ["Marante", "Argenti", "Martin"]
+    year: 2014
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/physreva.90.012506"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Marante_2014_hybrid_GTO_BSpline_PRA.pdf"
+      note: null
+    topic_tags: ["Gaussian", "B_spline", "hybrid_basis", "continuum", "photoionization"]
+    project_modules: ["continuum_wave", "GTO_integral", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-borras-2021-xchem-mfpad-feshbach"
+    title: "Molecular-Frame Photoelectron Angular Distributions of CO in the Vicinity of Feshbach Resonances: An XCHEM Approach"
+    authors: ["Borras", "Gonzalez-Vazquez", "Argenti"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1021/acs.jctc.1c00480"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Borras_2021_MFPAD_Feshbach_XCHEM_JCTC.pdf"
+      note: null
+    topic_tags: ["MFPAD", "Feshbach", "XCHEM", "multicenter", "photoionization"]
+    project_modules: ["angular_reduction", "frame_transform", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["frontier", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-borras-2023-xchem2"
+    title: "Photoionization cross sections and photoelectron angular distributions of molecules with XCHEM-2.0"
+    authors: ["Borras", "Fernandez-Milan", "Argenti"]
+    year: 2023
+    source_type: "software"
+    identifiers:
+      doi: "10.1016/j.cpc.2023.109033"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Borras_2023_XCHEM2_CPC.pdf"
+      note: null
+    topic_tags: ["XCHEM", "multicenter", "cross_section", "angular_distribution", "software"]
+    project_modules: ["continuum_wave", "frame_transform", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["code_reference", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-ota-2021-full-potential-mfpad"
+    title: "Theory of polarization-averaged core-level molecular-frame photoelectron angular distributions: I. A full-potential method and its application to dissociating carbon monoxide dication"
+    authors: ["Ota", "Yamazaki", "Sebilleau"]
+    year: 2021
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/1361-6455/abd06d"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Ota_2021_full_potential_MFPAD_JPB.pdf"
+      note: null
+    topic_tags: ["MFPAD", "full_potential", "multicenter", "angular_distribution"]
+    project_modules: ["frame_transform", "angular_reduction", "continuum_wave"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+    metadata_note: "2026-09-11 经 Unpaywall 通道补下载全文；出版年与卷期以正式版核实"
+
+  # --- 2026-08-29 定向检索追加：交换 K 与 Feshbach（Born 残差收敛） ---
+  - id: "lit-gil-1990-feshbach-fano-mulliken"
+    title: "New Theoretical Perspectives on Molecular Shape Resonances: Feshbach-Fano Methods for Mulliken Orbital Analysis of Photoionization Continua"
+    authors: ["Gil", "Winstead", "Sheehy", "McKoy"]
+    year: 1990
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0031-8949/1990/t31/025"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Gil_1990_FeshbachFano_Mulliken_PhysScr.pdf"
+      note: null
+    topic_tags: ["Feshbach", "Fano", "shape_resonance", "photoionization", "exchange"]
+    project_modules: ["separable_potential", "tau_matrix", "schwinger_amplitude", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-jagau-2017-electronic-resonances"
+    title: "Extending Quantum Chemistry of Bound States to Electronic Resonances"
+    authors: ["Jagau", "Bravaya", "Krylov"]
+    year: 2017
+    source_type: "review"
+    identifiers:
+      doi: "10.1146/annurev-physchem-052516-050622"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Jagau_2017_electronic_resonances_ARPC.pdf"
+      note: null
+    topic_tags: ["electronic_resonance", "Feshbach", "shape_resonance", "CAP", "review"]
+    project_modules: ["correlation_strategy", "continuum_wave", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["review", "frontier"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-zatsarinny-bartschat-2013-bspline-rmatrix"
+    title: "The B-spline R-matrix method for atomic processes: application to atomic structure, electron collisions and photoionization"
+    authors: ["Zatsarinny", "Bartschat"]
+    year: 2013
+    source_type: "review"
+    identifiers:
+      doi: "10.1088/0953-4075/46/11/112001"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Zatsarinny_Bartschat_2013_Bspline_Rmatrix_JPB.pdf"
+      note: "notes/R-matrix方法发展脉络深度调查.md"
+    topic_tags: ["B_spline", "R_matrix", "electron_collisions", "photoionization", "exchange", "review"]
+    project_modules: ["method_comparison", "benchmark_strategy", "separable_potential"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["review", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-hazi-1978-l2-resonance-widths"
+    title: "A purely L2 method for calculating resonance widths"
+    authors: ["Hazi"]
+    year: 1978
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0022-3700/11/8/001"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/Schwinger_L2/Hazi_1978_L2_resonance_widths_JPB.pdf"
+      note: null
+    topic_tags: ["L2", "resonance_width", "linear_algebra", "continuum"]
+    project_modules: ["continuum_wave", "separable_potential", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_origin", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 经 Unpaywall 通道补下载全文；出版年与卷期以正式版核实"
+
+  - id: "lit-fang-2026-co-electron-scattering-orbital-optimization"
+    title: "Electron scattering on carbon monoxide: An optimization of target molecular orbitals"
+    authors: ["Fang", "Su", "Tennyson", "Fan", "Fan", "Zhang", "Cheng"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/5.0307607"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/R_matrix/Fang_2026_CO_electron_scattering_orbital_optimization_JCP.pdf"
+      note: null
+    topic_tags: ["R_matrix", "UKRmol_plus", "electron_scattering", "CO", "target_orbital_optimization", "state_averaged_MCSCF"]
+    project_modules: ["method_comparison", "benchmark_strategy"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-stener-2005-tddft-noniterative-bspline"
+    title: "Time-dependent density-functional theory for molecular photoionization with noniterative algorithm and multicenter B-spline basis set: CS2 and C6H6 case studies"
+    authors: ["Stener", "Fronzoni", "Decleva"]
+    year: 2005
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.1937367"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Stener_2005_TDDFT_photoionization_JCP.pdf"
+      note: null
+    topic_tags: ["B_spline", "TDDFT", "photoionization", "noniterative", "multicenter", "CS2", "C6H6"]
+    project_modules: ["method_comparison", "continuum_wave", "angular_reduction"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-bachau-2001-bsplines-atomic-molecular"
+    title: "Applications of B-splines in atomic and molecular physics"
+    authors: ["Bachau", "Cormier", "Decleva", "Hansen", "Martin"]
+    year: 2001
+    source_type: "review"
+    identifiers:
+      doi: "10.1088/0034-4885/64/12/205"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Bachau_2001_BSplines_atomic_molecular_RepProgPhys.pdf"
+      note: null
+    topic_tags: ["B_spline", "review", "atomic_physics", "molecular_physics", "continuum"]
+    project_modules: ["method_comparison", "continuum_wave"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["review", "foundation"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+    metadata_note: "PDF filename violates naming convention (contains spaces) and appears truncated ('atomi'); rename recommended [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  - id: "lit-mccurdy-2004-ecs-bspline"
+    title: "Implementation of exterior complex scaling in B-splines to solve atomic and molecular collision problems"
+    authors: ["McCurdy", "Martin"]
+    year: 2004
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0953-4075/37/4/017"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/complex_scaling/McCurdy_Martin_2004_ECS_BSpline_JPB.pdf"
+      note: null
+    topic_tags: ["complex_scaling", "ECS", "B_spline", "collision", "continuum"]
+    project_modules: ["continuum_wave", "method_comparison", "sw_matrix_element"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-hrodmarsson-2023-leiden-vuv-database"
+    title: "Photodissociation and photoionization of molecules of astronomical interest: Updates to the Leiden photodissociation and photoionization cross section database"
+    authors: ["Hrodmarsson", "van Dishoeck"]
+    year: 2023
+    source_type: "paper"
+    identifiers:
+      doi: "10.1051/0004-6361/202346645"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Hrodmarsson_2023_VUV_database_AA.pdf"
+      note: null
+    topic_tags: ["astrochemistry", "VUV", "photoionization", "database", "cross_section"]
+    project_modules: ["benchmark_strategy", "method_comparison"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["review", "historical_context"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-nisoli-2017-attosecond-electron-dynamics"
+    title: "Attosecond Electron Dynamics in Molecules"
+    authors: ["Nisoli", "Decleva", "Calegari", "Palacios", "Martin"]
+    year: 2017
+    source_type: "review"
+    identifiers:
+      doi: "10.1021/acs.chemrev.6b00453"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Nisoli_2017_attosecond_electron_dynamics_ChemRev.pdf"
+      note: null
+    topic_tags: ["attosecond", "electron_dynamics", "photoionization", "review"]
+    project_modules: ["method_comparison", "historical_context"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["review"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-djajaputra-2003-tight-binding-lmto-nial"
+    title: "Tight-binding parameters from the full-potential linear muffin-tin orbital method: A feasibility study on NiAl"
+    authors: ["Djajaputra", "Cooper"]
+    year: 2003
+    source_type: "paper"
+    identifiers:
+      doi: "10.1002/pssb.200301649"
+      arxiv: "cond-mat/0205368"
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Djajaputra_Cooper_2003_tight_binding_LMTO_NiAl_pssb.pdf"
+      note: null
+    topic_tags: ["tight_binding", "LMTO", "Fourier_transform", "momentum_space", "NiAl"]
+    project_modules: ["momentum_gto", "method_comparison"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "low"
+    role: ["method_origin"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+    metadata_note: "Filename/ledger mismatch: actual first author is Djajaputra (not Qian), year 2003 (not 2002), venue Phys. Status Solidi B (not NAO/Hubbard). PDF is the arXiv preprint version. [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  - id: "lit-dziedzic-2013-linear-scaling-hf-wannier"
+    title: "Linear-scaling calculation of Hartree-Fock exchange energy with non-orthogonal generalised Wannier functions"
+    authors: ["Dziedzic", "Hill", "Skylaris"]
+    year: 2013
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.4832338"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Dziedzic_Hill_Skylaris_2013_linear_scaling_HF_Wannier_JCP.pdf"
+      note: null
+    topic_tags: ["linear_scaling", "Hartree_Fock", "exchange", "Wannier", "ONETEP"]
+    project_modules: ["method_comparison", "separable_potential"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison", "risk_evidence"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+    metadata_note: "Filename/ledger mismatch: actual authors Dziedzic, Hill, Skylaris; year 2013; not RuizSerrano 2012. [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  - id: "lit-vanroose-2006-h2-double-photoionization-aligned"
+    title: "Double photoionization of aligned molecular hydrogen"
+    authors: ["Vanroose", "Horner", "Martin", "Rescigno", "McCurdy"]
+    year: 2006
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/physreva.74.052702"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Vanroose_2006_H2_double_photoionization_PRA.pdf"
+      note: null
+    topic_tags: ["H2", "double_photoionization", "ECS", "B_spline", "aligned"]
+    project_modules: ["benchmark_h2", "method_comparison"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-calegari-2016-charge-migration-attosecond"
+    title: "Charge migration induced by attosecond pulses in bio-relevant molecules"
+    authors: ["Calegari", "Trabattoni", "Palacios", "Ayuso", "Castrovilli", "Decleva", "Martin", "Nisoli"]
+    year: 2016
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0953-4075/49/14/142001"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Calegari_2016_charge_migration_attosecond_JPB.pdf"
+      note: null
+    topic_tags: ["attosecond", "charge_migration", "biomolecule", "photoionization"]
+    project_modules: ["method_comparison", "historical_context"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["review"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-ruckenbauer-2016-trpes-deactivation-dyson"
+    title: "Revealing Deactivation Pathways Hidden in Time-Resolved Photoelectron Spectra"
+    authors: ["Ruckenbauer", "Mai", "Marquetand", "Gonzalez"]
+    year: 2016
+    source_type: "paper"
+    identifiers:
+      doi: "10.1038/srep35522"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/general_review/Ruckenbauer_2016_trPES_SciRep.pdf"
+      note: null
+    topic_tags: ["trPES", "Dyson_norm", "non_adiabatic", "photoelectron_spectroscopy"]
+    project_modules: ["method_comparison", "dyson_orbital"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+
+  - id: "lit-brosolo-1992-variational-continuum-spline-h2plus"
+    title: "Variational approach to continuum orbitals in a spline basis: an application to H2+ photoionization"
+    authors: ["Brosolo", "Decleva"]
+    year: 1992
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/0301-0104(92)80069-8"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/B_spline_continuum/Brosolo_Decleva_1992_H2plus_BSpline_CP.pdf"
+      note: null
+    topic_tags: ["B_spline", "variational", "continuum", "H2plus", "K_matrix"]
+    project_modules: ["continuum_wave", "method_origin", "benchmark_h2"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+    metadata_note: "纯 spline 基组，[RESOLVED 2026-09-11: 由 papers/GTO_continuum/ 迁移至 papers/B_spline_continuum/，与同路线文献归并]"
+
+  - id: "lit-carmona-novillo-1996-lih-mixed-basis"
+    title: "Photoionization cross section and asymmetry parameter of LiH: a mixed GTO/STOCOS L2 basis set calculation"
+    authors: ["Carmona-Novillo", "Moccia", "Spizzo"]
+    year: 1996
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/0301-0104(96)00128-0"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/CarmonaNovillo_1996_LiH_photoionization_CP.pdf"
+      note: null
+    topic_tags: ["GTO", "STOCOS", "L2", "photoionization", "LiH", "beta", "SEA", "RPA"]
+    project_modules: ["momentum_gto", "angular_reduction", "benchmark_lih"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "benchmark"]
+    confidence: "fulltext_available"
+    actionability: "direct_benchmark"
+
+  - id: "lit-moccia-2003-sto-bspline-li2-differential"
+    title: "Mixed L2 basis set: STOs plus B-Splines. Calculation of the differential photoionization cross-section of Li2"
+    authors: ["Moccia", "Montuoro"]
+    year: 2003
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/s0009-2614(02)01765-7"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/GTO_continuum/Moccia_Montuoro_2003_Li2_differential_CPL.pdf"
+      note: null
+    topic_tags: ["L2", "STO", "B_spline", "differential_cross_section", "Li2", "mixed_basis"]
+    project_modules: ["momentum_gto", "angular_reduction", "method_comparison"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_origin", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-corsaro-2026-mlfma-metasurfaces"
+    title: "Multilevel Fast Multipole Algorithm for Electromagnetic Scattering by Large Metasurfaces using Static Mode Representation"
+    authors: ["Corsaro", "Miano", "Tamburrino", "Ventre", "Forestiere"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: "10.1109/tap.2025.3605041"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Corsaro_2026_MLFMA_metasurfaces_IEEE_TAP.pdf"
+      note: null
+    topic_tags: ["MLFMA", "multipole_expansion", "scattering", "metasurface", "boundary_element"]
+    project_modules: ["spherical_multipole", "method_comparison"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "reading_candidate"
+    metadata_note: "Filename/ledger mismatch: actual first author is Corsaro (not Egel), year 2026 IEEE Trans. Antennas Propag. (not 2024). [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  - id: "lit-eyert-2000-augmented-spherical-wave"
+    title: "Basic notions and applications of the augmented spherical wave method"
+    authors: ["Eyert"]
+    year: 2000
+    source_type: "paper"
+    identifiers:
+      doi: "10.1002/(sici)1097-461x(2000)77:6<1007::aid-qua8>3.0.co;2-u"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Eyert_2000_augmented_spherical_wave_IJQC.pdf"
+      note: null
+    topic_tags: ["ASW", "augmented_spherical_wave", "band_structure", "multiple_scattering"]
+    project_modules: ["spherical_multipole", "method_comparison"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["foundation", "method_comparison"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+    metadata_note: "Source id lacked year (paper-eyert); normalized to paper-eyert-2000 in sources.yaml. [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  - id: "lit-felderhof-1987-addition-theorems-vector-helmholtz"
+    title: "Addition theorems for spherical wave solutions of the vector Helmholtz equation"
+    authors: ["Felderhof", "Jones"]
+    year: 1987
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.527572"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Felderhof_1987_addition_theorems_JMP.pdf"
+      note: null
+    topic_tags: ["addition_theorem", "spherical_wave", "vector_Helmholtz", "multipole"]
+    project_modules: ["spherical_multipole", "sw_matrix_element"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-asadova-2025-tmatrix-data-format"
+    title: "T-matrix representation of optical scattering response: Suggestion for a data format"
+    authors: ["Asadova", "Achouri", "Arjas", "Auguie", "Aydin", "Rockstuhl"]
+    year: 2025
+    source_type: "paper"
+    identifiers:
+      doi: "10.1016/j.jqsrt.2024.109310"
+      arxiv: "2408.10727"
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Asadova_2025_Tmatrix_data_format_JQSRT.pdf"
+      note: null
+    topic_tags: ["T_matrix", "scattering", "data_format", "multipole", "reproducibility"]
+    project_modules: ["spherical_multipole", "method_comparison"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["method_comparison", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+    metadata_note: "Filename/ledger mismatch: actual first author is Asadova (not Fruhnert); published JQSRT 333, 109310 (2025); arXiv:2408.10727. [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  - id: "lit-gonis-butler-2000-multiple-scattering-solids"
+    title: "Multiple Scattering in Solids"
+    authors: ["Gonis", "Butler"]
+    year: 2000
+    source_type: "book"
+    identifiers:
+      doi: "10.1007/978-1-4612-1290-4"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Gonis_Butler_2000_multiple_scattering_solids_Springer.pdf"
+      note: null
+    topic_tags: ["multiple_scattering", "MST", "t_matrix", "Green_function", "solid_state"]
+    project_modules: ["spherical_multipole", "green_function_matrix"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "medium"
+    role: ["foundation"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+    metadata_note: "Copyright year recorded as 2000 by Crossref (filename says 1999). [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  - id: "lit-huang-2026-contracted-truncated-spherical-waves"
+    title: "Systematically Improvable Numerical Atomic Orbital Basis Using Contracted Truncated Spherical Waves"
+    authors: ["Huang", "Jin", "Zhang", "Chen", "Li"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2603.13995"
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Huang_2026_TSW_NAO_basis_arXiv.pdf"
+      note: null
+    topic_tags: ["spherical_wave", "NAO", "truncated_spherical_wave", "basis_set", "systematic_improvability"]
+    project_modules: ["spherical_multipole", "method_comparison", "sw_matrix_element"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["method_comparison", "code_reference"]
+    confidence: "fulltext_available"
+    actionability: "implementation_guidance"
+
+  - id: "lit-moroz-2006-quasi-periodic-green-helmholtz"
+    title: "Quasi-periodic Green's functions of the Helmholtz and Laplace equations"
+    authors: ["Moroz"]
+    year: 2006
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/0305-4470/39/36/009"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Moroz_2006_quasi_periodic_Green_JPDA.pdf"
+      note: null
+    topic_tags: ["Green_function", "quasi_periodic", "Helmholtz", "Laplace", "lattice_sums"]
+    project_modules: ["green_function_matrix", "spherical_multipole"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+
+  - id: "lit-hughes-1994-spherical-wave-expansion-any-spin"
+    title: "Spherical wave expansion for any spin"
+    authors: ["Hughes"]
+    year: 1994
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/1.530827"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: "papers/spherical_wave/Hughes_1994_spherical_wave_expansion_any_spin_JMP.pdf"
+      note: null
+    topic_tags: ["spherical_wave", "spinor", "expansion", "angular_momentum"]
+    project_modules: ["spherical_multipole", "sw_matrix_element"]
+    state: "fulltext_available"
+    review_status: "machine_screened"
+    relevance: "high"
+    role: ["foundation"]
+    confidence: "fulltext_available"
+    actionability: "formula_reference"
+    metadata_note: "Filename/ledger mismatch: actual author is J. Hughes (not Weinberg). [RESOLVED 2026-09-11: renamed to verified-content filename + relocated]"
+
+  # --- 2026-09-11 幽灵条目落地：README 论文明细表有、registry 与 papers 皆无（手写清单未落地） ---
+  - id: "lit-cacelli-carravetta-1990-motecc-l2-review"
+    title: "Continuum by L2 Methods: Molecular Photoionization Cross Section"
+    authors: ["Cacelli", "Carravetta", "Rizzo", "Moccia"]
+    year: 1990
+    source_type: "chapter"
+    identifiers:
+      doi: "10.1007/978-94-009-2219-8_12"
+      arxiv: null
+      isbn: "9789401074957"
+    paths:
+      pdf: null
+      note: null
+    topic_tags: ["GTO", "L2", "photoionization", "MOTECC", "review"]
+    project_modules: ["method_origin", "momentum_gto", "sw_matrix_element"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "high"
+    role: ["method_origin", "review"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 由 README 论文明细表反向核实登记（此前仅存在于 2026-07-22 手写清单，从未落地）。Crossref 核实：Springer Netherlands 书章，Modern Techniques in Computational Chemistry: MOTECC-90, pp. 639-691, ISBN 9789401074957。全文可获取性待评估（书章可能仅有章节级 DOI）。"
+
+  - id: "lit-majety-zielinski-scrinzi-2015-hybrid-coupled-channels"
+    title: "Photoionization of few electron systems: a hybrid coupled channels approach"
+    authors: ["Majety", "Zielinski", "Scrinzi"]
+    year: 2015
+    source_type: "paper"
+    identifiers:
+      doi: "10.1088/1367-2630/17/6/063002"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: null
+      note: null
+    topic_tags: ["hybrid_coupled_channels", "photoionization", "tSURFF", "few_electron"]
+    project_modules: ["continuum_wave", "method_comparison"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["method_comparison", "frontier"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 由 README 论文明细表反向核实登记。Crossref 核实：New J. Phys. 17(6), 063002, 2015-06-01。OA 期刊（IOP），全文可下载。"
+
+  # ===== 2026-09-11 Dyson 轨道方法调研新增（MCDE / 时域 EKT / 相对论 EOM-CC）=====
+  # 来源：outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md
+  # 说明：均未下载 PDF，state=discovered；MCDE 家族为 2026 新建主线，建议最高优先补齐。
+
+  - id: "lit-keizer-2026-mcde-adc-benchmark"
+    title: "Benchmark of Multi-Channel Dyson Equation and Algebraic Diagrammatic Construction Methods for molecules"
+    authors: ["Keizer", "Paggi", "Berger", "Romaniello", "Förster"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2608.25669"
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["MCDE", "Dyson_ADC", "non_Dyson_approximation", "photoemission", "benchmark"]
+    project_modules: ["correlation_strategy", "method_comparison", "benchmark_strategy"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "high"
+    role: ["frontier", "risk_evidence", "method_comparison"]
+    confidence: "metadata_only"
+    actionability: "formula_reference"
+    metadata_note: "2026-09-11 登记。58 IP / 23 分子 / FCI 参照。核心结论：Dyson-ADC(3) vs nD-ADC(3) 偏差约 0.1 eV（强关联 C2/CS 超 0.25 eV）→ 质疑 nD 近似可靠性；(3,1)-MCDE ≡ Dyson-ADC(2)-X；sMCDE 误差分布最窄。**优先补齐**。"
+
+  - id: "lit-paggi-2026-mcde-photoemission"
+    title: "Core and valence photoemission spectra of atoms and molecules from a multichannel Dyson equation"
+    authors: ["Paggi", "Berger", "Romaniello"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2607.20070"
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["MCDE", "photoemission", "satellite", "shake_up", "GW_comparison"]
+    project_modules: ["correlation_strategy", "method_comparison"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "high"
+    role: ["frontier", "method_comparison"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记，v3 修订于 2026-08-22。Ne 最低卫星：FCI -51.2 / MCDE -53.3 / GW -74.6 eV。卫星描述显著优于 GW。基组收敛慢，提出 1/n_BAS 外推（假设薄弱，仅 Ne 5 条 2s 卫星目视验证）。"
+
+  - id: "lit-sellie-2026-mcde-double-ionization"
+    title: "Multichannel Dyson equation for double ionization spectroscopies"
+    authors: ["Sellié", "Berger", "Romaniello"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/jcfy-vdm8"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["MCDE", "double_ionization", "Auger", "particle_particle_channel"]
+    project_modules: ["correlation_strategy", "method_comparison"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["frontier", "method_comparison"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记。Phys. Rev. B 114, 125117，Published 19 Aug 2026。粒子-粒子双体 Green 函数耦合 3h1p/3e1h 通道，超越 RPA，描述双电离谱的准粒子与卫星。"
+
+  - id: "lit-romaniello-2026-screened-mcde"
+    title: "Direct and inverse photoemission spectra from the screened multichannel Dyson equation"
+    authors: ["Romaniello", "Berger"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2603.27329"
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["MCDE", "screening", "plasmon_satellite", "photoemission"]
+    project_modules: ["correlation_strategy", "method_comparison"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["frontier", "method_origin"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记，v2 2026-08-22。v1 为 2026-03-28（MCDE 家族首发）。体相 Si：sMCDE 正确给出等离激元卫星位置，GW 强烈高估；标准 MCDE 与 2nd-Born 亦高估 → 屏蔽的必要性。"
+
+  - id: "lit-zhang-2026-time-dependent-dyson-eom"
+    title: "Time-Dependent Hole States in Multiconfigurational Time-Dependent Hartree-Fock Approaches: A Time-Domain Generalization of Extended Koopmans' Theorem"
+    authors: ["Zhang", "Li", "Pathak", "Sato", "Ishikawa", "He"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: "10.1103/dcdw-ly16"
+      arxiv: "2505.11290"
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["time_dependent_dyson", "EKT", "MCTDHF", "hole_dynamics", "natural_orbitals"]
+    project_modules: ["correlation_strategy", "method_comparison", "continuum_wave"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "high"
+    role: ["frontier", "risk_evidence", "method_origin"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记。Phys. Rev. Lett. 136, 013204 (2026-01-08)。时域 EKT + 时间依赖 Dyson 轨道 EOM 存在性证明。**关键反证：H- 通道分辨 PMD 显示用瞬时自然轨道近似 Dyson 轨道会每通道产生两个假峰** → 自然轨道不可替代 Dyson 轨道。"
+
+  - id: "lit-thapa-2026-relativistic-eomcc-triples"
+    title: "Inclusion of Three-body Corrections in the Relativistic Equation-of-Motion Coupled Cluster Method: Application to Electron Detachment"
+    authors: ["Thapa", "Dutta"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2602.21834"
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["relativistic", "EOM_CC", "triples", "X2CAMF", "ionization_potential"]
+    project_modules: ["correlation_strategy", "method_comparison"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["frontier", "benchmark"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记。X2CAMF + Cholesky 分解 + 冻结自然旋量。部分三体修正 O(n^7)，相对实验/参考 MAE 0.01-0.08 eV。可用于本项目 benchmark_verified 外部锚定。"
+
+  - id: "lit-yuwono-2025-two-component-relativistic-eomcc"
+    title: "Two-component relativistic equation-of-motion coupled cluster for electron ionization"
+    authors: ["Yuwono", "Li", "Zhang", "Li", "DePrince"]
+    year: 2025
+    source_type: "paper"
+    identifiers:
+      doi: "10.1063/5.0248535"
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["relativistic", "EOM_CC", "3h2p", "spin_orbit", "X2C"]
+    project_modules: ["correlation_strategy", "method_comparison"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "medium"
+    role: ["frontier", "method_comparison"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记。J. Chem. Phys. 162, 084110 (2025)。X2C-IP-EOMCC 含 3h2p + full Dirac-Coulomb-Breit；HCCX+ (X=Cl,Br,I) 自旋轨道分裂；闭壳层参考避免简并破坏。"
+
+  - id: "lit-schio-2026-cooper-minimum-dyson-orbitals"
+    title: "Evidence of orbital mixing upon ionization via Cooper minimum photoelectron dynamics in epichlorohydrin. Experiment and theory"
+    authors: ["Schio", "Moitra", "Toffoli", "Ponzi", "Stener", "Coriani", "Decleva", "et al."]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2602.23223"
+      isbn: null
+    paths:
+      pdf: null
+      note: "outputs/Dyson轨道获取方法_分类与排序_2026-09-11.md"
+    topic_tags: ["Dyson_orbitals", "EOM_CCSD", "Cooper_minimum", "orbital_mixing", "chirality", "PECD"]
+    project_modules: ["correlation_strategy", "method_comparison", "momentum_gto", "frame_transform"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "high"
+    role: ["frontier", "benchmark"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记。J. Chem. Phys. 164, 204301（arXiv:2602.23223, 2026-02-26）。**HF/DFT 无法解释**手性分子 epichlorohydrin 的 Cooper 极小 β 振荡；只有 EOM-CCSD Dyson 轨道（轨道混合）能解释。与本项目 Cooper 极小/β 参数工作直接相关。附左右 Dyson 轨道与谱强度 γ^L·γ^R 的完整公式，可作公式参考。"
+
+  - id: "lit-misael-2024-cvs-eomcc-actinide"
+    title: "Relativistic Embedded Equation-of-Motion Coupled-Cluster Approach to the Core-Ionized States of Actinides: A Case Study of Uranyl(VI) in Cs2UO2Cl4"
+    authors: ["Misael", "Gomes"]
+    year: 2024
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: "2412.08403"
+      isbn: null
+    paths:
+      pdf: null
+      note: null
+    topic_tags: ["relativistic", "CVS_EOM_CC", "core_ionization", "frozen_density_embedding", "actinide"]
+    project_modules: ["correlation_strategy", "method_comparison"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "low"
+    role: ["frontier"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记。CVS-EOM-CC + FDE；U 4d/4f 自旋轨道分裂偏差 <0.7 eV。与本项目主题相关度较低，登记备查。"
+
+  - id: "lit-mukhopadhyay-2026-relativistic-dip-eomcc"
+    title: "Reduced-Cost Four-Component Relativistic Double Ionization Potential Equation-of-Motion Coupled-Cluster Approaches with 4-Hole-2-Particle Excitations and Three-Body Clusters"
+    authors: ["Mukhopadhyay", "Mukherjee", "Gururangan", "Piecuch", "Dutta"]
+    year: 2026
+    source_type: "paper"
+    identifiers:
+      doi: null
+      arxiv: null
+      isbn: null
+    paths:
+      pdf: null
+      note: null
+    topic_tags: ["relativistic", "DIP_EOM_CC", "double_ionization", "FNS"]
+    project_modules: ["correlation_strategy"]
+    state: "discovered"
+    review_status: "unreviewed"
+    relevance: "low"
+    role: ["frontier"]
+    confidence: "metadata_only"
+    actionability: "reading_candidate"
+    metadata_note: "2026-09-11 登记。PMC13085238。4c-FNS-DIP-EOMCCSD(T)(a~)(4h-2p)，N^7 标度。与 MCDE 双电离形成方法竞争关系。"
