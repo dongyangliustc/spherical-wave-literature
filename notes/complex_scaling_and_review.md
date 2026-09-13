@@ -101,9 +101,9 @@ ECS 与本项目的复平面围道积分是两种不同的"复域"策略：
 
 ---
 
-## 5. Ruiz-Serrano et al. — 2012 — 线性标度 HF (ONETEP)
+## 5. Dziedzic, Hill, Skylaris — 2013 — 线性标度 HF (ONETEP)
 
-**文件**: `RuizSerrano_2012_linear_scaling_HF_ONETEP.pdf`
+**文件**: `Dziedzic_Hill_Skylaris_2013_linear_scaling_HF_Wannier_JCP.pdf`
 **期刊**: J. Chem. Phys. 136, 234107 / Southampton 技术报告
 **优先级**: ⭐⭐⭐
 
@@ -118,19 +118,22 @@ ECS 与本项目的复平面围道积分是两种不同的"复域"策略：
 
 ---
 
-## 6. Qian et al. — 2002 — NAO Hubbard 模型
+## 6. Djajaputra & Cooper — 2003 — FP-LMTO 导出紧束缚参数（NiAl）
 
-**文件**: `Qian_2002_NAO_Hubbard_arXiv.pdf`
-**DOI**: arXiv:cond-mat/0205368
+> ⚠ **内容更正（2026-09-11）**：本节原标注为"Qian 2002 — NAO Hubbard 模型"，系错下载时代遗留的错误署名与错误内容描述。
+> 经 PDF 正文 + arXiv 核实，该 PDF 实为 Djajaputra & Cooper (2003)，主题为**用 FP-LMTO 拟合紧束缚参数**，与"NAO / Hubbard 模型"无关。
+
+**文件**: `Djajaputra_Cooper_2003_tight_binding_LMTO_NiAl_pssb.pdf`
+**DOI**: arXiv:cond-mat/0205368（正式版 DOI 10.1002/pssb.200301649，Phys. Status Solidi B）
 **优先级**: ⭐⭐
 
 ### 核心内容
-- 数值原子轨道（NAO）在强关联体系中的应用
-- Hubbard 模型的紧束缚参数化
-- 第一性原理→模型哈密顿量的降维策略
+- 用全势线性 muffin-tin 轨道（FP-LMTO）方法提取紧束缚（TB）参数
+- NiAl 金属间化合物作为可行性验证体系
+- 第一性原理 → 模型哈密顿量的降维策略
 
 ### 与本项目关联
-- NAO 的构造方法（联系 Huang 2026 TSW）
+- 球面波/MTO 基在间隙区基函数构造上的用法（与 ASW 家族相邻，见 Eyert 2000）
 - 项目关联度较低，作为补充参考
 
 ---
@@ -143,7 +146,7 @@ ECS 与本项目的复平面围道积分是两种不同的"复域"策略：
 | Nisoli 2017 | 阿秒分子综述 | 项目应用场景 |
 | Hróðmarsson 2023 | VUV 截面数据库 | 验证数据集 |
 | Vanroose 2006 | ECS 双电离 | 方法展示与取向平均 |
-| Ruiz-Serrano 2012 | 线性标度 ONETEP | 程序架构参考 |
+| Dziedzic 2013 | 线性标度 ONETEP | 程序架构参考 |
 
 ---
 
@@ -170,11 +173,11 @@ ECS 与本项目的复平面围道积分是两种不同的"复域"策略：
 17. **TDCS** (Triple Differential Cross Section, 三重微分截面) — 双光子双电离中对两个电子能量与角度均分辨的微分截面。出处：Vanroose 2006 #4。
 18. **双光子双电离** (two-photon double ionization) — 吸收两个光子同时击出两电子的过程。出处：Vanroose 2006 #4。
 19. **取向平均** (orientation averaging) — 对随机取向分子求平均以得实验室系截面，对应 `frame_transform.py`。出处：Vanroose 2006 #4。
-20. **线性标度 HF** (linear-scaling HF) — 交换计算成本随体系线性增长的 HF 实现。出处：Ruiz-Serrano 2012 #5。
-21. **NGWF** (Non-orthogonal Generalised Wannier Functions) — 非正交广义 Wannier 函数，ONETEP 的局域基表示。出处：Ruiz-Serrano 2012 #5。
-22. **平面波精度** (plane-wave accuracy) — 达到平面波基组精度的局域基方法目标。出处：Ruiz-Serrano 2012 #5。
-23. **杂化泛函** (hybrid functional) — 含部分 HF 交换的密度泛函，线性标度实现的技术挑战。出处：Ruiz-Serrano 2012 #5。
-24. **距离截断** (truncation by distance) — 以空间距离截断相互作用以实现线性标度的策略。出处：Ruiz-Serrano 2012 #5。
-25. **Hubbard 模型** (Hubbard model) — 描述电子在格点上跃迁与在位 Coulomb 排斥的紧束缚模型。出处：Qian 2002 #6。
-26. **紧束缚** (tight-binding) — 仅保留近邻跃迁的简化电子结构模型。出处：Qian 2002 #6。
-27. **第一性原理→模型哈密顿量降维** — 从 ab initio 计算参数化低维有效模型的方法论。出处：Qian 2002 #6。
+20. **线性标度 HF** (linear-scaling HF) — 交换计算成本随体系线性增长的 HF 实现。出处：Dziedzic 2013 #5。
+21. **NGWF** (Non-orthogonal Generalised Wannier Functions) — 非正交广义 Wannier 函数，ONETEP 的局域基表示。出处：Dziedzic 2013 #5。
+22. **平面波精度** (plane-wave accuracy) — 达到平面波基组精度的局域基方法目标。出处：Dziedzic 2013 #5。
+23. **杂化泛函** (hybrid functional) — 含部分 HF 交换的密度泛函，线性标度实现的技术挑战。出处：Dziedzic 2013 #5。
+24. **距离截断** (truncation by distance) — 以空间距离截断相互作用以实现线性标度的策略。出处：Dziedzic 2013 #5。
+25. **Muffin-tin 轨道（MTO）** — 把空间分为原子球与间隙区、球内取精确解、间隙区取球面波/平面波解的基函数构造，是 ASW/LMTO 家族的共同基础。出处：Djajaputra & Cooper 2003 #6。
+26. **紧束缚** (tight-binding) — 仅保留近邻跃迁的简化电子结构模型。出处：Djajaputra & Cooper 2003 #6。
+27. **第一性原理→模型哈密顿量降维** — 从 ab initio 计算参数化低维有效模型的方法论。出处：Djajaputra & Cooper 2003 #6。
