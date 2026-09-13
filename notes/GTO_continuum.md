@@ -137,12 +137,15 @@
 
 ---
 
-## 6. Toffoli, Coriani, Stener, Decleva — 2023 — Tiresia 代码
+## 6. Toffoli, Coriani, Stener, Decleva — 2024 — Tiresia 代码
 
-**文件**: `Toffoli_2023_Tiresia_CPC.pdf`
+> ⚠ **已迁出本主题**（2026-09-11）：原文为纯 B-spline 路线，PDF 已迁至 `papers/B_spline_continuum/Toffoli_2024_Tiresia_CPC.pdf`，
+> 本篇笔记待迁入 `notes/B_spline_continuum.md`。年份经 Crossref 核实为 **2024**（CPC 297, 109038；DOI 后缀 2023 仅为注册年），故档位同步降为 ⭐⭐⭐。
+
+**文件**: `Toffoli_2024_Tiresia_CPC.pdf`
 **DOI**: `10.1016/j.cpc.2023.109038`
-**期刊**: Comput. Phys. Commun. 296, 109038
-**优先级**: ⭐⭐⭐⭐
+**期刊**: Comput. Phys. Commun. 297, 109038（2024-04）
+**优先级**: ⭐⭐⭐（原 ⭐⭐⭐⭐，2026-09-11 重定级）
 
 ### 原理推导
 - Tiresia：基于 B-spline + 球谐函数的分子连续态计算软件包
@@ -166,10 +169,12 @@
 
 ## 7. Brosolo, Decleva — 1992 — H₂⁺ 光电离
 
-**文件**: `Brosolo_Decleva_1992_H2plus_BSpline_CP.pdf`
+**文件**: `Brosolo_Decleva_1992_H2plus_BSpline_CP.pdf`（现位于 `papers/B_spline_continuum/`）
 **DOI**: `10.1016/0301-0104(92)80069-8`
 **期刊**: Chem. Phys. 159, 185
-**优先级**: ⭐⭐⭐⭐
+**优先级**: ⭐⭐⭐（原 ⭐⭐⭐⭐，2026-09-11 重定级）
+
+> ⚠ **已迁出本主题**（2026-09-11）：纯 spline 基组，PDF 已迁至 `papers/B_spline_continuum/`，本篇笔记待迁入 `notes/B_spline_continuum.md`。
 
 ### 原理推导
 - H₂⁺ 在 B-spline 基上的连续态变分计算
@@ -223,11 +228,11 @@
 15. **质心坐标系** (center-of-mass frame) — 异核分子连续态展开所选参考系，对应 `frame_transform.py`。出处：Carmona-Novillo 1996 #4。
 16. **STO** (Slater Type Orbital) — 径向 $r^n e^{-\zeta r}$ 的 Slater 型轨道，渐近行为优于 GTO。出处：Moccia & Montuoro 2003 #5。
 17. **配置相互作用** (Configuration Interaction, CI) — 多行列式线性组合描述电子关联。出处：Moccia & Montuoro 2003 #5。
-18. **Tiresia** — Trieste 学派的 B-spline+球谐分子连续态计算软件包。出处：Toffoli 2023 #6。
-19. **Galerkin 方法** — 加权残差取试探函数作权函数的投影法，此处用于直接求解非齐次 Schrödinger 方程。出处：Toffoli 2023 #6。
-20. **Dyson 轨道** (Dyson orbital) — $|\Phi^{Dyson}\rangle=\sqrt{N}\langle\Psi_f^{N-1}|\Psi_i^N\rangle$，连接 N 与 N−1 电子态的单电子轨道，作光电离初态。出处：Toffoli 2023 #6。
-21. **TD-DFT** (Time-Dependent DFT) — 时间相关密度泛函线性响应理论，处理光吸收/光电离。出处：Toffoli 2023 #6。
-22. **MPI** (Message Passing Interface) — 分布式内存并行标准，Tiresia 大规模实现的并行方案。出处：Toffoli 2023 #6。
+18. **Tiresia** — Trieste 学派的 B-spline+球谐分子连续态计算软件包。出处：Toffoli 2024 #6。
+19. **Galerkin 方法** — 加权残差取试探函数作权函数的投影法，此处用于直接求解非齐次 Schrödinger 方程。出处：Toffoli 2024 #6。
+20. **Dyson 轨道** (Dyson orbital) — $|\Phi^{Dyson}\rangle=\sqrt{N}\langle\Psi_f^{N-1}|\Psi_i^N\rangle$，连接 N 与 N−1 电子态的单电子轨道，作光电离初态。出处：Toffoli 2024 #6。
+21. **TD-DFT** (Time-Dependent DFT) — 时间相关密度泛函线性响应理论，处理光吸收/光电离。出处：Toffoli 2024 #6。
+22. **MPI** (Message Passing Interface) — 分布式内存并行标准，Tiresia 大规模实现的并行方案。出处：Toffoli 2024 #6。
 23. **Kohn 变分** — 对散射 K 矩阵的变分方法，B-spline 连续态变分求解的基础。出处：Brosolo & Decleva 1992 #7。
 24. **Kato 归一化** — 连续态在原点附近的归一化条件（Kato cusp），变分法保证其正确性。出处：Brosolo & Decleva 1992 #7。
 25. **束缚-自由 / 自由-自由跃迁** (bound-free / free-free transition) — 束缚↔连续 与 连续↔连续 的矩阵元，B-spline 方法同时处理。出处：Brosolo & Decleva 1992 #7。
