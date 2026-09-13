@@ -1,0 +1,880 @@
+
+===== PAGE 1 =====
+
+View
+Online
+
+Export
+Citation
+RESEARCH ARTICLE |  JANUARY 30 2026
+Electron scattering on carbon monoxide: An optimization of
+target molecular orbitals  
+Fan Fang 
+  ; He Su  
+  ; Jonathan Tennyson 
+  ; Qunchao Fan; Zhixiang Fan 
+  ; Hong Zhang;
+Xinlu Cheng 
+J. Chem. Phys. 164, 044309 (2026)
+https://doi.org/10.1063/5.0307607
+Connected Content
+A companion article has been published: Rethinking electron-molecule scattering simulations
+Articles You May Be Interested In
+Cubic response functions in the multiconfiguration self ‐ consistent field approximation
+J. Chem. Phys. (October 1996)
+ 10 September 2026 15:15:20
+
+===== PAGE 2 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+Electron scattering on carbon monoxide: An
+optimization of target molecular orbitals
+Cite as: J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607
+Submitted: 17 October 2025 • Accepted: 31 December 2025 •
+Published Online: 30 January 2026
+Fan Fang,1
+ He Su,1,a)
+ Jonathan Tennyson,2
+ Qunchao Fan,1 Zhixiang Fan,1
+ Hong Zhang,3
+and Xinlu Cheng4
+AFFILIATIONS
+1 School of Science, Key Laboratory of High Performance Scientific Computation, Xihua University, Chengdu 610039, China
+2Department of Physics and Astronomy, University College London, London WC1E 6BT, United Kingdom
+3College of Physics, Sichuan University, Chengdu 610065, China
+4Institute of Atomic and Molecular Physics, Sichuan University, Chengdu 610065, China
+a)Author to whom correspondence should be addressed: suhe@xhu.edu.cn
+ABSTRACT
+An accurate description of target molecular orbitals is essential for modeling the electron–molecule scattering process. Here, we devise a
+framework for optimizing target molecular orbitals by numbering and weighting state-averaged molecular configuration wave functions auto-
+matically according to the experimental parameters to investigate low-energy electron scattering from carbon monoxide using the ab initio
+R-matrix method. Its main feature is the ability to provide optimal target molecular orbitals in terms of various specific elastic and inelastic
+scattering processes. Agreement with the available measurements and previous calculations is mostly excellent. The good description of the
+electronic dipole moment for the CO molecule plays a key role in determining the rotational excitation and elastic scattering results. The
+electronic excitation energies contribute to the accuracy of electronic excitation cross sections, with a low root-mean-square error of only
+0.06 Å2. This study may pave a promising pathway for enhancing the study of electron–molecule scattering.
+Published under an exclusive license by AIP Publishing. https://doi.org/10.1063/5.0307607
+I. INTRODUCTION
+Reliable data for electron–molecule collisions are of great
+importance, especially in understanding phenomena in cool plasmas
+and discharges. The recognition of the importance of the theoreti-
+cal research field in electron scattering 1 means that improving the
+quality and the theoretical assessment of electron-scattering cross
+sections is still essential. Current theoretical and computational
+models for the low-energy scattering process still cannot yet rival
+the level of accuracy achieved by the construction of target wave
+functions.
+Carbon monoxide is a simple polar diatomic molecule that
+has become a benchmark system for ab initio electronic structure
+studies.2,3 The study of electron collisions with CO molecules aids
+in understanding the electron cooling process in the atmospheres
+of Mars and Venus, as well as molecular chemical evolutions. As
+one of the most popular research directions, the scattering from the
+CO molecule has been extensively investigated by several experi-
+mental groups; here, we mainly focus on the low-energy regions.
+The total scattering cross sections were measured by Kwan et al.4
+applying a beam-transmission technique below 500 eV. Buckman
+and Lohmann 5 employed a time-of-flight spectrometer technique
+in the energy range 0.5–5 eV. Kanik et al.6 used a linear attenua-
+tion technique at 5–300 eV, and Szmytkowski et al.7 used a linear
+transmission method at impact energies between 0.5 and 250 eV,
+respectively. Gibson et al.8 and Tanaka et al.9 reported elastic dif-
+ferential cross sections by using the crossed beam spectrometer
+technique with electron energies below 30 and 100 eV, respectively.
+Mason and Newell10 reported the electronic excitation cross sections
+from the ground state to the I 1Σ− excited state below 60 eV. Had-
+dad and Millory11 determined the momentum transfer cross sections
+in the energy range of 1–4 eV. Recently, Alan 12 reported measure-
+ments of integral elastic cross sections and momentum transfer
+cross sections for the energy range 0.5–10 eV. In addition, Brunger
+and Buckman13 and Itikawa14 provided comprehensive reviews on
+elastic and inelastic scattering cross sections.
+The very popular R-matrix methodology can formally produce
+a complete description of electron–molecule scattering processes
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-1
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 3 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+in the low energy regions, 15,16 as indicated by previous stud-
+ies on the CO molecule. 17–20 Over the past few years, Dora
+et al.21–23 investigated the effect of different Gaussian basis sets
+(cc-pVDZ, cc-pVTZ, and cc-pV6Z) and different active spaces
+employing the state-averaged complete active space self-consistent
+field (SA-CASSCF) method on target calculations to improve the
+accuracy of electron collision with CO. Their studies indicate that
+larger bases can detect more resonances, while their total and
+elastic cross section results are significantly higher than the exper-
+imental values, especially near the first peak associated with the
+2Π shape resonance. Recently, Zawadzki et al.24,25 showed the elec-
+tronic excitation scattering results below 30 eV with target calcula-
+tions using the SA-CASSCF method with a large cc-pVQZ Gaussian
+basis set and involving forty-one electronic states. Very recently, Wei
+et al.26 computed electronic excitation and de-excitation cross sec-
+tions from the ground electronic state of CO using the R-matrix
+method with a cc-pVQZ basis set, obtaining limited improvements
+over previous studies. Moreover, there are few studies of electron-
+impact rotational excitation processes, which are challenging in the
+astrophysically important very low energy region; see Chandra, 27
+who used Wigner–Eisenbud R-matrix calculations, and the experi-
+ments of Randellet al.28 Several other theoretical methods have been
+used to study electron scattering from carbon monoxide in the high
+energy regime,29,30 which is not addressed in the present study. The
+available studies do not always agree about the magnitudes of elastic
+and inelastic experimental cross sections involved.
+In R-matrix scattering calculations employing a close-coupling
+expansion, all molecular target electronic states are represented by
+using a single set of molecular orbitals (MOs). This means that these
+MOs will not usually be optimal for a given target state. Indeed,
+the use of self-consistent field MOs for multistate calculations tends
+to overemphasize the ground state at the expense of excited states,
+leading to excitation energies that are too high. The choice of appro-
+priate target MOs for use in a calculation can be difficult. 31 There
+are a number of possible choices of orbitals appropriate for repre-
+senting several electronic states simultaneously. Up to now, there
+is no clear approach to choosing appropriate MOs, as discussed
+by Tennyson. 15 The target MO’s representation generated from
+Multi-Configurational Self-Consistent Field (MCSCF) calculations
+is widely used. A common variant of the MCSCF method is the
+SA-CASSCF procedure, where all states for a given state-averaged
+active space, within which the electrons are freely distributed, are
+increasingly considered. However, there has been little exploration
+of the role of target MOs in obtaining high-accuracy collision results.
+In particular, the weights of electronic states in SA-CASSCF orbitals
+are usually determined automatically by the quantum chemistry
+package being used. A literature survey reveals only a few studies on
+this for electron-impact scattering by molecules. Harrison and Ten-
+nyson32 make a rough estimate of electronic state weights, but no
+systematic evaluation has been conducted. Due to the complexity of
+scattering dynamics calculations, optimizing the target MOs using
+reliable experimental data, such as the dipole moment and molecu-
+lar electronic energy, may improve both the accuracy and efficiency
+of the scattering calculations.
+With this in mind, our primary goal is to develop an optimiza-
+tion framework capable of dealing with target MOs that allows one
+to reasonably model electron–molecule scattering processes subse-
+quently. In this paper, we focus on the study of electron scattering
+FIG. 1. Framework for electron–CO collision calculations with an optimization of target molecular orbitals used in the present study.
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-2
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 4 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+on carbon monoxide by using the R-matrix method with a CASSCF
+optimization of CO target MOs. This study can be described as
+shown in Fig. 1: first, we refine the number and weight of target elec-
+tronic states for the description of target MOs automatically; using
+the optimized target MOs generated at different calculated levels,
+we then apply the R-matrix method to model electron-CO scatter-
+ing processes; finally, we present a systemic analysis of elastic and
+inelastic cross sections along with the CO− anion resonances.
+II. METHODOLOGY
+The accuracy of electron–molecule scattering calculation relies
+on an appropriate description of target wave functions. The SA-
+CASSCF method has been widely used to effectively generate target
+MOs in the subsequent low-energy electron–molecule scattering
+calculations using the R-matrix method. 33 A typical SA-CASSCF
+orbital is expressed as a linear combination of multiple molecular
+electronic states by the following form:
+ΨSA−CASSCF = f1Ψorb1+ f2Ψorb2+⋅⋅⋅+ fnΨorbn, (1)
+where Ψorbi represents the MOs of the ith target electronic state,
+fi (i= 1, 2,. . ., n) is the corresponding weight, and n denotes the
+total number of the averaged target electronic states. The con-
+ventional optimal target MOs are obtained using the SA-CASSCF
+method by changing active spaces and/or increasing basis sets.
+However, it is insufficiently flexible to incorporate the needs of
+subsequent elastic and inelastic scattering processes. We note the
+factor fi, which is typically left at its default value, merits further
+consideration. Here, we propose an automatic weighting optimiza-
+tion of target molecular wave functions based on reliable reference
+data, termed the optimization of target molecular orbitals (OTMOs)
+principle. Analogous to the weight optimization framework used
+in artificial neural networks, 34 we define an error function to
+quantify the discrepancy between predictions and experimental
+reference values,
+L( f)=
+nstate
+∑
+t=1
+[POTMO
+t ( f1, f2, . . ., fn)− Pref
+t ]
+2
+, (2)
+where nstate denotes the number of target electronic states included
+in the molecular representation, POTMO
+t ( f) represents the opti-
+mized theoretical parameters as functions of the state weights, and
+Pref
+t corresponds to the experimentally derived reference values. The
+minimization of Eq. (2) employs a bifurcated optimization strategy,
+illustrated schematically in Fig. 2. The starting point is the imple-
+mentation for the optimization with the number of target electronic
+states (step 1); then, we achieve the optimization according to the
+weight of each target state and select the optimal MOs (steps 2–5).
+Numbering the target states provides an efficient protocol that
+expands the number of electronic states while maintaining equipar-
+tition (fi = n−1,∀i); the relevant low-lying excitations are priori-
+tized, and the high-lying states are excluded. The optimal dimension
+n∗ is determined as
+∂L(n)
+∂n = 0 subject to fi = 1
+n , i= 1, 2,. . ., n. (3)
+Step 2 involves weighting each target state. Utilizing the opti-
+mized target state number n∗ obtained from the screening phase,
+we implement a cyclic coordinate descent algorithm 35 to refine
+the weight vector f = ( f1, f2, . . ., fn∗). The optimization equation is
+achieved by the following equation:
+n∗
+∑
+i=1
+∣ ∂L( f)
+∂ fi
+∣= 0. (4)
+Then, the ith parameter in the (k+ 1)− th iteration can be
+determined by the following equation:
+FIG. 2. Workflow for optimizing target molecular models and electron–molecule scattering calculations.
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-3
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 5 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+f (k+1)
+i = arg min
+fi
+L( f (k+1)
+1 , . . ., f (k+1)
+i−1 , fi, f (k)
+i+1, . . ., f (k)
+n∗ ). (5)
+Convergence is attained when successive iterations satisfy the
+termination criterion as below:
+∣L(f (N))− L(f (N−1))∣≤ Ttol, (6)
+where N denotes the final iteration index and Ttol represents the
+predefined tolerance threshold. The procedure generates a set of
+optimized MOs as displayed in Fig. 3.
+Here, we apply our scheme to the modeling of electron–CO
+scattering. For reasons of computation resources and completeness
+of the continuum basis, we performed two sets of CASSCF calcula-
+tions with a cc-pVTZ basis set for the optimization of target MOs.
+In both calculation sets, the lowest 1 σ and 2 σ core orbitals were
+kept frozen; the remaining ten electrons were allowed to occupy
+either eight or ten active orbitals, giving orbitals denoted here-
+after as CAS8 and CAS10, respectively. Given that different physical
+processes of electron–CO molecule collisions may require distinct
+orbital information, here we employ a dual-optimization strategy:
+the MOs description is independently optimized using the electric
+dipole moment, which is important for elastic scattering, and by the
+electronic excitation energy with several target excited states, key for
+FIG. 3. Optimized CO target molecular orbitals employed in this study.
+inelastic excitation processes. The optimized MOs can be defined as
+State Weighted Average with Dipole (SWAD) and State Weighted
+Average with Energy (SWAE) to denote their distinct optimization
+MOs in the OTMO framework.
+Table I summarizes the optimized parameters involving elec-
+tronic excitation energies for the lowest seven electronic states and
+TABLE I. CO ground target energies (in Hartree), vertical excitation energies, and theirRMSE (in eV) for the lowest seven excited states compared to the adiabatic experimental
+values, and the ground state dipole moment (μ in Debye).
+Method X 1Σ+ a 3Π a′ 3Σ+ A 1Π d 3Δ e 3Σ− I 1Σ− D 1Δ RMSE μ
+SWAD-CAS10 −112.8962 6.39 8.97 9.59 9.84 10.22 10.56 10.60 0.58 0.150
+SWAE-CAS10 −112.8470 6.20 8.51 8.62 9.36 9.72 10.11 10.14 0.13 0.399
+SWAD-CAS8 −112.8406 6.14 8.44 8.92 9.22 9.54 9.89 9.88 0.26 0.116
+SWAE-CAS8 −112.8443 6.23 8.44 8.97 9.27 9.63 9.99 10.01 0.23 0.274
+SA-CASCCF21 −112.8554 6.49 8.69 9.12 9.62 10.00 10.37 10.41 0.34 0.514
+SA-CASCCF23 −112.8560 6.43 8.36 8.97 9.22 9.60 9.95 10.00 0.24 0.238
+Experiment36 6.32 8.51 8.51 9.36 9.88 9.88 10.23 0.112
+FIG. 4. RMSE of the electronic excitation energy (left) and the errors in the dipole moment (right) for the CAS8 and CAS10 models.
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-4
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 6 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+FIG. 5. Optimized weights for each CO target electronic state ordered by energy.
+dipole moments for the CO target molecule with an equilibrium
+structure of 1.1282 Å. Figure 4 compares the absolute errors for
+the dipole moment and root-mean-square error (RMSE) for elec-
+tronic excitation energies with the experimental data. The detailed
+number of coupled target states was also shown for each level.
+Figure 5 displays the optimized weight for each target state at various
+calculated levels. Considering the optimization of the number of tar-
+get states, the state averaged SA − CAS10 calculations generally give
+lower RMSE than those of SA − CAS8 in Fig. 4. Combining Table I
+with Fig. 4 (right), the improvements of the CO target description
+are demonstrated by comparing the lowest seven electronic excita-
+tion energies to the experiments within an RMSE of only 0.13 eV at
+the SAWE-CAS10 level, indicating the possibility of a high-accuracy
+description of the electron-impact excitation process.
+The permanent dipole moment is important for dipole-induced
+transitions in the rotational excitation process. The best theoretical
+estimate of the CO equilibrium dipole moment is 0.1236(3) D3. The
+smallest error in the calculated dipole moment is 0.006 D, given by
+the SWAD-CAS8 level calculation.
+The optimal target MOs generated from the Psi4 37 package
+are used as input information for the subsequent electron-impact
+scattering calculations, which are performed by the UKRmol +38
+and POLYDCS 39 codes. The modeling of the low-energy electron
+scattering in polar molecules is typically carried out based on the
+ab initio R-matrix approach. 15 In the framework of the R-matrix
+approach, the configuration space for electron–molecule scattering
+can be divided into inner and outer regions by a sphere of radius
+r= 10a0, centered on the molecular center of mass. Within this
+sphere, complex electron–molecule interactions involving electron
+exchange and polarization effects are treated explicitly, whereas the
+outer region only considers the long-range potential interactions
+with the scattering electron. In the inner region, the scattering elec-
+tron is accurately modeled using a configuration interaction basis
+expansion for the total wave function, which can be expressed as
+ΨN+1
+k (x1, . . ., xN+1)= A ∑
+ij
+aijkΦN
+i (x1 . . .xN)uij(xN+1)
++ ∑
+i
+bikχN+1
+i (x1 . . .xN+1), (7)
+where A is an antisymmetrization operator that accounts for the
+exchange between the target electrons and the scattering electron.
+The variational coefficients aijk and bik are determined by matrix
+diagonalization.40 ΦN
+i is the wave function of theith target state, and
+χN+1
+i is the multicenter square-integrable L2 correlation function.
+The uij represent the continuum orbitals of the scattering electron,
+for which Gaussian type orbitals41 with partial waves with l≤ 6 were
+used in this study. The scattering wave function in the inner region is
+represented by a close-coupling expansion involving 24 target states.
+The energy dependent scattering problem is solved by constructing
+R-matrices at distance r= a from the center-of-mass, which are then
+propagated to asymptotic distances and matched with asymptotic
+solutions yielding K-matrices, which contain all the required infor-
+mation on the scattering process. Eigenphases, obtained from the
+K-matrix, are used to determine positions and widths of resonances.
+The transition T-matrices can be obtained from the K-matrix using
+the relation below:
+T= 2iK
+1− iK. (8)
+which are then used to compute the state-to-state scattering cross
+section,
+σ(i → i′)= π
+k2
+i
+∑
+S
+(2S+ 1)
+2(2Si+ 1) ∑
+Γll′
+∣TΓS
+ili′l′∣
+2
+, (9)
+where ki is the wavenumber of the incident electron, Si is the spin
+for the initial state, S is the spin of the total collision system, Γ rep-
+resents the spatial symmetry representation, and l, l′ are donated as
+the initial/final angular momentum quantum numbers. The dipole
+potential in molecules such as CO couples channels with Δl=±1,
+requiring a partial-wave expansion to high l. The higher partial
+waves (l> 6) are included in scattering T-matrices via analytic
+Born T-matrices to ensure the effect of rotation involved; a similar
+approach42 was used to Born-correct the electronic excitation cross
+sections considered here, which are both dipole-allowed.
+III. ELECTRON–CO SCATTERING
+Electron scattering events can be classified as either elastic or
+inelastic. In inelastic scattering, energy is exchanged between the
+projectile and the target, resulting in energy loss by the incident
+particle. Conversely, elastic scattering occurs without energy loss
+to the incident electron. Elastically scattered electrons can change
+their direction without changing their wavenumber. In this section,
+we analyze the total cross sections (TCS), momentum transfer cross
+sections (MTCS), elastic differential cross sections (DCS), rotational
+excitation cross sections (RECS), and inelastic electronic excitation
+cross sections (EECS), as well as CO− anion resonances for electron
+collisions with CO molecules using the R-matrix method with target
+MOs optimization at four levels.
+Electronic resonances are metastable states that can decay by
+electron loss, often manifesting as an enhancement in the scatter-
+ing cross section. Here, we consider three CO − anion resonances
+at the equilibrium structure, namely the low-lying 2Π shape reso-
+nance, a second with 2Π symmetry, and 1 2Σ+ symmetry resonance.
+A shape resonance is formed by an electron attaching to a molecule
+in its ground electronic state, usually at incident electron energies
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-5
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 7 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+below the first target excited threshold energy. Above this energy,
+resonances usually have a core-excited or mixed-shape-core-excited
+character. A core-excited resonance is formed when the incoming
+electron excites the target molecule to an electronically excited state
+(parent state), and simultaneously it is temporarily trapped in one of
+the unoccupied spin-orbitals. Feshbach resonances are core-excited
+resonances that lie below their parent target state; they generally
+have longer lifetimes than core-excited shape resonances. Therefore,
+the 1 2Σ+ resonant state with a very narrow resonance width sug-
+gests that it can reasonably be classified as a Feshbach resonance.
+The 2 2Π is located at around 10 eV, belonging to the core-excited
+resonant state. Dissociative electron attachment experiments sug-
+gest that there are resonances located between 10 and 11 eV, 43
+corresponding to our 2 2Π and 1 2Σ+ resonances.
+Resonance parameters were obtained by automatically fitting
+the eigenphases to a Breit–Wigner form. 44 Both 1 2Π and 2 2Π res-
+onances are identified in all our calculations. Compared with the
+experimental result45 of the 1 2Π state, our resonance positions and
+widths perform better than those of the previous R-matrix results
+using the large cc-pV6Z basis set.23 In particular, our resonance posi-
+tion and width errors are only 0.006 and 0.07 eV, respectively, at the
+SWAE-CAS8 level.
+The scattering electron is temporarily trapped in the target
+potential well to enhance scattering cross sections. The TCS in Fig. 6
+and the MTCS in Fig. 7 show that there is a pronounced peak located
+at around 2 eV, which is attributed to the formation of a typical
+1 2Π shape resonance as shown in Table II, and the peak posi-
+tions match the shape resonance energies very well at each level.
+Another weak hump is perceptible between 9 and 10 eV, which is
+associated with the 2 2Π and 1 2Σ+ resonance symmetries detected
+above. The pronounced rise in the TCS and MTCS as the incident
+energy decreases below 0.2 eV is due to the dipole moment of CO. In
+FIG. 6. Total cross sections for the CO molecule with optimized target molecu-
+lar orbitals at SWAD and SWAE levels, in comparison to the previous R-matrix
+results of Dora and Tennyson.22 The points represent the recommended data from
+Itikawa14 and the experimental values of Kwan et al.,4 Buckman and Lohmann,5
+Kanik et al.,6 and Szmytkowski et al.7
+FIG. 7. Momentum transfer cross sections for the CO molecule with target molecu-
+lar orbitals optimized at SWAD and SWAE levels, compared to the recommended
+data from Itikawa 14 and the experiments of Haddad and Millory, 11 as well as
+Allan.12
+TABLE II. CO− anion resonance positions (and widths) at the equilibrium geometry;
+all quantities are in eV.
+1 2Π 2 2Π 1 2Σ+
+SWAD-CAS10 1.7677(0.7429) 11.2404(1.1364)
+SWAE-CAS10 1.0897(0.6553) 10.5907(1.4974) 10.7129(0.0002)
+SWAD-CAS8 1.1511(0.7236) 10.7858(1.1952) 10.7542(0.0006)
+SWAE-CAS8 1.5064(0.6827) 10.8856(1.1878)
+SA-CASSCF21 1.73(0.84) 12.8999(0.0005)
+SA-CASSCF23 1.8744(1.2916) 10.1019(0.1126)
+Experiment45 1.50(0.75)
+addition, the discrepancies between our results and the experiments
+may be attributed to uncertainties in the experimental reference
+values at very low energies.
+The TCS and MTCS optimized at the SWAD-CAS10 calculated
+level, involving only four target states as shown in Fig. 4 (right),
+prominently improve the accuracy, especially in the energy region
+up to 10 eV. The difference between SWAD-CAS 10 and SWAE-
+CAS10 calculations is obvious. The results in the SWAE-CAS 10
+calculations show higher peaks and lower positions than those of
+SWAD-CAS10 orbitals, meaning that the use of the optimization
+from dipole moment provides a better treatment of correlation
+effects in both the target and anionic wave functions than those of
+excitation energies in the very low-energy regions. It is also worth
+noting that the elastic scattering processes are less sensitive to the
+details of the large number of target electronic states involved in
+MO optimization. In addition, our TCS from the target optimization
+with SWAD and SWAE are closer to the recommended values14 and
+the experimental results4–7 than the Born-corrected results using the
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-6
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 8 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+R-matrix method with the high-level cc-pV6Z basis set.22 The cross-
+ing points between our TCS calculations and the experiments occur
+in the range of 8–12 eV; above that, the present optimized results
+are lower than those of the experiments, almost certainly due to
+the necessarily incomplete set of excited target electronic states that
+become open in this region. The TCS is dominated by electronic
+impact ionization at energies above the ionization threshold for CO,
+which is 14.01 eV; 46 this process is not considered in the present
+study.
+Figure 8 shows a two-dimensional elastic DCS distribution for
+electron collisions with CO in the energy range up to 10 eV. It
+clearly shows that there are two distinct peaks separately at around
+2 and 10 eV, which are mainly attributed to the formation of the
+three 1 2Π, 2 2Π, and 1 2Σ+ resonances shown in Table II. Com-
+bining Figs. 8 and 9, we note that the DCS distributions tend to be
+flat between 3 and 9 eV. Overall, our DCS results compare very well
+with the previous experimental results of Gibsonet al.8 In particular,
+our elastic DCS below 5 eV at the SWAD-CAS 10 level is obviously
+closer to experiments than those of Gibson et al.8 using the normal
+R-matrix method, indicating the prominent improvement in elas-
+tic DCS from the optimization of SWAD orbitals in the low-energy
+regions.
+In the past, it was difficult to give high-accuracy DCS at low
+energies with narrow scattering angles in the R-matrix calculations.
+This is partly due to the domination of scattering processes by
+the dipole moment of a polar molecule at low incident energies
+and scattering angles, 47 as we discussed previously for pyridine. 48
+Nevertheless, the DCS results below 2 eV using the optimized
+SWAD-CAS10 give excellent agreement with experiment,8 confirm-
+ing that the state-weighting optimization of the dipole moment can
+provide reliable results. From 2.5 to 7.5 eV, our four types of calcula-
+tions nearly overlap. Our results at the SWAE-CAS 10 level perform
+better than other calculations at 9.9 eV, presumably due to the com-
+plex electronic transition processes happening at this energy. Table I
+FIG. 8. Energy-dependent differential cross sections for elastic electron collisions with CO.
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-7
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 9 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+FIG. 9. Elastic differential cross sections
+for incident energies of 1, 1.25, 1.5, 1.91,
+2.45, 3, 5, 6, 7.5, and 9.9 eV, compar-
+isons of the experimental data of Gibson
+et al.8 and Tanaka et al.9
+shows that there are at least four CO excited states in the 9–10 eV
+range that can be reached by electron impact excitation; these states
+can be associated with the 2 2Π and 1 2Σ+ resonance states located at
+around 10 eV.
+Accurate rotational excitation cross sections are difficult to
+measure and to estimate for molecules with a small permanent
+dipole moment like CO. State-to-state CO rotational cross sections
+from its rotational ground j= 0 state are presented for incident ener-
+gies up to 10 eV. There are two distinct peaks located at around
+2 and 10 eV in Fig. 10, that correspond to the three 1 2Π, 2 2Π,
+and 1 2Σ+ resonance states. The most likely process is pure elas-
+tic scattering to the j′ = 0 state. The pure elastic cross section
+is found to be more than one order of magnitude higher than
+those for excitation to the j′ = 4 and 5 rotational states, a process
+that is driven primarily by short-range interactions. It also shows
+that the dipole moment-induced transition to j′ = 1 is the most
+likely excitation process. Moreover, our SWAD-CAS 8 optimized
+results are closer to the measurements 28 than previous R-matrix
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-8
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 10 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+FIG. 10. Rotational excitation cross sec-
+tions ( j = 0 → j′, j′ = 0, 1, 2, 3, 4, 5) for
+CO with molecular orbitals optimized
+at the SWAD and SWAE levels, com-
+pared to the Wigner–Eisenbud R-matrix
+calculations from Chandra 27 and the
+measurements from Randell et al.28
+calculations27 at very low energies (below 0.1 eV). Our best dipole
+moment is provided by this model (see Table I), which is in line
+with the general expectation that rotational excitation transitions
+are generally dominated by dipole interactions. In addition, the
+rotational transition cross sections given by the SWAD-CAS 8 and
+SWAE-CAS8 calculations almost overlap, except for excitation to
+j′ = 1, which is possibly due to Born corrections used for this
+process.
+The analysis of the inelastic excitation cross sections can not
+only provide additional electronic information for the CO molecule
+but also show different levels of performance and potential from
+our results. Figure 11 presents the EECS for electronic transitions
+from the ground X 1Σ+ to seven electronic excited states. The
+2 2Π and 1 2Σ+ resonances in Table II reasonably account for the
+dominant peaks located at around 10 eV for the electronic excita-
+tion curves of a 3Π and a′ 3Σ+. The EECS scattering results from
+the SWAD and SWAE generally align well with the recommended
+data.14 A better agreement has been found between the present
+theoretical results and the measurements of Zawadzki et al.24 when
+their experimental error becomes lower in the energy range for
+the first three excited states. In addition, our very low-scale EECS
+(below 0.05 Å2) of the I 1Σ− excited state matches the experiments10
+very well, meaning that our optimization calculations can accurately
+resolve the inelastic scattering process. It seems that our EECS of
+a′ 3Σ+ exhibit a slightly different trend from the reference. Indeed,
+once we adjust for the excitation energy (a lowering of 1 eV, dashed
+line), the scattering results are in good agreement with the rec-
+ommended data of Itikawa. 14 We note that the difference between
+the adiabatic and vertical excitation energies of a′ 3Σ+ excited
+state is prominent, as shown in the CO potential energy curves
+(see Ref. 49); therefore, the better agreement obtained by shifting
+the excitation threshold is a reasonable approach in a fixed-nuclei
+calculation.
+In terms of the EECS for the a 3Π, a′ 3Σ+, A 1Π, and I 1Σ−
+electronic excited states, Fig. 12 presents the RMSE compared to the
+recommended data of Itikawa 14 at four levels with different target
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-9
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 11 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+FIG. 11. Electronic excitation cross sec-
+tions of CO from the X 1Σ+ ground state
+optimized at the SWAD and SWAE lev-
+els, compared to the previous R-matrix
+calculations from Wei et al.,26 the rec-
+ommended data from Itikawa, 14 and
+the measurements of Zawadzki et al.,24
+as well as Mason and Newell. 10 The
+dashed lines for the a′ 3Σ+ state repre-
+sent the results with a horizontal left shift
+of 1 eV at each optimized level.
+optimizations. The SWAE-CAS10 calculations show the best perfor-
+mance with the lowest RMSE with a mere 0.06 Å 2. In comparison,
+we can also see that the trends between the RMSE of EECS and
+the RMSE of excitation energy are generally consistent. Therefore,
+we can conclude that the accurate description of target excita-
+tion energies is necessary in the modeling of inelastic scattering
+processes.
+The SWAD-CAS 8 and SWAE-CAS 8 calculations nearly over-
+lap over the whole energy region for both elastic and inelastic
+scattering processes, possibly due to reaching the upper limit of
+MO optimization for the low active space of CAS 8. Finally, above
+13 eV spikes are observed in the cross section; these likely origi-
+nate from pseudo-resonances, which are a known feature of close-
+coupling calculations at high energies. These spikes become more
+FIG. 12. RMSE of target vertical excitation energy and electronic excitation cross
+section separately at four optimized levels.
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-10
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 12 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+pronounced in calculations with large active spaces or high partial
+waves.
+IV. CONCLUSIONS
+In conclusion, we achieve unprecedented access to reasonable
+optimization of the CO target molecular orbitals, finding that the
+theoretical results of electron scattering with the optimized target
+CO molecule using the R-matrix method are in good agreement
+with available reference data in the low-energy region. Its key feature
+is an automated, data-driven optimization of the state-averaging
+weights in the SA-CASSCF calculations, which identify the opti-
+mal state-specific weights by minimizing the error function through
+an efficient dual-phase optimization framework. A good quality
+configuration interaction calculation is performed for the CO elec-
+tronic ground and excited states. The improvements of the CO target
+description have been demonstrated by comparing the first seven
+electronic excitation energies to experiments within the lowest root-
+mean-square-error of 0.13 eV and the dipole moment error within
+only 0.006 D.
+A systematic analysis of the cross sections as well as anion res-
+onances for electron collisions with the CO molecule is presented.
+The dipole interactions dominate the elastic electron scattering pro-
+cess. It is found that the accuracy of the description of the target
+molecular dipole moment obviously affects the magnitude of elas-
+tic cross sections in the energy up to 10 eV, especially near the first
+1 2Π shaped resonance peak positions. The state weighted aver-
+age with dipoles calculations give an excellent description of the
+elastic electron scattering process. The elastic differential cross sec-
+tions, particularly below 5 eV with narrow scattering angles, from
+the optimization of SWAD-CAS 10 perform in excellent agreement
+with the experiments, confirming that the state-weighting opti-
+mization of dipole moment can reasonably provide reliable results.
+The rotational excitation transition is significantly dominated by
+dipole interactions. The accurate target excitation energies play a key
+role in determining the inelastic electronic excitation scattering
+results. The weighted average with energy calculations performs
+excellently in the electronic excitation cross sections, even for the
+low-scale I1Σ− excited states. The SWAE-CAS 10 calculations show
+the best performance with a root-mean-square error with a mere
+0.06 Å2. The three CO− anion resonant states involving one shape
+1 2Π, one Feshbach 2 2Π, and one core-excited 1 2Σ+ symmetry
+obviously enhance the cross sections.
+From the results mentioned earlier, we conclude that our
+SWAD performs best for elastic and rotationally inelastic cross sec-
+tions, while the SWAE model gives the best results for electronic
+excitation cross sections. This finding is consistent with the opti-
+mization approach adopted for each model. The present results
+provide a new insight that will aid in improving electron–molecule
+scattering in the low energy regions, and hopefully it can be extended
+to deal with other scattering events and complex molecules, since its
+central feature is the ability to calculate accurate molecular electronic
+wave functions appropriate for different processes.
+ACKNOWLEDGMENTS
+We acknowledge the support from the National Key R & D Pro-
+gram of China (Grant No. 2017YFA0303600), NSFC (Grant No.
+11974253), Sichuan Science and Technology Program (Grant No.
+2024ZYD0167), and the Natural Science Foundation of Sichuan
+Province (Grant No. 2022NSFSC1857).
+AUTHOR DECLARATIONS
+Conflict of Interest
+The authors have no conflicts to disclose.
+Author Contributions
+Fan Fang : Conceptualization (equal); Data curation (lead); For-
+mal analysis (equal); Investigation (equal); Methodology (equal);
+Software (equal); Writing – original draft (lead); Writing – review &
+editing (equal). He Su: Conceptualization (equal); Formal analysis
+(lead); Funding acquisition (equal); Investigation (lead); Resources
+(lead); Software (equal); Supervision (lead); Writing – review &
+editing (lead). Jonathan Tennyson: Formal analysis (equal); Inves-
+tigation (equal); Methodology (equal); Software (equal); Supervision
+(equal); Writing – review & editing (equal). Qunchao Fan : For-
+mal analysis (equal); Funding acquisition (equal); Resources (equal);
+Visualization (equal). Zhixiang Fan : Funding acquisition (equal);
+Investigation (equal); Resources (equal); Writing – original draft
+(equal). Hong Zhang: Investigation (equal); Resources (equal); Soft-
+ware (equal); Supervision (equal). Xinlu Cheng : Formal analysis
+(equal); Resources (equal); Supervision (equal); Writing – review &
+editing (equal).
+DATA AVAILABILITY
+The data that support the findings of this study are available
+from the corresponding author upon reasonable request.
+REFERENCES
+1K. Bartschat and M. J. Kushner, “Electron collisions with atoms, ions, molecules,
+and surfaces: Fundamental science empowering advances in technology,” Proc.
+Natl. Acad. Sci. 113, 7026–7034 (2016).
+2J. Koput, “Toward accurate ab initio ground-state potential energy and electric
+dipole moment functions of carbon monoxide,” J. Chem. Theor. Comput. 20,
+9041–9047 (2024).
+3N. F. Zobov, R. I. Ovsyannikov, M. A. Rogov, E. I. Lebedev, J. Tennyson, and
+O. L. Polyansky, “CO line intensities: Towards subpercent accuracy of intensities
+of all bands,” J. Quant. Spectrosc. Radiat. Transfer 345, 109510 (2025).
+4C. K. Kwan, Y. F. Hsieh, W. E. Kauppila, S. J. Smith, T. S. Stein, M. N. Uddin, and
+M. S. Dababneh, “e±−CO and e±−CO2 total cross-section measurements,” Phys.
+Rev. A 27, 1328 (1983).
+5S. J. Buckman and B. Lohmann, “Electron scattering from CO in the 2Π
+resonance region,” Phys. Rev. A 34, 1561 (1986).
+6I. Kanik, J. C. Nickel, and S. Trajmar, “Total electron scattering cross section
+measurements for Kr, O 2and CO,” J. Phys. B Atom. Mol. Opt. Phys. 25, 2189
+(1992).
+7C. Szmytkowski, K. Maciag, and G. Karwasz, “Absolute electron-scattering total
+cross section measurements for noble gas atoms and diatomic molecules,” Phys.
+Scr. 54, 271 (1996).
+8J. C. Gibson, L. A. Morgan, R. J. Gulley, M. J. Brunger, C. T. Bundschu, and
+S. J. Buckman, “Low energy electron scattering from CO: Absolute cross section
+measurements and R-matrix calculations,” J. Phys. B Atom. Mol. Opt. Phys. 29,
+3197 (1996).
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-11
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
+
+===== PAGE 13 =====
+The Journal
+of Chemical Physics ARTICLE pubs.aip.org/aip/jcp
+9H. Tanaka, S. K. Srivastava, and A. Chutjian, “Absolute elastic differential elec-
+tron scattering cross sections in the intermediate energy region. IV. CO,” J. Chem.
+Phys. 69, 5329–5333 (1978).
+10N. J. Mason and W. R. Newell, “Electron impact excitation of a higher lying
+metastable state of carbon monoxide,” J. Phys. B Atom. Mol. Opt. Phys. 21, 1293
+(1988).
+11G. Haddad and H. Milloy, “Cross sections for electron-carbon monoxide
+collisions in the range 1–4 eV,” Aust. J. Phys. 36, 473–484 (1983).
+12M. Allan, “Electron collisions with CO: Elastic and vibrational excitation cross
+sections,” Phys. Rev. A 81, 042706 (2010).
+13M. J. Brunger and S. J. Buckman, “Electron–molecule scattering cross-sections.
+I. Experimental techniques and data for diatomic molecules,” Phys. Rep. 357,
+215–458 (2002).
+14Y. Itikawa, “Cross sections for electron collisions with carbon monoxide,”
+J. Phys. Chem. Ref. Data 44, 013105 (2015).
+15J. Tennyson, “Electron–molecule collision calculations using the R-matrix
+method,” Phys. Rep. 491, 29–76 (2010).
+16P. G. Burke, R-matrix Theory of Atomic Collisions: Application to Atomic,
+Molecular and Optical Processes (Springer Science & Business Media, 2011),
+Vol. 61.
+17L. A. Morgan and J. Tennyson, “Electron impact excitation cross sections for
+CO,” J. Phys. B Atom. Mol. Opt. Phys. 26, 2429 (1993).
+18J. Tennyson, “ R-matrix calculation of Rydberg states of CO,” J. Phys. B Atom.
+Mol. Opt. Phys. 29, 6185–6201 (1996).
+19V. Laporta, C. M. Cassidy, J. Tennyson, and R. Celiberto, “Electron-impact
+resonant vibration excitation cross sections and rate coefficients for carbon
+monoxide,” Plasma Sources Sci. Technol. 21, 045005 (2012).
+20V. Laporta, J. Tennyson, and R. Celiberto, “Carbon monoxide dissociative
+attachment and resonant dissociation by electron-impact,” Plasma Sources Sci.
+Technol. 25, 01LT04 (2016).
+21A. Dora, J. Tennyson, and K. Chakrabarti, “Higher lying resonances in low-
+energy electron scattering withcarbon monoxide,” The Eur. Phys. J. D 70, 197
+(2016).
+22A. Dora and J. Tennyson, “Electron collisions with CO molecule: An R-matrix
+study using a large basis set,” in Quantum Collisions and Confinement of Atomic
+and Molecular Species, and Photons (Springer, 2019), pp. 48–59.
+23A. Dora and J. Tennyson, “Electron collisions with CO molecule: Potential
+energy curves of higher lying CO − resonant states,” J. Phys. B Atom. Mol. Opt.
+Phys. 53, 195202 (2020).
+24M. Zawadzki, M. A. Khakoo, L. Voorneman, L. Ratkovich, Z. Mašín, K. Houfek,
+A. Dora, R. Laher, and J. Tennyson, “Low energy inelastic electron scattering from
+carbon monoxide: I. Excitation of the a3 Π, a′ 3Σ+ and a1 Π electronic states,”
+J. Phys. B Atom. Mol. Opt. Phys. 53, 165201 (2020).
+25M. Zawadzki, M. A. Khakoo, A. Sakaamini, L. Voorneman, L. Ratkovich, Z.
+Mašín, A. Dora, R. Laher, and J. Tennyson, “Low energy inelastic electron scat-
+tering from carbon monoxide: Ii. Excitation of the b 3Σ+, j3Σ+, B1Σ+, C1Σ+ and
+E1Π Rydberg electronic states,” J. Phys. B Atom. Mol. Opt. Phys. 55, 025201
+(2022).
+26P. Wei, C. Huang, X. Cheng, and H. Zhang, “Low-energy inelastic electron scat-
+tering from carbon monoxide: Excitation and de-excitation of the X 1Σ+, a 3Π,
+a′ 3Σ+, A1Π, d3Δ, e3Σ−, I1Σ− and D1Δ electronic states,” Chin. Phys. B33, 043101
+(2024).
+27N. Chandra, “Low-energy electron scattering from CO. II. Ab initio study using
+the frame-transformation theory,” Phys. Rev. A 16, 80 (1977).
+28J. Randell, R. J. Gulley, S. L. Lunt, J.-P. Ziesel, and D. Field, “Very low energy
+electron scattering in CO,” J. Phys. B Atom. Mol. Opt. Phys. 29, 2049 (1996).
+29M.-T. Lee, I. Iga, L. M. Brescansin, L. E. Machado, and F. B. C. Machado,
+“Theoretical studies on electron-carbon monoxide collisions in the low and
+intermediate energy range,” J. Mol. Struct.: THEOCHEM 585, 181–187 (2002).
+30M. M. Billah, M. H. Khandker, M. Shorifuddoza, M. Sayed, H. Watabe, A.
+Haque, and M. A. Uddin, “Theoretical investigations of e ±−CO scattering,”
+J. Phys. B Atom. Mol. Opt. Phys. 54, 095203 (2021).
+31L. K. McKemmish, S. N. Yurchenko, and J. Tennyson, “ Ab initio calculations
+to support accurate modelling of the rovibronic spectroscopy calculations of
+vanadium monoxide (VO),” Mol. Phys. 114, 3232–3248 (2016).
+32S. Harrison and J. Tennyson, “Electron collisions with the CN radical: Bound
+states and resonances,” J. Phys. B Atom. Mol. Opt. Phys. 45, 035204 (2012).
+33K. Houfek, J. Benda, Z. Mašín, A. Harvey, T. Meltzer, V. Graves, and J. D.
+Gorfinkiel, “UKRmol-scripts: A perl-based system for the automated operation of
+the photoionization and electron/positron scattering suite UKRmol +,” Comput.
+Phys. Commun. 298, 109113 (2024).
+34D. E. Rumelhart, G. E. Hinton, and R. J. Williams, “Learning representations by
+back-propagating errors,” Nature 323, 533–536 (1986).
+35S. J. Wright, “Coordinate descent algorithms,” Math. Program. 151, 3–34
+(2015).
+36R. D. Johnson III, “NIST 101. Computational chemistry comparison and
+benchmark database,” Computational Chemistry Comparison and Benchmark
+Database, http://cccbdb.nist.gov, 1999.
+37J. M. Turney, A. C. Simmonett, R. M. Parrish, E. G. Hohenstein, F. A. Evan-
+gelista, J. T. Fermann, B. J. Mintz, L. A. Burns, J. J. Wilke, M. L. Abrams,
+N. J. Russ, M. L. Leininger, C. L. Janssen, E. T. Seidl, W. D. Allen, H. F. Schaefer,
+R. A. King, E. F. Valeev, C. D. Sherrill, and T. D. Crawford, “Psi4: An open-source
+ab initio electronic structure program,” Wiley Interdiscip. Rev.: Comput. Mol. Sci.
+2, 556–565 (2011).
+38Z. Mašín, J. Benda, J. D. Gorfinkiel, A. G. Harvey, and J. Tennyson, “UKRmol+:
+A suite for modelling electronic processes in molecules interacting with electrons,
+positrons and photons using the R-matrix method,” Comput. Phys. Commun.
+249, 107092 (2020).
+39N. Sanna and F. A. Gianturco, “Differential cross sections for electron/positron
+scattering from polyatomic molecules,” Comput. Phys. Commun. 114, 142–167
+(1998).
+40J. Tennyson, “A new algorithm for Hamiltonian matrix construction in electron
+- molecule collision calculations,” J. Phys. B Atom. Mol. Opt. Phys.29, 1817–1828
+(1996).
+41A. Faure, J. D. Gorfinkiel, L. A. Morgan, and J. Tennyson, “GTOBAS: Fitting
+continuum functions with Gaussian-type orbitals,” Comput. Phys. Commun.144,
+224–241 (2002).
+42S. Kaur, K. L. Baluja, and J. Tennyson, “Electron-impact study of NeF using the
+r-matrix method,” Phys. Rev. A 77, 032718 (2008).
+43P. Nag and D. Nandi, “Fragmentation dynamics in dissociative electron attach-
+ment to CO probed by velocity slice imaging,” Phys. Chem. Chem. Phys. 17,
+7130–7137 (2015).
+44J. Tennyson and C. J. Noble, “RESON—A program for the detection and fitting
+of Breit-Wigner resonances,” Comput. Phys. Commun. 33, 421–424 (1984).
+45M. Zubek and C. Szmytkowski, “Electron impact vibrational excitation of CO
+in the range 1–4 eV,” Phys. Lett. 74, 60–62 (1979).
+46D. Rapp and P. Englander-Golden, “Total cross sections for ionization and
+attachment in gases by electron impact. I. Positive ionization,” J. Chem. Phys. 43,
+1464–1479 (1965).
+47R. Zhang, A. Faure, and J. Tennyson, “Electron and positron collisions with
+polar molecules: Studies with the benchmark water molecule,” Phys. Scr. 80,
+015301 (2009).
+48H. Su, X. Cheng, B. Cooper, J. Tennyson, and H. Zhang, “Elastic and inelas-
+tic low-energy electron scattering from pyridine,” J. Chem. Phys. 158, 024301
+(2023).
+49L. Peng-Fei, Y. Lei, Y. Zhong-Yuan, G. Yu-Feng, and G. Tao, “An accurate cal-
+culation of potential energy curves and transition dipole moment for low-lying
+electronic states of CO,” Commun. Theor. Phys. 59, 193 (2013).
+J. Chem. Phys. 164, 044309 (2026); doi: 10.1063/5.0307607 164, 044309-12
+Published under an exclusive license by AIP Publishing
+ 10 September 2026 15:15:20
