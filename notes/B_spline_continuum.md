@@ -96,7 +96,7 @@ B-spline 路线是本项目（GTO 路线）的**平行对照方法学**。两条
 | 软件实现 | Tiresia（Fortran/MPI） | Python 原型 |
 | 物理范围 | 静态 DFT → TD-DFT → Dyson | 长度/速度规范 + IBP 加速 |
 
-Tiresia 代码（Toffoli 2023）的架构设计和输出接口是本项目程序拓展的直接参考。
+Tiresia 代码（Toffoli 2024）的架构设计和输出接口是本项目程序拓展的直接参考。
 
 ---
 
@@ -122,4 +122,4 @@ Tiresia 代码（Toffoli 2023）的架构设计和输出接口是本项目程序
 16. **强关联体系** (strongly correlated systems) — 单行列式描述失效、需多参考处理的体系。出处：Tenorio 2022 #3。
 17. **OpenMolcas** — 开源量子化学软件，Dyson 轨道计算与对称性处理的实现平台。出处：Tenorio 2022 #3。
 18. **解析傅里叶变换** (analytic Fourier transform) — GTO 在动量空间仍为高斯，积分可解析完成，与 B-spline 数值积分形成对照。出处：本目录核心贡献总结对比表。
-19. **线性标度** (linear scaling) — 计算成本随体系大小线性增长的方法学目标。出处：本目录核心贡献总结对比表（对照 Ruiz-Serrano 2012）。
+19. **线性标度** (linear scaling) — 计算成本随体系大小线性增长的方法学目标。出处：本目录核心贡献总结对比表（对照 Dziedzic 2013）。
