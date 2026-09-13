@@ -1,0 +1,581 @@
+# 球面波文献资料来源配置
+# 自动生成 — 用户确认后无需手工编辑
+#
+# 打标规范（2026-08-26 草案 v0.1 起）：
+#   provenance（来源属性）：
+#     - literature        T0 外部同行评审
+#     - own_publication   已发表但为自产（含自有论文，需提示自我偏差）
+#     - synth_summary     T1 基于文献的派生/综述（notes/、深调、桥接文档）
+#     - ideation          T2 自产共识/猜想（own_note/claim_manifest，默认未核实）
+#   default_epistemic_status（未逐条核实前的默认核实状态）：
+#     - literature_supported / consistent / unverified
+#   default_claim_kind：fact / derivation / hypothesis
+#   (以上三项可对单条来源显式覆盖，缺省时按 source_type 自动推断)
+#
+# 自产知识打标约定：
+#   - source_type: "own_note"  多轮对话产生的自产知识文档（provenance=ideation）
+#   - source_type: "claim_manifest" 主张卡清单（经核实迭代后的主张 registry 化文件）
+source_root: "D:\\WORK\\workbuddy\\spherical_wave_literature"
+sources:
+  # ── 研究笔记 · 补充资料 ──
+  - source_id: "notes-b-spline"
+    title: "B-spline 连续态笔记"
+    path: "notes/B_spline_continuum.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-complex-scaling"
+    title: "复伸缩方法综评笔记"
+    path: "notes/complex_scaling_and_review.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-gto-continuum"
+    title: "GTO 连续态笔记"
+    path: "notes/GTO_continuum.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-spherical-wave"
+    title: "球面波笔记"
+    path: "notes/spherical_wave.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-deep-survey"
+    title: "球面波基组深度调查"
+    path: "notes/基于球面波及球面波基组的方法发展、应用与历史演进的深度调查报告.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+
+  # ── 深度调查报告（7月20-21日产出的系统性笔记）──
+  - source_id: "notes-decleva-survey"
+    title: "Decleva课题组发展脉络深度调查"
+    path: "notes/Decleva课题组发展脉络深度调查.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-dyson-review"
+    title: "Dyson轨道量子化学方法综述"
+    path: "notes/Dyson轨道量子化学方法综述.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-lucchese-survey"
+    title: "Lucchese L2方法发展脉络深度调查"
+    path: "notes/Lucchese_L2方法发展脉络深度调查.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-rmatrix-survey"
+    title: "R-matrix方法发展脉络深度调查"
+    path: "notes/R-matrix方法发展脉络深度调查.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-ecs-survey"
+    title: "复缩放方法发展脉络深度调查"
+    path: "notes/复缩放方法发展脉络深度调查.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-comparison-report"
+    title: "分子连续态量子化学方法对比报告"
+    path: "notes/分子连续态量子化学方法对比报告.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-physics-summary"
+    title: "物理模型原理-连续态基组方法汇总"
+    path: "notes/物理模型原理-连续态基组方法汇总.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-systematic-learning"
+    title: "球面波知识系统化学习（风暴知识工坊版）"
+    path: "notes/球面波知识系统化学习-风暴知识工坊版.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "notes-beginner"
+    title: "初学者笔记-光电离截面连续态理论入门"
+    path: "notes/初学者笔记-光电离截面连续态理论入门.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+
+  # ── 文献索引 · 补充资料 ──
+  - source_id: "index-relevance"
+    title: "文献相关性索引"
+    path: "index/by_relevance.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "index-topic"
+    title: "文献主题索引"
+    path: "index/by_topic.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "index-readme"
+    title: "资料库说明"
+    path: "index/README.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+
+  # ── 结构化文献 Registry（YAML，由 Literature Harness 管理）──
+  - source_id: "registry-core"
+    title: "核心文献 Registry (YAML)"
+    path: "index/registry/core.yaml"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "registry-benchmarks"
+    title: "基准证据 Registry (YAML)"
+    path: "index/registry/benchmarks.yaml"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "registry-risks"
+    title: "风险与局限 Registry (YAML)"
+    path: "index/registry/risks.yaml"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "registry-candidates"
+    title: "候选文献 Registry (YAML)"
+    path: "index/registry/candidates.yaml"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+
+  # ── Phase G 桥接文档（文献到代码的决策指南）──
+  - source_id: "bridge-phase-g"
+    title: "文献到代码桥接 Phase G 技术决策指南"
+    path: "outputs/文献到代码桥接_PhaseG技术决策指南.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "roadmap-mvp"
+    title: "方法学创新分层 MVP 路线图"
+    path: "outputs/方法学创新分层_MVP路线图.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+
+  # ── 学术论文 · 核心资料 ──
+  # B_spline_continuum
+  - source_id: "paper-brosolo-1992"
+    title: "Brosolo 1992 H2+ B-spline (CP)"
+    path: "papers/B_spline_continuum/Brosolo_Decleva_1992_H2plus_BSpline_CP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-decleva-2022"
+    title: "Decleva 2022 Tiresia 连续态 (Molecules)"
+    path: "papers/B_spline_continuum/Decleva_2022_Tiresia_continuum_Molecules.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-stener-2005"
+    title: "Stener 2005 TDDFT 光电离 (JCP)"
+    path: "papers/B_spline_continuum/Stener_2005_TDDFT_photoionization_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-tenorio-2022"
+    title: "Tenorio 2022 Dyson 光电离 (Molecules)"
+    path: "papers/B_spline_continuum/Tenorio_2022_Dyson_photoionization_Molecules.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-bachau-2001"
+    title: "Bachau et al. 2001 B-spline 在原子分子物理中的应用综述 (Rep. Prog. Phys.)"
+    path: "papers/B_spline_continuum/Bachau_2001_BSplines_atomic_molecular_RepProgPhys.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-moitra-2021"
+    title: "Moitra 2021 EOM-CC Dyson TDDFT (JCTC)"
+    path: "papers/B_spline_continuum/Moitra_2021_EOMCC_Dyson_TDDFT_JCTC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-ruberti-2019"
+    title: "Ruberti 2019 RCS-ADC B-spline (JCTC)"
+    path: "papers/B_spline_continuum/Ruberti_2019_RCS_ADC_Bspline_JCTC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # complex_scaling
+  - source_id: "paper-mccurdy-2004"
+    title: "McCurdy 2004 ECS B-spline (JPB)"
+    path: "papers/complex_scaling/McCurdy_Martin_2004_ECS_BSpline_JPB.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # general_review
+  - source_id: "paper-hrodmarsson-2023"
+    title: "Hrodmarsson 2023 VUV 数据库 (A&A)"
+    path: "papers/general_review/Hrodmarsson_2023_VUV_database_AA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-nisoli-2017"
+    title: "Nisoli 2017 阿秒电子动力学 (ChemRev)"
+    path: "papers/general_review/Nisoli_2017_attosecond_electron_dynamics_ChemRev.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-djajaputra-2003"
+    title: "Djajaputra & Cooper 2003 全势 LMTO 提取紧束缚参数 (Phys. Status Solidi B)"
+    path: "papers/spherical_wave/Djajaputra_Cooper_2003_tight_binding_LMTO_NiAl_pssb.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-dziedzic-2013"
+    title: "Dziedzic et al. 2013 非正交 Wannier 函数线性标度 HF 交换能 (JCP)"
+    path: "papers/general_review/Dziedzic_Hill_Skylaris_2013_linear_scaling_HF_Wannier_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-vanroose-2006"
+    title: "Vanroose 2006 H2 双光电离 (PRA)"
+    path: "papers/general_review/Vanroose_2006_H2_double_photoionization_PRA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-calegari-2016"
+    title: "Calegari 2016 阿秒电荷迁移 (JPB)"
+    path: "papers/general_review/Calegari_2016_charge_migration_attosecond_JPB.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-gozem-2015"
+    title: "Gozem 2015 光电子波函数 (JPCL)"
+    path: "papers/general_review/Gozem_2015_photoelectron_wavefunction_JPCL.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-ruckenbauer-2016"
+    title: "Ruckenbauer 2016 时间分辨 PES (SciRep)"
+    path: "papers/general_review/Ruckenbauer_2016_trPES_SciRep.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # GTO_continuum
+  - source_id: "paper-cacelli-1993"
+    title: "Cacelli 1993 H2 光电离 (JCP)"
+    path: "papers/GTO_continuum/Cacelli_1993_H2_photoionization_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-cacelli-1998"
+    title: "Cacelli 1998 N2 微分截面 (PRA)"
+    path: "papers/GTO_continuum/Cacelli_1998_N2_differential_PRA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-cacelli-2000"
+    title: "Cacelli 2000 C2H2 微分截面 (CP)"
+    path: "papers/GTO_continuum/Cacelli_2000_C2H2_differential_CP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-carmona-1996"
+    title: "Carmona-Novillo 1996 LiH 光电离 (CP)"
+    path: "papers/GTO_continuum/CarmonaNovillo_1996_LiH_photoionization_CP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-moccia-2003"
+    title: "Moccia 2003 Li2 微分截面 (CPL)"
+    path: "papers/GTO_continuum/Moccia_Montuoro_2003_Li2_differential_CPL.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # spherical_wave
+  - source_id: "paper-domcke-1983"
+    title: "Domcke 1983 投影散射 (PRA)"
+    path: "papers/spherical_wave/Domcke_1983_projection_scattering_PRA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-corsaro-2026"
+    title: "Corsaro et al. 2026 超表面电磁散射的多层快速多极子算法 (IEEE TAP)"
+    path: "papers/spherical_wave/Corsaro_2026_MLFMA_metasurfaces_IEEE_TAP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-eyert-2000"
+    title: "Eyert 2000 增广球面波方法基础与应用 (Int. J. Quantum Chem.)"
+    path: "papers/spherical_wave/Eyert_2000_augmented_spherical_wave_IJQC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-felderhof-1987"
+    title: "Felderhof 1987 加法定理 (JMP)"
+    path: "papers/spherical_wave/Felderhof_1987_addition_theorems_JMP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-asadova-2025"
+    title: "Asadova et al. 2025 T-matrix 光学散射响应数据格式建议 (JQSRT)"
+    path: "papers/spherical_wave/Asadova_2025_Tmatrix_data_format_JQSRT.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-gonis-butler-2000"
+    title: "Gonis & Butler 2000 固体中的多重散射（专著，Springer）"
+    path: "papers/spherical_wave/Gonis_Butler_2000_multiple_scattering_solids_Springer.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-huang-2026"
+    title: "Huang 2026 TSW NAO 基组 (arXiv)"
+    path: "papers/spherical_wave/Huang_2026_TSW_NAO_basis_arXiv.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-moroz-2006"
+    title: "Moroz 2006 准周期 Green (JPDA)"
+    path: "papers/spherical_wave/Moroz_2006_quasi_periodic_Green_JPDA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-hughes-1994"
+    title: "Hughes 1994 任意自旋的球面波展开 (J. Math. Phys.)"
+    path: "papers/spherical_wave/Hughes_1994_spherical_wave_expansion_any_spin_JMP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-wilhelmy-1994"
+    title: "Wilhelmy 1994 Lobatto 光电离 (JCP)"
+    path: "papers/spherical_wave/Wilhelmy_1994_Lobatto_photoionization_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # ── 新增论文（2026-08-13 补充索引）──
+  # Schwinger_L2（Lucchese-McKoy 学派核心文献）
+  - source_id: "paper-lucchese-mckoy-1979"
+    title: "Lucchese & McKoy 1979 Schwinger e-He 散射 (JPB)"
+    path: "papers/Schwinger_L2/Lucchese_McKoy_1979_Schwinger_eHe_JPB.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-lucchese-takatsuka-mckoy-1986"
+    title: "Lucchese, Takatsuka & McKoy 1986 Schwinger 综述 (Phys. Rep.)"
+    path: "papers/Schwinger_L2/Lucchese_Takatsuka_McKoy_1986_Schwinger_review_PhysRep.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-lucchese-mckoy-1983-pade"
+    title: "Lucchese & McKoy 1983 Padé 修正 CO 光电离 (PRA)"
+    path: "papers/Schwinger_L2/Lucchese_McKoy_1983_Pade_CO_photoionization_PRA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-natalense-lucchese-1999"
+    title: "Natalense & Lucchese 1999 SF6 光电离 (JCP)"
+    path: "papers/Schwinger_L2/Natalense_Lucchese_1999_SF6_photoionization_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-gianturco-lucchese-sanna-1994"
+    title: "Gianturco, Lucchese & Sanna 1994 CF4 散射 (JCP)"
+    path: "papers/Schwinger_L2/Gianturco_Lucchese_Sanna_1994_CF4_scattering_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # GTO_continuum 新增
+  - source_id: "paper-obara-saika-1986"
+    title: "Obara & Saika 1986 Cartesian Gaussian 递推积分 (JCP)"
+    path: "papers/GTO_continuum/Obara_Saika_1986_recursive_Cartesian_Gaussian_integrals_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-obara-saika-1988"
+    title: "Obara & Saika 1988 Cartesian Gaussian 通用递推 (JCP)"
+    path: "papers/GTO_continuum/Obara_Saika_1988_general_recurrence_Cartesian_Gaussian_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-mcmurchie-davidson-1978"
+    title: "McMurchie & Davidson 1978 Cartesian Gaussian 积分 (JCP)"
+    path: "papers/GTO_continuum/McMurchie_Davidson_1978_cartesian_gaussian_integrals_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-matsuzaki-yabushita-2017"
+    title: "Matsuzaki & Yabushita 2017 cGTO 光电离 (JCC)"
+    path: "papers/GTO_continuum/Matsuzaki_Yabushita_2017_cGTO_photoionization_JCC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-ammar-2021"
+    title: "Ammar, Ancarani & Leclerc 2021 复 Gaussian 光电离 (JCC)"
+    path: "papers/GTO_continuum/Ammar_2021_complex_Gaussian_photoionization_JCC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-cacelli-1997"
+    title: "Cacelli 1997 多项式 Gaussian 连续态 (JPB)"
+    path: "papers/GTO_continuum/Cacelli_1997_polynomial_Gaussian_continuum_JPB.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-huang-2026-pdcs"
+    title: "Huang, Li et al. 2026 递归 Gaussian 积分计算阴离子光剥离截面 (JCP)"
+    path: "papers/GTO_continuum/Huang_2026_recursive_Gaussian_PDCS_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    provenance: "own_publication"
+    priority: 1
+
+  # B_spline_continuum 新增（2026-09-11 由 GTO_continuum 迁移归位）
+  - source_id: "paper-toffoli-2024"
+    title: "Toffoli et al. 2024 Tiresia 代码 (CPC)"
+    path: "papers/B_spline_continuum/Toffoli_2024_Tiresia_CPC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # R_matrix
+  - source_id: "paper-masin-2020"
+    title: "Mašín et al. 2020 UKRmol+ R-matrix (CPC)"
+    path: "papers/R_matrix/Masin_2020_UKRmol_plus_CPC_arXiv.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-fang-2026"
+    title: "Fang et al. 2026 CO 低能电子散射的目标分子轨道优化 (R-matrix, JCP)"
+    path: "papers/R_matrix/Fang_2026_CO_electron_scattering_orbital_optimization_JCP.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # spherical_wave 新增
+  - source_id: "paper-mahato-skomorowski-2026"
+    title: "Mahato & Skomorowski 2026 SGTO 自由粒子 Green 函数 (arXiv)"
+    path: "papers/spherical_wave/Mahato_Skomorowski_2026_free_particle_Green_SGTO_arXiv.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-duan-2024"
+    title: "Duan et al. 2024 多中心连续态 MFPAD (PRA)"
+    path: "papers/spherical_wave/Duan_2024_multicenter_continuum_MFPAD_PRA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # ── 新增 outputs 文档（2026-08-13）──
+  - source_id: "context-phase-g"
+    title: "Phase G 结构化文献上下文（代码注入用）"
+    path: "outputs/sw_context/literature_context_phase_g.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "review-packet-2026-07-29"
+    title: "周度文献审查包 2026-07-29"
+    path: "outputs/review_packets/2026-07-29_literature_review_packet.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "review-packet-2026-07-30"
+    title: "周度文献审查包 2026-07-30"
+    path: "outputs/review_packets/2026-07-30_literature_review_packet.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "review-packet-2026-07-31"
+    title: "周度文献审查包 2026-07-31"
+    path: "outputs/review_packets/2026-07-31_literature_review_packet.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "review-packet-2026-08-03"
+    title: "周度文献审查包 2026-08-03"
+    path: "outputs/review_packets/2026-08-03_literature_review_packet.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+  - source_id: "review-packet-2026-08-07"
+    title: "周度文献审查包 2026-08-07"
+    path: "outputs/review_packets/2026-08-07_literature_review_packet.md"
+    format: "markdown"
+    source_type: "supplementary_textbook"
+    priority: 1
+
+  # ── 自产知识（own_note，T2 未核实，2026-08-26 试点）──
+  - source_id: "own-note-pilot-2026-08-26"
+    title: "对话知识核实试点（2026-08-26 设计对话 + Phase G 桥接转述）"
+    path: "notes/对话知识_核实试点_2026-08-26.md"
+    format: "markdown"
+    source_type: "own_note"
+    priority: 2
+
+  # ── 2026-09-11 反向补录：已在 registry 但此前未进索引的 PDF ──
+  - source_id: "paper-gharibnejad-2021"
+    title: "Gharibnejad et al. 2021 多中心连续态求积 (CPC)"
+    path: "papers/spherical_wave/Gharibnejad_2021_multicenter_quadrature_CPC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-marante-2014"
+    title: "Marante et al. 2014 混合 GTO/B-spline 连续态 (PRA)"
+    path: "papers/GTO_continuum/Marante_2014_hybrid_GTO_BSpline_PRA.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-borras-2021"
+    title: "Borras et al. 2021 MFPAD + Feshbach XCHEM (JCTC)"
+    path: "papers/spherical_wave/Borras_2021_MFPAD_Feshbach_XCHEM_JCTC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-borras-2023"
+    title: "Borras et al. 2023 XCHEM 2.0 (CPC)"
+    path: "papers/spherical_wave/Borras_2023_XCHEM2_CPC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-gil-1990"
+    title: "Gil et al. 1990 Feshbach-Fano 共振与 Mulliken 轨道分析 (Phys. Scr.)"
+    path: "papers/Schwinger_L2/Gil_1990_FeshbachFano_Mulliken_PhysScr.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-jagau-2017"
+    title: "Jagau 2017 电子共振理论综述 (Annu. Rev. Phys. Chem.)"
+    path: "papers/general_review/Jagau_2017_electronic_resonances_ARPC.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-zatsarinny-2013"
+    title: "Zatsarinny & Bartschat 2013 B-spline R-matrix 方法综述 (JPB)"
+    path: "papers/B_spline_continuum/Zatsarinny_Bartschat_2013_Bspline_Rmatrix_JPB.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+
+  # ── 2026-09-11 补下载缺失全文（此前 state=download_blocked）──
+  - source_id: "paper-ota-2021"
+    title: "Ota et al. 2021 极化平均芯能级 MFPAD 全势方法 (JPB)"
+    path: "papers/spherical_wave/Ota_2021_full_potential_MFPAD_JPB.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
+  - source_id: "paper-hazi-1978"
+    title: "Hazi 1978 纯 L2 方法计算共振宽度 (JPB)"
+    path: "papers/Schwinger_L2/Hazi_1978_L2_resonance_widths_JPB.pdf"
+    format: "pdf"
+    source_type: "textbook"
+    priority: 2
